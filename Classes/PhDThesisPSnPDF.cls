@@ -849,6 +849,9 @@ wish to left align your text}
 \newcommand{\@supervisor}{}
 \newcommand{\supervisor}[1]{\renewcommand{\@supervisor}{#1}\PHD@supervisortrue}
 
+
+
+
 % Supervisor Title (Supervisor - Default, can be changed)
 \newcommand{\@supervisorrole}{Supervisor: }
 \newcommand{\supervisorrole}[1]{\renewcommand{\@supervisorrole}{#1}}
@@ -867,7 +870,7 @@ wish to left align your text}
 \newcommand{\advisorrole}[1]{\renewcommand{\@advisorrole}{#1}}
 
 % Advisor width to align
-\newcommand{\@advisorlinewidth}{0.25\textwidth}
+\newcommand{\@advisorlinewidth}{0.35\textwidth}
 \newcommand{\advisorlinewidth}[1]{\renewcommand{\@advisorlinewidth}{#1}}
 
 % Submission Text
@@ -1172,11 +1175,12 @@ wish to left align your text}
     }{
       \begin{center}
         \makebox[\widthof{supervisorrole} + \@supervisorlinewidth][c]{
-          \Large
-          \@supervisorrole \parbox[t]{\@supervisorlinewidth}{\@supervisor}
-        }
+          \normalsize 
+          %\textit{\centering \@supervisorrole \parbox[t]{\@supervisorlinewidth}{\@supervisor}
+          \textit{\parbox[c]{\textwidth}{\centering \@supervisorrole \@supervisor}
+        }}
       \end{center}
-      \vspace{0.5em}
+      \vspace{-2em}
     } % supervisor is defined
   \end{minipage}
 \end{lrbox}
@@ -1190,11 +1194,12 @@ wish to left align your text}
     }{
       \begin{center}
         \makebox[\widthof{advisorrole} + \@advisorlinewidth][c]{
-          \Large
-          \@advisorrole \parbox[t]{\@advisorlinewidth}{\@advisor}
-        }
+          \normalsize 
+          %\textit {\@advisorrole \parbox[c]{\@advisorlinewidth}{\@advisor}
+          \textit{\parbox[c]{\textwidth}{\centering \@advisorrole \@advisor}
+        }}
       \end{center}
-      \vspace{0.5em}
+      \vspace{2em}
     } % advisor is defined
   \end{minipage}
 \end{lrbox}
