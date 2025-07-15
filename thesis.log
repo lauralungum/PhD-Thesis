@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.27)  12 APR 2025 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.27)  15 JUL 2025 14:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -722,13 +722,13 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 \PHD@crest=\box68
-<Figs/University_Crest.pdf, id=80, 59.22125pt x 69.25874pt>
+<Figs/University_Crest.pdf, id=76, 59.22125pt x 69.25874pt>
 File: Figs/University_Crest.pdf Graphic file (type pdf)
 <use Figs/University_Crest.pdf>
 Package pdftex.def Info: Figs/University_Crest.pdf  used on input line 114.
 (pdftex.def)             Requested size: 87.49088pt x 102.32376pt.
 \PHD@collegecrest=\box69
-<Figs/CollegeShields/LucyCav_Crest.png, id=81, 803.0pt x 1005.7575pt>
+<Figs/CollegeShields/LucyCav_Crest.png, id=77, 803.0pt x 1005.7575pt>
 File: Figs/CollegeShields/LucyCav_Crest.png Graphic file (type png)
 <use Figs/CollegeShields/LucyCav_Crest.png>
 Package pdftex.def Info: Figs/CollegeShields/LucyCav_Crest.png  used on input line 114.
@@ -823,65 +823,55 @@ Chapter 1.
 
 ]
 Chapter 2.
-<Chapter2/Figs/Raster/minion.png, id=200, 636.6987pt x 582.4962pt>
+<Chapter2/Figs/Raster/minion.png, id=193, 636.6987pt x 582.4962pt>
 File: Chapter2/Figs/Raster/minion.png Graphic file (type png)
 <use Chapter2/Figs/Raster/minion.png>
-Package pdftex.def Info: Chapter2/Figs/Raster/minion.png  used on input line 27.
+Package pdftex.def Info: Chapter2/Figs/Raster/minion.png  used on input line 25.
 (pdftex.def)             Requested size: 437.46112pt x 400.22517pt.
-[3] [4 <./Chapter2/Figs/Raster/minion.png>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 50.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [5]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
- [6
+[3] [4 <./Chapter2/Figs/Raster/minion.png>] [5
 
 ]
-<Chapter2/Figs/Raster/TomandJerry.png, id=233, 324.33366pt x 216.81pt>
+<Chapter2/Figs/Raster/TomandJerry.png, id=221, 324.33366pt x 216.81pt>
 File: Chapter2/Figs/Raster/TomandJerry.png Graphic file (type png)
 <use Chapter2/Figs/Raster/TomandJerry.png>
-Package pdftex.def Info: Chapter2/Figs/Raster/TomandJerry.png  used on input line 88.
+Package pdftex.def Info: Chapter2/Figs/Raster/TomandJerry.png  used on input line 67.
 (pdftex.def)             Requested size: 131.23967pt x 87.73148pt.
-<Chapter2/Figs/Raster/WallE.png, id=234, 341.9605pt x 515.58476pt>
+<Chapter2/Figs/Raster/WallE.png, id=222, 341.9605pt x 515.58476pt>
 File: Chapter2/Figs/Raster/WallE.png Graphic file (type png)
 <use Chapter2/Figs/Raster/WallE.png>
-Package pdftex.def Info: Chapter2/Figs/Raster/WallE.png  used on input line 93.
+Package pdftex.def Info: Chapter2/Figs/Raster/WallE.png  used on input line 72.
 (pdftex.def)             Requested size: 131.23967pt x 197.8753pt.
 File: Chapter2/Figs/Raster/minion.png Graphic file (type png)
 <use Chapter2/Figs/Raster/minion.png>
-Package pdftex.def Info: Chapter2/Figs/Raster/minion.png  used on input line 98.
+Package pdftex.def Info: Chapter2/Figs/Raster/minion.png  used on input line 77.
 (pdftex.def)             Requested size: 131.23967pt x 120.06133pt.
- [7
+ [6
 
  <./Chapter2/Figs/Raster/TomandJerry.png> <./Chapter2/Figs/Raster/WallE.png>])
 \openout2 = `Chapter3/chapter3.aux'.
 
- (./Chapter3/chapter3.tex [8
-
-
-
-
-
-]
+ (./Chapter3/chapter3.tex
 Chapter 3.
-[9]) [10] [11] [12
+
+Package natbib Warning: Citation `Rea85' on page 7 undefined on input line 17.
+
+
+Package natbib Warning: Citation `Ancey1996' on page 7 undefined on input line 17.
+
+[7
 
 
 
-] (./thesis.bbl) [13
 
-]
+
+]) [8] [9] [10
+
+
+
+] (./thesis.bbl)
 \openout2 = `Appendix1/appendix1.aux'.
 
- (./Appendix1/appendix1.tex [14
-
-
-]
+ (./Appendix1/appendix1.tex
 Appendix A.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
@@ -889,7 +879,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-[15] [16]
+[11
+
+
+] [12]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 72.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
@@ -898,41 +891,45 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [17{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]) [18]
+ [13{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]) [14]
 \openout2 = `Appendix2/appendix2.aux'.
 
  (./Appendix2/appendix2.tex
 Appendix B.
-) [19
+) [15
 
 
 
 
-] [20
+] [16
 
 
 
-] (./thesis.ind) (./thesis.aux (./Dedication/dedication.aux) (./Declaration/declaration.aux) (./Acknowledgement/acknowledgement.aux) (./Abstract/abstract.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux) (./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux))
+] (./thesis.ind)
+
+Package natbib Warning: There were undefined citations.
+
+(./thesis.aux (./Dedication/dedication.aux) (./Declaration/declaration.aux) (./Acknowledgement/acknowledgement.aux) (./Abstract/abstract.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux) (./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A99965CE9516A10329D56F569674DD05;3591.
+(rerunfilecheck)             Checksum: 4D629052D72D997C0F5ABCAD1B5C7A95;3407.
  ) 
 Here is how much of TeX's memory you used:
- 21809 strings out of 474116
- 414233 string characters out of 5743682
+ 21624 strings out of 474116
+ 411664 string characters out of 5743682
  1943187 words of memory out of 5000000
- 43373 multiletter control sequences out of 15000+600000
- 637797 words of font info for 289 fonts, out of 8000000 for 9000
+ 43281 multiletter control sequences out of 15000+600000
+ 618349 words of font info for 212 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,15n,121p,1373b,1259s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,15n,121p,1046b,1259s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (36 pages, 561752 bytes).
+Output written on thesis.pdf (32 pages, 555294 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 350 compressed objects within 4 object streams
- 125 named destinations out of 1000 (max. 500000)
- 101554 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 380 PDF objects out of 1000 (max. 8388607)
+ 325 compressed objects within 4 object streams
+ 118 named destinations out of 1000 (max. 500000)
+ 77482 words of extra memory for PDF output out of 89155 (max. 10000000)
 
