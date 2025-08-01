@@ -1,0 +1,34 @@
+\thispagestyle {empty}
+\contentsline {chapter}{List of figures}{xiii}{chapter*.5}%
+\contentsline {chapter}{List of tables}{xv}{chapter*.6}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Mapping brains}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Multisensory integration}{1}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Methods}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Electron Microscopy Reconstructions}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Seymour volume}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Neurotransmitter Volumes}{3}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Connectomics}{3}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Sensory Iformation Flow}{3}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Lineage Matching}{3}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Finding for Dopaminergic Neurons}{3}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Stochastic Labelling of DANs via Multicolor FLP-out}{3}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Immunohistochemistry}{4}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Matching LM images with Seymour Data}{4}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Light Sheet Microscopy and Ca Imaging}{5}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Genetic lines}{5}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Sample Preparation}{5}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Imaging}{5}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Data Analysis}{5}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}Behavioural Assays}{5}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Sample Preparation}{5}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Behavioural Analysis}{5}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Genetic Lines}{5}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Results}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Connectomics}{7}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Discussion}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}first part}{9}{section.4.1}%
+\contentsline {chapter}{References}{11}{chapter*.9}%
+\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX }{13}{appendix.a.A}%
+\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{17}{appendix.a.B}%
