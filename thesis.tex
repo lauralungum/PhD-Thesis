@@ -1,6 +1,7 @@
 % Please have a look at the README.md file for info on how to use the template
+%\documentclass[a4paper,12pt,times,numbered,print,index]{Classes/PhDThesisPSnPDF}
 
-\documentclass[a4paper,12pt,times,numbered,print,index]{Classes/PhDThesisPSnPDF}
+\documentclass[a4paper,12pt,times,custombib,print,index]{Classes/PhDThesisPSnPDF}
 
 % ******************************************************************************
 % ******************************* Class Options ********************************
@@ -140,6 +141,9 @@
 %\include{Chapter6/chapter6}
 %\include{Chapter7/chapter7}
 
+% Example citation to ensure at least one citation is present
+\nocite{*}
+
 
 
 % ********************************** Back Matter *******************************
@@ -153,11 +157,13 @@
 % Bibliography style previews: http://nodonn.tipido.net/bibstyle.php
 % Reference styles: http://sites.stat.psu.edu/~surajit/present/bib.htm
 
-\bibliographystyle{apalike}
+%\bibliographystyle{apalike}
 %\bibliographystyle{unsrt} % Use for unsorted references  
 %\bibliographystyle{plainnat} % use this to have URLs listed in References
 \cleardoublepage
-\bibliography{References/references} % Path to your References.bib file
+%\bibliography{References/references} % Path to your References.bib file
+
+\printbibliography[heading=bibintoc, title={References}]
 
 
 % If you would like to use BibLaTeX for your references, pass `custombib' as

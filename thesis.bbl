@@ -1,0 +1,959 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{andrade2019developmentally}{article}{}
+      \name{author}{6}{}{%
+        {{hash=8b713726c3652488c705b99396f41034}{%
+           family={Andrade},
+           familyi={A\bibinitperiod},
+           given={Ingrid\bibnamedelima V},
+           giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=d4fe410da170aa198dc6f61f1874ebf7}{%
+           family={Riebli},
+           familyi={R\bibinitperiod},
+           given={Nadia},
+           giveni={N\bibinitperiod}}}%
+        {{hash=16e7d39d30a2d396407a9e0e630809ad}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Bao-Chau\bibnamedelima M},
+           giveni={B\bibinithyphendelim C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7d73cc51bc8a6aeb58f21a625d78f032}{%
+           family={Omoto},
+           familyi={O\bibinitperiod},
+           given={Jaison\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=704fa1d6130928d88680f2323fd9ff84}{%
+           family={Cardona},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6469e23f6e55008a8f1d6ad677777332}{%
+           family={Hartenstein},
+           familyi={H\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{a05d185233793bbd25ad1584e97724c4}
+      \strng{fullhash}{216dc32952a467f84790dee8b7c0f490}
+      \strng{bibnamehash}{a05d185233793bbd25ad1584e97724c4}
+      \strng{authorbibnamehash}{a05d185233793bbd25ad1584e97724c4}
+      \strng{authornamehash}{a05d185233793bbd25ad1584e97724c4}
+      \strng{authorfullhash}{216dc32952a467f84790dee8b7c0f490}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Biology}
+      \field{number}{3}
+      \field{title}{Developmentally arrested precursors of pontine neurons establish an embryonic blueprint of the Drosophila central complex}
+      \field{volume}{29}
+      \field{year}{2019}
+      \field{pages}{412\bibrangedash 425}
+      \range{pages}{14}
+    \endentry
+    \entry{berck2016wiring}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=405671f23a0796fa4102f1e6fb95f1dc}{%
+           family={Berck},
+           familyi={B\bibinitperiod},
+           given={Matthew\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=6de60737cfd64a79650c6181b821eb71}{%
+           family={Khandelwal},
+           familyi={K\bibinitperiod},
+           given={Avinash},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4f04f9f930cae027d183a3da456da67e}{%
+           family={Claus},
+           familyi={C\bibinitperiod},
+           given={Lindsey},
+           giveni={L\bibinitperiod}}}%
+        {{hash=282ece04157faa082103542d8ed61694}{%
+           family={Hernandez-Nunez},
+           familyi={H\bibinithyphendelim N\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7650af9fe34ad50cae847b6db8b7584c}{%
+           family={Si},
+           familyi={S\bibinitperiod},
+           given={Guangwei},
+           giveni={G\bibinitperiod}}}%
+        {{hash=72f42ec614b25bf38467d750e6ed096f}{%
+           family={Tabone},
+           familyi={T\bibinitperiod},
+           given={Christopher\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=89b23cce0bb40099f7b69f6577f665fe}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=034cc855bdd58f395fd0e8421ec8ca38}{%
+           family={Truman},
+           familyi={T\bibinitperiod},
+           given={James\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=fb9709dd5b264d5cff09f5fc48024715}{%
+           family={Fetter},
+           familyi={F\bibinitperiod},
+           given={Rick\bibnamedelima D},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=98114f79e580fe2acf658521d195a366}{%
+           family={Louis},
+           familyi={L\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {eLife Sciences Publications, Ltd}%
+      }
+      \strng{namehash}{864e38ac0dc7a2e7be353e8013475049}
+      \strng{fullhash}{62c482a380c6426634f5290cfd701359}
+      \strng{bibnamehash}{864e38ac0dc7a2e7be353e8013475049}
+      \strng{authorbibnamehash}{864e38ac0dc7a2e7be353e8013475049}
+      \strng{authornamehash}{864e38ac0dc7a2e7be353e8013475049}
+      \strng{authorfullhash}{62c482a380c6426634f5290cfd701359}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Elife}
+      \field{title}{The wiring diagram of a glomerular olfactory system}
+      \field{volume}{5}
+      \field{year}{2016}
+    \endentry
+    \entry{cve-2008-1368}{misc}{}
+      \list{institution}{1}{%
+        {NIST}%
+      }
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{note}{[online] \url{http://nvd.nist.gov/nvd.cfm?cvename=CVE-2008-1368}}
+      \field{title}{Publication quality tables in \LaTeX*}
+      \field{year}{2008}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://nvd.nist.gov/nvd.cfm?cvename=CVE-2008-1368
+      \endverb
+      \verb{url}
+      \verb http://nvd.nist.gov/nvd.cfm?cvename=CVE-2008-1368
+      \endverb
+    \endentry
+    \entry{eichler2017complete}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=74ca535498d0ff1b666d9ae98cfc7774}{%
+           family={Eichler},
+           familyi={E\bibinitperiod},
+           given={Katharina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=89b23cce0bb40099f7b69f6577f665fe}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=087c143d399719a13b0f601f0bcf0485}{%
+           family={Litwin-Kumar},
+           familyi={L\bibinithyphendelim K\bibinitperiod},
+           given={Ashok},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cc0dca3c1c23b7f98e7c7f8f9d945823}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Youngser},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=19d378b9cf218868da45dde1b749bb41}{%
+           family={Andrade},
+           familyi={A\bibinitperiod},
+           given={Ingrid},
+           giveni={I\bibinitperiod}}}%
+        {{hash=03871370b84832dba7924ef1df3a1543}{%
+           family={Schneider-Mizell},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Casey\bibnamedelima M},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d57a690a608d4f9bb2c884dca0b6c0e9}{%
+           family={Saumweber},
+           familyi={S\bibinitperiod},
+           given={Timo},
+           giveni={T\bibinitperiod}}}%
+        {{hash=eb530cd3177fd7619a114287234f9ca6}{%
+           family={Huser},
+           familyi={H\bibinitperiod},
+           given={Annina},
+           giveni={A\bibinitperiod}}}%
+        {{hash=270ad8d86dbaa5a0842b52fc722aee34}{%
+           family={Eschbach},
+           familyi={E\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e61a8fc4b2912a95624874151bad8fc0}{%
+           family={Gerber},
+           familyi={G\bibinitperiod},
+           given={Bertram},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{abdac06cefd09757c0224a89fa630413}
+      \strng{fullhash}{de7cd42ab0e4e45d5924a61973f9495f}
+      \strng{bibnamehash}{abdac06cefd09757c0224a89fa630413}
+      \strng{authorbibnamehash}{abdac06cefd09757c0224a89fa630413}
+      \strng{authornamehash}{abdac06cefd09757c0224a89fa630413}
+      \strng{authorfullhash}{de7cd42ab0e4e45d5924a61973f9495f}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7666}
+      \field{title}{The complete connectome of a learning and memory centre in an insect brain}
+      \field{volume}{548}
+      \field{year}{2017}
+      \field{pages}{175\bibrangedash 182}
+      \range{pages}{8}
+    \endentry
+    \entry{hanesch1989neuronal}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fbc9b7d1e2a52e3f3b9c56d221107a87}{%
+           family={Hanesch},
+           familyi={H\bibinitperiod},
+           given={Ulrike},
+           giveni={U\bibinitperiod}}}%
+        {{hash=013874b691d62b0c18d6a2d5cb981f70}{%
+           family={Fischbach},
+           familyi={F\bibinitperiod},
+           given={K-F},
+           giveni={K\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=ff3bbb391a4a4bfa28d7d2bf5317a091}{%
+           family={Heisenberg},
+           familyi={H\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e685adcb91cc8e66f212b30bf9b60b51}
+      \strng{fullhash}{e685adcb91cc8e66f212b30bf9b60b51}
+      \strng{bibnamehash}{e685adcb91cc8e66f212b30bf9b60b51}
+      \strng{authorbibnamehash}{e685adcb91cc8e66f212b30bf9b60b51}
+      \strng{authornamehash}{e685adcb91cc8e66f212b30bf9b60b51}
+      \strng{authorfullhash}{e685adcb91cc8e66f212b30bf9b60b51}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cell and Tissue Research}
+      \field{number}{2}
+      \field{title}{Neuronal architecture of the central complex in Drosophila melanogaster}
+      \field{volume}{257}
+      \field{year}{1989}
+      \field{pages}{343\bibrangedash 366}
+      \range{pages}{24}
+    \endentry
+    \entry{hardcastle2021visual}{article}{}
+      \name{author}{8}{}{%
+        {{hash=b521433e12e39c61b46d700420979bce}{%
+           family={Hardcastle},
+           familyi={H\bibinitperiod},
+           given={Ben\bibnamedelima J},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7d73cc51bc8a6aeb58f21a625d78f032}{%
+           family={Omoto},
+           familyi={O\bibinitperiod},
+           given={Jaison\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=3e41272d0450f6bf5ceced486614db8a}{%
+           family={Kandimalla},
+           familyi={K\bibinitperiod},
+           given={Pratyush},
+           giveni={P\bibinitperiod}}}%
+        {{hash=16e7d39d30a2d396407a9e0e630809ad}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Bao-Chau\bibnamedelima M},
+           giveni={B\bibinithyphendelim C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9999be24d2f43bbed79d160ec862107b}{%
+           family={Keleş},
+           familyi={K\bibinitperiod},
+           given={Mehmet\bibnamedelima F},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=926df7b84707db2a20a9c276502b9577}{%
+           family={Boyd},
+           familyi={B\bibinitperiod},
+           given={Natalie\bibnamedelima K},
+           giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=6469e23f6e55008a8f1d6ad677777332}{%
+           family={Hartenstein},
+           familyi={H\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=45ef98c553eeb3ffc0ad1ba8720d19c1}{%
+           family={Frye},
+           familyi={F\bibinitperiod},
+           given={Mark\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {eLife Sciences Publications, Ltd}%
+      }
+      \strng{namehash}{4393d5d09038be96faecac2da619b4a8}
+      \strng{fullhash}{a0569674df11c46d3b53f74fa043c061}
+      \strng{bibnamehash}{4393d5d09038be96faecac2da619b4a8}
+      \strng{authorbibnamehash}{4393d5d09038be96faecac2da619b4a8}
+      \strng{authornamehash}{4393d5d09038be96faecac2da619b4a8}
+      \strng{authorfullhash}{a0569674df11c46d3b53f74fa043c061}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Elife}
+      \field{title}{A visual pathway for skylight polarization processing in Drosophila}
+      \field{volume}{10}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{e63225}
+      \range{pages}{-1}
+    \endentry
+    \entry{hartenstein2015lineage}{article}{}
+      \name{author}{7}{}{%
+        {{hash=6469e23f6e55008a8f1d6ad677777332}{%
+           family={Hartenstein},
+           familyi={H\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=39e9a1ed3463ecc68124da8a36ee5887}{%
+           family={Younossi-Hartenstein},
+           familyi={Y\bibinithyphendelim H\bibinitperiod},
+           given={Amelia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d5f91c6718385206849ad7c31a4c3e44}{%
+           family={Lovick},
+           familyi={L\bibinitperiod},
+           given={Jennifer\bibnamedelima K},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=a9b427724adaf100a80714af901662d4}{%
+           family={Kong},
+           familyi={K\bibinitperiod},
+           given={Angel},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7d73cc51bc8a6aeb58f21a625d78f032}{%
+           family={Omoto},
+           familyi={O\bibinitperiod},
+           given={Jaison\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c5561945b6e8671d57af1606542d14f4}{%
+           family={Ngo},
+           familyi={N\bibinitperiod},
+           given={Kathy\bibnamedelima T},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=bfdca9dedc2ef90d2ff202ccc2e4f47b}{%
+           family={Viktorin},
+           familyi={V\bibinitperiod},
+           given={Gudrun},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{3c63bec304a40b5eefcfe97c2aa3eb47}
+      \strng{fullhash}{de906c60dbd60afaac36010aa220ea7d}
+      \strng{bibnamehash}{3c63bec304a40b5eefcfe97c2aa3eb47}
+      \strng{authorbibnamehash}{3c63bec304a40b5eefcfe97c2aa3eb47}
+      \strng{authornamehash}{3c63bec304a40b5eefcfe97c2aa3eb47}
+      \strng{authorfullhash}{de906c60dbd60afaac36010aa220ea7d}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Developmental biology}
+      \field{number}{1}
+      \field{title}{Lineage-associated tracts defining the anatomy of the Drosophila first instar larval brain}
+      \field{volume}{406}
+      \field{year}{2015}
+      \field{pages}{14\bibrangedash 39}
+      \range{pages}{26}
+    \endentry
+    \entry{heinze2017unraveling}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2fa65b82ac0cd38f450292ff2e037474}{%
+           family={Heinze},
+           familyi={H\bibinitperiod},
+           given={Stanley},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{2fa65b82ac0cd38f450292ff2e037474}
+      \strng{fullhash}{2fa65b82ac0cd38f450292ff2e037474}
+      \strng{bibnamehash}{2fa65b82ac0cd38f450292ff2e037474}
+      \strng{authorbibnamehash}{2fa65b82ac0cd38f450292ff2e037474}
+      \strng{authornamehash}{2fa65b82ac0cd38f450292ff2e037474}
+      \strng{authorfullhash}{2fa65b82ac0cd38f450292ff2e037474}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current opinion in insect science}
+      \field{title}{Unraveling the neural basis of insect navigation}
+      \field{volume}{24}
+      \field{year}{2017}
+      \field{pages}{58\bibrangedash 67}
+      \range{pages}{10}
+    \endentry
+    \entry{heinze2009transformation}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2fa65b82ac0cd38f450292ff2e037474}{%
+           family={Heinze},
+           familyi={H\bibinitperiod},
+           given={Stanley},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0f24717de64260c5c96fb878907da4fd}{%
+           family={Gotthardt},
+           familyi={G\bibinitperiod},
+           given={Sascha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=92134d4398ff4b769f54d9d0a1094d65}{%
+           family={Homberg},
+           familyi={H\bibinitperiod},
+           given={Uwe},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Soc Neuroscience}%
+      }
+      \strng{namehash}{768ec228eb2d45a8740b9eea79a6fe8f}
+      \strng{fullhash}{768ec228eb2d45a8740b9eea79a6fe8f}
+      \strng{bibnamehash}{768ec228eb2d45a8740b9eea79a6fe8f}
+      \strng{authorbibnamehash}{768ec228eb2d45a8740b9eea79a6fe8f}
+      \strng{authornamehash}{768ec228eb2d45a8740b9eea79a6fe8f}
+      \strng{authorfullhash}{768ec228eb2d45a8740b9eea79a6fe8f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Neuroscience}
+      \field{number}{38}
+      \field{title}{Transformation of polarized light information in the central complex of the locust}
+      \field{volume}{29}
+      \field{year}{2009}
+      \field{pages}{11783\bibrangedash 11793}
+      \range{pages}{11}
+    \endentry
+    \entry{hulse2021connectome}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=299742e68688a4b2c6e4187a33a4cc98}{%
+           family={Hulse},
+           familyi={H\bibinitperiod},
+           given={Brad\bibnamedelima K},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=06feac9ef5c99a3eaa7821731af4112c}{%
+           family={Haberkern},
+           familyi={H\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod}}}%
+        {{hash=245db346fa147081402b08329ab9302c}{%
+           family={Franconville},
+           familyi={F\bibinitperiod},
+           given={Romain},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1f0515d58bdc67650d763d8e5112dfff}{%
+           family={Turner-Evans},
+           familyi={T\bibinithyphendelim E\bibinitperiod},
+           given={Daniel\bibnamedelima B},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=be016b8df459a3dbb2f2c533050df070}{%
+           family={Takemura},
+           familyi={T\bibinitperiod},
+           given={Shin-ya},
+           giveni={S\bibinithyphendelim y\bibinitperiod}}}%
+        {{hash=1e178f588d9f330ce1dba82d2d0fbf46}{%
+           family={Wolff},
+           familyi={W\bibinitperiod},
+           given={Tanya},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0e15c3c1f69cc6b11c1156d1ad267e3b}{%
+           family={Noorman},
+           familyi={N\bibinitperiod},
+           given={Marcella},
+           giveni={M\bibinitperiod}}}%
+        {{hash=61d1617d11df21f8d14387d13fe564aa}{%
+           family={Dreher},
+           familyi={D\bibinitperiod},
+           given={Marisa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ae1e0378f7fdcae20d5200a0357bb49b}{%
+           family={Dan},
+           familyi={D\bibinitperiod},
+           given={Chuntao},
+           giveni={C\bibinitperiod}}}%
+        {{hash=dc6a9e2d7e295acfd680ed9fa4d284ea}{%
+           family={Parekh},
+           familyi={P\bibinitperiod},
+           given={Ruchi},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {eLife Sciences Publications Limited}%
+      }
+      \strng{namehash}{f94080b548b6a60d7311f4218b8b0eb2}
+      \strng{fullhash}{e68027d451d1e266b4db00704c557906}
+      \strng{bibnamehash}{f94080b548b6a60d7311f4218b8b0eb2}
+      \strng{authorbibnamehash}{f94080b548b6a60d7311f4218b8b0eb2}
+      \strng{authornamehash}{f94080b548b6a60d7311f4218b8b0eb2}
+      \strng{authorfullhash}{e68027d451d1e266b4db00704c557906}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ELife}
+      \field{title}{A connectome of the Drosophila central complex reveals network motifs suitable for flexible navigation and context-dependent action selection}
+      \field{volume}{10}
+      \field{year}{2021}
+      \field{pages}{e66039}
+      \range{pages}{-1}
+    \endentry
+    \entry{lin2013comprehensive}{article}{}
+      \name{author}{7}{}{%
+        {{hash=88e978f66b574800236228430ed5396f}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Chih-Yung},
+           giveni={C\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=cb2ee8c8a58f814c0c9198c617a2676c}{%
+           family={Chuang},
+           familyi={C\bibinitperiod},
+           given={Chao-Chun},
+           giveni={C\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=a2f2893f8f40a329d9875977ca080b95}{%
+           family={Hua},
+           familyi={H\bibinitperiod},
+           given={Tzu-En},
+           giveni={T\bibinithyphendelim E\bibinitperiod}}}%
+        {{hash=bd1272e21f57d78ce5cbb8aa32045bd1}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Chun-Chao},
+           giveni={C\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=67772db660fdec629ec6702419d179fb}{%
+           family={Dickson},
+           familyi={D\bibinitperiod},
+           given={Barry\bibnamedelima J},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f9264814742f7109e90c08c316942fd6}{%
+           family={Greenspan},
+           familyi={G\bibinitperiod},
+           given={Ralph\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=0f3df8523fed950e9d2f5fd20e8ae21e}{%
+           family={Chiang},
+           familyi={C\bibinitperiod},
+           given={Ann-Shyn},
+           giveni={A\bibinithyphendelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{1798e9a15394ccaa449ac44d67e8a94f}
+      \strng{fullhash}{7e266f38ad60fa611e1383d09eee95d9}
+      \strng{bibnamehash}{1798e9a15394ccaa449ac44d67e8a94f}
+      \strng{authorbibnamehash}{1798e9a15394ccaa449ac44d67e8a94f}
+      \strng{authornamehash}{1798e9a15394ccaa449ac44d67e8a94f}
+      \strng{authorfullhash}{7e266f38ad60fa611e1383d09eee95d9}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cell reports}
+      \field{number}{5}
+      \field{title}{A comprehensive wiring diagram of the protocerebral bridge for visual information processing in the Drosophila brain}
+      \field{volume}{3}
+      \field{year}{2013}
+      \field{pages}{1739\bibrangedash 1753}
+      \range{pages}{15}
+    \endentry
+    \entry{liu2012dopaminergic}{article}{}
+      \name{author}{5}{}{%
+        {{hash=2bd47769de061938bc26891a97c3744b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Qili},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=f56045cb3b27465cc474c956947be650}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Sha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=376d00c0edca5beb4e805387f4807ba3}{%
+           family={Kodama},
+           familyi={K\bibinitperiod},
+           given={Lay},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e8c9467205ad015610cf6e3e7b7e51b5}{%
+           family={Driscoll},
+           familyi={D\bibinitperiod},
+           given={Maria\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=cddf0a8e3fe530ddec8d1d649e48af84}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Mark\bibnamedelima N},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{aa78220b8c336b69cb950f296dd7121c}
+      \strng{fullhash}{1ae2e2a3d9c86f0523285b23b64b9078}
+      \strng{bibnamehash}{aa78220b8c336b69cb950f296dd7121c}
+      \strng{authorbibnamehash}{aa78220b8c336b69cb950f296dd7121c}
+      \strng{authornamehash}{aa78220b8c336b69cb950f296dd7121c}
+      \strng{authorfullhash}{1ae2e2a3d9c86f0523285b23b64b9078}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Biology}
+      \field{number}{22}
+      \field{title}{Two dopaminergic neurons signal to the dorsal fan-shaped body to promote wakefulness in Drosophila}
+      \field{volume}{22}
+      \field{year}{2012}
+      \true{nocite}
+      \field{pages}{2114\bibrangedash 2123}
+      \range{pages}{10}
+    \endentry
+    \entry{omoto2018neuronal}{article}{}
+      \name{author}{6}{}{%
+        {{hash=1bc11c7ea7008b11dd9972e68dfeff3c}{%
+           family={Omoto},
+           familyi={O\bibinitperiod},
+           given={Jaison\bibnamedelima Jiro},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=42f4bc1df86cbfb9b854b7368948564f}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Bao-Chau\bibnamedelima Minh},
+           giveni={B\bibinithyphendelim C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=3e41272d0450f6bf5ceced486614db8a}{%
+           family={Kandimalla},
+           familyi={K\bibinitperiod},
+           given={Pratyush},
+           giveni={P\bibinitperiod}}}%
+        {{hash=41465ea8d7ac8c09050861d302e83167}{%
+           family={Lovick},
+           familyi={L\bibinitperiod},
+           given={Jennifer\bibnamedelima Kelly},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=19b674d76d19ccca1ab3701e998b3084}{%
+           family={Donlea},
+           familyi={D\bibinitperiod},
+           given={Jeffrey\bibnamedelima Michael},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6469e23f6e55008a8f1d6ad677777332}{%
+           family={Hartenstein},
+           familyi={H\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers}%
+      }
+      \strng{namehash}{b18ae4968bed89db31c5d6e789f10203}
+      \strng{fullhash}{3cba8ec1b1d9f444b4d5528a1ce4a733}
+      \strng{bibnamehash}{b18ae4968bed89db31c5d6e789f10203}
+      \strng{authorbibnamehash}{b18ae4968bed89db31c5d6e789f10203}
+      \strng{authornamehash}{b18ae4968bed89db31c5d6e789f10203}
+      \strng{authorfullhash}{3cba8ec1b1d9f444b4d5528a1ce4a733}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in neural circuits}
+      \field{title}{Neuronal constituents and putative interactions within the Drosophila ellipsoid body neuropil}
+      \field{volume}{12}
+      \field{year}{2018}
+      \field{pages}{103}
+      \range{pages}{1}
+    \endentry
+    \entry{StrutzSachse2014odorquality}{article}{}
+      \name{author}{10}{}{%
+        {{hash=afa3e30ad64b5f52f21ad6962312eb15}{%
+           family={Strutz},
+           familyi={S\bibinitperiod},
+           given={Antonia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=132db26b7042b567ac38dfd6206860e2}{%
+           family={Soelter},
+           familyi={S\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8428b4aba79fea15c40a1f1d402b22bb}{%
+           family={Baschwitz},
+           familyi={B\bibinitperiod},
+           given={Amelie},
+           giveni={A\bibinitperiod}}}%
+        {{hash=143023bc087b58e70a1b956c54b941d5}{%
+           family={Farhan},
+           familyi={F\bibinitperiod},
+           given={Abu},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4abf84a48e26e8b8f7f5974b2eedefb7}{%
+           family={Grabe},
+           familyi={G\bibinitperiod},
+           given={Veit},
+           giveni={V\bibinitperiod}}}%
+        {{hash=7eccfe55dccc48a751ce1d05f5de85bf}{%
+           family={Rybak},
+           familyi={R\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9ecda03ac72a4c2c53d925830b1be1c8}{%
+           family={Knaden},
+           familyi={K\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bca9c69a6fd6e336710299befb40718f}{%
+           family={Schmuker},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=16319c187fb32106025a3c34c75da335}{%
+           family={Hansson},
+           familyi={H\bibinitperiod},
+           given={Bill\bibnamedelima S},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=9e14b6dfdeff10d53fb9965107283d47}{%
+           family={Sachse},
+           familyi={S\bibinitperiod},
+           given={Silke},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {eLife Sciences Publications Limited}%
+      }
+      \strng{namehash}{4f222649abf92c9eb57fd67437f3514b}
+      \strng{fullhash}{2003ea01a144036d5f9e7a72ccbd1f5e}
+      \strng{bibnamehash}{4f222649abf92c9eb57fd67437f3514b}
+      \strng{authorbibnamehash}{4f222649abf92c9eb57fd67437f3514b}
+      \strng{authornamehash}{4f222649abf92c9eb57fd67437f3514b}
+      \strng{authorfullhash}{2003ea01a144036d5f9e7a72ccbd1f5e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Elife}
+      \field{title}{Decoding odor quality and intensity in the Drosophila brain}
+      \field{volume}{3}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{e04147}
+      \range{pages}{-1}
+    \endentry
+    \entry{truman1999origins}{article}{}
+      \name{author}{2}{}{%
+        {{hash=034cc855bdd58f395fd0e8421ec8ca38}{%
+           family={Truman},
+           familyi={T\bibinitperiod},
+           given={James\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=9aaf1abbbbea1ba56f6e67f1c61f4dab}{%
+           family={Riddiford},
+           familyi={R\bibinitperiod},
+           given={Lynn\bibnamedelima M},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{20cd44382e467d7da54fd2b7b04dd467}
+      \strng{fullhash}{20cd44382e467d7da54fd2b7b04dd467}
+      \strng{bibnamehash}{20cd44382e467d7da54fd2b7b04dd467}
+      \strng{authorbibnamehash}{20cd44382e467d7da54fd2b7b04dd467}
+      \strng{authornamehash}{20cd44382e467d7da54fd2b7b04dd467}
+      \strng{authorfullhash}{20cd44382e467d7da54fd2b7b04dd467}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{6752}
+      \field{title}{The origins of insect metamorphosis}
+      \field{volume}{401}
+      \field{year}{1999}
+      \field{pages}{447\bibrangedash 452}
+      \range{pages}{6}
+    \endentry
+    \entry{truman2023metamorphosis}{article}{}
+      \name{author}{4}{}{%
+        {{hash=034cc855bdd58f395fd0e8421ec8ca38}{%
+           family={Truman},
+           familyi={T\bibinitperiod},
+           given={James\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=45cb3ec1742b8bc290c9e63ab8475e0c}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={Jacquelyn},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ad94356444b41a14bf4ea7116e839694}{%
+           family={Miyares},
+           familyi={M\bibinitperiod},
+           given={Rosa\bibnamedelima L},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=41ffafb4875ce897d265e414d86d07bd}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Tzumin},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {eLife Sciences Publications Limited}%
+      }
+      \strng{namehash}{b27b9f9a049d9afa32c3078e39c99dd4}
+      \strng{fullhash}{3447310b558369b502e4518dc7cb793d}
+      \strng{bibnamehash}{b27b9f9a049d9afa32c3078e39c99dd4}
+      \strng{authorbibnamehash}{b27b9f9a049d9afa32c3078e39c99dd4}
+      \strng{authornamehash}{b27b9f9a049d9afa32c3078e39c99dd4}
+      \strng{authorfullhash}{3447310b558369b502e4518dc7cb793d}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Elife}
+      \field{title}{Metamorphosis of memory circuits in Drosophila reveals a strategy for evolving a larval brain}
+      \field{volume}{12}
+      \field{year}{2023}
+      \field{pages}{e80594}
+      \range{pages}{-1}
+    \endentry
+    \entry{prime-number-theorem}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d7ca88c13a8f7ce1c23e920010a31f83}{%
+           family={Vallée\bibnamedelima Poussin},
+           familyi={V\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Charles\bibnamedelimb Louis\bibnamedelimb Xavier\bibnamedelima Joseph},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim X\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={de\bibnamedelima la},
+           prefixi={d\bibinitperiod\bibinitdelim l\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7ca88c13a8f7ce1c23e920010a31f83}
+      \strng{fullhash}{d7ca88c13a8f7ce1c23e920010a31f83}
+      \strng{bibnamehash}{d7ca88c13a8f7ce1c23e920010a31f83}
+      \strng{authorbibnamehash}{d7ca88c13a8f7ce1c23e920010a31f83}
+      \strng{authornamehash}{d7ca88c13a8f7ce1c23e920010a31f83}
+      \strng{authorfullhash}{d7ca88c13a8f7ce1c23e920010a31f83}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{note}{A strong form of the prime number theorem, 19th century}
+      \true{nocite}
+    \endentry
+    \entry{wolff2015neuroarchitecture}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1e178f588d9f330ce1dba82d2d0fbf46}{%
+           family={Wolff},
+           familyi={W\bibinitperiod},
+           given={Tanya},
+           giveni={T\bibinitperiod}}}%
+        {{hash=06d1ac26aebffea7002116c3a8764b1a}{%
+           family={Iyer},
+           familyi={I\bibinitperiod},
+           given={Nirmala\bibnamedelima A},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b6533abdab39bd5ae9f03b144d0a0f9d}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Gerald\bibnamedelima M},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{c8907d80eb4d37be18586d8030ec1ce5}
+      \strng{fullhash}{c8907d80eb4d37be18586d8030ec1ce5}
+      \strng{bibnamehash}{c8907d80eb4d37be18586d8030ec1ce5}
+      \strng{authorbibnamehash}{c8907d80eb4d37be18586d8030ec1ce5}
+      \strng{authornamehash}{c8907d80eb4d37be18586d8030ec1ce5}
+      \strng{authorfullhash}{c8907d80eb4d37be18586d8030ec1ce5}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Comparative Neurology}
+      \field{number}{7}
+      \field{title}{Neuroarchitecture and neuroanatomy of the Drosophila central complex: A GAL4-based dissection of protocerebral bridge neurons and circuits}
+      \field{volume}{523}
+      \field{year}{2015}
+      \field{pages}{997\bibrangedash 1037}
+      \range{pages}{41}
+    \endentry
+    \entry{wolff2018neuroarchitecture}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1e178f588d9f330ce1dba82d2d0fbf46}{%
+           family={Wolff},
+           familyi={W\bibinitperiod},
+           given={Tanya},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b6533abdab39bd5ae9f03b144d0a0f9d}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Gerald\bibnamedelima M},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{931bf8839e5a78dab23545511bb71d31}
+      \strng{fullhash}{931bf8839e5a78dab23545511bb71d31}
+      \strng{bibnamehash}{931bf8839e5a78dab23545511bb71d31}
+      \strng{authorbibnamehash}{931bf8839e5a78dab23545511bb71d31}
+      \strng{authornamehash}{931bf8839e5a78dab23545511bb71d31}
+      \strng{authorfullhash}{931bf8839e5a78dab23545511bb71d31}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Comparative Neurology}
+      \field{number}{16}
+      \field{title}{Neuroarchitecture of the Drosophila central complex: A catalog of nodulus and asymmetrical body neurons and a revision of the protocerebral bridge catalog}
+      \field{volume}{526}
+      \field{year}{2018}
+      \field{pages}{2585\bibrangedash 2611}
+      \range{pages}{27}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
