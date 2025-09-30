@@ -2392,7 +2392,8 @@
     <bcf:citekey order="28" intorder="2">hulse2021connectome</bcf:citekey>
     <bcf:citekey order="29" intorder="1">wolff2018neuroarchitecture</bcf:citekey>
     <bcf:citekey order="29" intorder="2">hulse2021connectome</bcf:citekey>
-    <bcf:citekey order="30" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">exampleReference</bcf:citekey>
+    <bcf:citekey order="31" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

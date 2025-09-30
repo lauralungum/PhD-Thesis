@@ -142,8 +142,8 @@
 %\include{Chapter7/chapter7}
 
 % Example citation to ensure at least one citation is present
+\cite{exampleReference}
 \nocite{*}
-
 
 
 % ********************************** Back Matter *******************************
@@ -165,12 +165,15 @@
 
 \printbibliography[heading=bibintoc, title={References}]
 
-
 % If you would like to use BibLaTeX for your references, pass `custombib' as
 % an option in the document class. The location of 'reference.bib' should be
 % specified in the preamble.tex file in the custombib section.
 % Comment out the lines related to natbib above and uncomment the following line.
 
+% Ensure your bibliography file is specified in the preamble, e.g.:
+% \addbibresource{References/references.bib}
+
+%\printbibliography[heading=bibintoc, title={References}]
 %\printbibliography[heading=bibintoc, title={References}]
 
 
