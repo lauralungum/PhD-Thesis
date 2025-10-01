@@ -1,0 +1,33 @@
+#PENDING DATA:
+
+1. TODO missing: proprioceptive ascending inputs
+2. TODO missing: additional EB.d neurons not listed in the EB section
+3. TODO missing: integrate Kandimalla et al. 2023
+https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs00359-023-01616-y&data=05%7C02%7Cll634%40universityofcambridgecloud.onmicrosoft.com%7C5aa5c055e8a54cd881ff08de0030e8fe%7C49a50445bdfa4b79ade3547b4f3986e9%7C1%7C0%7C638948407235825284%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=Bcnoo1Dqzvkp7EuvxQE%2B1QEh%2B3O6NZdjfFwMg1r%2FPXM%3D&reserved=0
+4. TODO add section descending neurons (DNs) and the association of CX
+structures with known DNs.
+5. TODO Discussion section on learning and DANs, related to DNs.
+6. TODO make an effort to collect main cell types from the adult and
+assign them to larval ones, by the collection of neuropils they synapse
+to/from.
+7. TODO make supplemental connectivity matrices, axo-axonic,
+axo-dendritc etc. with the Export tool.
+8. FB.d figure
+9. NO.d figure
+10. eDANs figure: two figures, on anatomy and connectivity, and on
+immunohistochemistry
+11. More cartoons explaining little vignettes of circuit motifs across
+the board, like for eDANs, and for whatever else can help relate to the
+PEN, PFN, etc names of neurons in Hulse et al.
+12. a table of .b rows vs .d columns for each neuropil could be clarifying, perhaps reveal some non-obvious structure.
+
+
+
+#My own ideas:
+a. Sensory inputs to CX, one graph, one table  
+    - to EB - done - some extra neurons - interesting!
+    - to PB - done - nothing new
+    - to FB lots but nothing crazy 
+    - to NO - something new!!! lots of direct connections from vpns 
+
+

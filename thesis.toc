@@ -1,13 +1,18 @@
 \thispagestyle {empty}
-\contentsline {chapter}{List of figures}{xiii}{chapter*.5}%
-\contentsline {chapter}{List of tables}{xv}{chapter*.6}%
+\contentsline {chapter}{List of figures}{xiii}{chapter*.6}%
+\contentsline {chapter}{List of tables}{xv}{chapter*.7}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Why is this Interesting?}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Mapping brains - The Power of Connectomics}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.1}Mapping brains - The Power of Connectomics}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}The advantage of an insect brain}{1}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Multisensory integration}{1}{section.1.3}%
-\contentsline {section}{\numberline {1.4}The Central Complex}{2}{section.1.4}%
-\contentsline {section}{\numberline {1.5}The insights connectomics can bring}{4}{section.1.5}%
-\contentsline {section}{\numberline {1.6}The advantage of an insect brain}{4}{section.1.6}%
+\contentsline {section}{\numberline {1.4}Navigation as a mode to understand multisensory integration}{2}{section.1.4}%
+\contentsline {section}{\numberline {1.5}The Central Complex}{2}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Central Comple across insects}{2}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Evolutionary origins of Central Complex}{2}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Central Complex in the Drosophila Adult}{2}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}PB,EB,FB,NO}{3}{subsection.1.5.4}%
+\contentsline {section}{\numberline {1.6}Larval CX as a research opportunity}{3}{section.1.6}%
+\contentsline {section}{\numberline {1.7}What this thesis does}{4}{section.1.7}%
 \contentsline {chapter}{\numberline {2}Methods}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Electron Microscopy Reconstructions}{5}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Seymour volume}{5}{subsection.2.1.1}%
