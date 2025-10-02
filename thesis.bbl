@@ -2517,7 +2517,6 @@
       \field{title}{Optimized tools for multicolor stochastic labeling reveal diverse stereotyped cell arrangements in the fly visual system}
       \field{volume}{112}
       \field{year}{2015}
-      \true{nocite}
       \field{pages}{E2967\bibrangedash E2976}
       \range{pages}{-1}
     \endentry
@@ -2696,7 +2695,6 @@
       \field{title}{High-throughput analysis of stimulus-evoked behaviors in Drosophila larva reveals multiple modality-specific escape strategies}
       \field{volume}{8}
       \field{year}{2013}
-      \true{nocite}
       \field{pages}{e71706}
       \range{pages}{-1}
     \endentry
@@ -4155,7 +4153,6 @@
       \field{title}{The connectome of an insect brain}
       \field{volume}{379}
       \field{year}{2023}
-      \true{nocite}
       \field{pages}{eadd9330}
       \range{pages}{-1}
     \endentry

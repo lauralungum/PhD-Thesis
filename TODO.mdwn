@@ -24,10 +24,7 @@ PEN, PFN, etc names of neurons in Hulse et al.
 
 
 #My own ideas:
-a. Sensory inputs to CX, one graph, one table  
-    - to EB - done - some extra neurons - interesting!
-    - to PB - done - nothing new
-    - to FB lots but nothing crazy 
-    - to NO - something new!!! lots of direct connections from vpns 
+a. Sensory inputs to CX, one graph, redone them all.  
 
+b. Table with side by side neurons  - pens, pfns, maybe drawings with them too
 
