@@ -1,0 +1,26 @@
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=12cm]{Figs/file}
+        \caption{...}
+        \label{fig:label}
+    \end{figure}
+
+
+    \begin{table}
+    \centering
+    \begin{tabular}{l|ccccc}
+        \toprule
+        Neuropil & PB & FB & EB & NO & LAL \\
+        \midrule
+        PB &  &  & * & * & * \\
+        FB & * & & & * & * \\
+        EB & & & & & * \\
+        NO & & * & & & * \\
+        LAL & & & * & & \\ % Does the LAL connect to any of PB, FB, etc. ?
+        MBONs &  & * & * & & \\
+        \bottomrule
+    \end{tabular}
+    \caption{..}
+    \label{label}
+    \end{table} 

@@ -19,12 +19,10 @@ immunohistochemistry
 11. More cartoons explaining little vignettes of circuit motifs across
 the board, like for eDANs, and for whatever else can help relate to the
 PEN, PFN, etc names of neurons in Hulse et al.
+
+
+
+Done
+13. Sensory inputs to CX, one graph redone them all.  
+14. Table with side by side neurons  redone
 12. a table of .b rows vs .d columns for each neuropil could be clarifying, perhaps reveal some non-obvious structure.
-
-
-
-#My own ideas:
-a. Sensory inputs to CX, one graph, redone them all.  
-
-b. Table with side by side neurons  - pens, pfns, maybe drawings with them too
-

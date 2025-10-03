@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.27)  1 OCT 2025 22:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.27)  3 OCT 2025 00:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1133,7 +1133,7 @@ LaTeX Warning: Reference `FigureX' on page 12 undefined on input line 53.
 
 [12] [13]
 
-LaTeX Warning: Citation 'MISSING' on page 14 undefined on input line 105.
+LaTeX Warning: Citation 'MISSING' on page 14 undefined on input line 103.
 
 [14] [15]) [16]
 \openout2 = `Chapter4/chapter4.aux'.
@@ -1208,7 +1208,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  125i,12n,121p,1082b,2173s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (44 pages, 270896 bytes).
+Output written on thesis.pdf (44 pages, 271550 bytes).
 PDF statistics:
  651 PDF objects out of 1000 (max. 8388607)
  586 compressed objects within 6 object streams
