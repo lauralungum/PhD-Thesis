@@ -47,6 +47,6 @@
 \contentsline {section}{\numberline {3.6}Calcium Imaging Analysis - }{17}{section.3.6}%
 \contentsline {chapter}{\numberline {4}Discussion}{19}{chapter.4}%
 \contentsline {section}{\numberline {4.1}}{19}{section.4.1}%
-\contentsline {chapter}{References}{21}{chapter*.19}%
+\contentsline {chapter}{References}{21}{chapter*.20}%
 \contentsline {chapter}{Appendix \numberline {A}Appendix title example}{27}{appendix.a.A}%
 \contentsline {chapter}{Appendix \numberline {B}example2}{29}{appendix.a.B}%

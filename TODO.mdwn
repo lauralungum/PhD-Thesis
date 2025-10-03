@@ -24,5 +24,5 @@ PEN, PFN, etc names of neurons in Hulse et al.
 
 Done
 13. Sensory inputs to CX, one graph redone them all.  
-14. Table with side by side neurons  redone
+14. Table with side by side neurons 
 12. a table of .b rows vs .d columns for each neuropil could be clarifying, perhaps reveal some non-obvious structure.
