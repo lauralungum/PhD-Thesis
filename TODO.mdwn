@@ -7,11 +7,10 @@ https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Flink.springer.
 4. TODO add section descending neurons (DNs) and the association of CX
 structures with known DNs.
 5. TODO Discussion section on learning and DANs, related to DNs.
-6. TODO make an effort to collect main cell types from the adult and
-assign them to larval ones, by the collection of neuropils they synapse
-to/from.
+
 7. TODO make supplemental connectivity matrices, axo-axonic,
 axo-dendritc etc. with the Export tool.
+
 8. FB.d figure
 9. NO.d figure
 10. eDANs figure: two figures, on anatomy and connectivity, and on
@@ -22,7 +21,11 @@ PEN, PFN, etc names of neurons in Hulse et al.
 
 
 
+Doing 
+12. a table of .b rows vs .d columns for each neuropil could be clarifying, perhaps reveal some non-obvious structure.
+
 Done
 13. Sensory inputs to CX, one graph redone them all.  
-14. Table with side by side neurons 
-12. a table of .b rows vs .d columns for each neuropil could be clarifying, perhaps reveal some non-obvious structure.
+14. Table with side by side neurons - TODO make an effort to collect main cell types from the adult and
+assign them to larval ones, by the collection of neuropils they synapse
+to/from.

@@ -191,6 +191,74 @@
       \field{volume}{5}
       \field{year}{2016}
     \endentry
+    \entry{breitenfeld2014hippocrates}{article}{}
+      \name{author}{3}{}{%
+        {{hash=38b889f5a9fc43c5011c9fef7b0aa189}{%
+           family={Breitenfeld},
+           familyi={B\bibinitperiod},
+           given={Tomislav},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c905158377af1b5bc6d1651a0b4b4a48}{%
+           family={Jurasic},
+           familyi={J\bibinitperiod},
+           given={Miljenka-Jelena},
+           giveni={M\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=1f9ecbc7a415ea622ff8fa358edf95c8}{%
+           family={Breitenfeld},
+           familyi={B\bibinitperiod},
+           given={Darko},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{816a8fb254a09e927af21a38c1fcac7f}
+      \strng{fullhash}{816a8fb254a09e927af21a38c1fcac7f}
+      \strng{bibnamehash}{816a8fb254a09e927af21a38c1fcac7f}
+      \strng{authorbibnamehash}{816a8fb254a09e927af21a38c1fcac7f}
+      \strng{authornamehash}{816a8fb254a09e927af21a38c1fcac7f}
+      \strng{authorfullhash}{816a8fb254a09e927af21a38c1fcac7f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neurological Sciences}
+      \field{number}{9}
+      \field{title}{Hippocrates: the forefather of neurology}
+      \field{volume}{35}
+      \field{year}{2014}
+      \field{pages}{1349\bibrangedash 1352}
+      \range{pages}{4}
+    \endentry
+    \entry{brenner1974genetics}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bd7960a4d98c1f4de926c22a4cd3ac3a}{%
+           family={Brenner},
+           familyi={B\bibinitperiod},
+           given={Sydney},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{bd7960a4d98c1f4de926c22a4cd3ac3a}
+      \strng{fullhash}{bd7960a4d98c1f4de926c22a4cd3ac3a}
+      \strng{bibnamehash}{bd7960a4d98c1f4de926c22a4cd3ac3a}
+      \strng{authorbibnamehash}{bd7960a4d98c1f4de926c22a4cd3ac3a}
+      \strng{authornamehash}{bd7960a4d98c1f4de926c22a4cd3ac3a}
+      \strng{authorfullhash}{bd7960a4d98c1f4de926c22a4cd3ac3a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Genetics}
+      \field{number}{1}
+      \field{title}{The genetics of Caenorhabditis elegans}
+      \field{volume}{77}
+      \field{year}{1974}
+      \field{pages}{71\bibrangedash 94}
+      \range{pages}{24}
+    \endentry
     \entry{buchanan2015neuronal}{article}{}
       \name{author}{3}{}{%
         {{hash=20fb8b8f827d966ce8f1a0ae79d45fca}{%
@@ -731,7 +799,6 @@
       \field{title}{Circuits for integrating learned and innate valences in the insect brain}
       \field{volume}{10}
       \field{year}{2021}
-      \true{nocite}
       \field{pages}{e62567}
       \range{pages}{-1}
     \endentry
@@ -809,7 +876,6 @@
       \field{title}{Recurrent architecture for adaptive regulation of learning in the insect brain}
       \field{volume}{23}
       \field{year}{2020}
-      \true{nocite}
       \field{pages}{544\bibrangedash 555}
       \range{pages}{12}
     \endentry
@@ -975,6 +1041,21 @@
       \true{nocite}
       \field{pages}{e37017}
       \range{pages}{-1}
+    \endentry
+    \entry{microns2025functional}{article}{}
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{8058}
+      \field{title}{Functional connectomics spanning multiple areas of mouse visual cortex}
+      \field{volume}{640}
+      \field{year}{2025}
+      \field{pages}{435\bibrangedash 447}
+      \range{pages}{13}
     \endentry
     \entry{gepner2015computations}{article}{}
       \name{author}{5}{}{%
@@ -1414,6 +1495,34 @@
       \true{nocite}
       \field{pages}{R1043\bibrangedash R1058}
       \range{pages}{-1}
+    \endentry
+    \entry{herculano2009human}{article}{}
+      \name{author}{1}{}{%
+        {{hash=844747f22b37db160509d1c43124abcb}{%
+           family={Herculano-Houzel},
+           familyi={H\bibinithyphendelim H\bibinitperiod},
+           given={Suzana},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers}%
+      }
+      \strng{namehash}{844747f22b37db160509d1c43124abcb}
+      \strng{fullhash}{844747f22b37db160509d1c43124abcb}
+      \strng{bibnamehash}{844747f22b37db160509d1c43124abcb}
+      \strng{authorbibnamehash}{844747f22b37db160509d1c43124abcb}
+      \strng{authornamehash}{844747f22b37db160509d1c43124abcb}
+      \strng{authorfullhash}{844747f22b37db160509d1c43124abcb}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in human neuroscience}
+      \field{title}{The human brain in numbers: a linearly scaled-up primate brain}
+      \field{volume}{3}
+      \field{year}{2009}
+      \field{pages}{857}
+      \range{pages}{1}
     \endentry
     \entry{hernandez2021thermo}{article}{}
       \true{moreauthor}
@@ -2109,7 +2218,6 @@
       \field{title}{Organization of the Drosophila larval visual circuit}
       \field{volume}{6}
       \field{year}{2017}
-      \true{nocite}
       \field{pages}{e28387}
       \range{pages}{-1}
     \endentry
@@ -2329,6 +2437,101 @@
       \field{year}{2014}
       \true{nocite}
       \field{pages}{e04205}
+      \range{pages}{-1}
+    \endentry
+    \entry{mckinstry2013connectome}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1ed495248390537569c2c8f08f96e744}{%
+           family={McKinstry-Wu},
+           familyi={M\bibinithyphendelim W\bibinitperiod},
+           given={Andrew\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=599f5dbcf529401bf44e77b8bc5b1569}{%
+           family={Kelz},
+           familyi={K\bibinitperiod},
+           given={Max\bibnamedelima B},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {LWW}%
+      }
+      \strng{namehash}{2beab467b0c6717cee89e47393d5418c}
+      \strng{fullhash}{2beab467b0c6717cee89e47393d5418c}
+      \strng{bibnamehash}{2beab467b0c6717cee89e47393d5418c}
+      \strng{authorbibnamehash}{2beab467b0c6717cee89e47393d5418c}
+      \strng{authornamehash}{2beab467b0c6717cee89e47393d5418c}
+      \strng{authorfullhash}{2beab467b0c6717cee89e47393d5418c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Anesthesia \& Analgesia}
+      \field{number}{6}
+      \field{title}{Connectome: How the Brain’s Wiring Makes Us Who We Are}
+      \field{volume}{117}
+      \field{year}{2013}
+      \field{pages}{1513\bibrangedash 1514}
+      \range{pages}{2}
+    \endentry
+    \entry{meinertzhagen2016connectome}{article}{}
+      \name{author}{1}{}{%
+        {{hash=656a70f7a0de26de66a2b646bb447b0d}{%
+           family={Meinertzhagen},
+           familyi={M\bibinitperiod},
+           given={Ian\bibnamedelima A},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{656a70f7a0de26de66a2b646bb447b0d}
+      \strng{fullhash}{656a70f7a0de26de66a2b646bb447b0d}
+      \strng{bibnamehash}{656a70f7a0de26de66a2b646bb447b0d}
+      \strng{authorbibnamehash}{656a70f7a0de26de66a2b646bb447b0d}
+      \strng{authornamehash}{656a70f7a0de26de66a2b646bb447b0d}
+      \strng{authorfullhash}{656a70f7a0de26de66a2b646bb447b0d}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of neurogenetics}
+      \field{number}{2}
+      \field{title}{Connectome studies on Drosophila: a short perspective on a tiny brain}
+      \field{volume}{30}
+      \field{year}{2016}
+      \field{pages}{62\bibrangedash 68}
+      \range{pages}{7}
+    \endentry
+    \entry{meinertzhagen2018use}{article}{}
+      \name{author}{1}{}{%
+        {{hash=656a70f7a0de26de66a2b646bb447b0d}{%
+           family={Meinertzhagen},
+           familyi={M\bibinitperiod},
+           given={Ian\bibnamedelima A},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Company of Biologists Ltd}%
+      }
+      \strng{namehash}{656a70f7a0de26de66a2b646bb447b0d}
+      \strng{fullhash}{656a70f7a0de26de66a2b646bb447b0d}
+      \strng{bibnamehash}{656a70f7a0de26de66a2b646bb447b0d}
+      \strng{authorbibnamehash}{656a70f7a0de26de66a2b646bb447b0d}
+      \strng{authornamehash}{656a70f7a0de26de66a2b646bb447b0d}
+      \strng{authorfullhash}{656a70f7a0de26de66a2b646bb447b0d}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experimental Biology}
+      \field{number}{10}
+      \field{title}{Of what use is connectomics? A personal perspective on the Drosophila connectome}
+      \field{volume}{221}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{jeb164954}
       \range{pages}{-1}
     \endentry
     \entry{meissner2025splitgal4}{article}{}
@@ -2634,7 +2837,6 @@
       \field{title}{A multilevel multimodal circuit enhances action selection in Drosophila}
       \field{volume}{520}
       \field{year}{2015}
-      \true{nocite}
       \field{pages}{633\bibrangedash 639}
       \range{pages}{7}
     \endentry
@@ -3199,7 +3401,6 @@
       \field{title}{A connectome and analysis of the adult Drosophila central brain}
       \field{volume}{9}
       \field{year}{2020}
-      \true{nocite}
       \field{pages}{e57443}
       \range{pages}{-1}
     \endentry
@@ -4258,6 +4459,82 @@
       \true{nocite}
       \field{pages}{2112\bibrangedash 2126}
       \range{pages}{15}
+    \endentry
+    \entry{zheng2018complete}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=57f570d350c1e25a733b4dc4be48991f}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Zhihao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=ca32fc60123ec34bb2d408ea74f56c6d}{%
+           family={Lauritzen},
+           familyi={L\bibinitperiod},
+           given={J\bibnamedelima Scott},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=afa026d7d83cd858c802cc5c1866bfff}{%
+           family={Perlman},
+           familyi={P\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=685aca45806b7f2330e7767dd6a5e310}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={Camenzind\bibnamedelima G},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=0330c5289b8ba90f9c1e4cee6c97a560}{%
+           family={Nichols},
+           familyi={N\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5811de2bf9b6d22c6ab5922a1f2c7eeb}{%
+           family={Milkie},
+           familyi={M\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3eb41668d56b599c7cd2a1476e909c38}{%
+           family={Torrens},
+           familyi={T\bibinitperiod},
+           given={Omar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=10a60d18af26364a10697f0cfc93e0b7}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=353d1cb908ffd9635805e41aaeeb8c41}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Corey\bibnamedelima B},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=39e920b7f007081ca7baae55dc6bfda7}{%
+           family={Sharifi},
+           familyi={S\bibinitperiod},
+           given={Nadiya},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{604c0577a3143bb3c38bea9b5a3d89dd}
+      \strng{fullhash}{14dbe58e8a27fb2deede2c51f4c8e073}
+      \strng{bibnamehash}{604c0577a3143bb3c38bea9b5a3d89dd}
+      \strng{authorbibnamehash}{604c0577a3143bb3c38bea9b5a3d89dd}
+      \strng{authornamehash}{604c0577a3143bb3c38bea9b5a3d89dd}
+      \strng{authorfullhash}{14dbe58e8a27fb2deede2c51f4c8e073}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cell}
+      \field{number}{3}
+      \field{title}{A complete electron microscopy volume of the brain of adult Drosophila melanogaster}
+      \field{volume}{174}
+      \field{year}{2018}
+      \field{pages}{730\bibrangedash 743}
+      \range{pages}{14}
     \endentry
   \enddatalist
 \endrefsection

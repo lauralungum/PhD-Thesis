@@ -3,12 +3,58 @@
 
 
 \section{Mapping brains - The Power of Connectomics} 
-\label{section1.1}
-- how it helps us unravel fundamental problems about the brain 
+\label{Mapping Brains}
+
+Investigating the origins of behaviour and mapping it to the brain is a mission as old natural philosophy. Hippocrates was the first to identify the brain as the 'analyst of the outside world', the interpreter of consciousness and the center of intelligence and willpower \citep{breitenfeld2014hippocrates}, and to this day he is considered the forefather of neurology.
+
+At its heart, neuroscience has always been about reverse engineering nervous systems. 
+We attempt to understand the full functionality of the brain from its underlying anatomical features - molecular and celular -  its activity and its circuits. Ultimately, the goal is to infer causality about behaviour using the best tools we have at our disposal \citep{mckinstry2013connectome}.
+
+Detailed maps of synaptic connectivity (also known as wiring diagrams) are core to our understanding of the fundamental link between brain and behaviour and, crucially, how malfunctions of it can result in behavioural or neurological disorders. Whilst large-scle circuit reconstructions aren't yet possible with state of the art imaging technology - the human brain has ~86 billion cells\cite{herculano2009human}, with tens of thousands of synapses each, and would take centuries to map -  advances in tiny brains mapping are pushing the brain sciences by unravelling causal and correlative relations between structure and function and paving the way to better understand fundamental principles of how neural systems operate. 
+
+Connnectomics - the study of complete sets of connections in individual neural systems - is at large responsible for a lot of these discoveries. It allowed us to create roadmaps for brain of various animals such as the C. elegans - the first landmark study of a connectome \citep{brenner1974genetics} -, the mouse visual cortex \citep{microns2025functional}, the \textit{Drosophila} adult \citep{scheffer2020connectome} as well as the \textit{Drosophila} larva\citep{ohyama2015multilevel, berck2016wiring,larderet2017opticlobe,eichler2017complete, eschbach2021circuits, eschbach2020recurrent}. All datasets were obtained via electron microscopy (EM, ssEM, TEM, FIB-SEM) and have become foundational references in neuroscience, ushering in the long-anticipated era of synaptic wiring diagrams (Table~\ref{table-connectomes}).
+
+EM is, to this day, the highest-resolution technology for brain mapping, allowing us to visualize the smallest neurites (as small as 15~nm; \citep{meinertzhagen2016connectome}) and all the synaptic connections—vesicles and clefts (40~nm and 20~nm, respectively)—between them. The great advantage of tiny animal models such as \textit{Drosophila} is that their physical dimensions (~600~\textmu m or $0.15\,\mathrm{mm}^3$ for the adult fly brain; ~242~\textmu m or $0.001\,\mathrm{mm}^3$ for the larval nervous system) can be reconstructed with synaptic resolution within a manageable timeframe and cost. Their dimensions - no neuropil greatly exceeds 50~\textmu m in depth \citep{meinertzhagen2016connectome} — also facilitate the use of multimodal imaging approaches: confocal microscopy for molecular and genetic labeling, light-sheet microscopy for rapid volumetric imaging, and electron microscopy for ultrastructural detail—on the same specimen or across comparable samples.
 
 
-\section{The advantage of an insect brain}
+        \begin{table}[t]
+        \centering
+        \small
+        \setlength{\tabcolsep}{4pt}
+        \renewcommand{\arraystretch}{1.1}
+        \resizebox{\textwidth}{!}{%
+        \begin{tabular}{l|cccccccc}
+        \toprule
+        Organism & Tissue / region & Neurons & Synapses & Voxel (nm) & Volume (mm$^3$) & Imaging method & Project \\
+        \midrule
+        \textit{C. elegans} & Entire nervous system & 302 & $\sim$7\,000 & $\sim$50 (2D TEM) & 0.01 & ssTEM & Original connectome \\
+        \textit{D. melanogaster} (larva) & Entire CNS (brain + VNC) & $\sim$9\,700 & $\sim$5--10\,M & 3.8$\times$3.8$\times$50 & 0.001 & ssTEM & Larval CNS connectome \\
+        \textit{D. melanogaster} (adult) & Entire brain (central + optic lobes) & $\sim$135\,000 & $\sim$50--60\,M & 4$\times$4$\times$40 & 0.15 & ssTEM & FAFB, Hemibrain \\
+        \textit{M. musculus} & Visual cortex (VISp + HVAs) & $\sim$100\,M & $\sim$0.5\,B & 4$\times$4$\times$40 & 1 & SBF/MB-EM & MICrONS v3 \\
+        \bottomrule
+        \end{tabular}}
+        \caption{Comparison of major connectomic datasets across species, from \textit{C. elegans} to mouse visual cortex. Abbreviations: ssTEM, serial-section TEM; SBF/MB-EM, serial block-face or multi-beam EM.}
+        \label{table-connectomes}
+        \end{table}
+
+
+The female adult vinegar fly \texit{Drosophila Melanogaster} is one of the largest pieces of nervous tissue collected and imaged by EM (i.e., FAFB; \citep{zheng2018complete}). The dataset encompasses 40~teravoxels and 21~million serial section transmission EM images, covering a $995~\times~537~\times~283~\si{\micro\metre}$ volume at $4~\times~4~\times~40~\si{\nano\metre}$ resolution. Complementary to this, a complete EM reconstruction of the \textit{Drosophila} larva central nervous system (\citep{winding2023connectome}) spans the entire brain and ventral nerve cord within a roughly $242~\si{\micro\metre}$ volume, capturing approximately $9{,}700$~neurons at $3.8~\times~3.8~\times~50~\si{\nano\metre}$ resolution. I have contributed to mapping the larval fruit fly, specifically, in unravelling a new area responsible for navigational decisions. This area is known as the Central Complex in the adult, and, as I will go on to show, I postulate that an analogus, numerically smaller Central Complex exits at the larval stage of development. 
+
+Together, these datasets bridge developmental stages of the fly nervous system, enabling both sparse and dense connectomic analyses that inform a growing range of hypotheses around their relevance to function and behaviour. 
+Collectively, connectomic datasets provide a structural framework through which brain function can be interpreted. They transform anatomy into networks and reveal not only which neurons are connected but also the direction of information flow. By translating morphology into connectivity matrices — quantitative maps of presynaptic and postsynaptic partnerships— we can infer circuit logic and predict functional pathways. This is exactly the kind of data reconstruction that expose hidden motifs, highlights convergence and divergence across modalities, and delineates subnetworks that underlie specific behaviours. Using \textit{Drosophila} is powerful approach to functionally study these detailed wiring diagra, becuase it is one of the most experimentally accessible animal model.  
+
+
+%This is exactly the kind of data one needs for collecting information about networks subnetworks submodalities connectivity matrices \citep{meinertzhagen2018use}. These connectomes allow neuroscientists to generate a map of the brain’s synaptic networks. The core scientific outcome of connectomics is the ability to compile comprehensive connectivity matrices by meticulously reconstructing neurons and their synaptic sites at the electron microscopic (EM) level. These matrices typically report the number of presynaptic and postsynaptic connections between partner neurons. By revealing unsuspected pathways and characterizing pathways as major (100 or more contacts) or minor (fewer than 10 contacts), connectomes provide the structural foundation necessary for interpreting functional data, fueling computational analyses, and enabling the prediction of function from anatomical structure. Ultimately, this capacity to map and quantify synaptic networks is essential for navigating the enormous complexity of the brain's circuitry and is destined to aid in understanding cognitive disorders having a connectomic basis. 
+
+%While scientific advances haven't yet reached the human brain scale - since 1 mm³ takes about a couple of months to image, and the human brain has roughly 1.3 million mm³, that means it would take about 1.3 million years to have the entire brain mapped by EM; and that’s without reconstructing the connectome (86 billion neurons and about 100 trillion connections) 
+%. It provides data that can be mined for both a parts-list and an adjacency matrix of connections between those parts. Other techniques, such as expansion microscopy (Wassie et al., 2019), super resolution microscopy (Igarashi et al., 2018) and molecular barcode sequencing (Kebschull and Zador, 2018) can provide sparse information on synaptic connectivity or map single neuron’s projections at scale. While they can provide orthogonal useful information, e.g. on gene expression, they lack the morphological and synaptic connectivity ‘completeness’ EM can provide. There is promise that X-ray tomography may provide another avenue to dense circuit reconstruction and allow researchers to use larger tissue volumes than can typically be easily handled with EM pipelines (Kuan et al., 2020).
+
+
+
+\section{The advantage of the \textit{Drosophila} larva brain}
     tiny
+\label{}
+
 
 
 \section{Multisensory integration} 
@@ -51,7 +97,7 @@
     \subsection{PB,EB,FB,NO}
     
 
-\section{Larval CX as a research opportunity}
+\section{Larval Central Complex as a research opportunity}
     -developental neuronal diversity (the 3 types)
 
     At the larval stage, this animal exhibits  similar behaviours to those observed in the adult: it demonstrates chemotaxis during foraging and performs aversive phototaxis in response to blue light. In addition to individual stimulus response, \textit{Drosophila} larva is able to integrate competing stimuli into a coherent representation(Gepner et al.,2015) prior to decision making. The larval brain shares similar set of neuroblasts with the adult, and presents neuropils with direct correspondance to the adult such as the Antennal Lobe(AL), the Mushroom Body(MB), and the Lateral Accessory Lobe(LAL). 
