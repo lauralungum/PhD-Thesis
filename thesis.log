@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.27)  8 OCT 2025 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.27)  8 OCT 2025 19:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1074,524 +1074,524 @@ No file thesis.nls.
  (./Chapter1/chapter1.tex
 Chapter 1.
 
-LaTeX Warning: Citation 'breitenfeld2014hippocrates' on page 1 undefined on input line 9.
+LaTeX Warning: Citation 'breitenfeld2014hippocrates' on page 1 undefined on input line 8.
 
 
-LaTeX Warning: Citation 'mckinstry2013connectome' on page 1 undefined on input line 12.
+LaTeX Warning: Citation 'mckinstry2013connectome' on page 1 undefined on input line 11.
 
 
-Overfull \hbox (29.82135pt too wide) in paragraph at lines 11--13
+Overfull \hbox (29.82135pt too wide) in paragraph at lines 10--12
 \T1/ptm/m/n/12 (-20) causal-ity about be-haviour us-ing the best tools we have at our dis-posal [[]]. 
  []
 
 
-LaTeX Warning: Citation 'herculano2009human' on page 1 undefined on input line 14.
+LaTeX Warning: Citation 'herculano2009human' on page 1 undefined on input line 13.
 
 
-LaTeX Warning: Citation 'brenner1974genetics' on page 1 undefined on input line 16.
+LaTeX Warning: Citation 'brenner1974genetics' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'microns2025functional' on page 1 undefined on input line 16.
+LaTeX Warning: Citation 'microns2025functional' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'scheffer2020connectome' on page 1 undefined on input line 16.
+LaTeX Warning: Citation 'scheffer2020connectome' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'ohyama2015multilevel' on page 1 undefined on input line 16.
+LaTeX Warning: Citation 'ohyama2015multilevel' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'berck2016wiring' on page 1 undefined on input line 16.
+LaTeX Warning: Citation 'berck2016wiring' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'larderet2017opticlobe' on page 1 undefined on input line 16.
+LaTeX Warning: Citation 'larderet2017opticlobe' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'eichler2017complete' on page 1 undefined on input line 16.
+LaTeX Warning: Citation 'eichler2017complete' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'eschbach2021circuits' on page 1 undefined on input line 16.
+LaTeX Warning: Citation 'eschbach2021circuits' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'eschbach2020recurrent' on page 1 undefined on input line 16.
+LaTeX Warning: Citation 'eschbach2020recurrent' on page 1 undefined on input line 15.
 
 [1
 
 
 ]
 
-LaTeX Warning: Citation 'meinertzhagen2016connectome' on page 2 undefined on input line 21.
+LaTeX Warning: Citation 'meinertzhagen2016connectome' on page 2 undefined on input line 20.
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 21.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 20.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
-LaTeX Warning: Citation 'meinertzhagen2016connectome' on page 2 undefined on input line 21.
+LaTeX Warning: Citation 'meinertzhagen2016connectome' on page 2 undefined on input line 20.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
 
-LaTeX Warning: Citation 'zheng2018complete' on page 2 undefined on input line 46.
+LaTeX Warning: Citation 'zheng2018complete' on page 2 undefined on input line 45.
 
 
-LaTeX Warning: Citation 'winding2023connectome' on page 2 undefined on input line 46.
+LaTeX Warning: Citation 'winding2023connectome' on page 2 undefined on input line 45.
 
 [2]
 
-LaTeX Warning: Citation 'huang2020bricseq' on page 3 undefined on input line 59.
+LaTeX Warning: Citation 'huang2020bricseq' on page 3 undefined on input line 58.
 
 
-LaTeX Warning: Citation 'lemon2015whole' on page 3 undefined on input line 60.
+LaTeX Warning: Citation 'lemon2015whole' on page 3 undefined on input line 59.
 
 
-LaTeX Warning: Citation 'ahrens2013whole' on page 3 undefined on input line 60.
+LaTeX Warning: Citation 'ahrens2013whole' on page 3 undefined on input line 59.
 
 
-LaTeX Warning: Citation 'gerhard2017conserved' on page 3 undefined on input line 62.
+LaTeX Warning: Citation 'gerhard2017conserved' on page 3 undefined on input line 61.
 
 
-LaTeX Warning: Citation 'almeida2017ol1mpiad' on page 3 undefined on input line 62.
+LaTeX Warning: Citation 'almeida2017ol1mpiad' on page 3 undefined on input line 61.
 
 
-LaTeX Warning: Citation 'eichler2017complete' on page 3 undefined on input line 62.
+LaTeX Warning: Citation 'eichler2017complete' on page 3 undefined on input line 61.
 
 
-LaTeX Warning: Citation 'truman2023metamorphosis' on page 3 undefined on input line 62.
+LaTeX Warning: Citation 'truman2023metamorphosis' on page 3 undefined on input line 61.
 
 
-LaTeX Warning: Citation 'carreira2018mdn' on page 3 undefined on input line 62.
+LaTeX Warning: Citation 'carreira2018mdn' on page 3 undefined on input line 61.
 
 
-LaTeX Warning: Citation 'kim2015optogenetics' on page 3 undefined on input line 64.
+LaTeX Warning: Citation 'kim2015optogenetics' on page 3 undefined on input line 63.
 
 
-LaTeX Warning: Citation 'owald2015light' on page 3 undefined on input line 64.
+LaTeX Warning: Citation 'owald2015light' on page 3 undefined on input line 63.
 
 [3]
 
-LaTeX Warning: Citation 'vogelstein2014discovery' on page 4 undefined on input line 66.
+LaTeX Warning: Citation 'vogelstein2014discovery' on page 4 undefined on input line 65.
 
 [4]
 
-LaTeX Warning: Citation 'PfeifferHomberg2014' on page 5 undefined on input line 99.
+LaTeX Warning: Citation 'PfeifferHomberg2014' on page 5 undefined on input line 98.
 
 
-LaTeX Warning: Citation 'turnerevans2016CX' on page 5 undefined on input line 99.
+LaTeX Warning: Citation 'turnerevans2016CX' on page 5 undefined on input line 98.
 
 
-LaTeX Warning: Citation 'heinze2024variations' on page 5 undefined on input line 99.
+LaTeX Warning: Citation 'heinze2024variations' on page 5 undefined on input line 98.
 
 
-LaTeX Warning: Citation 'farnworth2022atlas' on page 5 undefined on input line 110.
+LaTeX Warning: Citation 'farnworth2022atlas' on page 5 undefined on input line 109.
 
 
-LaTeX Warning: Citation 'andrade2019developmentally' on page 5 undefined on input line 110.
+LaTeX Warning: Citation 'andrade2019developmentally' on page 5 undefined on input line 109.
 
 
-LaTeX Warning: Citation 'hanesch1989neuronal' on page 5 undefined on input line 112.
+LaTeX Warning: Citation 'hanesch1989neuronal' on page 5 undefined on input line 111.
 
 
-LaTeX Warning: Citation 'ofstad2011visual' on page 5 undefined on input line 112.
+LaTeX Warning: Citation 'ofstad2011visual' on page 5 undefined on input line 111.
 
 
-LaTeX Warning: Citation 'seelig2013feature' on page 5 undefined on input line 112.
+LaTeX Warning: Citation 'seelig2013feature' on page 5 undefined on input line 111.
 
 
-LaTeX Warning: Citation 'PfeifferHomberg2014' on page 5 undefined on input line 112.
+LaTeX Warning: Citation 'PfeifferHomberg2014' on page 5 undefined on input line 111.
 
 
-LaTeX Warning: Citation 'Stone2017CXModel' on page 5 undefined on input line 112.
+LaTeX Warning: Citation 'Stone2017CXModel' on page 5 undefined on input line 111.
 
 
-LaTeX Warning: Citation 'franconville2018building' on page 5 undefined on input line 112.
+LaTeX Warning: Citation 'franconville2018building' on page 5 undefined on input line 111.
 
 
-LaTeX Warning: Citation 'heinze2018principles' on page 5 undefined on input line 112.
+LaTeX Warning: Citation 'heinze2018principles' on page 5 undefined on input line 111.
 
 
-LaTeX Warning: Citation 'szuperak2018sleep' on page 5 undefined on input line 112.
+LaTeX Warning: Citation 'szuperak2018sleep' on page 5 undefined on input line 111.
 
 
-LaTeX Warning: Citation 'pisokas2020head' on page 5 undefined on input line 112.
+LaTeX Warning: Citation 'pisokas2020head' on page 5 undefined on input line 111.
 
 
-LaTeX Warning: Citation 'ShaferKeene2021sleep' on page 5 undefined on input line 112.
+LaTeX Warning: Citation 'ShaferKeene2021sleep' on page 5 undefined on input line 111.
 
 
-LaTeX Warning: Citation 'fisher2022flexible' on page 5 undefined on input line 112.
+LaTeX Warning: Citation 'fisher2022flexible' on page 5 undefined on input line 111.
 
 
-Overfull \hbox (13.37444pt too wide) in paragraph at lines 112--113
+Overfull \hbox (13.37444pt too wide) in paragraph at lines 111--112
 []\T1/ptm/m/n/12 (-20) , [], [], [],
  []
 
 
-LaTeX Warning: Citation 'hanesch1989neuronal' on page 5 undefined on input line 114.
+LaTeX Warning: Citation 'hanesch1989neuronal' on page 5 undefined on input line 113.
 
 
-LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 5 undefined on input line 114.
+LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 5 undefined on input line 113.
 
 
-LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 5 undefined on input line 114.
+LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 5 undefined on input line 113.
 
 
-LaTeX Warning: Citation 'franconville2018building' on page 5 undefined on input line 114.
+LaTeX Warning: Citation 'franconville2018building' on page 5 undefined on input line 113.
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 5 undefined on input line 114.
+LaTeX Warning: Citation 'hulse2021connectome' on page 5 undefined on input line 113.
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 5 undefined on input line 114.
+LaTeX Warning: Citation 'hulse2021connectome' on page 5 undefined on input line 113.
 
 
-LaTeX Warning: Citation 'pereanu2010neuropildev' on page 5 undefined on input line 114.
+LaTeX Warning: Citation 'pereanu2010neuropildev' on page 5 undefined on input line 113.
 
 
-Overfull \hbox (5.59514pt too wide) in paragraph at lines 114--115
+Overfull \hbox (5.59514pt too wide) in paragraph at lines 113--114
 \T1/ptm/m/n/12 (-20) Fan-shaped Body (FB), the El-lip-soid body (EB) and the Noduli (NO)  [[]]
  []
 
 
-Overfull \hbox (40.48177pt too wide) in paragraph at lines 114--115
+Overfull \hbox (40.48177pt too wide) in paragraph at lines 113--114
 \T1/ptm/m/n/12 (-20) tion to sev-eral smaller ac-ces-sory neu-ropils [[], [],
  []
 
 [5]
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 6 undefined on input line 129.
+LaTeX Warning: Citation 'hulse2021connectome' on page 6 undefined on input line 128.
 
 
-LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 6 undefined on input line 131.
+LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 6 undefined on input line 130.
 
 
-LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 6 undefined on input line 131.
+LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 6 undefined on input line 130.
 
 
-LaTeX Warning: Citation 'andrade2019developmentally' on page 6 undefined on input line 131.
+LaTeX Warning: Citation 'andrade2019developmentally' on page 6 undefined on input line 130.
 
 
-LaTeX Warning: Citation 'heinze2009transformation' on page 6 undefined on input line 133.
+LaTeX Warning: Citation 'heinze2009transformation' on page 6 undefined on input line 132.
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 6 undefined on input line 135.
+LaTeX Warning: Citation 'hulse2021connectome' on page 6 undefined on input line 134.
 
 
-Overfull \hbox (28.81503pt too wide) in paragraph at lines 135--136
+Overfull \hbox (28.81503pt too wide) in paragraph at lines 134--135
 []\T1/ptm/m/n/12 (-20) In ad-di-tion to vi-sual in-put, the adult PB also in-te-grates ol-fac-tory in-puts [[]],
  []
 
 
-LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 6 undefined on input line 139.
+LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 6 undefined on input line 138.
 
 
-LaTeX Warning: Citation 'franconville2018building' on page 6 undefined on input line 140.
+LaTeX Warning: Citation 'franconville2018building' on page 6 undefined on input line 139.
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 6 undefined on input line 140.
+LaTeX Warning: Citation 'hulse2021connectome' on page 6 undefined on input line 139.
 
 [6]
 
-LaTeX Warning: Citation 'Stone2017CXModel' on page 7 undefined on input line 142.
+LaTeX Warning: Citation 'Stone2017CXModel' on page 7 undefined on input line 141.
 
 
-LaTeX Warning: Citation 'seelig2015neural' on page 7 undefined on input line 142.
+LaTeX Warning: Citation 'seelig2015neural' on page 7 undefined on input line 141.
 
 
-LaTeX Warning: Citation 'Stone2017CXModel' on page 7 undefined on input line 145.
+LaTeX Warning: Citation 'Stone2017CXModel' on page 7 undefined on input line 144.
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 7 undefined on input line 149.
+LaTeX Warning: Citation 'hulse2021connectome' on page 7 undefined on input line 148.
 
 
-LaTeX Warning: Citation 'heinze2017unraveling' on page 7 undefined on input line 153.
+LaTeX Warning: Citation 'heinze2017unraveling' on page 7 undefined on input line 152.
 
 
-LaTeX Warning: Reference `lineages' on page 7 undefined on input line 154.
+LaTeX Warning: Reference `lineages' on page 7 undefined on input line 153.
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 7 undefined on input line 156.
+LaTeX Warning: Citation 'hulse2021connectome' on page 7 undefined on input line 155.
 
 
-LaTeX Warning: Citation 'ShaferKeene2021sleep' on page 7 undefined on input line 156.
+LaTeX Warning: Citation 'ShaferKeene2021sleep' on page 7 undefined on input line 155.
 
 
-LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 7 undefined on input line 170.
+LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 7 undefined on input line 169.
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 7 undefined on input line 171.
+LaTeX Warning: Citation 'hulse2021connectome' on page 7 undefined on input line 170.
 
 
-LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 7 undefined on input line 178.
+LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 7 undefined on input line 177.
 
 [7]
 
-LaTeX Warning: Citation 'scheffer2020connectome' on page 8 undefined on input line 181.
+LaTeX Warning: Citation 'scheffer2020connectome' on page 8 undefined on input line 180.
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 8 undefined on input line 181.
+LaTeX Warning: Citation 'hulse2021connectome' on page 8 undefined on input line 180.
 
 
-LaTeX Warning: Citation 'lin2013comprehensive' on page 8 undefined on input line 182.
+LaTeX Warning: Citation 'lin2013comprehensive' on page 8 undefined on input line 181.
 
 
-Overfull \hbox (122.31158pt too wide) in paragraph at lines 181--183
+Overfull \hbox (122.31158pt too wide) in paragraph at lines 180--182
 []\T1/ptm/m/n/12 (-20) A key fea-ture of the the adult FB is strong in-ner-va-tion by MB Out-put Neu-rons (MBONs) [[],
  []
 
 
-LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 8 undefined on input line 188.
+LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 8 undefined on input line 187.
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 8 undefined on input line 188.
+LaTeX Warning: Citation 'hulse2021connectome' on page 8 undefined on input line 187.
 
 
-LaTeX Warning: Citation 'andrade2019developmentally' on page 8 undefined on input line 188.
+LaTeX Warning: Citation 'andrade2019developmentally' on page 8 undefined on input line 187.
 
 
-Overfull \hbox (5.56725pt too wide) in paragraph at lines 188--190
+Overfull \hbox (5.56725pt too wide) in paragraph at lines 187--189
 \T1/ptm/m/n/12 (-20) set them apart from other CX neu-rons [[], []]
  []
 
 
-LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 8 undefined on input line 193.
+LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 8 undefined on input line 192.
+
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 8 undefined on input line 192.
+
+
+LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 8 undefined on input line 193.
 
 
 LaTeX Warning: Citation 'hulse2021connectome' on page 8 undefined on input line 193.
 
 
-LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 8 undefined on input line 194.
+LaTeX Warning: Citation 'kahsai2011neuromodulators' on page 8 undefined on input line 199.
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 8 undefined on input line 194.
+LaTeX Warning: Citation 'kahsai2012distribution' on page 8 undefined on input line 199.
 
 
-LaTeX Warning: Citation 'kahsai2011neuromodulators' on page 8 undefined on input line 200.
+LaTeX Warning: Citation 'donlea2019sleep' on page 8 undefined on input line 199.
 
 
-LaTeX Warning: Citation 'kahsai2012distribution' on page 8 undefined on input line 200.
-
-
-LaTeX Warning: Citation 'donlea2019sleep' on page 8 undefined on input line 200.
-
-
-LaTeX Warning: Citation 'PfeifferHomberg2014' on page 8 undefined on input line 200.
+LaTeX Warning: Citation 'PfeifferHomberg2014' on page 8 undefined on input line 199.
 
 [8]
 
-LaTeX Warning: Citation 'larderet2017opticlobe' on page 9 undefined on input line 202.
+LaTeX Warning: Citation 'larderet2017opticlobe' on page 9 undefined on input line 201.
 
 
-LaTeX Warning: Citation 'eschbach2020recurrent' on page 9 undefined on input line 205.
+LaTeX Warning: Citation 'eschbach2020recurrent' on page 9 undefined on input line 204.
 
 
-Overfull \hbox (33.80943pt too wide) in paragraph at lines 205--206
+Overfull \hbox (33.80943pt too wide) in paragraph at lines 204--205
 []\T1/ptm/m/n/12 (-20) Another oc-topamin-er-gic VUM (a lad-der neu-ron), named MB2IN-191 [[]],
  []
 
 
-LaTeX Warning: Citation 'szuperak2018sleep' on page 9 undefined on input line 207.
+LaTeX Warning: Citation 'szuperak2018sleep' on page 9 undefined on input line 206.
 
 
-LaTeX Warning: Citation 'PfeifferHomberg2014' on page 9 undefined on input line 207.
+LaTeX Warning: Citation 'PfeifferHomberg2014' on page 9 undefined on input line 206.
 
 
-LaTeX Warning: Citation 'ShaferKeene2021sleep' on page 9 undefined on input line 207.
+LaTeX Warning: Citation 'ShaferKeene2021sleep' on page 9 undefined on input line 206.
 
 
-Overfull \hbox (16.72267pt too wide) in paragraph at lines 207--208
+Overfull \hbox (16.72267pt too wide) in paragraph at lines 206--207
 []\T1/ptm/m/n/12 (-20) Given the known role of oc-topamine in con-trol-ling sleep/wake in lar-vae [[]]
  []
 
 
-Overfull \hbox (18.55756pt too wide) in paragraph at lines 207--208
+Overfull \hbox (18.55756pt too wide) in paragraph at lines 206--207
 \T1/ptm/m/n/12 (-20) and the role of the adult CX in mod-u-lat-ing mo-tor ac-tiv-ity lev-els and sleep [[],
  []
 
 
-LaTeX Warning: Citation 'larderet2017opticlobe' on page 9 undefined on input line 209.
+LaTeX Warning: Citation 'larderet2017opticlobe' on page 9 undefined on input line 208.
 
 
-LaTeX Warning: Citation 'berck2016wiring' on page 9 undefined on input line 211.
+LaTeX Warning: Citation 'berck2016wiring' on page 9 undefined on input line 210.
 
 
-LaTeX Warning: Citation 'vogt2021internalstate' on page 9 undefined on input line 211.
+LaTeX Warning: Citation 'vogt2021internalstate' on page 9 undefined on input line 210.
 
 
-LaTeX Warning: Citation 'vogt2021internalstate' on page 9 undefined on input line 213.
+LaTeX Warning: Citation 'vogt2021internalstate' on page 9 undefined on input line 212.
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 9 undefined on input line 216.
+LaTeX Warning: Citation 'hulse2021connectome' on page 9 undefined on input line 215.
 
 
-LaTeX Warning: Citation 'hanesch1989neuronal' on page 9 undefined on input line 222.
+LaTeX Warning: Citation 'hanesch1989neuronal' on page 9 undefined on input line 221.
 
 
-LaTeX Warning: Citation 'ofstad2011visual' on page 9 undefined on input line 222.
+LaTeX Warning: Citation 'ofstad2011visual' on page 9 undefined on input line 221.
 
 
-LaTeX Warning: Citation 'seelig2013feature' on page 9 undefined on input line 222.
+LaTeX Warning: Citation 'seelig2013feature' on page 9 undefined on input line 221.
 
 
-LaTeX Warning: Citation 'PfeifferHomberg2014' on page 9 undefined on input line 222.
+LaTeX Warning: Citation 'PfeifferHomberg2014' on page 9 undefined on input line 221.
 
 
-LaTeX Warning: Citation 'Stone2017CXModel' on page 9 undefined on input line 222.
+LaTeX Warning: Citation 'Stone2017CXModel' on page 9 undefined on input line 221.
 
 
-LaTeX Warning: Citation 'franconville2018building' on page 9 undefined on input line 222.
+LaTeX Warning: Citation 'franconville2018building' on page 9 undefined on input line 221.
 
 
-LaTeX Warning: Citation 'heinze2018principles' on page 9 undefined on input line 222.
+LaTeX Warning: Citation 'heinze2018principles' on page 9 undefined on input line 221.
 
 
-LaTeX Warning: Citation 'szuperak2018sleep' on page 9 undefined on input line 222.
+LaTeX Warning: Citation 'szuperak2018sleep' on page 9 undefined on input line 221.
 
 
-LaTeX Warning: Citation 'pisokas2020head' on page 9 undefined on input line 222.
+LaTeX Warning: Citation 'pisokas2020head' on page 9 undefined on input line 221.
 
 
-LaTeX Warning: Citation 'ShaferKeene2021sleep' on page 9 undefined on input line 222.
+LaTeX Warning: Citation 'ShaferKeene2021sleep' on page 9 undefined on input line 221.
 
 
-LaTeX Warning: Citation 'fisher2022flexible' on page 9 undefined on input line 222.
+LaTeX Warning: Citation 'fisher2022flexible' on page 9 undefined on input line 221.
 
 
-Overfull \hbox (13.37444pt too wide) in paragraph at lines 222--223
+Overfull \hbox (13.37444pt too wide) in paragraph at lines 221--222
 []\T1/ptm/m/n/12 (-20) , [], [], [],
  []
 
 [9]
 
-LaTeX Warning: Citation 'fishilevich2005chemotaxis' on page 10 undefined on input line 224.
+LaTeX Warning: Citation 'fishilevich2005chemotaxis' on page 10 undefined on input line 223.
 
 
-LaTeX Warning: Citation 'khurana2013olfactory' on page 10 undefined on input line 224.
+LaTeX Warning: Citation 'khurana2013olfactory' on page 10 undefined on input line 223.
 
 
-LaTeX Warning: Citation 'Ebrahim2015OR49' on page 10 undefined on input line 224.
+LaTeX Warning: Citation 'Ebrahim2015OR49' on page 10 undefined on input line 223.
 
 
-LaTeX Warning: Citation 'davies2015model' on page 10 undefined on input line 224.
+LaTeX Warning: Citation 'davies2015model' on page 10 undefined on input line 223.
 
 
-LaTeX Warning: Citation 'sawin1995phototaxis' on page 10 undefined on input line 224.
+LaTeX Warning: Citation 'sawin1995phototaxis' on page 10 undefined on input line 223.
 
 
-LaTeX Warning: Citation 'gong2009phototaxis' on page 10 undefined on input line 224.
+LaTeX Warning: Citation 'gong2009phototaxis' on page 10 undefined on input line 223.
 
 
-LaTeX Warning: Citation 'KeeneSprecher2012photobehavior' on page 10 undefined on input line 224.
+LaTeX Warning: Citation 'KeeneSprecher2012photobehavior' on page 10 undefined on input line 223.
 
 
-LaTeX Warning: Citation 'gepner2015computations' on page 10 undefined on input line 225.
+LaTeX Warning: Citation 'gepner2015computations' on page 10 undefined on input line 224.
 
 
-LaTeX Warning: Citation 'poe2023sleepmemory' on page 10 undefined on input line 226.
+LaTeX Warning: Citation 'poe2023sleepmemory' on page 10 undefined on input line 225.
 
 
-LaTeX Warning: Citation 'donlea2011sleep' on page 10 undefined on input line 226.
+LaTeX Warning: Citation 'donlea2011sleep' on page 10 undefined on input line 225.
 
 
-LaTeX Warning: Citation 'donlea2019sleep' on page 10 undefined on input line 226.
+LaTeX Warning: Citation 'donlea2019sleep' on page 10 undefined on input line 225.
 
 
-LaTeX Warning: Citation 'ShaferKeene2021sleep' on page 10 undefined on input line 226.
+LaTeX Warning: Citation 'ShaferKeene2021sleep' on page 10 undefined on input line 225.
 
 
-LaTeX Warning: Citation 'lacin2016lineage' on page 10 undefined on input line 228.
+LaTeX Warning: Citation 'lacin2016lineage' on page 10 undefined on input line 227.
 
 
-LaTeX Warning: Citation 'pereanu2010neuropildev' on page 10 undefined on input line 228.
+LaTeX Warning: Citation 'pereanu2010neuropildev' on page 10 undefined on input line 227.
 
 
-LaTeX Warning: Citation 'berck2016wiring' on page 10 undefined on input line 229.
+LaTeX Warning: Citation 'berck2016wiring' on page 10 undefined on input line 228.
 
 
-LaTeX Warning: Citation 'eichler2017complete' on page 10 undefined on input line 229.
+LaTeX Warning: Citation 'eichler2017complete' on page 10 undefined on input line 228.
 
 
-LaTeX Warning: Citation 'larderet2017opticlobe' on page 10 undefined on input line 229.
+LaTeX Warning: Citation 'larderet2017opticlobe' on page 10 undefined on input line 228.
 
 
-LaTeX Warning: Citation 'winding2023connectome' on page 10 undefined on input line 231.
+LaTeX Warning: Citation 'winding2023connectome' on page 10 undefined on input line 230.
 
 
-LaTeX Warning: Citation 'lacin2016lineage' on page 10 undefined on input line 232.
+LaTeX Warning: Citation 'lacin2016lineage' on page 10 undefined on input line 231.
 
 
-LaTeX Warning: Citation 'truman2023metamorphosis' on page 10 undefined on input line 232.
+LaTeX Warning: Citation 'truman2023metamorphosis' on page 10 undefined on input line 231.
 
 
-LaTeX Warning: Citation 'truman1999origins' on page 10 undefined on input line 233.
+LaTeX Warning: Citation 'truman1999origins' on page 10 undefined on input line 232.
 
 
-LaTeX Warning: Citation 'koniszewski2016TriboliumCX' on page 10 undefined on input line 233.
+LaTeX Warning: Citation 'koniszewski2016TriboliumCX' on page 10 undefined on input line 232.
 
 
-LaTeX Warning: Citation 'farnworth2020TriboliumCXvsFly' on page 10 undefined on input line 233.
+LaTeX Warning: Citation 'farnworth2020TriboliumCXvsFly' on page 10 undefined on input line 232.
 
 
-LaTeX Warning: Citation 'andrade2019developmentally' on page 10 undefined on input line 234.
+LaTeX Warning: Citation 'andrade2019developmentally' on page 10 undefined on input line 233.
 
 
-Overfull \hbox (45.81961pt too wide) in paragraph at lines 228--235
+Overfull \hbox (45.81961pt too wide) in paragraph at lines 227--234
 \T1/ptm/m/n/12 (-20) only $\OMS/ztmcm/m/n/12 ^^X$\T1/ptm/m/n/12 (-20) 30% of the com-plete lar-val brain con-nec-tome by num-ber of neu-rons [[]].
  []
 
 
-LaTeX Warning: Citation 'andrade2019developmentally' on page 10 undefined on input line 239.
+LaTeX Warning: Citation 'andrade2019developmentally' on page 10 undefined on input line 238.
 
 
-LaTeX Warning: Citation 'winding2023connectome' on page 10 undefined on input line 240.
+LaTeX Warning: Citation 'winding2023connectome' on page 10 undefined on input line 239.
 
 
-LaTeX Warning: Citation 'mast2014pheromones' on page 10 undefined on input line 240.
+LaTeX Warning: Citation 'mast2014pheromones' on page 10 undefined on input line 239.
 
 
-LaTeX Warning: Citation 'ohyama2015multilevel' on page 10 undefined on input line 240.
+LaTeX Warning: Citation 'ohyama2015multilevel' on page 10 undefined on input line 239.
 
 
-LaTeX Warning: Citation 'berck2016wiring' on page 10 undefined on input line 240.
+LaTeX Warning: Citation 'berck2016wiring' on page 10 undefined on input line 239.
 
 
-LaTeX Warning: Citation 'schlegel2016synaptic' on page 10 undefined on input line 240.
+LaTeX Warning: Citation 'schlegel2016synaptic' on page 10 undefined on input line 239.
 
 
-LaTeX Warning: Citation 'larderet2017opticlobe' on page 10 undefined on input line 240.
+LaTeX Warning: Citation 'larderet2017opticlobe' on page 10 undefined on input line 239.
 
 
-LaTeX Warning: Citation 'miroschnikow2018convergence' on page 10 undefined on input line 240.
+LaTeX Warning: Citation 'miroschnikow2018convergence' on page 10 undefined on input line 239.
 
 
-LaTeX Warning: Citation 'huckesfeld2021unveiling' on page 10 undefined on input line 240.
+LaTeX Warning: Citation 'huckesfeld2021unveiling' on page 10 undefined on input line 239.
 
 
-LaTeX Warning: Citation 'hernandez2021thermo' on page 10 undefined on input line 240.
+LaTeX Warning: Citation 'hernandez2021thermo' on page 10 undefined on input line 239.
 
 
-Overfull \hbox (82.55428pt too wide) in paragraph at lines 236--242
+Overfull \hbox (82.55428pt too wide) in paragraph at lines 235--241
 []\T1/ptm/m/n/12 (-20) , [], [], [],
  []
 
 [10]
 
-LaTeX Warning: Citation 'andrade2019developmentally' on page 11 undefined on input line 251.
+LaTeX Warning: Citation 'andrade2019developmentally' on page 11 undefined on input line 250.
 
 
-LaTeX Warning: Citation 'berck2016wiring' on page 11 undefined on input line 251.
+LaTeX Warning: Citation 'berck2016wiring' on page 11 undefined on input line 250.
 
 
-LaTeX Warning: Citation 'eichler2017complete' on page 11 undefined on input line 251.
+LaTeX Warning: Citation 'eichler2017complete' on page 11 undefined on input line 250.
 
 
-LaTeX Warning: Citation 'hartenstein2015lineage' on page 11 undefined on input line 251.
+LaTeX Warning: Citation 'hartenstein2015lineage' on page 11 undefined on input line 250.
 
 
-LaTeX Warning: Citation 'truman1999origins' on page 11 undefined on input line 252.
+LaTeX Warning: Citation 'truman1999origins' on page 11 undefined on input line 251.
 
 [11]) [12]
 \openout2 = `Chapter2/chapter2.aux'.
@@ -1825,7 +1825,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  125i,12n,121p,1248b,1285s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (48 pages, 302779 bytes).
+Output written on thesis.pdf (48 pages, 302780 bytes).
 PDF statistics:
  584 PDF objects out of 1000 (max. 8388607)
  509 compressed objects within 6 object streams
