@@ -14,7 +14,7 @@
 \contentsline {subsubsection}{NO}{8}{section*.12}%
 \contentsline {subsubsection}{Neuromodulatory neurons in the CX}{8}{section*.13}%
 \contentsline {subsubsection}{Mushroom Body and the Central Complex}{9}{section*.14}%
-\contentsline {section}{\numberline {1.5}Larval Central Complex as a research opportunity}{10}{section.1.5}%
+\contentsline {section}{\numberline {1.5}Larval Central Complex as a research opportunity}{9}{section.1.5}%
 \contentsline {chapter}{\numberline {2}Methods}{13}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Reconstructing neurons in Electron Microscopy Volumes}{13}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Seymour volume}{13}{subsection.2.1.1}%
@@ -57,5 +57,6 @@
 \contentsline {section}{\numberline {3.9}Neural activity in response to blue light stimulation}{25}{section.3.9}%
 \contentsline {chapter}{\numberline {4}Discussion}{27}{chapter.4}%
 \contentsline {section}{\numberline {4.1}}{27}{section.4.1}%
-\contentsline {chapter}{Appendix \numberline {A}Appendix title example}{29}{appendix.a.A}%
-\contentsline {chapter}{Appendix \numberline {B}example2}{31}{appendix.a.B}%
+\contentsline {chapter}{Appendix \numberline {A}Appendix title example}{29}{appendix.1.A}%
+\contentsline {chapter}{Appendix \numberline {B}example2}{31}{appendix.1.B}%
+\contentsline {chapter}{References}{33}{appendix*.22}%

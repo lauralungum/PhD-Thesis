@@ -1,7 +1,8 @@
 % Please have a look at the README.md file for info on how to use the template
 %\documentclass[a4paper,12pt,times,numbered,print,index]{Classes/PhDThesisPSnPDF}
 
-\documentclass[a4paper,12pt,times,custombib,print,index]{Classes/PhDThesisPSnPDF}
+\documentclass[a4grep -n 'addbibresource' Preamble/preamble.tex
+paper,12pt,times,custombib,print,index]{Classes/PhDThesisPSnPDF}
 
 % ******************************************************************************
 % ******************************* Class Options ********************************
@@ -163,7 +164,6 @@
 \cleardoublepage
 %\bibliography{References/references} % Path to your References.bib file
 
-\printbibliography[heading=bibintoc, title={References}]
 
 % If you would like to use BibLaTeX for your references, pass `custombib' as
 % an option in the document class. The location of 'reference.bib' should be
@@ -175,7 +175,8 @@
 
 %\printbibliography[heading=bibintoc, title={References}]
 %\printbibliography[heading=bibintoc, title={References}]
-
+%\bibliographystyle{plainnat} % or your preferred style
+%\bibliography{references.bib}    % replace 'references' with your .bib filename (without .bib extension)
 
 \end{spacing}
 
@@ -190,5 +191,7 @@
 
 % *************************************** Index ********************************
 \printthesisindex % If index is present
+\printbibliography[heading=bibintoc, title={References}]
+
 
 \end{document}

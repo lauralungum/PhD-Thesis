@@ -81,7 +81,7 @@
       <file>thesis.bcf</file>
     </requires>
     <requires type="editable">
-      <file>References/references.bib</file>
+      <file>/Users/lauralungu/Desktop/Latex/PhD-Thesis/References/references.bib</file>
     </requires>
   </external>
 </requests>

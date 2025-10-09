@@ -1,0 +1,6 @@
+[0] Config.pm:307> INFO - This is Biber 2.19 running in TOOL mode
+[0] Config.pm:310> INFO - Logfile is '/Users/lauralungu/Desktop/Latex/PhD-Thesis/References/references.bib.blg'
+[51] biber-darwin:340> INFO - === Thu Oct  9, 2025, 12:52:29
+[71] Biber.pm:4606> INFO - Looking for bibtex file '/Users/lauralungu/Desktop/Latex/PhD-Thesis/References/references.bib'
+[76] bibtex.pm:1713> INFO - LaTeX decoding ...
+[165] bibtex.pm:1519> INFO - Found BibTeX data source '/Users/lauralungu/Desktop/Latex/PhD-Thesis/References/references.bib'
