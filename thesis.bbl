@@ -1033,6 +1033,47 @@
       \field{pages}{544\bibrangedash 555}
       \range{pages}{12}
     \endentry
+    \entry{farnworth2022atlas}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=215093ab857ff698b564500783091c11}{%
+           family={Farnworth},
+           familyi={F\bibinitperiod},
+           given={Max\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=037789d251a020678d97750b10b3e5f1}{%
+           family={Bucher},
+           familyi={B\bibinitperiod},
+           given={Gregor},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6469e23f6e55008a8f1d6ad677777332}{%
+           family={Hartenstein},
+           familyi={H\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{8e0dca51fb955dfb11efb8a01701d005}
+      \strng{fullhash}{8e0dca51fb955dfb11efb8a01701d005}
+      \strng{fullhashraw}{8e0dca51fb955dfb11efb8a01701d005}
+      \strng{bibnamehash}{8e0dca51fb955dfb11efb8a01701d005}
+      \strng{authorbibnamehash}{8e0dca51fb955dfb11efb8a01701d005}
+      \strng{authornamehash}{8e0dca51fb955dfb11efb8a01701d005}
+      \strng{authorfullhash}{8e0dca51fb955dfb11efb8a01701d005}
+      \strng{authorfullhashraw}{8e0dca51fb955dfb11efb8a01701d005}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Comparative Neurology}
+      \field{number}{13}
+      \field{title}{An atlas of the developing Tribolium castaneum brain reveals conservation in anatomy and divergence in timing to Drosophila melanogaster}
+      \field{volume}{530}
+      \field{year}{2022}
+      \field{pages}{2335\bibrangedash 2371}
+      \range{pages}{37}
+    \endentry
     \entry{farnworth2020TriboliumCXvsFly}{article}{}{}
       \name{author}{3}{}{%
         {{hash=215093ab857ff698b564500783091c11}{%
@@ -5165,6 +5206,67 @@
       \field{year}{2018}
       \field{pages}{2585\bibrangedash 2611}
       \range{pages}{27}
+    \endentry
+    \entry{yang2013diverse}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=9b5c85cdeec90cda23268ac3e5623501}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Jacob\bibnamedelima S},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=6156cd145f9d1616da6f333f37b61e05}{%
+           family={Awasaki},
+           familyi={A\bibinitperiod},
+           given={Takeshi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d96b3b64bdf2657d57a92d8f1956fedc}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Hung-Hsiang},
+           giveni={H\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=9402bae63db1d37db7100fdc1d993d89}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Yisheng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=284b1660e81956ee8b9e73c17795c851}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=bf153d3c318da969eed6d2c8c3ce98b6}{%
+           family={Kao},
+           familyi={K\bibinitperiod},
+           given={Jui-Chun},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=41ffafb4875ce897d265e414d86d07bd}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Tzumin},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{f7a6a5a678a613aaac84a79e2f9a872a}
+      \strng{fullhash}{e2c5f46a7f024383ebe68de0ef785725}
+      \strng{fullhashraw}{e2c5f46a7f024383ebe68de0ef785725}
+      \strng{bibnamehash}{f7a6a5a678a613aaac84a79e2f9a872a}
+      \strng{authorbibnamehash}{f7a6a5a678a613aaac84a79e2f9a872a}
+      \strng{authornamehash}{f7a6a5a678a613aaac84a79e2f9a872a}
+      \strng{authorfullhash}{e2c5f46a7f024383ebe68de0ef785725}
+      \strng{authorfullhashraw}{e2c5f46a7f024383ebe68de0ef785725}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Comparative Neurology}
+      \field{number}{12}
+      \field{title}{Diverse neuronal lineages make stereotyped contributions to the Drosophila locomotor control center, the central complex}
+      \field{volume}{521}
+      \field{year}{2013}
+      \field{pages}{2645\bibrangedash 2662}
+      \range{pages}{18}
     \endentry
     \entry{zhang1996ringattractor}{article}{}{}
       \name{author}{1}{}{%

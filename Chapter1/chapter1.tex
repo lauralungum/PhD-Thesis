@@ -37,9 +37,11 @@ EM is, to this day, the highest-resolution technology for brain mapping, allowin
     \textit{M. musculus} & Visual cortex (VISp + HVAs) & $\sim$100\,M (per mm$^3$) & SBF/MB-EM & MICRONS v3 (\textit{Nature}, 2025) \\
     \bottomrule
     \end{tabular}}
-    \caption{Comparison of major connectomic datasets across species, from \textit{C. elegans} to mouse visual cortex. All values are directly reported in the cited publications; no extrapolated voxel or volume data are included. Abbreviations: ssTEM, serial-section transmission EM; SBF/MB-EM, serial block-face or multi-beam EM.}
+    \caption[Major Connectomic Datasets]{\textbf{Fully-mapped Connectomic Datasets} Comparison of major connectomic datasets across species, from \textit{C. elegans} to mouse visual cortex. All values are directly reported in the cited publications; no extrapolated voxel or volume data are included. Abbreviations: ssTEM, serial-section transmission EM; SBF/MB-EM, serial block-face or multi-beam EM.}
     \label{table-connectomes}
     \end{table}
+
+
 
 
 The female adult vinegar fly \textit{Drosophila Melanogaster} is one of the largest pieces of nervous tissue collected and imaged by EM (i.e., FAFB; \citep{zheng2018complete}). The dataset encompasses 40~teravoxels and 21~million serial section transmission EM images, covering a $995~\times~537~\times~283~\si{\micro\metre}$ volume at $4~\times~4~\times~40~\si{\nano\metre}$ resolution. Complementary to this, a complete EM reconstruction of the \textit{Drosophila} larva central nervous system (\citep{winding2023connectome}) spans the entire brain and ventral nerve cord within a roughly $242~\si{\micro\metre}$ volume, capturing approximately $9{,}700$~neurons at $3.8~\times~3.8~\times~50~\si{\nano\metre}$ resolution. I have contributed to mapping the larval fruit fly, specifically, in unraveling a new area responsible for navigational decisions. This area is known as the Central Complex in the adult, and, as I will go on to show, I postulate that an analogous, numerically smaller Central Complex exits at the larval stage of development. 
@@ -72,7 +74,7 @@ Our ability to genetically manipulate protein expression in individual neurons a
 \label{}
 
 
-\section{Navigation is fundamental across species} 
+\section{Navigation: Fundamental Across Species} 
     %why multisensory integration is a fundamental problem 
     When one wants to inspect connectivity maps to understand universal principles of neural computations, one must start with the fundamentals and ask themselves: what are some aspects of the brain that are universally true across species? 
 
@@ -104,28 +106,131 @@ Our ability to genetically manipulate protein expression in individual neurons a
         This brain region originated more than 400 million years ago and has remained highly conserved across insect species, with 4 comprising neuropils always present:the protocerebral bridge (PB),the ellipsoid body (EB; or central body lower unit/CBL), the fan-shaped body (FB; or central body upper unit), and a pair of noduli (NO). The CX is known for its stereotypical regular neuroarchitecture composed of vertical columns(columnar neurons) and horizontal layers (tangential neurons). Columnar neurons link the PB with the other CX neuropils (EB,FB,NO) forming columnar compartments in each. Tangential cells input horizontally across entire surface of a neuropils, and intersect with culumnar neurons \citep{honkanen2019insect}. 
 
 
-    \subsection{Central Complex of Adult \textit{Drosophila} Adult Central Complex}
+    \subsection{Central Complex of Adult \textit{Drosophila}}
         %% PAPER %%
-        In the fruit fly \textit{Drosophila melanogaster}, the central complex starts forming during late larval and metamorphic stages, by the proliferation of pioneer undifferentiated neurons that remain quiescent until the pupal stage. This is in contrast to other holometabolous insects such as the tribolium~\citep{farnworth2022atlas} whose CX cells begin arborizing during embryogenesis.
+        In the fruit fly \textit{Drosophila melanogaster}, the central complex starts forming during late larval and metamorphic stages, by the proliferation of pioneer undifferentiated neurons that remain quiescent until the pupal stage. This is in contrast to other holometabolous insects such as the tribolium \citep{farnworth2022atlas} whose CX cells begin arborizing during embryogenesis.
 
         In \textit{Drosophila}, the functions of the CX include multi-sensory navigation, path integration, place learning, allocentric orientation of the head relative to its body, sleep regulation, and providing an internal sense of direction in the absence of stimuli, among others \citep{hanesch1989neuronal, ofstad2011visual, seelig2013feature, PfeifferHomberg2014, Stone2017CXModel, franconville2018building, heinze2018principles, szuperak2018sleep, pisokas2020head, ShaferKeene2021sleep, fisher2022flexible}.
 
-        The adult fruit fly CX has four well-studied neuropils: the Protocerebral Bridge~(PB), the Fan-shaped Body~(FB), the Ellipsoid body~(EB) and the Noduli~(NO) ~\citep{hanesch1989neuronal} plus, as of recently, the Asymmetrical Body~(AB) ~\citep{wolff2018neuroarchitecture}, in addition to several smaller accessory neuropils often referred to as the lateral complex: the gall (GA), the lateral accessory lobe (LAL) and the bulbs (BU)  ~\citep{wolff2015neuroarchitecture, franconville2018building, hulse2021connectome}. The adult Lateral Accessory Lobe~(LAL) is a CX-associated neuropil interconnected with all its neuropils \citep{hulse2021connectome} and is often used as a reference point.
+        The adult fruit fly CX has four well-studied neuropils: the Protocerebral Bridge~(PB), the Fan-shaped Body~(FB), the Ellipsoid body~(EB) and the Noduli~(NO) ~\citep{hanesch1989neuronal} plus, as of recently, the Asymmetrical Body~(AB) ~\citep{wolff2018neuroarchitecture}, in addition to several smaller accessory neuropils often referred to as the lateral complex: the gall (GA), the lateral accessory lobe (LAL) - which is interconnected with all other neuropils -  and the bulbs (BU)  ~\citep{wolff2015neuroarchitecture, franconville2018building, hulse2021connectome}. 
         
 
 
         %LINEAGES 
-        The Central Complex neuropils are known to originate from several lineages DM1, DM2,DM3,DM4 and the others \citep{}
-
+        The Central Complex neuropils originate from several DM lineages: DM1, DM2,DM3,DM4 and the others \citep{yang2013diverse,andrade2019developmentally}. %TODO: finish sentence. 
         The DM1–DM4 lineages generate the small-field columnar neurons that innervate all the four major CX neuropils(PB, FB, EB, NO) in highly ordered isomorphic patterns to establish projections across different CX compartments. 
         A few other lineages are more specialised: DM5 is a lineage that exclusively innervates the PB, whilst DL1  exclusively innervates the FB. 
 
+        %%TABLE WITH ADULT LINEAGES%%
+        \begin{table}[ht]
+        \centering
+        \begin{tabular}{l|l}
+            \toprule
+            \textbf{Neuropil} & \textbf{ItoLee name (Hertenstein name)} \\
+            \midrule
+            \multirow{7}{*}{\textbf{Protocerebral Bridge}} 
+                & DM1 (DPMm1) \\
+                & DM2 (DPMpm1) \\
+                & DM3 (DPMpm2) \\
+                & DM4 (CM4) \\
+                & DM5 (CM5) \\
+                & DM6 (CM3) \\
+                & PBp1 (-) \\
+            \midrule
+            \multirow{7}{*}{\textbf{Ellipsoid Body}} 
+                & DM1 (DPMm1) \\
+                & DM2 (DPMpm1) \\
+                & DM3 (DPMpm2) \\
+                & DM4 (CM4) \\
+                & DM6 (CM3) \\
+                & EBa1 (DALv2) \\
+                & LALv1 (BAMv1) \\
+            \midrule
+            \multirow{13}{*}{\textbf{Fan-Shaped Body}} 
+                & DM1 (DPMm1) \\
+                & DM2 (DPMpm1) \\
+                & DM3 (DPMpm2) \\
+                & DM4 (CM4) \\
+                & DM6 (CM3) \\
+                & DL1 (CP2) \\
+                & EBa1 (DALv2) \\
+                & LALv1 (BAMv1) \\
+                & AOTUv4 \\
+                & CREa1 (BAMd1) \\
+                & CREa2 (DALCm1) \\
+                & SMPad2 (DAMd2/3) \\
+                & SIPp1 (DPMpl2) \\
+            \midrule
+            \multirow{7}{*}{\textbf{Noduli}} 
+                & DM1 (DPMm1) \\
+                & DM2 (DPMpm1) \\
+                & DM3 (DPMpm2) \\
+                & DM4 (CM4) \\
+                & LALv1 (BAMv1) \\
+                & DM6 (CM6) \\
+                & SAMPad2 (DAMd2/3) \\
+            \bottomrule
+        \end{tabular}
+        \caption[\textit{Drosophila} Adult Central Complex Lineags]{\textit{Drosophila} Adult Central Complex Lineags. Individual Central Complex neuropil and its contributing lineages in the nomenclature of ItoLee (Hertenstein)}
+        \label{tab:neuron_mapping}
+        \end{table}
 
-        
-        %since the larval brain also has an LAL~\citep{pereanu2010neuropildev}.
-        %The rough connectivity patterns of the central complex neuropils are relatively well known, but what types of navigation require the central complex, whether most central complex neurons are multisensory, or how sensory information from different modalities is organized within the central complex is still not well understood. As stated by Currier et al. in 2020, in-depth studies combining single-cell manipulations of neural activity of gene expression, reconstructed electron microscopy circuits and behavioural assays should be used to better understand the wiring diagram responsible for multisensory interaction in the central complex.
+    
 
-        \subsubsection{PB}
+        %%TABLE WITH ADULT NEURONS
+
+        \begin{table}[ht]
+        \centering
+        \begin{tabular}{l|l}
+        \toprule
+        \textbf{Hulse et al Name} & \textbf{Wolff/Francoville Name} \\
+        \midrule
+        \multicolumn{2}{l}{\textbf{EB}} \\[2pt]
+        \textit{Ring Neurons} & \\
+        ER 1–6 & BU.s EB.b \\
+        \textit{Extrinsic Ring Neurons} & \\
+        ExR1–8 (Extrinsic Ring) & NO/BU/LAL/GA.s EB.b \\
+        \textit{Wedge Neurons} & \\
+        EPGt (EB–PB Columnar) & EB.s PB.b GA-t.b \\
+        EPG (EB–PB Columnar) & EB.s PB.b GA.b \\
+        EL (EB Columnar) & EB.s GAs.s.b \\
+        WL–L & Wedge–LAL.s.b \\
+        \midrule
+        \multicolumn{2}{l}{\textbf{PB}} \\[2pt]
+        PEN (EB–PB Columnar) & PB.s EB.b NO.b \\
+        PEG (EB–PB Columnar) & PB.s EB.b GA.b \\
+        PFN (PB–FB Columnar) & PB.s FB.b NO.b \\
+        PFR (PB–FB Columnar) & PB.s FBd.b ROB.b \\
+        PFG (PB–FB Columnar) & PB.s FB.s.b GA.b \\
+        PFL1–3 (PB–FB Output) & PB.s FB.s LAL.b CRE.b \\
+        Delta 7 (PB Intrinsic) & PB.s.b \\
+        P–ECG & PB.s EB.b GA.b \\
+        P1–9 (Octopaminergic) & PB.s EB.b GA.b \\
+        LPsP (Dopaminergic) & PB.b LAL.s PS.s \\
+        Sps–P & PB.b SPS.s \\
+        IbSpsP & PB.b IB.s.SPS.s \\
+        P6–8P9 (intrinsic) & PB.s.b \\
+        \midrule
+        \multicolumn{2}{l}{\textbf{FB}} \\[2pt]
+        vDelta (Intra–FB Columnar) & FB.s.b \\
+        hDelta (Intra–FB Columnar) & FB.s.b \\
+        FR (FX Columnar) & FB.s ROB.b \\
+        FS (FX Columnar) & FB.s SNP.b \\
+        FC (FX Columnar) & FB.s CRE.b \\
+        FB Tangential (FBt) & FB.s (..) \\
+        \midrule
+        \multicolumn{2}{l}{\textbf{NO}} \\[2pt]
+        LNO–1 (LG–N/GLNO) & LAL.s GA.s NO.b \\
+        LNO–2 (LNA) & LAL.s NO.b \\
+        LNO–3 (LCNOp/LCNOp) & LAL.s CRE.s NO.b \\
+        \bottomrule
+        \end{tabular}
+        \caption[\textit{Drosophila} Adult Central Complex Neurons]{Mapping between Hulse et al and Wolff et al + Francoville nomenclatures.}
+        \label{tab:hulse-wolff-francoville}
+        \end{table}
+
+
+        \subsubsection{Protocerebral Bridge (PB)}
         %%PAPER%%
         In the adult \textit{Drosophila}, the PB comprises two sets of bilaterally symmetric compartments, sometimes referred to as glomeruli 1–9 ~\cite{hulse2021connectome}, positioned at the most posterior-dorsal location possible in the brain.
 
@@ -134,8 +239,7 @@ Our ability to genetically manipulate protein expression in individual neurons a
         In the adult, the PB receives visual input via relay neurons (POL neurons) conveying information on polarized light, in a highly structured pattern across its compartments that binarizes the continuum of angles of polarized light (\citep{heinze2009transformation}). Then the PB relays this information to the EB compartments (Fig. %FIGURETODO )
 
         In addition to visual input, the adult PB also integrates olfactory inputs \citep{hulse2021connectome}, suggesting that spatial navigation is not unimodal but integrative across multiple sensory modalities.
-        \subsubsection{EB}
-        %% PAPER %%
+        \subsubsection{Ellipsoid Body (EB)}
         The adult Ellipsoid Body~(EB) is a ring-shaped structure situated between the Fan-Shaped Body~(FB) and the Mushroom Body horizontal lobes, facing anterodorsally.
         The EB is made of two main types of neurons: Ring-neurons (RNs; derived mainly from the EBAa1/DALv2 and LALv1/BAmv1/2 lineages) that spread their axons across the length of the EB, and reciprocally connected Wedge neurons (EPGs, derived from the DM4 lineage) that divide the EB into 16 compartments (the wedges)~\citep{wolff2015neuroarchitecture}.
         The EPG (Wedge) neurons are excitatory and synapse with each other, as well as reciprocally with the Ring neurons, which are inhibitory \citep{franconville2018building, hulse2021connectome}.
@@ -148,8 +252,7 @@ Our ability to genetically manipulate protein expression in individual neurons a
         In the adult, the EB receives visual inhibitory GABAergic inputs, via two parallel pathways for distinct visual information: 1. Ring neurons that map the visual environment of the fly; 2. tangential neurons that take in information about body rotations and translational velocity. The latter receive input in the LAL and output to the NO.
 
         Mechanosensory input also enters the CX via the second-order projection neurons to the EB. These neurons code head direction; some proprioceptive input has also been observed ~\citep{hulse2021connectome}. It receives strong inputs from PB, NO and the LAL, and outputs onto the PB.
-        \subsubsection{FB}
-        %% PAPER %% 
+        \subsubsection{Fan-Shaped Body (FB)}
         The adult FB is a bilaterally symmetric neuropil posterior and dorsal to the EB, with well-defined horizontal and vertical components: 6 horizontal layers stacked dorso-ventrally that are defined by distinct sets of horizontal neurons (FB tangential neurons); and 9 vertical columns stacked medio-laterally are defined by column-specific columnar neurons.
         Both horizontal and vertical neurons innervate the FB in a layer- and column-restricted manner~\citep{heinze2017unraveling}.
         As the biggest CX neuropils, a large variety of lineages contribute to the FB (see Table \ref{lineages}).
@@ -181,8 +284,7 @@ Our ability to genetically manipulate protein expression in individual neurons a
         % Typical synaptic inputs and outputs
         A key feature of the the adult FB is strong innervation by MB Output Neurons (MBONs)~\citep{scheffer2020connectome, hulse2021connectome}. % many, including hemibrain paper
         In addition, the axons of dopaminergic neurons driven by visual inputs innervate the FB~\citep{lin2013comprehensive}.
-        \subsubsection{NO}
-        %% PAPER 
+        \subsubsection{Noduli (NO)}
         The noduli are small, bilaterally symmetric spherical neuropils located medially and ventrally to the FB. In the adult \textit{Drosophila} brain, each hemilateral neuropil is divided in 3 subunits: nodulus 1, 2 and 3~(NO1, NO2, NO3), with NO1 having the highest synaptic density of the three. There are notable variations across insect species, with the number of noduli ranging from two to four per brain hemisphere.
         While the stacked noduli subunits have been referred to as horizontal layers, no vertical subdivisions have been reported for these structures. Therefore no columnar organization is known.
 
@@ -220,6 +322,7 @@ Our ability to genetically manipulate protein expression in individual neurons a
 
 \section{Larval Central Complex as a research opportunity}
     %% PAPER %%
+     %since the larval brain also has an LAL~\citep{pereanu2010neuropildev}, it is often used as a reference point to find the cx 
     What is special about the holometabolous insects such as \textit{Drosophila} is the extremely arrested brain development during larval stages~\citep{andrade2019developmentally}. This suggests that other larval neurons must take over essential navigational functions performed by the adult central complex, in the form of what we expect to be an earlier stage larval central complex. 
 
     In \textit{Drosophila melanogaster}, the functions of the CX include multi-sensory navigation, path integration, place learning, allocentric orientation of the head relative to its body, sleep regulation, and providing an internal sense of direction in the absence of stimuli, among others \citep{hanesch1989neuronal, ofstad2011visual, seelig2013feature, PfeifferHomberg2014, Stone2017CXModel, franconville2018building, heinze2018principles, szuperak2018sleep, pisokas2020head, ShaferKeene2021sleep, fisher2022flexible}.
