@@ -13,8 +13,8 @@
 \contentsline {subsubsection}{Fan-Shaped Body (FB)}{7}{section*.13}%
 \contentsline {subsubsection}{Noduli (NO)}{8}{section*.14}%
 \contentsline {subsubsection}{Neuromodulatory neurons in the CX}{8}{section*.15}%
-\contentsline {subsubsection}{Mushroom Body and the Central Complex}{9}{section*.16}%
-\contentsline {section}{\numberline {1.5}Larval Central Complex as a research opportunity}{9}{section.1.5}%
+\contentsline {subsubsection}{Mushroom Body and the CX}{9}{section*.16}%
+\contentsline {section}{\numberline {1.5}Larval Central Complex as a research opportunity}{10}{section.1.5}%
 \contentsline {chapter}{\numberline {2}Methods}{15}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Reconstructing neurons in Electron Microscopy Volumes}{15}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Seymour volume}{15}{subsection.2.1.1}%

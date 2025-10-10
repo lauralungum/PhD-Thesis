@@ -1614,6 +1614,7 @@
       \field{title}{Lineage-associated tracts defining the anatomy of the Drosophila first instar larval brain}
       \field{volume}{406}
       \field{year}{2015}
+      \true{nocite}
       \field{pages}{14\bibrangedash 39}
       \range{pages}{26}
     \endentry
@@ -2584,6 +2585,47 @@
       \field{pages}{e13399}
       \range{pages}{-1}
     \endentry
+    \entry{lai2008clonal}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=315715e398e5b58946c8b102ec0376a1}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Sen-Lin},
+           giveni={S\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=6156cd145f9d1616da6f333f37b61e05}{%
+           family={Awasaki},
+           familyi={A\bibinitperiod},
+           given={Takeshi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=961ffd271dddbdf7236fe373b6f92799}{%
+           family={Ito},
+           familyi={I\bibinitperiod},
+           given={Kei},
+           giveni={K\bibinitperiod}}}%
+        {{hash=41ffafb4875ce897d265e414d86d07bd}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Tzumin},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press for The Company of Biologists Limited}%
+      }
+      \strng{namehash}{9c091ceefdfc38c2be4f7d9bdcd75923}
+      \strng{fullhash}{66aeab5387db83dc507f99b89450ee2c}
+      \strng{fullhashraw}{66aeab5387db83dc507f99b89450ee2c}
+      \strng{bibnamehash}{9c091ceefdfc38c2be4f7d9bdcd75923}
+      \strng{authorbibnamehash}{9c091ceefdfc38c2be4f7d9bdcd75923}
+      \strng{authornamehash}{9c091ceefdfc38c2be4f7d9bdcd75923}
+      \strng{authorfullhash}{66aeab5387db83dc507f99b89450ee2c}
+      \strng{authorfullhashraw}{66aeab5387db83dc507f99b89450ee2c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Clonal analysis of Drosophila antennal lobe neurons: diverse neuronal architectures in the lateral neuroblast lineage}
+      \field{year}{2008}
+    \endentry
     \entry{larderet2017opticlobe}{article}{}{}
       \name{author}{10}{}{%
         {{hash=e88fab6add2bc5ca8f4c57306992aa09}{%
@@ -2894,6 +2936,62 @@
       \true{nocite}
       \field{pages}{2114\bibrangedash 2123}
       \range{pages}{10}
+    \endentry
+    \entry{lovick2013postembryonic}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=d5f91c6718385206849ad7c31a4c3e44}{%
+           family={Lovick},
+           familyi={L\bibinitperiod},
+           given={Jennifer\bibnamedelima K},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=c5561945b6e8671d57af1606542d14f4}{%
+           family={Ngo},
+           familyi={N\bibinitperiod},
+           given={Kathy\bibnamedelima T},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=7d73cc51bc8a6aeb58f21a625d78f032}{%
+           family={Omoto},
+           familyi={O\bibinitperiod},
+           given={Jaison\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=aed3f24c463037fe5cf5cd6de9ecdd41}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Darren\bibnamedelima C},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=e3ee78d6e3658ffce575647bb68c10a9}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Joseph\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=6469e23f6e55008a8f1d6ad677777332}{%
+           family={Hartenstein},
+           familyi={H\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{05a8652a2673085b1156bc1df966689d}
+      \strng{fullhash}{00b7a24d9a7ef76ee7568fd448db3cd4}
+      \strng{fullhashraw}{00b7a24d9a7ef76ee7568fd448db3cd4}
+      \strng{bibnamehash}{05a8652a2673085b1156bc1df966689d}
+      \strng{authorbibnamehash}{05a8652a2673085b1156bc1df966689d}
+      \strng{authornamehash}{05a8652a2673085b1156bc1df966689d}
+      \strng{authorfullhash}{00b7a24d9a7ef76ee7568fd448db3cd4}
+      \strng{authorfullhashraw}{00b7a24d9a7ef76ee7568fd448db3cd4}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Developmental Biology}
+      \field{number}{2}
+      \field{title}{Postembryonic lineages of the Drosophila brain: I. Development of the lineage-associated fiber tracts}
+      \field{volume}{384}
+      \field{year}{2013}
+      \field{pages}{228\bibrangedash 257}
+      \range{pages}{30}
     \endentry
     \entry{mast2014pheromones}{article}{}{}
       \name{author}{5}{}{%
