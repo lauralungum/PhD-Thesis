@@ -2528,24 +2528,28 @@
     <bcf:citekey order="98" intorder="1">Ohyama2013PlosONE</bcf:citekey>
     <bcf:citekey order="99" intorder="1">eckstein2024neurotransmitter</bcf:citekey>
     <bcf:citekey order="100" intorder="1">eckstein2024neurotransmitter</bcf:citekey>
-    <bcf:citekey order="101" intorder="1">truman2023metamorphosis</bcf:citekey>
-    <bcf:citekey order="102" intorder="1">winding2023connectome</bcf:citekey>
-    <bcf:citekey order="103" intorder="1">hulse2021connectome</bcf:citekey>
-    <bcf:citekey order="104" intorder="1">eschbach2021</bcf:citekey>
-    <bcf:citekey order="105" intorder="1">EsbachFushiki2021</bcf:citekey>
-    <bcf:citekey order="106" intorder="1">wolff2015neuroarchitecture; wolff2018; hulse2021connectome</bcf:citekey>
-    <bcf:citekey order="107" intorder="1">omoto2018neuronal</bcf:citekey>
-    <bcf:citekey order="108" intorder="1">hulse2021connectome</bcf:citekey>
-    <bcf:citekey order="109" intorder="1">heinze2017unraveling</bcf:citekey>
-    <bcf:citekey order="110" intorder="1">MISSING</bcf:citekey>
-    <bcf:citekey order="111" intorder="1">lin2013comprehensive</bcf:citekey>
-    <bcf:citekey order="112" intorder="1">wolff2018neuroarchitecture</bcf:citekey>
-    <bcf:citekey order="113" intorder="1">hulse2021connectome</bcf:citekey>
-    <bcf:citekey order="114" intorder="1">andrade2019developmentally</bcf:citekey>
-    <bcf:citekey order="115" intorder="1">wolff2015neuroarchitecture</bcf:citekey>
-    <bcf:citekey order="115" intorder="2">hulse2021connectome</bcf:citekey>
-    <bcf:citekey order="116" intorder="1">wolff2018neuroarchitecture</bcf:citekey>
-    <bcf:citekey order="116" intorder="2">hulse2021connectome</bcf:citekey>
+    <bcf:citekey order="101" intorder="1">eschbach2021circuits</bcf:citekey>
+    <bcf:citekey order="102" intorder="1">hulse2021connectome</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">truman2023metamorphosis</bcf:citekey>
+    <bcf:citekey order="104" intorder="1">winding2023connectome</bcf:citekey>
+    <bcf:citekey order="105" intorder="1">hulse2021connectome</bcf:citekey>
+    <bcf:citekey order="106" intorder="1">eschbach2021</bcf:citekey>
+    <bcf:citekey order="107" intorder="1">EsbachFushiki2021</bcf:citekey>
+    <bcf:citekey order="108" intorder="1">wolff2015neuroarchitecture</bcf:citekey>
+    <bcf:citekey order="108" intorder="2">wolff2018neuroarchitecture</bcf:citekey>
+    <bcf:citekey order="108" intorder="3">hulse2021connectome</bcf:citekey>
+    <bcf:citekey order="109" intorder="1">omoto2018neuronal</bcf:citekey>
+    <bcf:citekey order="110" intorder="1">hulse2021connectome</bcf:citekey>
+    <bcf:citekey order="111" intorder="1">heinze2017unraveling</bcf:citekey>
+    <bcf:citekey order="112" intorder="1">MISSING</bcf:citekey>
+    <bcf:citekey order="113" intorder="1">lin2013comprehensive</bcf:citekey>
+    <bcf:citekey order="114" intorder="1">wolff2018neuroarchitecture</bcf:citekey>
+    <bcf:citekey order="115" intorder="1">hulse2021connectome</bcf:citekey>
+    <bcf:citekey order="116" intorder="1">andrade2019developmentally</bcf:citekey>
+    <bcf:citekey order="117" intorder="1">wolff2015neuroarchitecture</bcf:citekey>
+    <bcf:citekey order="117" intorder="2">hulse2021connectome</bcf:citekey>
+    <bcf:citekey order="118" intorder="1">wolff2018neuroarchitecture</bcf:citekey>
+    <bcf:citekey order="118" intorder="2">hulse2021connectome</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

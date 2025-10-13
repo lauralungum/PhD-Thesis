@@ -1,6 +1,6 @@
 \thispagestyle {empty}
-\contentsline {chapter}{List of figures}{xiii}{chapter*.6}%
-\contentsline {chapter}{List of tables}{xv}{chapter*.7}%
+\contentsline {chapter}{List of figures}{xv}{chapter*.6}%
+\contentsline {chapter}{List of tables}{xvii}{chapter*.7}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Mapping brains - The Power of Connectomics}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}The advantage of the \textit {Drosophila} larva brain}{3}{section.1.2}%
@@ -45,17 +45,17 @@
 \contentsline {subsection}{\numberline {3.2.1}Protocerebral Bridge}{22}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Ellipsoid Body}{24}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Fan-Shaped Body}{25}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Noduli}{26}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.4}Noduli}{27}{subsection.3.2.4}%
 \contentsline {section}{\numberline {3.3}Visual input into the Larval Central Complex}{28}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Mushroom Body and the Central Complex}{28}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Descending Neurons from CX}{28}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Neurotransmitter Identity of Central Complex Neurons}{28}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}DANs Confocal Images}{28}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}GABA and Acetylcholine}{28}{subsection.3.6.2}%
-\contentsline {section}{\numberline {3.7}Genetic lines for CX neurons}{28}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Behavioural Assays - Loss of Function Analysis during light stimulation}{28}{section.3.8}%
-\contentsline {section}{\numberline {3.9}Neural activity in response to blue light stimulation}{28}{section.3.9}%
-\contentsline {chapter}{\numberline {4}Discussion}{29}{chapter.4}%
-\contentsline {section}{\numberline {4.1}}{29}{section.4.1}%
-\contentsline {chapter}{Appendix \numberline {A}Appendix title example}{31}{appendix.1.A}%
-\contentsline {chapter}{Appendix \numberline {B}example2}{33}{appendix.1.B}%
+\contentsline {section}{\numberline {3.6}Neurotransmitter Identity of Central Complex Neurons}{29}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}DANs Confocal Images}{29}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}GABA and Acetylcholine}{29}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.7}Genetic lines for CX neurons}{29}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Behavioural Assays - Loss of Function Analysis during light stimulation}{29}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Neural activity in response to blue light stimulation}{29}{section.3.9}%
+\contentsline {chapter}{\numberline {4}Discussion}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}}{31}{section.4.1}%
+\contentsline {chapter}{Appendix \numberline {A}Appendix title example}{33}{appendix.1.A}%
+\contentsline {chapter}{Appendix \numberline {B}example2}{35}{appendix.1.B}%
