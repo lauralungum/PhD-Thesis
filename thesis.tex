@@ -1,8 +1,12 @@
 % Please have a look at the README.md file for info on how to use the template
 %\documentclass[a4paper,12pt,times,numbered,print,index]{Classes/PhDThesisPSnPDF}
 
-\documentclass[a4grep -n 'addbibresource' Preamble/preamble.tex
-paper,12pt,times,custombib,print,index]{Classes/PhDThesisPSnPDF}
+%documentclass[a4grep -n 'addbibresource' Preamble/preamble.tex
+%paper,12pt,times,custombib,print,index]{Classes/PhDThesisPSnPDF}
+
+%\documentclass[a4paper,12pt,times,custombib,print,index]{Classes/PhDThesisPSnPDF}
+
+\documentclass[a4paper,12pt,times,custombib,print,index]{Classes/PhDThesisPSnPDF}
 
 % ******************************************************************************
 % ******************************* Class Options ********************************
@@ -81,7 +85,7 @@ paper,12pt,times,custombib,print,index]{Classes/PhDThesisPSnPDF}
 
 % ********************************** Preamble **********************************
 % Preamble: Contains packages and user-defined commands and settings
-\input{Preamble/preamble}
+\input{Preamble/preamble.tex}
 
 % ************************ Thesis Information & Meta-data **********************
 % Thesis title and author information, refernce file for biblatex
@@ -143,8 +147,8 @@ paper,12pt,times,custombib,print,index]{Classes/PhDThesisPSnPDF}
 %\include{Chapter7/chapter7}
 
 % Example citation to ensure at least one citation is present
-\cite{exampleReference}
-\nocite{*}
+%\cite{exampleReference}
+
 
 
 % ********************************** Back Matter *******************************
@@ -176,7 +180,6 @@ paper,12pt,times,custombib,print,index]{Classes/PhDThesisPSnPDF}
 %\printbibliography[heading=bibintoc, title={References}]
 %\printbibliography[heading=bibintoc, title={References}]
 %\bibliographystyle{plainnat} % or your preferred style
-%\bibliography{references.bib}    % replace 'references' with your .bib filename (without .bib extension)
 
 \end{spacing}
 
@@ -190,6 +193,7 @@ paper,12pt,times,custombib,print,index]{Classes/PhDThesisPSnPDF}
 \end{appendices}
 
 % *************************************** Index ********************************
+
 \printthesisindex % If index is present
 \printbibliography[heading=bibintoc, title={References}]
 

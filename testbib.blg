@@ -1,0 +1,9 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'testbib.blg'
+[79] biber-darwin:342> INFO - === Mon Oct 13, 2025, 21:54:19
+[91] Biber.pm:421> INFO - Reading 'testbib.bcf'
+[144] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[170] Biber.pm:4487> INFO - Processing section 0
+[177] Biber.pm:4678> INFO - Looking for bibtex file 'References/references.bib' for section 0
+[180] bibtex.pm:1713> INFO - LaTeX decoding ...
+[291] bibtex.pm:1519> INFO - Found BibTeX data source 'References/references.bib'
