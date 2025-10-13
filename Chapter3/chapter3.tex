@@ -4,27 +4,120 @@
 %*******************************************************************************
 \chapter{Results}
 
-\section{Strategy for ientifying central complex neuropils in the larval brain}
+\section{Identification of Central Complex Neuropils}%{Strategy for identifying central complex neuropils in the larval brain}
 
-\section{Lineages of the Central Complex}
-    Summary of which neurons do we expect to find in each lineage.which neurons match the pattern of being a cx neuron, and which lineage do they belong to and see if they match the adult. 
-    %ask Yijie fafb lineage for cx neurons
+I used an iterative strategy in finding a putative larval central complex neurons. For this, I pattern matched individual cells based on adult CX neurons lineages, morphology, relative location and connectivity. %describe the steps of the process at a bit more length 
+
+
+%LINEAGES
+We expected to find neurons originating from DM1, DM2, DM3, DM4, DM5 and DM6 hemilineages as these are core lineages contributing to all neuropils(Table \ref{adultlineages}), with the second priority being neuropil specific lineages(e.g. EBa1(DALv2) for the EB see \ref{adultlineages}). 12 of the 15 lineages found to contribute CX neurons in the adult also exist in the larva. Of these, we found that 9 of them contribute neurons to the larval central complex (Table \ref{lineagemap}). We used these 9 lineages therefore as a starting point to find our putative CX neuropils in the larva.
+    \begin{table}
+    \centering
+    \begin{tabular}{|c|c|}
+    \hline
+    Adult lineage & Larval lineage \\
+    \hline
+    DM1 & DPMm1 \\
+    DM2 & DPMpm1 \\
+    DM3 & DPMpm2 \\
+    DM4 & CM4 \\
+    DM5/DM6 & CM1/3 \\
+    DL1 & CP23 \\
+    EBa1 & DALv2 \\
+    LALv1 & BAMv1 \\
+    CREa1 & BAmd1 \\
+    CREa2 & DALCm12 \\
+    SMPad2 & DAMd2/3 \\
+    SIPp1 & DPMpl12 \\
+    \bottomrule
+    \end{tabular}
+    \caption[Lineges of the Adult CX that also contribute neurons to the Larval CX]{\textbf{Lineges of the Adult CX that also contribute neurons to the Larval CX} Adult CX lineages are listed in the first column, and their corresponding larval lineages in the second.}
+    \label{lineagemap}
+    \end{table}
+
+In addition to the lineages that contribute to the adult CX, there were several other lineages that sent neurons that satisfied other criteria (connectivity patterns and inputs our outputs) and were therefore classified as central complex neurons. These lineages are found in (Table )
+
+    \begin{table}
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+    \toprule
+    Larval lineages & PB.b & PB.d & FB.b & FB.d & EB.b & EB.d & NO.b & NO.d & Total \\
+    \midrule
+    & PB.b & PB.d & FB.b & FB.d & EB.b & EB.d & NO.b & NO.d & Total \\
+    BAla12 &  &  &  & 2 & 2 &  &  &  & 4 \\
+    BAla34 &  &  & 4 &  &  &  &  & 9 & 13 \\
+    BAlp\_ant &  & 2 &  &  & 2 &  &  & 1 & 5 \\
+    bamd1 &  &  &  &  &  & 1 &  & 2 & 3 \\
+    bamd2\_d &  &  & 1 &  &  &  &  &  & 1 \\
+    bamd2\_v &  &  & 3 &  &  &  &  & 4 & 7 \\
+    bamv12\_dor & 1 &  &  & 1 &  &  & 2 & 5 & 9 \\
+    BAmv12\_dor & 1 &  &  & 1 &  &  & 2 & 5 & 9 \\
+    Bamv12\_ven & 1 &  &  & 1 & 2 & 2 &  & 1 & 7 \\
+    BLAd-OL & 2 &  &  &  &  &  &  &  & 2 \\
+    BLAl &  &  &  & 2 &  &  &  &  & 2 \\
+    BLAV12\_ant &  &  &  & 2 &  &  &  &  & 2 \\
+    BLP12 &  &  &  &  &  & 2 &  &  & 2 \\
+    BLVp2 &  & 2 &  &  &  &  &  &  & 2 \\
+    CM13\_lat &  & 2 &  &  & 4 & 2 &  &  & 8 \\
+    CM13\_med &  &  &  &  & 2 & 2 &  &  & 4 \\
+    CM4-vm &  &  &  & 2 &  &  &  & 4 & 6 \\
+    CPa &  &  & 1 &  &  &  &  &  & 1 \\
+    CPb &  &  &  &  & 8 & 4 &  &  & 12 \\
+    CPe &  &  &  & 2 &  &  &  & 4 & 6 \\
+    Dalcl12 &  &  &  &  & 16 & 22 &  &  & 38 \\
+    Dalcm12-m &  &  &  &  &  & 4 &  & 2 & 6 \\
+    DALcm12-v &  & 2 &  & 2 &  &  & 4 & 1 & 9 \\
+    dall1 &  & 2 & 4 &  &  &  &  &  & 6 \\
+    Dalv1 & 8 &  &  & 6 &  &  &  &  & 14 \\
+    Dalv23 &  &  &  &  & 14 &  &  & 4 & 18 \\
+    dplal1-3 &  &  & 2 &  & 3 &  &  &  & 5 \\
+    dplc\_post\_med &  & 4 &  & 2 &  &  & 4 &  & 10 \\
+    DPLc5 &  & 6 & 1 & 2 &  &  & 3 &  & 12 \\
+    DPMl\_ant & 3 & 2 &  &  &  &  &  & 3 & 8 \\
+    DPMl12 &  & 3 &  & 2 &  &  & 2 &  & 7 \\
+    DPMl34\_post &  &  &  & 1 &  &  & 1 &  & 2 \\
+    DPMm1 & 4 &  & 14 & 2 &  &  & 4 &  & 24 \\
+    DPMm2 &  & 3 &  & 2 &  & 2 &  &  & 7 \\
+    DPMpl12 &  & 5 & 2 & 2 &  &  &  &  & 9 \\
+    dpmpl3 &  &  &  &  &  &  &  & 1 & 1 \\
+    DPMpm1 &  &  & 4 & 2 &  & 4 &  &  & 10 \\
+    DPMpm2 &  &  &  &  &  & 2 & 2 &  & 4 \\
+    Total & 20 & 33 & 36 & 36 & 53 & 47 & 24 & 46 & 295 \\
+    \bottomrule
+    \end{tabular}
+    \caption[Central Complex Larval Lineages]{\textbf{Central Complex Larval Lineages.} Larval CX lineages are listed in the first column. If a lineage also contributes to the adult CX, the corresponding adult nomenclature \citep{eckstein2024neurotransmitter} is shown in the second column. Columns 3--6 indicate the number of neurons from each lineage that contribute axons (“.b” for boutons) or dendrites (“.d”) to individual neuropils: PB, FB, EB and NO.}
+    \label{larvallineages}
+    \end{table}
+
+%CONNECTIVITY
+We were interested in the connectivity patterns of specific neurons that are expected to belong to the central complex. Specifically where a neuron recieves synaptic input (location of the dendrites) and sends output processes (location of thier axons).
+
+%Sensory - visual input 
+The central complex is known for its strong visual inputs, therefore in the larva we were interested in neurons downstream of photoreceptors. We thus investigated cells immediately connected to visual projection neurons (vPNs). Several of these neurons have been calalogued as Protocerebral Bridge neurons or Noduli neurons. 
+
+
+
+
+
+visual projection neurons (1st order neurons from photoreceptors)
+we found several neurons 
+
+
+
+
+
+- morphology/relative location
+- connectivity 
+    - sensory input into larval Neurons
+    - connectivity with MB and LAL 
+
+    
+
 
 \section{The Central Complex Adult vs Larva}
- 
+
     \subsection{Protocerebral Bridge}
-    In the adult \textit{Drosophila}, the PB comprises two sets of bilaterally symmetric compartments, sometimes referred to as glomeruli 1–9 ~\cite{hulse2021connectome}, positioned at the most posterior-dorsal location possible in the brain.
-
-    These compartments are arranged in a continuous manner medio-laterally, contacting at the midline.
-    In the adult, about 600 neurons innervate the PB, organised into hundreds of types (194; \citep{wolff2015neuroarchitecture}) that are split into two main general groups: the columnar neurons (from lineages DM1, DM2, DM3, DM4 and DM6) whose dendrites innervate one or more of the 9 + 9 compartments of the PB~\citep{wolff2015neuroarchitecture}; and the horizontal neurons (also known as horizontal fibers) derived from a single lineage (PBp1; \citep{andrade2019developmentally}) whose axons innervate many or all PB compartments.
-
-    In the adult, the PB receives visual input via relay neurons (POL neurons) conveying information on polarized light, in a highly structured pattern across its compartments that binarizes the continuum of angles of polarized light (\citep{heinze2009transformation}). Then the PB relays this information to the EB compartments.
-    % (Table \ref{inputsoutputs});
-
-    In addition to visual input, the adult PB also integrates olfactory inputs \citep{hulse2021connectome}, suggesting that spatial navigation is not unimodal but integrative across multiple sensory modalities.
-
     In searching for the larval PB, we expected two sets of neurons: columnar and horizontal. In larva, four central complex lineages contribute columnar neurons, a subset of which position their dendrites at a posterior-dorsal location. We could not find a central complex lineage that would contribute horizontal fibers at a posterior-dorsal location necessary to intersect and synapse onto the dendrites of the PB columnar neurons, but we found a larval lineage (DALv1) whose axons are bilateral and project to the appropriate area, and is developmentally related to another central complex lineage (DALv23). This suggests that neurons from non-central complex lineages may be recruited temporarily during the larval period, in a pattern reported so far for the mushroom body (see Discussion; \citep{truman2023metamorphosis}). 
-
 
     Among neurons of the DALv1 lineagel, 4 left-right pairs (named HF-PB for "Horizontal Fiber PB") project their axons bilaterally and across the dendrites of the columnar neurons.
     3 of the 4 pairs present an unusual axon configuration: first, they project contralaterally to drop their first output synapses, with the axon then crossing the midline a second time to return back to the same ipsilaterally corresponding location to again drop presynaptic sites .
@@ -168,8 +261,10 @@
     %TO DO: can we see the kind of specific recurrent activity
 
 \section{Visual input into the Larval Central Complex}
-        - 4 graphs showing connectivity between 
-\section*{Mushroom Body and the Central Complex}
+        - 4 graphs showing connectivity between
+        
+    
+\section{Mushroom Body and the Central Complex}
 Vertical lobe is used by the NO and MB and LAL.
 
 mb2on-c1 has no results(when it comes to aversion), but massively related to EB so it might 
@@ -181,7 +276,7 @@ m2on-p1 noduli itself gets input from(..)
  ipsilateral control via these only mbons and mbins that are ipsilateral as opposed to bilateral. 
 
 
-\section*{Descending Neurons from CX}
+\section{Descending Neurons from CX}
         %catmaid annotation: 
             129 neurons descending to VNC
             93 neurons descending to SEZ
@@ -194,13 +289,12 @@ m2on-p1 noduli itself gets input from(..)
 \section{Neurotransmitter Identity of Central Complex Neurons}
     \subsection{DANs Confocal Images}
     \subsection{GABA and Acetylcholine}
-   
+
 
 \section{Genetic lines for CX neurons}
-\section{Optogenetic Activation Screens} - this is for appendix
 \section{Behavioural Assays - Loss of Function Analysis during light stimulation}
 \section{Neural activity in response to blue light stimulation}
 
-
+%\section{Optogenetic Activation Screens} - this is for appendix
 
 

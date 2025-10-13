@@ -13,8 +13,9 @@ axo-dendritc etc. with the Export tool.
 
 8. FB.d figure
 9. NO.d figure
-10. eDANs figure: two figures, on anatomy and connectivity, and on
-immunohistochemistry
+10. eDANs figure: 
+    - two figures, on anatomy and connectivity
+    
 11. More cartoons explaining little vignettes of circuit motifs across
 the board, like for eDANs, and for whatever else can help relate to the
 PEN, PFN, etc names of neurons in Hulse et al.
@@ -29,3 +30,5 @@ Done
 14. Table with side by side neurons - TODO make an effort to collect main cell types from the adult and
 assign them to larval ones, by the collection of neuropils they synapse
 to/from.
+10. DANs immunohistochemitry 
+15. Lightsheet data 

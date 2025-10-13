@@ -9,11 +9,11 @@
 \contentsline {subsection}{\numberline {1.4.1}Central Complex across insects}{5}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}Central Complex of Adult \textit {Drosophila}}{5}{subsection.1.4.2}%
 \contentsline {subsubsection}{Protocerebral Bridge (PB)}{6}{section*.11}%
-\contentsline {subsubsection}{Ellipsoid Body (EB)}{6}{section*.12}%
+\contentsline {subsubsection}{Ellipsoid Body (EB)}{7}{section*.12}%
 \contentsline {subsubsection}{Fan-Shaped Body (FB)}{7}{section*.13}%
 \contentsline {subsubsection}{Noduli (NO)}{8}{section*.14}%
-\contentsline {subsubsection}{Neuromodulatory neurons in the CX}{8}{section*.15}%
-\contentsline {subsubsection}{Mushroom Body and the CX}{9}{section*.16}%
+\contentsline {subsubsection}{Neuromodulatory neurons in the CX}{9}{section*.15}%
+\contentsline {subsubsection}{Mushroom Body and the CX}{10}{section*.16}%
 \contentsline {section}{\numberline {1.5}Larval Central Complex as a research opportunity}{10}{section.1.5}%
 \contentsline {chapter}{\numberline {2}Methods}{15}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Reconstructing neurons in Electron Microscopy Volumes}{15}{section.2.1}%
@@ -40,23 +40,22 @@
 \contentsline {subsection}{\numberline {2.5.3}Behavioural Quantification}{19}{subsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.5.4}Behavioural Data Analysis}{20}{subsection.2.5.4}%
 \contentsline {chapter}{\numberline {3}Results}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Strategy for ientifying central complex neuropils in the larval brain}{21}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Lineages of the Central Complex}{21}{section.3.2}%
-\contentsline {section}{\numberline {3.3}The Central Complex Adult vs Larva}{21}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Protocerebral Bridge}{21}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Ellipsoid Body}{23}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Fan-Shaped Body}{24}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Noduli}{25}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Visual input into the Larval Central Complex}{26}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Neurotransmitter Identity of Central Complex Neurons}{27}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}DANs Confocal Images}{27}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}GABA and Acetylcholine}{27}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}Genetic lines for CX neurons}{27}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Optogenetic Activation Screens}{27}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Behavioural Assays - Loss of Function Analysis during light stimulation}{27}{section.3.8}%
-\contentsline {section}{\numberline {3.9}Neural activity in response to blue light stimulation}{27}{section.3.9}%
+\contentsline {section}{\numberline {3.1}Identification of Central Complex Neuropils}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.2}The Central Complex Adult vs Larva}{22}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Protocerebral Bridge}{22}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Ellipsoid Body}{24}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Fan-Shaped Body}{25}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Noduli}{26}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Visual input into the Larval Central Complex}{28}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Mushroom Body and the Central Complex}{28}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Descending Neurons from CX}{28}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Neurotransmitter Identity of Central Complex Neurons}{28}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}DANs Confocal Images}{28}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}GABA and Acetylcholine}{28}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.7}Genetic lines for CX neurons}{28}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Behavioural Assays - Loss of Function Analysis during light stimulation}{28}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Neural activity in response to blue light stimulation}{28}{section.3.9}%
 \contentsline {chapter}{\numberline {4}Discussion}{29}{chapter.4}%
 \contentsline {section}{\numberline {4.1}}{29}{section.4.1}%
 \contentsline {chapter}{Appendix \numberline {A}Appendix title example}{31}{appendix.1.A}%
 \contentsline {chapter}{Appendix \numberline {B}example2}{33}{appendix.1.B}%
-\contentsline {chapter}{References}{35}{appendix*.24}%
