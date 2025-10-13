@@ -1,6 +1,6 @@
 \thispagestyle {empty}
-\contentsline {chapter}{List of figures}{xv}{chapter*.6}%
-\contentsline {chapter}{List of tables}{xvii}{chapter*.7}%
+\contentsline {chapter}{List of figures}{xiii}{chapter*.6}%
+\contentsline {chapter}{List of tables}{xv}{chapter*.7}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Mapping brains - The Power of Connectomics}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}The advantage of the \textit {Drosophila} larva brain}{3}{section.1.2}%
