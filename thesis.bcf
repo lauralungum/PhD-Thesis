@@ -2550,6 +2550,16 @@
     <bcf:citekey order="117" intorder="2">hulse2021connectome</bcf:citekey>
     <bcf:citekey order="118" intorder="1">wolff2018neuroarchitecture</bcf:citekey>
     <bcf:citekey order="118" intorder="2">hulse2021connectome</bcf:citekey>
+    <bcf:citekey order="119" intorder="1">pimentel2016sleep</bcf:citekey>
+    <bcf:citekey order="120" intorder="1">eichler2017complete</bcf:citekey>
+    <bcf:citekey order="121" intorder="1">selcho2009thgal4</bcf:citekey>
+    <bcf:citekey order="122" intorder="1">selcho2009thgal4</bcf:citekey>
+    <bcf:citekey order="123" intorder="1">winding2023connectome</bcf:citekey>
+    <bcf:citekey order="124" intorder="1">miroschnikow2018convergence</bcf:citekey>
+    <bcf:citekey order="125" intorder="1">eschbach2021circuits</bcf:citekey>
+    <bcf:citekey order="126" intorder="1">selcho2009thgal4</bcf:citekey>
+    <bcf:citekey order="127" intorder="1">selcho2009thgal4</bcf:citekey>
+    <bcf:citekey order="128" intorder="1">selcho2009thgal4</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

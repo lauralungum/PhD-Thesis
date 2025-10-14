@@ -3,12 +3,14 @@
 %****************************** Third Chapter **********************************
 %*******************************************************************************
 \chapter{Results}
+\textit{Parts of this section incorporate text from published work [The central complex of the larval fruit fly brain] (Lungu et al., 2025)}
 
 \section{Identification of Central Complex Neuropils}%{Strategy for identifying central complex neuropils in the larval brain}
 I used an iterative strategy in finding a putative larval central complex neurons. For this, I pattern matched individual cells based on adult CX neurons lineages, morphology, relative location and connectivity. %describe the steps of the process at a bit more length 
 
 
-%LINEAGES
+\subsection{Lineages and Connectivity} 
+%Lineages
 We expected to find neurons originating from DM1, DM2, DM3, DM4, DM5 and DM6 hemilineages as these are core lineages contributing to all neuropils(Table \ref{adultlineages}), with the second priority being neuropil specific lineages(e.g. EBa1(DALv2) for the EB see \ref{adultlineages}). 12 of the 15 lineages found to contribute CX neurons in the adult also exist in the larva. Of these, we found that 9 of them contribute neurons to the larval central complex (Table \ref{lineagemap}). We therefore used these 9 lineages as a starting point to find our putative CX neuropils in the larva.
 In addition to the lineages that contribute to the adult CX, there were several other lineages that sent neurons that satisfied other criteria (connectivity patterns and inputs our outputs) and were therefore classified as central complex neurons. These lineages are found in (Table \ref{larvallineages}).
 
@@ -140,16 +142,20 @@ Columnar and horizontal neurons have stereotyped connectivity patterns between t
     \end{figure}
 
 
-
 %- morphology/relative location
 %- connectivity 
 %    - sensory input into larval Neurons
- %   - connectivity with MB and LAL 
+%   - connectivity with MB and LAL 
 
     
 
-
 \section{The Central Complex Adult vs Larva}
+    \begin{figure}
+        \centering
+        \includegraphics[width=12cm]{/Users/lauralungu/Desktop/Latex/PhD-Thesis/Figs/CX/cxdiagram.pdf}
+        \caption[Central Complex Anatomy Larva vs Adult]{Central Complex Anatomy Larva vs Adult}
+        \label{cxdiagram}
+    \end{figure}
 
     \subsection{Protocerebral Bridge}
     \label{PB}
@@ -183,8 +189,6 @@ Columnar and horizontal neurons have stereotyped connectivity patterns between t
     and another subset project directly to the larval Ellipsoid Body (EB;%TODOfig).
     We did not find in the larva columnar neurons whose axons would project to more than one Central Complex neuropil, despite such types being common in the adult \citep{wolff2015neuroarchitecture, wolff2018neuroarchitecture, hulse2021connectome}.
     Beyond the canonical columnar neurons projecting to other Central Complex neuropils, we found some whose axons descend to the SEZ or nerve cord~(%TODOFig).
-
-
 
     % TODO Discussion point: this is different than in the adult. 
 
@@ -324,14 +328,50 @@ m2on-p1 noduli itself gets input from(..)
             layer 2 annotated as: 'cx descending l2' (71 neurons of 569) 12.4\%
 
 
-\section{Neurotransmitter Identity of Central Complex Neurons}
-    \subsection{DANs Confocal Images}
-    \subsection{GABA and Acetylcholine}
+\section{Dopaminergic neurons (DANs) of the larval central complex}
+    
+    \begin{figure}
+        \centering
+        \includegraphics[width=17cm]{Figs/CX/DANs.pdf}
+        \caption{Confocal Images of Immunostained Dopaminergic neurons of the Larval Central Complex}
+        \label{DANs}
+    \end{figure}
+
+Dopaminergic release outside the MB in the adult fly is known to trigger sleep via dorsal FB (dFB) neurons~\citep{pimentel2016sleep}, among other potential roles, depending upon the dopamine receptors expressed in the postsynaptic neurons and the circuits the neurons are part of.
+
+The larval MB houses 7 pairs of DANs \citep{eichler2017complete}, with several more DANs scattered across the brain \citep{selcho2009thgal4}. By flp-out of the TH-GAL4 expression pattern that encompasses all DANs \citep{selcho2009thgal4} followed by immunohistochemistry, we isolated individual neurons from the TH-GAL4 expression patteern and compared their morphology with EM-reconstructed brain neurons \citep{winding2023connectome}. We identified with reasonable certainty the following 5 eDAN types (eDAN for \textit{external} DAN, i.e., not a MB DAN), comprising 6 neuron pairs.
+
+\textbf{eDAN-1}: from the larval lineage DPMpm2, this neuron presents an ipsilateral dendrite in the posterior-dorsal brain, and a bilateral axon exactly overlapping with HF-PB dendrites. eDAN-1 integrates inputs from PB.d neurons like CN-54 (which mediates multi-sensory input integration and relays them to HF-PB, modulated by MB output; see above) but also from multiple sensory PNs such as for temperature (Suckerfish PN, Thermo PN 3 and Thermo PN 5), olfaction (mPN A3), and for unknown sensory modalities (Suckerfish PN 2, from unknown sensory MN-Sens-B2-ACp-21 and -22; \citep{miroschnikow2018convergence}), and also from PB.b neurons like MB2ON-63. The axon of eDAN-1 synapses onto multiple PB.d neurons (MB2ON-187, CN-15, CN-54, ADC1, FB-LAL1, and SP2-1) and weakly onto HF-PB neurons.
+
+\textbf{eDAN-2}: from the larval lineage CM4-dm, this DAN presents a small, compact ipsilateral dendrite and a contralateral axon on the corresponding contralateral hemisphere right at the posterior end of the FB. eDAN-2 integrates inputs from FB neurons (strongly from FB.d.6, hs-FB.3, hs-FB.1, and weakly from many more). Its axon synapses onto MB2IN-195 (which is presynaptic to EB Wedge neurons), multiple FB neurons (hs-FB.3, hs-FB.1, FB.d.7 (FFN-6)), and weakly onto MB2IN-191 (the octopaminergic VUM of the CX).
+
+\textbf{eDAN-3}: also known as MB2IN-139 \citep{eschbach2021circuits}, this neuron is from the larval lineage DPMpl12. Its dendrite is ipsilateral, sitting lateral to the FB but also extending into the LAL. The eDAN-3 axon targets a region dorsal to the LAL, housing the dendrites of  many EB.d neurons onto which it synapses, such as MB2IN-114, EB-DN1, MB2ON-17, EB wedge neurons (only W1), and many more neurons such as convergence neurons (CN-30, CN-37, CN-38, CN-41, CN-42, CN-43), MB2ON-256, and a peculiar FB.d.1 neuron (Bushy).
+
+\textbf{eDAN-4}: this type consists of two nearly identical neurons that share most inputs but differ only slightly in their outputs, since their axons are juxtaposed but tiled medio-laterally. From the larval lineage DPMpl12, they present an ipsilateral dendrite in the posterior ventral brain and a contralateral axon in the posterior intermediate brain, beyond the limits of the FB proper. Both integrate inputs from numerous EB.d neurons like MB2IN-124, but only eDAN-4l (lateral axon) receives synapse from hs-FB.3. The axons of both eDAN-4 synapse onto some NO.d neurons like MB2ON-248 (whose dendrite has a domain in the NO and another outside where it meets the axon of both eDAN-4) and of other unidentified neurons (lasso-top 3, DALcm12-v descending), but only eDAN-4l synapses onto convergence neurons (CN-9, CN-26), and only eDAN-4m synapses onto hs-FB.5 and hs-FB.7.
+
+\textbf{eDAN-5}: from the DPMpm1 larval lineage, this neuron's dendrite lays posterior to the LAL and projects its axon inside the lateral LAL. The dendrite integrates inputs from EB.d neurons, MB2IN-195, MB2ON-67, and sVUM2mx. The axon targets weakly but axo-dendritically an EB Ring neuron (RN1/2), and more strongly other neurons (MB2ON-67, MB2ON-78, MB2ON-68).
+
+According to \citep{selcho2009thgal4} there are further non-MB DANs yet to be identified in the larval brain connectome. Note an effort was made to relate the eDANs we could identify to non-MB DAN names in \citep{selcho2009thgal4} but the resolution mismatch was too great to bridge, except for eDAN-1 which is most likely named "DM3" in \citep{selcho2009thgal4}.
 
 
-\section{Genetic lines for CX neurons}
+
 \section{Behavioural Assays - Loss of Function Analysis during light stimulation}
+    \begin{figure}
+        \centering
+        \includegraphics[width=12cm]{Figs/CX/BehaviourAssays_paper.pdf}
+        \caption[Loss of Function Analysis during Light Stimulation]{Loss of Function Analysis during Light Stimulation}
+        \label{fig:label}
+    \end{figure}
+
 \section{Neural activity in response to blue light stimulation}
+    \begin{figure}
+        \centering
+        \includegraphics[width=12cm]{Figs/CX/RH5stimulation.pdf}
+        \caption[Neural Activity of the Larval Brain in response to Photoreceptors Rh5 Stimulation]{Neural Activity of the Larval Brain in response to Photoreceptors Rh5 Stimulation}
+        \label{RH5stimulation}
+    \end{figure}
+
+
 
 %\section{Optogenetic Activation Screens} - this is for appendix
 

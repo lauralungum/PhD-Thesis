@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.13)  14 OCT 2025 02:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.13)  14 OCT 2025 03:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1008,13 +1008,13 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 \PHD@crest=\box69
-<Figs/University_Crest.pdf, id=249, 59.22125pt x 69.25874pt>
+<Figs/University_Crest.pdf, id=241, 59.22125pt x 69.25874pt>
 File: Figs/University_Crest.pdf Graphic file (type pdf)
 <use Figs/University_Crest.pdf>
 Package pdftex.def Info: Figs/University_Crest.pdf  used on input line 119.
 (pdftex.def)             Requested size: 87.49088pt x 102.32376pt.
 \PHD@collegecrest=\box70
-<Figs/CollegeShields/LucyCav_Crest.png, id=250, 803.0pt x 1005.7575pt>
+<Figs/CollegeShields/LucyCav_Crest.png, id=242, 803.0pt x 1005.7575pt>
 File: Figs/CollegeShields/LucyCav_Crest.png Graphic file (type png)
 <use Figs/CollegeShields/LucyCav_Crest.png>
 Package pdftex.def Info: Figs/CollegeShields/LucyCav_Crest.png  used on input line 119.
@@ -1093,27 +1093,23 @@ Package pdftex.def Info: Figs/CollegeShields/LucyCav_Crest.png  used on input li
 
 [11
 
-]
-
-[12])
+])
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
 
 
-[13]
-
-[14
-
-] (./thesis.lof)
+[12] (./thesis.lof)
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
 
 
-[15]
+[13
 
-[16
+]
+
+[14
 
 ] (./thesis.lot)
 \tf@lot=\write9
@@ -1123,9 +1119,9 @@ Package pdftex.def Info: Figs/CollegeShields/LucyCav_Crest.png  used on input li
 No file thesis.nls.
 
 
-[17]
+[15]
 
-[18
+[16
 
 ]
 \openout2 = `Chapter1/chapter1.aux'.
@@ -1766,16 +1762,16 @@ LaTeX Warning: Citation 'Ohyama2013PlosONE' on page 19 undefined on input line 1
  (./Chapter3/chapter3.tex
 Chapter 3.
 
-LaTeX Warning: Citation 'eckstein2024neurotransmitter' on page 21 undefined on input line 89.
+LaTeX Warning: Citation 'eckstein2024neurotransmitter' on page 21 undefined on input line 91.
 
 
-LaTeX Warning: Citation 'eckstein2024neurotransmitter' on page 21 undefined on input line 89.
+LaTeX Warning: Citation 'eckstein2024neurotransmitter' on page 21 undefined on input line 91.
 
 
-LaTeX Warning: Float too large for page by 69.84964pt on input line 91.
+LaTeX Warning: Float too large for page by 69.84964pt on input line 93.
 
 
-Overfull \hbox (28.25497pt too wide) in paragraph at lines 104--120
+Overfull \hbox (28.25497pt too wide) in paragraph at lines 106--122
  [][] 
  []
 
@@ -1783,10 +1779,10 @@ Overfull \hbox (28.25497pt too wide) in paragraph at lines 104--120
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Citation 'eschbach2021circuits' on page 21 undefined on input line 129.
+LaTeX Warning: Citation 'eschbach2021circuits' on page 21 undefined on input line 131.
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 21 undefined on input line 129.
+LaTeX Warning: Citation 'hulse2021connectome' on page 21 undefined on input line 131.
 
 
 
@@ -1796,15 +1792,16 @@ LaTeX Warning: Citation 'hulse2021connectome' on page 21 undefined on input line
 
 
 ]
-<Figs/CX/CX_Nomenclature_Neurons.pdf, id=521, 1374.13374pt x 1042.89626pt>
+<Figs/CX/CX_Nomenclature_Neurons.pdf, id=511, 1374.13374pt x 1042.89626pt>
 File: Figs/CX/CX_Nomenclature_Neurons.pdf Graphic file (type pdf)
 <use Figs/CX/CX_Nomenclature_Neurons.pdf>
-Package pdftex.def Info: Figs/CX/CX_Nomenclature_Neurons.pdf  used on input line 137.
+Package pdftex.def Info: Figs/CX/CX_Nomenclature_Neurons.pdf  used on input line 139.
 (pdftex.def)             Requested size: 341.43306pt x 259.11618pt.
-
-
-LaTeX Warning: Citation 'truman2023metamorphosis' on page 22 undefined on input line 156.
-
+</Users/lauralungu/Desktop/Latex/PhD-Thesis/Figs/CX/cxdiagram.pdf, id=512, 1820.8025pt x 1366.10374pt>
+File: /Users/lauralungu/Desktop/Latex/PhD-Thesis/Figs/CX/cxdiagram.pdf Graphic file (type pdf)
+<use /Users/lauralungu/Desktop/Latex/PhD-Thesis/Figs/CX/cxdiagram.pdf>
+Package pdftex.def Info: /Users/lauralungu/Desktop/Latex/PhD-Thesis/Figs/CX/cxdiagram.pdf  used on input line 155.
+(pdftex.def)             Requested size: 341.43306pt x 256.16467pt.
 
 
 [22]
@@ -1813,109 +1810,180 @@ LaTeX Warning: Citation 'truman2023metamorphosis' on page 22 undefined on input 
 
 [24 <./Figs/CX/CX_Nomenclature_Neurons.pdf>]
 
-LaTeX Warning: Citation 'winding2023connectome' on page 25 undefined on input line 160.
+LaTeX Warning: Citation 'truman2023metamorphosis' on page 25 undefined on input line 162.
 
 
-LaTeX Warning: Reference `FigureX' on page 25 undefined on input line 161.
+LaTeX Warning: Citation 'winding2023connectome' on page 25 undefined on input line 166.
 
 
-LaTeX Warning: Reference `FigureX' on page 25 undefined on input line 165.
-
-
-LaTeX Warning: Citation 'hulse2021connectome' on page 25 undefined on input line 168.
-
-
-LaTeX Warning: Citation 'eschbach2021' on page 25 undefined on input line 168.
-
-
-LaTeX Warning: Citation 'EsbachFushiki2021' on page 25 undefined on input line 168.
-
-
-Overfull \hbox (13.92043pt too wide) in paragraph at lines 168--169
-\T1/ptm/m/n/12 (-20) ing polysy-nap-tic in-puts from vi-sion and ol-fac-tion, like in the adult PB ([[]]).
- []
+LaTeX Warning: Reference `FigureX' on page 25 undefined on input line 167.
 
 
 
 [25]
 
-LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 26 undefined on input line 184.
+LaTeX Warning: Reference `FigureX' on page 26 undefined on input line 171.
 
 
-LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 26 undefined on input line 184.
+LaTeX Warning: Citation 'hulse2021connectome' on page 26 undefined on input line 174.
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 26 undefined on input line 184.
+LaTeX Warning: Citation 'eschbach2021' on page 26 undefined on input line 174.
 
 
-LaTeX Warning: Citation 'omoto2018neuronal' on page 26 undefined on input line 197.
+LaTeX Warning: Citation 'EsbachFushiki2021' on page 26 undefined on input line 174.
+
+
+Overfull \hbox (13.92043pt too wide) in paragraph at lines 174--175
+\T1/ptm/m/n/12 (-20) ing polysy-nap-tic in-puts from vi-sion and ol-fac-tion, like in the adult PB ([[]]).
+ []
+
+
+LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 26 undefined on input line 190.
+
+
+LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 26 undefined on input line 190.
+
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 26 undefined on input line 190.
 
 
 
-[26]
+[26 </Users/lauralungu/Desktop/Latex/PhD-Thesis/Figs/CX/cxdiagram.pdf>]
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 27 undefined on input line 207.
+LaTeX Warning: Citation 'omoto2018neuronal' on page 27 undefined on input line 201.
 
 
-LaTeX Warning: Citation 'heinze2017unraveling' on page 27 undefined on input line 220.
+LaTeX Warning: Citation 'hulse2021connectome' on page 27 undefined on input line 211.
 
 
 
 [27]
 
-LaTeX Warning: Citation 'MISSING' on page 28 undefined on input line 234.
+LaTeX Warning: Citation 'heinze2017unraveling' on page 28 undefined on input line 224.
 
 
-LaTeX Warning: Citation 'lin2013comprehensive' on page 28 undefined on input line 235.
+LaTeX Warning: Citation 'MISSING' on page 28 undefined on input line 238.
 
 
-LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 28 undefined on input line 254.
-
-
-LaTeX Warning: Citation 'hulse2021connectome' on page 28 undefined on input line 254.
-
-
-LaTeX Warning: Citation 'andrade2019developmentally' on page 28 undefined on input line 254.
-
-
-Overfull \hbox (10.3153pt too wide) in paragraph at lines 254--256
-\T1/ptm/m/n/12 (-20) set them apart from other CX neu-rons [[]] [[]]
- []
+LaTeX Warning: Citation 'lin2013comprehensive' on page 28 undefined on input line 239.
 
 
 
 [28]
 
-LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 29 undefined on input line 261.
+LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 29 undefined on input line 258.
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 29 undefined on input line 261.
+LaTeX Warning: Citation 'hulse2021connectome' on page 29 undefined on input line 258.
 
 
-LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 29 undefined on input line 261.
+LaTeX Warning: Citation 'andrade2019developmentally' on page 29 undefined on input line 258.
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 29 undefined on input line 261.
+Overfull \hbox (10.3153pt too wide) in paragraph at lines 258--260
+\T1/ptm/m/n/12 (-20) set them apart from other CX neu-rons [[]] [[]]
+ []
+
+
+LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 29 undefined on input line 265.
+
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 29 undefined on input line 265.
+
+
+LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 29 undefined on input line 265.
+
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 29 undefined on input line 265.
 
 
 
-[29])
+[29]
+<Figs/CX/DANs.pdf, id=630, 1958.31625pt x 2066.72125pt>
+File: Figs/CX/DANs.pdf Graphic file (type pdf)
+<use Figs/CX/DANs.pdf>
+Package pdftex.def Info: Figs/CX/DANs.pdf  used on input line 335.
+(pdftex.def)             Requested size: 483.69684pt x 510.46654pt.
+
+Overfull \hbox (46.23572pt too wide) in paragraph at lines 335--336
+ [][] 
+ []
+
+
 
 [30]
+
+LaTeX Warning: Citation 'pimentel2016sleep' on page 31 undefined on input line 340.
+
+
+LaTeX Warning: Citation 'eichler2017complete' on page 31 undefined on input line 342.
+
+
+LaTeX Warning: Citation 'selcho2009thgal4' on page 31 undefined on input line 342.
+
+
+LaTeX Warning: Citation 'selcho2009thgal4' on page 31 undefined on input line 342.
+
+
+LaTeX Warning: Citation 'winding2023connectome' on page 31 undefined on input line 342.
+
+
+LaTeX Warning: Citation 'miroschnikow2018convergence' on page 31 undefined on input line 344.
+
+
+LaTeX Warning: Citation 'eschbach2021circuits' on page 31 undefined on input line 348.
+
+
+
+[31]
+
+[32 <./Figs/CX/DANs.pdf>]
+
+LaTeX Warning: Citation 'selcho2009thgal4' on page 33 undefined on input line 354.
+
+
+LaTeX Warning: Citation 'selcho2009thgal4' on page 33 undefined on input line 354.
+
+
+LaTeX Warning: Citation 'selcho2009thgal4' on page 33 undefined on input line 354.
+
+<Figs/CX/BehaviourAssays_paper.pdf, id=818, 1357.07pt x 579.16376pt>
+File: Figs/CX/BehaviourAssays_paper.pdf Graphic file (type pdf)
+<use Figs/CX/BehaviourAssays_paper.pdf>
+Package pdftex.def Info: Figs/CX/BehaviourAssays_paper.pdf  used on input line 361.
+(pdftex.def)             Requested size: 341.43306pt x 145.70966pt.
+<Figs/CX/RH5stimulation.pdf, id=819, 918.43124pt x 2351.78625pt>
+File: Figs/CX/RH5stimulation.pdf Graphic file (type pdf)
+<use Figs/CX/RH5stimulation.pdf>
+Package pdftex.def Info: Figs/CX/RH5stimulation.pdf  used on input line 369.
+(pdftex.def)             Requested size: 341.43306pt x 874.31001pt.
+
+LaTeX Warning: Float too large for page by 265.02487pt on input line 372.
+
+)
+
+[33]
+
+[34 <./Figs/CX/BehaviourAssays_paper.pdf>]
+
+[35 <./Figs/CX/RH5stimulation.pdf>]
 \openout2 = `Chapter4/chapter4.aux'.
 
  (./Chapter4/chapter4.tex
-Chapter 4.
-)
 
-[31
+[36
 
 
 
 
 ]
+Chapter 4.
+)
 
-[32
+[37]
+
+[38
 
 
 
@@ -1926,7 +1994,7 @@ Chapter 4.
 Appendix A.
 )
 
-[33
+[39
 
 
 ]
@@ -1934,7 +2002,7 @@ Appendix A.
 
  (./Appendix2/appendix2.tex
 
-[34
+[40
 
 
 
@@ -1943,9 +2011,9 @@ Appendix A.
 Appendix B.
 )
 
-[35]
+[41]
 
-[36
+[42
 
 
 
@@ -1963,7 +2031,7 @@ L3 programming layer <2025-09-02>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 80DC7847DE566C0B3F4A5412E1763EC7;12975.
+(rerunfilecheck)             Checksum: A30F398BC153B9B3F49853EBAD03771B;12598.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                thesis
@@ -1974,18 +2042,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30430 strings out of 467748
- 587072 string characters out of 5426964
- 1535440 words of memory out of 5000000
- 58134 multiletter control sequences out of 15000+600000
- 720373 words of font info for 373 fonts, out of 8000000 for 9000
+ 30468 strings out of 467748
+ 588428 string characters out of 5426964
+ 1536898 words of memory out of 5000000
+ 58164 multiletter control sequences out of 15000+600000
+ 720535 words of font info for 374 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,12n,121p,1255b,1763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (54 pages, 1545603 bytes).
+Output written on thesis.pdf (58 pages, 70334821 bytes).
 PDF statistics:
- 724 PDF objects out of 1000 (max. 8388607)
- 605 compressed objects within 7 object streams
- 132 named destinations out of 1000 (max. 500000)
- 104952 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 1361 PDF objects out of 1440 (max. 8388607)
+ 890 compressed objects within 9 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 104956 words of extra memory for PDF output out of 106986 (max. 10000000)
 
