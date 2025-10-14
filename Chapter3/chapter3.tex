@@ -5,7 +5,8 @@
 \chapter{Results}
 \textit{Parts of this section incorporate text from published work [The central complex of the larval fruit fly brain] (Lungu et al., 2025)}
 
-\section{Identification of Central Complex Neuropils}%{Strategy for identifying central complex neuropils in the larval brain}
+\section{Strategy for identifying CX neuropils in the larval brain}
+
 I used an iterative strategy in finding putative larval central complex neurons. For this, I pattern matched individual cells based on adult CX neurons lineages, morphology, relative location and connectivity. %describe the steps of the process at a bit more length 
 
 We adopted a search strategy guided by circuit features of the adult brain CX neuropils.
@@ -354,30 +355,93 @@ As such, neurons that are both .b and .d for CX neuropils are the CX Core neuron
 
     %TO DO: can we see the kind of specific recurrent activity
 
-\section{Visual input into the Larval Central Complex}
 
-        - 4 graphs showing connectivity between
-        
-\section{ }    
+
 \section{Mushroom Body and the Central Complex}
+    In the adult \textbf{Drosophila}, the Mushroom Body is known to output onto the Central Complex neuropils through the MB Output Neurons (MBONs). At this stage, adult MBONs primarily target the Fan-shaped Body - tangential neurons from the middle layers (4-6) - and the Noduli - via a direct glutamatergic connection from MBON-30 to LCNOp(LAL–NO) neurons which then target the PFN (PB-FB-NO) neurons \citep{hulse2021connectome}.Here, we examine the synaptic relationships between mushroom body input (DANs, MBINs, OANs) and output (MBONs) neurons and the larval central complex neuropils. 
+        
+    \begin{figure}
+        \centering
+        \includegraphics[width=17cm]{Figs/CX/MBtoCX.pdf}
+        \caption[Mushroom Body Connections to the Larval CX]{Mushroom Body Connections to the Larval CX}
+        \label{MBtoCX}
+    \end{figure}
+
+    \subsubsection{A loop between FB and the 'c' compartment of the MB}
+    % MBON-c1 -> MB2ON-125 (FB.b) -> FFN-6 (FB.d) -> DAN-c1  
+    We found that MBON-c1 synapses onto one FB.b neuron, MB2ON-125.
+    Interestingly, DAN-c1 integrates inputs from an FB.d neuron, FFN-6, which in turn integrates inputs from a few neurons that are directly postsynaptic to MB2ON-125, defining a loop between the MB 'c' compartment and the FB.
+    No other MBON supplies direct or two-hop inputs onto the FB.
+
+    % EB to MB
+    \subsubsection{Reciprocal connectivity between EB ring neurons and the 'g' compartment of the MB}
+    % axo-axonic then axo-dendritic:
+    % MBON-g1/g2 (EB.b) -> RN1/2 FBN-20 -> DAN-g1 (EB.d)
+    Four MBONs (a2, b3, g1 and g2) are EB.b (i.e., deliver synapses to the EB; Fig. \ref{fig:mbtocx}). Interestingly, some of these MBONs are monosynaptically interrelated, namely MBON-g1 and -g2 (which promote approach) are GABAergic neurons that synapse onto MBON-a2 (which promote avoidance) \citep{eschbach2021circuits}.
+    Furthermore, MBON-g1 and -g2 synapse axo-axonically onto an EB ring neuron, RN1/2 (also known as FBN-20; \citep{eschbach2021circuits}), a core GABAergic neuron of the EB, which in addition to synapting axo-axonically recyprocally onto EB wedge neurons also synapses onto an EB.d neuron, DAN-g1.
+    Therefore, the output of the MB 'g' compartment (MBON-g1 and -g2) modulate, with GABA, the axon of an EB ring neuron (RN1/2), which in turn synapses onto the dendrites of the teaching neuron of the MB 'g' compartment (DAN-g1).
+    This circuit configuration defines a close relationship between an associative learning compartment (MB 'g') and the EB.
+
+    Assuming the larval ring neurons RN1/2 are also GABAergic, as they are in the adult \citep{hanesch1989neuronal}, the MB 'g' compartment is providing disinhibitory input onto the EB, by means of MBON-g1/g2 inhibiting its ring neurons.
+    This disinhibition could be understood as a learning-based gating mechanism over EB wedge neurons, with features of input space expressed in the Kenyon cell population code, by coincident activity with DAN-g1, modulating the activity of the EB wedge neurons that the ring neurons also synapse onto.
+    Taken together, this implies that, if the larval EB is functionally similar to that of the adult EB, there is a component of learning built-in into the internal representation of the direction of movement.
+
+    \subsubsection{A loop between the NO and the MB vertical lobe via the LAL}
+    % All are axo-dendritic synapses:
+    % MBON-p1 (NO.b) -> FBN-24/25/27 (NO.d) -> MBIN-l1
+
+    MBON-p1 is a multi-compartment MBON of the MB vertical lobe that is an NO.b, (i.e., it delivers output synapses to the NO).
+    At the NO, MBON-p1 synapses onto several NO.d neurons, FBN-24, FBN-25, and FBN-27, which are MB feedback neurons \citep{eschbach2020recurrent} that all project to the LAL and synapse strongly onto MBIN-l1, a MB input neuron targeting multiple compartments of the vertical lobe.
+    This circuit configuration defines a strong tight loop between the MB vertical lobe and the NO via the LAL.
+
+    Note that the dendrites of MBIN-l1 are entirely contained within the LAL compartment.
+    In addition, these three feedback neurons also synapse weakly onto DAN-d1.
 
 
-%Vertical lobe is used by the NO and MB and LAL.
-%mb2on-c1 has no results(when it comes to aversion), but massively related to EB so it might 
-%mb2in-l1 according to eschback all the compartments of vertical love are for aversive behaviour.only mnbin that is not bilateral.  
-%m2on-p1 noduli itself gets input from(..) 
-% (extended data figure 6a - complete connectome of learning memory centre) 
-% ipsilateral control via these only mbons and mbins that are ipsilateral as opposed to bilateral. 
+    \subsubsection{The MB modulates inputs to the PB}
+    % MBON-d1 -> MB2ON-63 (PB.b) -> multiple PB.d (some are NO.b like MB2ON-241)
+    % CN-53, CN-54, MB2ON-175 all synapse onto DALv1 neurons
+
+    % VISUAL input to the PB and the EB
+    Multiple sensory modalities converge onto the horizontal fibers of the PB (DALv1 neurons) via MB convergence neurons (CN-53, CN-54) and a neuron postsynaptic to MBONs (MB2ON-175).
+    These CNs were previously described as integrating the output of both the lateral horn (LH), which conveys innate pathways, and the mushroom body (MB), for associative memory \citep{eschbach2021circuits}.
+    Synapses from CN-53, CN-54 and MB2ON-175 onto PB horizontal fiber neurons (DALv1) follow an intriguing pattern of synapting onto either the dendrite or the axon, but largely not both, with specific target choices among the 4 DALv1 neurons.
+    In considering that 3 of the 4 DALv1 neurons (PB horizontal fibers) present an unusual bilateral axon that first deploys output synapses contralaterally and then ipsilaterally (Fig. \ref{fig:dalv1neurons}A), the observed pattern of selective axo-dendritic and axo-axonic connections has implications for the modulation of the output of the unusual axons of DALv1 neurons.
 
 
-\section{Descending Neurons from CX}
-        %catmaid annotation: 
-            129 neurons descending to VNC
-            93 neurons descending to SEZ
-            216 total descending
-            layer 1 annotated as: 'cx descending l1' (56 neurons) 25.6\%
-            569 second order descending
-            layer 2 annotated as: 'cx descending l2' (71 neurons of 569) 12.4\%
+    In summary, from the perspective of the PB, we find the following circuit architecture: the multi-sensory convergence onto the PB horizontal fibers is directly modulated by the MB, precisely because the neurons that mediate the multi-sensory convergence are themselves CNs (i.e., integrate also MBON synapses in addition to LH inputs): the CN-53 and CN-54. %Both of these neurons are also Lateral Horn (LH) neurons.
+    Note CN-54 is in addition a PB.d neuron, integrating inputs from PB horizontal fibers (DALv1 neurons).
+
+    Upstream, among various MBONs, MBON-c1 is the most strongly connected to both CN-53 and CN-54, which also integrate inputs from MBON-b1 and MBON-b2. All three are MBONs of the MB peduncle; MBON-c1 has no known function, while MBON-b1 and MBON-b2 promote approach \citep{eschbach2021circuits}.
+
+    Of note, the axon of MBON-c1 receives direct presumably inhibitory (GABAergic) inputs from MBON-g1, MBON-g2, and MBON-d1, with all three MBONs participating of circuit loops with other central complex neuropils.
+
+    Additionally, neurons directly postsynaptic to MBONs, such as MB2ON-175, in turn directly synapse onto the horizontal fibers of the PB, either axo-axonically or axo-dendritically, in a pattern selective of specific DALv1 neurons.
+
+    In summary, not only are navigational decisions such as whether to turn to stimuli or not proceeding not independently per sensory modality but integrated across modalities, as observed before in behavioral experiments \citep{gepner2015computations}, but also such integration is modulated by prior memories.
+
+    %Vertical lobe is used by the NO and MB and LAL.
+    %mb2on-c1 has no results(when it comes to aversion), but massively related to EB so it might 
+    %mb2in-l1 according to eschback all the compartments of vertical love are for aversive behaviour.only mnbin that is not bilateral.  
+    %m2on-p1 noduli itself gets input from(..) 
+    % (extended data figure 6a - complete connectome of learning memory centre) 
+    % ipsilateral control via these only mbons and mbins that are ipsilateral as opposed to bilateral. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \section{Dopaminergic neurons (DANs) of the larval central complex}
@@ -405,26 +469,46 @@ The larval MB houses 7 pairs of DANs \citep{eichler2017complete}, with several m
 
 According to \citep{selcho2009thgal4} there are further non-MB DANs yet to be identified in the larval brain connectome. Note an effort was made to relate the eDANs we could identify to non-MB DAN names in \citep{selcho2009thgal4} but the resolution mismatch was too great to bridge, except for eDAN-1 which is most likely named "DM3" in \citep{selcho2009thgal4}.
 
+%TODO: add eDAN-6 and eDAN-7
+
 
 
 \section{Behavioural Assays - Loss of Function Analysis during light stimulation}
     \begin{figure}
         \centering
-        \includegraphics[width=12cm]{Figs/CX/BehaviourAssays_paper.pdf}
+        \includegraphics[width=12cm]{Figs/CX/BehaviourAssays.pdf}
         \caption[Loss of Function Analysis during Light Stimulation]{Loss of Function Analysis during Light Stimulation}
         \label{fig:label}
     \end{figure}
 
+
 \section{Neural activity in response to blue light stimulation}
     \begin{figure}
         \centering
-        \includegraphics[width=12cm]{Figs/CX/RH5stimulation.pdf}
+        \includegraphics[width=10cm]{Figs/CX/RH5stimulation.pdf}
         \caption[Neural Activity of the Larval Brain in response to Photoreceptors Rh5 Stimulation]{Neural Activity of the Larval Brain in response to Photoreceptors Rh5 Stimulation}
         \label{RH5stimulation}
     \end{figure}
 
 
 
-%\section{Optogenetic Activation Screens} - this is for appendix
 
 
+    
+
+
+        
+        
+
+\section{Descending Neurons from CX}
+        %catmaid annotation: 
+            129 neurons descending to VNC
+            93 neurons descending to SEZ
+            216 total descending
+            layer 1 annotated as: 'cx descending l1' (56 neurons) 25.6\%
+            569 second order descending
+            layer 2 annotated as: 'cx descending l2' (71 neurons of 569) 12.4\%
+
+
+
+%\section{Visual input into the Larval Central Complex}%- 4 graphs showing connectivity between
