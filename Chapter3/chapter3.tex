@@ -1,63 +1,59 @@
 %!TEX root = ../thesis.tex
-%*******************************************************************************
-%****************************** Third Chapter **********************************
-%*******************************************************************************
+
 \chapter{Results}
 \textit{Parts of this section incorporate text from published work [The central complex of the larval fruit fly brain] (Lungu et al., 2025)}
 
 \section{Strategy for identifying CX neuropils in the larval brain}
 
-I used an iterative strategy in finding putative larval central complex neurons. For this, I pattern matched individual cells based on adult CX neurons lineages, morphology, relative location and connectivity. %describe the steps of the process at a bit more length 
+    I used an iterative strategy in finding putative larval central complex neurons. For this, I pattern matched individual cells based on adult CX neurons lineages, morphology, relative location and connectivity. %describe the steps of the process at a bit more length 
 
-We adopted a search strategy guided by circuit features of the adult brain CX neuropils.
-Since the adult brain presents fused hemispheres at the midline whereas the larva has not, we placed more emphasis of searching for circuit motifs rather than anatomical similarity, since the larval brain has a brain commisure, while preserving the relative spatial location of a CX neuropil as a constraint.
+    We adopted a search strategy guided by circuit features of the adult brain CX neuropils.
+    Since the adult brain presents fused hemispheres at the midline whereas the larva has not, we placed more emphasis of searching for circuit motifs rather than anatomical similarity, since the larval brain has a brain commisure, while preserving the relative spatial location of a CX neuropil as a constraint.
 
-These included:
-\begin{enumerate}
- \item Integration of sensory inputs: we searched for synaptic pathways corresponding to the adult's for integrating visual inputs into the PB and EB \citep{hulse2021connectome}, and gustatory inputs into the FB.
- \item Association between centers for memory and spatial navigation: we looked for the characteristic link between the MB, the center for associative memory, and CX neuropils, which includes synaspes from MBONs (MB output neurons) to the FB, EB and NO in the adult fly.
- \item Recurrent intra-CX connectivity, such as with columnar neurons relating the PB with the FB and EB, or with the NO.
-\end{enumerate}
+    These included:
+    \begin{enumerate}
+    \item Integration of sensory inputs: we searched for synaptic pathways corresponding to the adult's for integrating visual inputs into the PB and EB \citep{hulse2021connectome}, and gustatory inputs into the FB.
+    \item Association between centers for memory and spatial navigation: we looked for the characteristic link between the MB, the center for associative memory, and CX neuropils, which includes synapses from MBONs (MB output neurons) to the FB, EB and NO in the adult fly.
+    \item Recurrent intra-CX connectivity, such as with columnar neurons relating the PB with the FB and EB, or with the NO.
+    \end{enumerate}
+    
+    \subsection{Identifying larval neuronal lineages that contribute to the larval CX}
+    The \textit{Drosophila melanogaster} central brain consists of stereotyped neural lineages, developmental-structural units of macrocircuitry formed by the sibling neurons of single progenitor cells, the neuroblasts \citep{Spindler2010Lineages}, a subset of which structures the CX \citep{Pereanu2011LineagesCX}.
+    Starting with the currently identified set of quiescent, embryonic-born neurons present in the larval brain that develop into to the adult CX during metamorphosis~\citep{andrade2019developmentally}
+    we identified larval brain neurons satisfying imposed connectivity rules as per known circuit patterns across the adult CX neuropils \citep{wolff2015neuroarchitecture, wolff2018neuroarchitecture, franconville2018building, hulse2021connectome}.
 
-\subsection{Identifying larval neuronal lineages that contribute to the larval CX}
-The \textit{Drosophila melanogaster} central brain consists of stereotyped neural lineages, developmental-structural units of macrocircuitry formed by the sibling neurons of single progenitor cells, the neuroblasts \citep{Spindler2010Lineages}, a subset of which structures the CX \citep{Pereanu2011LineagesCX}.
-Starting with the currently identified set of quiescent, embryonic-born neurons present in the larval brain that develop into to the adult CX during metamorphosis~\citep{andrade2019developmentally}
-we identified larval brain neurons satisfying imposed connectivity rules as per known circuit patterns across the adult CX neuropils \citep{wolff2015neuroarchitecture, wolff2018neuroarchitecture, franconville2018building, hulse2021connectome}.
+    We broadened the search beyond these lineages based on the expectation that some larval neurons may have been recruited to CX structures but would later take another identity in the adult, as is known for larval MB neurons \citep{truman2023metamorphosis}, on the basis of matching synaptic connectivity patterns as observed in the adult; for example, for EB Ring neurons we looked for neurons with recurrent axo-axonic synapses with each other and with Wedge neurons, where their axon is located at the most anterior end of the brain neuropil, at an intermediate dorso-ventral position just anterior to the MB medial lobe.
+    %MY PART 
+    %Lineages
+    We expected to find neurons originating from DM1, DM2, DM3, DM4, DM5 and DM6 hemilineages as these are core lineages contributing to all neuropils(Table \ref{adultlineages}), with the second priority being neuropil specific lineages(e.g. EBa1(DALv2) for the EB see \ref{adultlineages}). 12 of the 15 lineages found to contribute CX neurons in the adult also exist in the larva. Of these, we found that 9 of them contribute neurons to the larval central complex (Table \ref{lineagemap}). We therefore used these 9 lineages as a starting point to find our putative CX neuropils in the larva.
 
-We broadened the search beyond these lineages based on the expectation that some larval neurons may have been recruited to CX structures but would later take another identity in the adult, as is known for larval MB neurons \citep{truman2023metamorphosis}, on the basis of matching synaptic connectivity patterns as observed in the adult; for example, for EB Ring neurons we looked for neurons with recurrent axo-axonic synapses with each other and with Wedge neurons, where their axon is located at the most anterior end of the brain neuropil, at an intermediate dorso-ventral position just anterior to the MB medial lobe.
-
-
-%MY PART 
-%Lineages
-We expected to find neurons originating from DM1, DM2, DM3, DM4, DM5 and DM6 hemilineages as these are core lineages contributing to all neuropils(Table \ref{adultlineages}), with the second priority being neuropil specific lineages(e.g. EBa1(DALv2) for the EB see \ref{adultlineages}). 12 of the 15 lineages found to contribute CX neurons in the adult also exist in the larva. Of these, we found that 9 of them contribute neurons to the larval central complex (Table \ref{lineagemap}). We therefore used these 9 lineages as a starting point to find our putative CX neuropils in the larva.
-
-    \begin{table}
-    \centering
-    \begin{tabular}{|c|c|}
-    \hline
-    Adult lineage & Larval lineage \\
-    \hline
-    DM1 & DPMm1 \\
-    DM2 & DPMpm1 \\
-    DM3 & DPMpm2 \\
-    DM4 & CM4 \\
-    DM5/DM6 & CM1/3 \\
-    DL1 & CP23 \\
-    EBa1 & DALv2 \\
-    LALv1 & BAMv1 \\
-    CREa1 & BAmd1 \\
-    CREa2 & DALCm12 \\
-    SMPad2 & DAMd2/3 \\
-    SIPp1 & DPMpl12 \\
-    \bottomrule
-    \end{tabular}
-    \caption[Lineges of the Adult CX that also contribute neurons to the Larval CX]{\textbf{Lineges of the Adult CX that also contribute neurons to the Larval CX} Adult CX lineages are listed in the first column, and their corresponding larval lineages in the second.}
-    \label{lineagemap}
-    \end{table}
+        \begin{table}
+        \centering
+        \begin{tabular}{|c|c|}
+        \hline
+        Adult lineage & Larval lineage \\
+        \hline
+        DM1 & DPMm1 \\
+        DM2 & DPMpm1 \\
+        DM3 & DPMpm2 \\
+        DM4 & CM4 \\
+        DM5/DM6 & CM1/3 \\
+        DL1 & CP23 \\
+        EBa1 & DALv2 \\
+        LALv1 & BAMv1 \\
+        CREa1 & BAmd1 \\
+        CREa2 & DALCm12 \\
+        SMPad2 & DAMd2/3 \\
+        SIPp1 & DPMpl12 \\
+        \bottomrule
+        \end{tabular}
+        \caption[Lineges of the Adult CX that also contribute neurons to the Larval CX]{\textbf{Lineges of the Adult CX that also contribute neurons to the Larval CX} Adult CX lineages are listed in the first column, and their corresponding larval lineages in the second.}
+        \label{lineagemap}
+        \end{table}
 
 
 
-In addition to the lineages that contribute to the adult CX, there were several neurons from other lineages, which satisfied other criteria (such as connectivity patterns or relative location) and were therefore classified as central complex neurons. These lineages are presented in Table \ref{larvallineages} which containts all the lineages we found to contribute neurons to the larval CX. None of these lineages are exclusive contributors to the larval CX - i.e all of these lineages contribute neurons to other parts of the brain - however, there are a few(about 10) that contribute more than a fifth (20\%) of their neurons to CX neuropils (Figure (\ref{cx_percentage})).
+    In addition to the lineages that contribute to the adult CX, there were several neurons from other lineages, which satisfied other criteria (such as connectivity patterns or relative location) and were therefore classified as central complex neurons. These lineages are presented in Table \ref{larvallineages} which containts all the lineages we found to contribute neurons to the larval CX. None of these lineages are exclusive contributors to the larval CX - i.e all of these lineages contribute neurons to other parts of the brain - however, there are a few(about 10) that contribute more than a fifth (20\%) of their neurons to CX neuropils (Figure (\ref{cx_percentage})).
 
 
 
@@ -115,12 +111,12 @@ In addition to the lineages that contribute to the adult CX, there were several 
     \label{larvallineages}
     \end{table}
 
-% Subtle forest green gradient (Excel-style)
-\definecolor{forest1}{HTML}{EAF2E3} % lightest
-\definecolor{forest2}{HTML}{D7E8C9}
-\definecolor{forest3}{HTML}{B9D89C}
-\definecolor{forest4}{HTML}{93C47D}
-\definecolor{forest5}{HTML}{6AA84F} % darkest
+    % green gradient 
+    \definecolor{forest1}{HTML}{EAF2E3} 
+    \definecolor{forest2}{HTML}{D7E8C9}
+    \definecolor{forest3}{HTML}{B9D89C}
+    \definecolor{forest4}{HTML}{93C47D}
+    \definecolor{forest5}{HTML}{6AA84F} 
 
 \begin{table}[h!]
 \centering
@@ -144,7 +140,7 @@ dall1 & 9 & 18 & 6 & \cellcolor{forest1}22.22\% \\
 \label{cx_percentage}
 \end{table}
 
-\subsection{Connectivity}
+    \subsection{Connectivity}
 %CONNECTIVITY
 To be able to identify which neurons could contribute to the CX, we investigated their connectivity patterns. Specifically,we summarised where a neuron receives synaptic input (location of its dendrites) and sends output processes (location of its axons).
 %Sensory
@@ -201,6 +197,7 @@ As such, neurons that are both .b and .d for CX neuropils are the CX Core neuron
 %    - sensory input into larval Neurons
 %   - connectivity with MB and LAL 
     
+
 
 \section{The Central Complex Adult vs Larva}
     \begin{figure}
@@ -473,7 +470,7 @@ According to \citep{selcho2009thgal4} there are further non-MB DANs yet to be id
 
 
 
-\section{Behavioural Assays - Loss of Function Analysis during light stimulation}
+\section{Behavioral Assays - Loss of Function Analysis during light stimulation}
     \begin{figure}
         \centering
         \includegraphics[width=12cm]{Figs/CX/BehaviourAssays.pdf}
