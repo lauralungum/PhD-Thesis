@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.13)  13 OCT 2025 23:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.13)  14 OCT 2025 02:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -824,10 +824,32 @@ Package biblatex Info: ... and expl3
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
-))) (./thesis-info.tex)
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+LaTeX Info: Redefining \color on input line 762.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+\everycr=\toks34
+\minrowclearance=\skip104
+\rownum=\count504
+)) (./thesis-info.tex)
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 115.
-\@quotelevel=\count504
-\@quotereset=\count505
+\@quotelevel=\count505
+\@quotereset=\count506
  (./thesis.aux (./Dedication/dedication.aux) (./Declaration/declaration.aux) (./Acknowledgement/acknowledgement.aux) (./Abstract/abstract.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux) (./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux))
 \openout1 = `thesis.aux'.
 
@@ -851,17 +873,17 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 115.
 LaTeX Font Info:    ... okay on input line 115.
  (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count506
+\scratchcounter=\count507
 \scratchdimen=\dimen262
 \scratchbox=\box67
-\nofMPsegments=\count507
-\nofMParguments=\count508
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count509
+\nofMPsegments=\count508
+\nofMParguments=\count509
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count510
 \MPscratchDim=\dimen263
-\MPnumerator=\count510
-\makeMPintoPDFobject=\count511
-\everyMPtoPDFconversion=\toks35
+\MPnumerator=\count511
+\makeMPintoPDFobject=\count512
+\everyMPtoPDFconversion=\toks36
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
@@ -1003,7 +1025,7 @@ Package pdftex.def Info: Figs/CollegeShields/LucyCav_Crest.png  used on input li
 \PHD@dept=\box74
 \PHD@submission=\box75
 \PHD@collegedate=\box76
-\PHD@titlepagespacing=\skip104
+\PHD@titlepagespacing=\skip105
 
 
 [1
@@ -1750,13 +1772,21 @@ LaTeX Warning: Citation 'eckstein2024neurotransmitter' on page 21 undefined on i
 LaTeX Warning: Citation 'eckstein2024neurotransmitter' on page 21 undefined on input line 89.
 
 
-LaTeX Warning: Float too large for page by 81.67105pt on input line 91.
+LaTeX Warning: Float too large for page by 69.84964pt on input line 91.
 
 
-LaTeX Warning: Citation 'eschbach2021circuits' on page 21 undefined on input line 99.
+Overfull \hbox (28.25497pt too wide) in paragraph at lines 104--120
+ [][] 
+ []
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 21 undefined on input line 99.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation 'eschbach2021circuits' on page 21 undefined on input line 129.
+
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 21 undefined on input line 129.
 
 
 
@@ -1766,14 +1796,14 @@ LaTeX Warning: Citation 'hulse2021connectome' on page 21 undefined on input line
 
 
 ]
+<Figs/CX/CX_Nomenclature_Neurons.pdf, id=521, 1374.13374pt x 1042.89626pt>
+File: Figs/CX/CX_Nomenclature_Neurons.pdf Graphic file (type pdf)
+<use Figs/CX/CX_Nomenclature_Neurons.pdf>
+Package pdftex.def Info: Figs/CX/CX_Nomenclature_Neurons.pdf  used on input line 137.
+(pdftex.def)             Requested size: 341.43306pt x 259.11618pt.
 
-LaTeX Warning: Citation 'truman2023metamorphosis' on page 22 undefined on input line 122.
 
-
-LaTeX Warning: Citation 'winding2023connectome' on page 22 undefined on input line 126.
-
-
-LaTeX Warning: Reference `FigureX' on page 22 undefined on input line 127.
+LaTeX Warning: Citation 'truman2023metamorphosis' on page 22 undefined on input line 156.
 
 
 
@@ -1781,102 +1811,109 @@ LaTeX Warning: Reference `FigureX' on page 22 undefined on input line 127.
 
 [23]
 
-LaTeX Warning: Reference `FigureX' on page 24 undefined on input line 131.
+[24 <./Figs/CX/CX_Nomenclature_Neurons.pdf>]
+
+LaTeX Warning: Citation 'winding2023connectome' on page 25 undefined on input line 160.
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 24 undefined on input line 134.
+LaTeX Warning: Reference `FigureX' on page 25 undefined on input line 161.
 
 
-LaTeX Warning: Citation 'eschbach2021' on page 24 undefined on input line 134.
+LaTeX Warning: Reference `FigureX' on page 25 undefined on input line 165.
 
 
-LaTeX Warning: Citation 'EsbachFushiki2021' on page 24 undefined on input line 134.
+LaTeX Warning: Citation 'hulse2021connectome' on page 25 undefined on input line 168.
 
 
-Overfull \hbox (13.92043pt too wide) in paragraph at lines 134--135
+LaTeX Warning: Citation 'eschbach2021' on page 25 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'EsbachFushiki2021' on page 25 undefined on input line 168.
+
+
+Overfull \hbox (13.92043pt too wide) in paragraph at lines 168--169
 \T1/ptm/m/n/12 (-20) ing polysy-nap-tic in-puts from vi-sion and ol-fac-tion, like in the adult PB ([[]]).
  []
-
-
-LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 24 undefined on input line 150.
-
-
-LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 24 undefined on input line 150.
-
-
-LaTeX Warning: Citation 'hulse2021connectome' on page 24 undefined on input line 150.
-
-
-LaTeX Warning: Citation 'omoto2018neuronal' on page 24 undefined on input line 163.
-
-
-
-[24]
-
-LaTeX Warning: Citation 'hulse2021connectome' on page 25 undefined on input line 173.
-
-
-LaTeX Warning: Citation 'heinze2017unraveling' on page 25 undefined on input line 186.
 
 
 
 [25]
 
-LaTeX Warning: Citation 'MISSING' on page 26 undefined on input line 200.
+LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 26 undefined on input line 184.
 
 
-LaTeX Warning: Citation 'lin2013comprehensive' on page 26 undefined on input line 201.
+LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 26 undefined on input line 184.
+
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 26 undefined on input line 184.
+
+
+LaTeX Warning: Citation 'omoto2018neuronal' on page 26 undefined on input line 197.
 
 
 
 [26]
 
-LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 27 undefined on input line 220.
+LaTeX Warning: Citation 'hulse2021connectome' on page 27 undefined on input line 207.
 
 
-LaTeX Warning: Citation 'hulse2021connectome' on page 27 undefined on input line 220.
+LaTeX Warning: Citation 'heinze2017unraveling' on page 27 undefined on input line 220.
 
 
-LaTeX Warning: Citation 'andrade2019developmentally' on page 27 undefined on input line 220.
+
+[27]
+
+LaTeX Warning: Citation 'MISSING' on page 28 undefined on input line 234.
 
 
-Overfull \hbox (10.3153pt too wide) in paragraph at lines 220--222
+LaTeX Warning: Citation 'lin2013comprehensive' on page 28 undefined on input line 235.
+
+
+LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 28 undefined on input line 254.
+
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 28 undefined on input line 254.
+
+
+LaTeX Warning: Citation 'andrade2019developmentally' on page 28 undefined on input line 254.
+
+
+Overfull \hbox (10.3153pt too wide) in paragraph at lines 254--256
 \T1/ptm/m/n/12 (-20) set them apart from other CX neu-rons [[]] [[]]
  []
 
 
-LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 27 undefined on input line 227.
-
-
-LaTeX Warning: Citation 'hulse2021connectome' on page 27 undefined on input line 227.
-
-
-LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 27 undefined on input line 227.
-
-
-LaTeX Warning: Citation 'hulse2021connectome' on page 27 undefined on input line 227.
-
-
-
-[27])
 
 [28]
 
-[29]
+LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 29 undefined on input line 261.
+
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 29 undefined on input line 261.
+
+
+LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 29 undefined on input line 261.
+
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 29 undefined on input line 261.
+
+
+
+[29])
+
+[30]
 \openout2 = `Chapter4/chapter4.aux'.
 
  (./Chapter4/chapter4.tex
+Chapter 4.
+)
 
-[30
+[31
 
 
 
 
 ]
-Chapter 4.
-)
-
-[31]
 
 [32
 
@@ -1937,18 +1974,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29888 strings out of 467748
- 578941 string characters out of 5426964
- 1505407 words of memory out of 5000000
- 57615 multiletter control sequences out of 15000+600000
- 719992 words of font info for 367 fonts, out of 8000000 for 9000
+ 30430 strings out of 467748
+ 587072 string characters out of 5426964
+ 1535440 words of memory out of 5000000
+ 58134 multiletter control sequences out of 15000+600000
+ 720373 words of font info for 373 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,12n,121p,1255b,1763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (54 pages, 314047 bytes).
+Output written on thesis.pdf (54 pages, 1545603 bytes).
 PDF statistics:
- 648 PDF objects out of 1000 (max. 8388607)
- 567 compressed objects within 6 object streams
- 130 named destinations out of 1000 (max. 500000)
- 104947 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 724 PDF objects out of 1000 (max. 8388607)
+ 605 compressed objects within 7 object streams
+ 132 named destinations out of 1000 (max. 500000)
+ 104952 words of extra memory for PDF output out of 106986 (max. 10000000)
 

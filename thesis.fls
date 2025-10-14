@@ -254,6 +254,12 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT ./thesis-info.tex
 INPUT ./thesis-info.tex
 INPUT ./thesis-info.tex
@@ -549,6 +555,11 @@ OUTPUT Chapter3/chapter3.aux
 INPUT ./Chapter3/chapter3.tex
 INPUT ./Chapter3/chapter3.tex
 INPUT Chapter3/chapter3.tex
+INPUT ./Figs/CX/CX_Nomenclature_Neurons.pdf
+INPUT ./Figs/CX/CX_Nomenclature_Neurons.pdf
+INPUT ./Figs/CX/CX_Nomenclature_Neurons.pdf
+INPUT ./Figs/CX/CX_Nomenclature_Neurons.pdf
+INPUT ./Figs/CX/CX_Nomenclature_Neurons.pdf
 INPUT ./Chapter4/chapter4.tex
 INPUT ./Chapter4/chapter4.tex
 OUTPUT Chapter4/chapter4.aux
