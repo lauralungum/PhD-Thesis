@@ -470,45 +470,38 @@ According to \citep{selcho2009thgal4} there are further non-MB DANs yet to be id
 
 \section{Neural activity in response to blue light stimulation}
 We were curious if the identified putative central comlpex would be responsive to light stimulation. 
-We therefore monitored the activity across the entire larval brain in response to stimulation of Rh5 (blue senstitive) phtoreceptors. Photoreceptors (the Bolwig Organ) are located outside of the Central Nervous System(CNS) of Drosophila. We thus expressed  EGFP fluorescent tag in these neurons(Rh5s) to be to ensure they are present during dissection of the CNS and that they are preserved for mounting the sample in the glass capilary prior to Calcium Imaging. We created a final line that expresses green fluorescent RGECO (a calcium indicator of neural activity present cytosl) and red fluorescent IRFP (which brightens the cell nuclei very well and allows visualisation of cell position) and green fluorescent Rh5 photoreceptors. 
+We monitored the activity across the entire larval brain in response to stimulation of Rh5 (blue senstitive) phtoreceptors. Photoreceptors (the Bolwig Organ) are located outside of the Central Nervous System(CNS) of Drosophila. We thus expressed  EGFP fluorescent tag in these neurons(Rh5s) to be to ensure they are present during dissection of the CNS and that they are preserved for mounting the sample in the glass capilary prior to Calcium Imaging. We created a final line that expresses green fluorescent RGECO (a calcium indicator of neural activity present cytosl) and red fluorescent IRFP (which brightens the cell nuclei very well and allows visualisation of cell position) and green fluorescent Rh5 photoreceptors. 
 
 
-Upon blue light stimulation, we observed robust calcium transients in multiple regions of the larval brain. We expected the neuropil with the most visual input (Protocerebral Bridge) to be highly responsive. To identify regions of interest  that have been activated in resoponse to light, the brain was segmented into distinct anatomical regions using manual annotation. Regions corresponding to the optic lobe (OL)- to confirm its light induced activity - the putative Protocerebral Bridge, and the MB as a control  and the Optic Lobe - were delinated based on anatomical landmarks and lineage tracing data. Fluorescence intensity changes (ΔF/F) were quantified for each region during blue light stimulation, revealing that
+Upon blue light stimulation, robust calcium transients in multiple regions of the larval brain were observed. Amongst the CX neuropils, we expected the neuropil with the most visual input (Protocerebral Bridge) to be realiably responsive to photoreceptors. To test this, the brain was segmented into distinct anatomical regions using manual annotation. Regions corresponding to the optic lobe (OL) - to confirm functional photoreceptors - the putative Protocerebral Bridge, and the MB - as a control -  were delinated (Fig. \ref{LSSegmentation}).
+based on anatomical landmarks and lineage tracing data. Flu orescence intensity changes $\Delta F/F_0$ were quantified for each region before, during and after blue light stimulation. 
 
+   \begin{figure}
+        \centering
+        \includegraphics[width=10cm]{Figs/CX/LSSegmentation.pdf}
+        \caption[Lightsheet volume Segmentation]{Lightsheet Volume Segmentation}
+        \label{LSSegmentation}
+    \end{figure}
 
-the Protocerebral Bridge exhibited the highest amplitude calcium transients, consistent with its role as the primary recipient of visual input. Other central complex neuropils also showed significant activity, supporting their involvement in sensory processing. These results demonstrate that the identified central complex structures are functionally responsive to visual stimulation and validate their anatomical assignment.
+The Optic Lobe (OL) was reliably activated in response to light in sample 1,3 and 5 samples which confirms intact and functional photoreceptors. For sample 2 the left OL significanlty less responsive than the right, indicating possible tissue damage on that side of the brain. Similarly for sample 4 the right side is less responsive than the left. 
+Notably, across all samples, the OL exhibited a markedly larger $\Delta F/F_0$ response compared to other regions of interest, creating a masking effect in data visualization. Specifically, the large amplitude of OL activity expanded the y-axis range, compressing the apparent variability in other regions and obscuring meaningful differences between the PB and the MB. To better resolve the relative dynamics among the remaining regions, the OL traces were excluded from subsequent analysis and the data was replotted and presented side by side with the original in figure \ref{LSanalysis}. 
 
-
-
- This suggests that these structures are responsive to visual input mediated by Rh5 photoreceptors, supporting their functional role in sensory integration.
-
-
-
-%To assess neural activity in response to blue light stimulation, we performed whole-brain calcium imaging using a transgenic line expressing green fluorescent RGECO (a cytosolic calcium indicator) and red fluorescent IRFP (a nuclear marker for cell position). EGFP was expressed in Rh5 photoreceptors (Bolwig Organ) to confirm their presence and integrity during CNS dissection and sample mounting.Upon blue light stimulation, we observed robust calcium transients in multiple regions of the larval brain, notably within the putative central complex neuropils, including the PB and EB. This suggests that these structures are responsive to visual input mediated by Rh5 photoreceptors, supporting their functional role in sensory integration.
-
-
-
-
-
+ 
     \begin{figure}
         \centering
-        \includegraphics[width=10cm]{Figs/CX/RH5stimulation.pdf}
+        \includegraphics[width=10cm]{Figs/CX/LSanalysis.pdf}
         \caption[Neural Activity of the Larval Brain in response to Photoreceptors Rh5 Stimulation]{Neural Activity of the Larval Brain in response to Photoreceptors Rh5 Stimulation}
-        \label{RH5stimulation}
+        \label{LSanalysis}
     \end{figure}
 
 
-We observed Calcium transients. 
+When compared to the control (MB), the larval Protocerebral Bridge (PB) exhibited higher amplitude calcium transients in samples 2, 4, and 5, whereas both neuropils showed similar activity in samples 1 and 3. Interestingly, the two samples with one inactive optic lobe (samples 2 and 4) displayed a more pronounced difference between PB and MB activity, suggesting that unilateral OL impairment may enhance the relative responsiveness of the PB to visual stimulation. This observation may indicate compensatory mechanisms or altered circuit dynamics in the presence of partial sensory deprivation. 
+Overall, there seems to be a higher sensitivity to blue light from in PB compared to the MB, supposrting the hypothesis of a functional role in visual input processing (Fig. \ref{LSanalysis}. However, the effects aren't as significant as expected, possibly due to small sample size, suggesting the experiment could be underpowered.
 
-
-    
-
-
-        
-        
 
 \section{Descending Neurons from CX}
-        %catmaid annotation: 
+       
+%catmaid annotation: 
             129 neurons descending to VNC
             93 neurons descending to SEZ
             216 total descending
