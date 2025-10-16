@@ -7,6 +7,7 @@
 8. FB.d figure
 9. NO.d figure
 
+
 4. Descending neurons (DNs) and the association of CX
 structures with known DNs.
 10. eDANs connectivity
@@ -28,3 +29,17 @@ https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Flink.springer.
 the board, like for eDANs, and for whatever else can help relate to the
 PEN, PFN, etc names of neurons in Hulse et al.
 13. add a \section{Visual input into the Larval Central Complex}%- 4 graphs showing connectivity between
+%TODO: potentially make the orthographic view 3D volumes, where you show PB horizontal fibers and pb.d, and the eb neurons
+
+
+
+
+
+
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=12cm]{Figs/CX/DALV1s.pdf}
+        \caption[PB Dalv1 Neurons]{\textbf{PB Horizontal Fibers (HF-PB).} Two types of horizontal fiber neurons are shown, each with a morphological reconstruction (top) and a simplified schematic (bottom). The mushroom body is shown in magenta. Input synapses (dendrites) are indicated by blue arrows, while output synapses (axons) are indicated by red arrows. Panel \textbf{A.} shows HF-PB1 neurons, characterized by a double-crossing axon; panel \textbf{B.} displays HF-PB2 neurons, with outputs projecting only contralaterally; and panel \textbf{C.} the four bilateral pairs of HF-PB neurons shown together.}
+        \label{DALv1s}
+    \end{figure}
