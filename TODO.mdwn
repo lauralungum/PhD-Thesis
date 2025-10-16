@@ -3,10 +3,13 @@
 #######
 
 #RESULTS
-8. FB.d figure
-9. NO.d figure
 
-
+    \begin{figure}
+        \centering
+        \includegraphics[width=12cm]{Figs/CX/NOneurons.pdf}
+        \caption[]{...}
+        \label{fig:label}
+    \end{figure}
 4. Descending neurons (DNs) and the association of CX
 structures with known DNs.
 10. eDANs connectivity

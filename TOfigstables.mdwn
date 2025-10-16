@@ -9,6 +9,7 @@
 
     \begin{table}
     \centering
+    \resizebox{\textwidth}{!}{%
     \begin{tabular}{l|ccccc}
         \toprule
         Neuropil & PB & FB & EB & NO & LAL \\
@@ -21,6 +22,9 @@
         MBONs &  & * & * & & \\
         \bottomrule
     \end{tabular}
+    }
     \caption{..}
     \label{label}
     \end{table} 
+
+

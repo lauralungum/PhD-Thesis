@@ -460,7 +460,17 @@
 
     By definition, all larval FB columnar neurons present dendrites in the FB (are FB.d), and are postsynaptic to FB.b neurons.
 
-    In addition to generating FB tangential neurons, the DM1-DM4 lineages also contribute 5 pairs of FB columnar neurons. These neurons (FB.d.1) are characterized by ipsilateral-only dendrites largely circumscribed to the FB (except for the Bushy neuron from the DPMpm1/DM3 lineage), and projecting their ipsilateral-only clutchy axons solely the NO (so they are FB.d-NO.b). Therefore, FB.d.1 are specialized in relaying information from the FB to the NO hemilaterally. Among FB.d.1 we find CN-34, MB2ON-201 and MB2ON-204 \citep{eschbach2021circuits}.
+    \begin{figure}
+        \centering
+        \includegraphics[width=15cm]{Figs/CX/FBColumnar.pdf}
+        \caption[FB Columnar Neurons]{FB Columnar Neurons}
+        \label{FBColumnar}
+    \end{figure}
+
+
+    In addition to generating FB tangential neurons, the DM1-DM4 lineages also contribute 5 pairs of FB columnar neurons. These neurons (FB.d.1) are characterized by ipsilateral-only dendrites largely circumscribed to the FB (except for the Bushy neuron from the DPMpm1/DM3 lineage), and projecting their ipsilateral-only clutchy axons solely the NO (so they are FB.d-NO.b). Therefore, FB.d.1 are specialized in relaying information from the FB to the NO hemilaterally. Among FB.d.1 we find CN-34, MB2ON-201 and MB2ON-204 \citep{eschbach2021circuits}. Importantly, 4 of the 5 FB.d1 pairs also send their dendrites to the PB, making them PB.d neurons as well, therefore PB.d-FB.d-NO.b as well as core cx neurons. This is the closest to the adult PFN, however the adult analogue would be PB.d-FBb.b-NO.b. %TODO refer figure with cx neurons analogues. 
+
+
 
     The DM lineage (larval CM4-vm lineage) further contributes 1 pair of neurons (FB.d.4) with ipsilateral dendrites in the posterior FB and beyond into an area adjacent to the LAL medially, and a contralateral axon that descends into the VNC, dropping presynaptic sites from the SEZ to the most posterior abdominal segments. Within the brain, FB.d.4 synapses onto some NO.d neurons (e.g., MB2ON-200) and also onto CN-28 \citep{eschbach2021circuits}.
 
@@ -472,7 +482,7 @@
 
     The larval DALcm12-v lineage (adult CREa1) contributes 1 pair of neurons (FB.d.5) with ipsilateral dendrites in the FB and in the area adjacent but medial and ventral to the LAL, projecting their axons ipsilaterally from the NO to the medio-ventral brain and dorsal SEZ. The axons synapse onto a large number of NO.d neurons.
 
-    The BAmv12-dor larval lineage contributes 1 pair of neurons (FB.d.6) with compact ipsilateral dendrites within the FB, and a compact short ipsilateral axon immediately dorsal on the PB. The FB.d.6 hence serve as a direct relay from the FB to the PB, synapsing onto hald a dozen PB.d neuron types.
+    The BAmv12-dor larval lineage contributes 1 pair of neurons (FB.d.6) with compact ipsilateral dendrites within the FB, and a compact short ipsilateral axon immediately dorsal on the PB. The FB.d.6 hence serve as a direct relay from the FB to the PB, synapsing onto half a dozen PB.d neuron types.
 
     The BAla12 larval lineage contributes 1 pair of neurons (FB.d.7; also known as FFN-6, \citep{eschbach2021circuits}) with compact ipsilateral dendrites in the FB, and an ipsilateral axon that targets the superior anterior protocerebrum where it synapses profusely onto the dendrites of DANs and OANs of the MB (DAN-i1, DAN-j1, DAN-c1, OAN-g1). Hence, FB.d.7 serves as a relay between the FB and the MB input neurons, conveying teaching signals for associative memories.
 
@@ -522,29 +532,28 @@
     eDAN-2 is a non-MB dopaminergic neuron (DAN) entirely circumscribed to the posterior-lateral end of the FB. See section on DANs of the CX below for details.
 
 
-
-
     \subsection{Noduli}
     \label{NO}
-    The noduli are small, bilaterally symmetric spherical neuropils located medially and ventrally to the FB. In the adult \textbf{Drosophila} brain, each hemilateral neuropil is divided in 3 subunits: nodulus 1, 2 and 3 (NO1, NO2, NO3), with NO1 having the highest synaptic density of the three. There are notable variations across insect species, with the number of noduli ranging from two to four per brain hemisphere.
-    While the stacked noduli subunits have been referred to as horizontal layers, no vertical subdivisions have been reported for these structures. Therefore there isn't any columnar organisation known.
+
+    In the larva we found a set of 21 neurons (10 pairs plus one unpaired) with highly compact, clutchy axons situated in the posterior ventral area of the brain, from lineages DPMm1 (DM1 in the adult), DALcm12, DPMl12, DPLc5, and BAMv12, as well as a few other larval lineages.
+    We define the volume encapsulating all their clutchy axons as the putative Noduli of the larval \textit{Drosophila}, and labeled all these neurons as NO.b.
+
+    Among the 21 NO.b neurons in the larva we find FB.d neurons (four pairs of the 5 FB.d.1 subtype including CN-34), convergence neurons (CN-6, CN-16/MBON-p1 \citep{eschbach2020recurrent}), neurons postsynaptic to MBONs (MB2ON-37, MB2ON-241), NO-looper (lineage BAmv12dor), MBON-p1 (a multi-compartment MBON of the MB vertical lobe; \citep{eichler2017complete}), and an unpaired neuron (DLPc lineage). Most NO.b neurons integrate inputs from the MB, as their names indicate (see \citep{eschbach2021circuits}).
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=14cm]{Figs/CX/NOneurons.pdf}
+        \caption[Noduli Neurons]{...}
+        \label{fig:label}
+    \end{figure}
+
+    Not a single NO.d neuron projects its axon onto any of the other core larval central complex neuropil, but some project to the LAL (Table \ref{inputsoutputs}), supporting a role for the NO as an output neuropil of the central complex.
 
 
-    The NO neurons present a unique morphology featuring compact, clutchy axons, which set them apart from other CX neurons~\citep{wolff2018neuroarchitecture}~\citep{hulse2021connectome} and greatly ease their identification even in the absence of the typical conspicuous anatomical neuropil region present in adult insects. In the adult fruit fly, these neurons primarily originate in the DM1, DM2 and DM3 lineages~\citep{andrade2019developmentally}.
-    %The primary neurites from G9–G6 cross the midline to arborize in the contralateral noduli.
 
+    %In the putative larval NO, we find that the neurons projecting onto this neuropil receive input from LAL, (LAL.d MB2ON-75)
 
-    At the larval stage of this animal, we found a set of neurons with highly compact, clutchy axons situated in the posterior ventral area of the brain, coming from lineages DM1 and DM3, as well as a few other larval lineages, and postulate this as the putative Noduli of the Drosophila larva. 
-
-    %Connectivity
-    In the adult \textit{Drosophila} brain, the NO is  interconnected with the EB and the FB, to which they relay information from tangential input neurons via several PB columnar cells such as PEN-neurons(PB-EB-NO; from the Head Direction System) and PFN-neurons(PB-FB-NO)~\citep{wolff2015neuroarchitecture, hulse2021connectome}. The primary NO inputs outside of the CX are from the LAL, these are known as LNO neurons and are suggested to be inhibitory~\citep{wolff2018neuroarchitecture,hulse2021connectome}. LNOs send inputs to and receive feedback from columnar neurons. %TODO check which comumnar neurons. 
-    FB tangential neurons make weak reciprocal connections to LNOs and columnar neurons in the NO.
-    NO is synaptically interconnected with the other CX neuropils. All columnar neurons (PFNs and PENS) that synapse onto NO (are NO.b) are recurrently connected to the same LNO neurons they receive input from. 
-
-    %TODO: figures with MB and other structures connecting to the CX. especially CNs connecting to every neuropil of the CX.  
-
-    In the putative larval NO, we find that the neurons projecting onto this neuropil receive input from LAL, (LAL.d MB2ON-75)
-
+    %%17 MAY
     %Larval NO - 
     %recurrent connections exist but they are axo-axonic - 
     %most outputs are to MB2ONs, CNs, 10 pars of CNs, mostly MB related neurons. 
@@ -567,16 +576,23 @@
 
     %%Sensory information
     %Many of these columnar neurons likely also receive input related to the fly’s self-motion in paired structures known as the noduli. 
-    In the adult Drosophila, the NO receives optic flow-based self-motion information and wind direction information via the columnar neurons. %an important hub for self-motion information according to physiological and anatomical observations. 
+
+    %In the adult Drosophila, the NO receives optic flow-based self-motion information and wind direction information via the columnar neurons.
+
+    %an important hub for self-motion information according to physiological and anatomical observations. 
     % TODO In the larva, we find ... 16/21 receive inputs from MBONs, from PB (via 7 PB to noduli neurons, like in the adult), and from FB (some NO.b neurons are also FB.d neurons). 6/21 neurons are columanr neurons that aren't FB.d or PB.d or anything like that.
 
     %%Larva
-    In Drosophila larva, we found a set of neurons with highly compact, clutchy axons situated in the posterior ventral area of the brain - similarly to the adult NO - coming from lineages DM1 and DM3, as well as a few other larval lineages. We observe that these neurons are highly interconnected with the PB and FB,  with strong inputs from 
-    PB and strong outputs to FB, and many of these neurons receive inputs in the LAL.
-    Their highly distinctive morphology, location as well as similarities in connectivity to the adult noduli, make these neurons an excellent candidate for the putative larval noduli.
+    %In \textit{Drosophila} larva, we found a set of 21 neurons (10 pairs plus a confirmed unpaired neuron) with highly compact, clutchy axons clumped together in the posterior ventro-medial area of the brain (similarly to the adult NO) and belonging to neurons in lineages DM1 and DM3, as well as a few other larval lineages. We observe that these neurons are highly interconnected with the PB and FB,  with strong inputs from  PB and strong outputs to FB, and many of these neurons receive inputs in the LAL.
+    %Their highly distinctive morphology, location as well as similarities in connectivity to the adult noduli, make these neurons an excellent candidate for the putative larval noduli.
+
 
     %TO DO: can we see the kind of specific recurrent activity
 
+    % CONSIDER introducing the LAL but in the adult it is not considered a CX neuropil
+    % \subsection{The new LAL}
+
+   
 
 
 \section{Mushroom Body and the Central Complex}
