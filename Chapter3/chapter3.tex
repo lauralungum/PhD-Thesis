@@ -3,6 +3,7 @@
 \chapter{Results}
 \textit{Parts of this section incorporate text from published work [The central complex of the larval fruit fly brain] (Lungu et al., 2025)}
 
+
 \section{Strategy for identifying CX neuropils in the larval brain}
 
     I used an iterative strategy in finding putative larval central complex neurons. For this, I pattern matched individual cells based on adult CX neurons lineages, morphology, relative location and connectivity. %describe the steps of the process at a bit more length 
@@ -193,6 +194,13 @@ dall1 & 9 & 18 & 6 & \cellcolor{forest1}22.22\% \\
         \centering
         \includegraphics[width=12cm]{/Users/lauralungu/Desktop/Latex/PhD-Thesis/Figs/CX/cxdiagram.pdf}
         \caption[Central Complex Anatomy Larva vs Adult]{Central Complex Anatomy Larva vs Adult}
+        \label{cxdiagram}
+    \end{figure}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=12cm]{/Users/lauralungu/Desktop/Latex/PhD-Thesis/Figs/CX/CATMAIDCXneurons.pdf}
+        \caption[EM Reconstructed CX Neuropils]{EM Reconstructed CX Neuropils}
         \label{cxdiagram}
     \end{figure}
 
@@ -456,16 +464,43 @@ The larval MB houses 7 pairs of DANs \citep{eichler2017complete}, with several m
 According to \citep{selcho2009thgal4} there are further non-MB DANs yet to be identified in the larval brain connectome. Note an effort was made to relate the eDANs we could identify to non-MB DAN names in \citep{selcho2009thgal4} but the resolution mismatch was too great to bridge, except for eDAN-1 which is most likely named "DM3" in \citep{selcho2009thgal4}.
 
 %TODO: add eDAN-6 and eDAN-7
-
-
+%TODO: add connectivity between all DANs
 
 \section{Behavioral Assays - Loss of Function Analysis during light stimulation}
     \begin{figure}
         \centering
         \includegraphics[width=12cm]{Figs/CX/BehaviourAssays.pdf}
-        \caption[Loss of Function Analysis during Light Stimulation]{Loss of Function Analysis during Light Stimulation}
-        \label{fig:label}
+        \caption[Loss of Function Analysis during Light Stimulation]{\textbf{Loss-of-function Behavioral analysis of CX neurons expressing TNT and impTNT(disabled TNT)} The name of each split GAL4 line is written in white and their corresponding neuron name in green. Stimulation via green light is highlighted in green from 0-20s. The plots show a time-series of larvae's turning rates, colored in blue for larvae expressing TNT and orange for larve expressing impTNT}
+        \label{LOS}
     \end{figure}
+
+    We identified genetic driver lines for eight neurons of the larval central complex: EB-MB1, PB2, LAL-DN1, LAL wrap1, FB-NO1, EB-DN1, RN1/2, plus DAN-d1, which is an EB.d (i.e., integrates inputs from the EB). 
+    We quantified larval turning behavior following targeted inhibition of each of these driver lines via Tetanus neurotoxin (TNT).
+    Control animals expressed the inactive variant, Impotent Tetanus (ImpTNT).
+    Given that the central complex is classically implicated in visually guided navigation, we used green light stimulation as the sensory stimuli.
+     \begin{table}[h!]
+    \centering
+    \begin{tabular}{llllll}
+    \toprule
+    \textbf{Neuron Name} & \textbf{Other names} & \textbf{Split Line} & \textbf{.b} & \textbf{.d} & \textbf{Lineage} \\ 
+    \midrule
+    DAN-d1      &   FB-33         & SS01978 &       & EB.d        & CPb        \\ 
+    LAL wrap 1  & MB20N-116       & SS26146 &       & LAL.d       &  DALcl12-v  \\ 
+    FB-NO 1     &                 & SS25856 & NO.b  & FB.d        &  DPMl12    \\ 
+    EB-MB 1     & FB2IN-12(Mickey Mouse)& SS22965 &       & EB.d    & BLP1/2    \\ 
+    RN 1/2      & FBN-20, MB2IN-38 & SS04497 & EB.b  &             &  DALv23    \\ 
+    EB-DN 1     & MB20N-75        & SS25740 &       & EB.d, LAL.d & DPMpm1 \\ 
+    LAL-DN 1    &                 & SS27197 &       & EB.d            & DALd   \\ 
+    PB2         & PB horizontal fibers & SS36847 & PB.b      &             & Dalv1  \\ 
+    \bottomrule
+    \end{tabular}
+    \caption{ \textbf{Neurons tested for LOF} Neuron names, corresponding split GAL4 line used for LOF experiments, and lineage information.}
+    \end{table}
+
+    We found that expressing TNT did not show significant changes to turning rates for most neurons when compared to controls in response to green light stimulation, with the exception of DAN-d1 \ref{LOS}. 
+
+    % TODO consider creating above a separate subsubsection for DAN-d1
+    % To investigate their contribution to navigation and to test the hypothesis that they function as components of a navigational center, – DISCUSSION
 
 
 \section{Neural activity in response to blue light stimulation}
@@ -499,16 +534,14 @@ When compared to the control (MB), the larval Protocerebral Bridge (PB) exhibite
 Overall, there seems to be a higher sensitivity to blue light from in PB compared to the MB, supposrting the hypothesis of a functional role in visual input processing (Fig. \ref{LSanalysis}. However, the effects aren't as significant as expected, possibly due to small sample size, suggesting the experiment could be underpowered.
 
 
-\section{Descending Neurons from CX}
-       
+\section{Descending Neurons from CX}    
 %catmaid annotation: 
-            129 neurons descending to VNC
-            93 neurons descending to SEZ
-            216 total descending
-            layer 1 annotated as: 'cx descending l1' (56 neurons) 25.6\%
-            569 second order descending
-            layer 2 annotated as: 'cx descending l2' (71 neurons of 569) 12.4\%
+                129 neurons descending to VNC
+                93 neurons descending to SEZ
+                216 total descending
+                layer 1 annotated as: 'cx descending l1' (56 neurons) 25.6\%
+                569 second order descending
+                layer 2 annotated as: 'cx descending l2' (71 neurons of 569) 12.4\%
 
 
 
-%\section{Visual input into the Larval Central Complex}%- 4 graphs showing connectivity between

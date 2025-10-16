@@ -4,32 +4,25 @@
 %*******************************************************************************
 
 \chapter{Methods}
+\textit{Parts of this section incorporate text from published work [The central complex of the larval fruit fly brain] (Lungu et al., 2025)}
 
-%\ifpdf
-    %\graphicspath{{Chapter2/Figs/Raster/}%{Chapter2/Figs/PDF/}{Chapter2/Figs/}}
-%\else
-%    \graphicspath{{Chapter2/Figs/Vector/}{Chapter2/Figs/}}
-%\fi
-
-%%EM%%
 \section{Reconstructing neurons in Electron Microscopy Volumes}
-    \subsection{Seymour volume}
-    \citep{ohyama2015multilevel}
-
-    
     \subsection{Connectome data}
-    The connectome of a 2-hour old first instar larval brain was used, as reconstructed previously by us \citep{winding2023connectome}. The neuronal reconstructions, synapse labels, and neuron annotations, together with the electron microscopy volume, is available at the \href{https://l1em.catmaid.virtualflybrain.org/?pid=1&zp=108250&yp=82961.59999999999&xp=54210.799999999996&tool=tracingtool&sid0=1&s0=2.4999999999999996&help=true&layout=h(XY,%20%7B%20type:%20%22neuron-search%22,%20id:%20%22neuron-search-1%22,%20options:%20%7B%22annotation-name%22:%20%22papers%22%7D%7D,%200.6)}[VirtualFlyBrain]
-    \subsection{Neurotransmitter Volumes}
-    \subsection*{GABA}
-    \subsection*{Acetylcholine}
+    The connectome of a 2-hour old first instar larval brain was used, as reconstructed previously by us \citep{winding2023connectome}. The neuronal reconstructions, synapse labels, and neuron annotations, together with the electron microscopy volume, is available at the \href{https://l1em.catmaid.virtualflybrain.org/?pid=1&zp=108250&yp=82961.59999999999&xp=54210.799999999996&tool=tracingtool&sid0=1&s0=2.4999999999999996&help=true&layout=h(XY,%20%7B%20type:%20%22neuron-search%22,%20id:%20%22neuron-search-1%22,%20options:%20%7B%22annotation-name%22:%20%22papers%22%7D%7D,%200.6)}{VirtualFlyBrain}
 
-%%CONNECTOMICS%%
-\section{Connectomics}
-\subsection{Sensory Information Flow}
-\subsection{Lineage Matching}
+    \subsection{Neurons Segmentation}
+    Neurons were manually segmented using CATMAID 
+    \subsection{Data Analysis}
+    Data was analysed via the web-based CATMAID software \citep{schneider2016quantitative, saalfeld2009catmaid}, specifically
+
+    %Data analysis of the connectome was performed by constructing weighted, directed connectivity matrices between identified central complex neuropils. For each pair of neuropils i, j we computed an adjacency entry A_{ij} equal to the total number of presynaptic–postsynaptic contacts from neurons with arbors in neuropil i onto neurons with arbors in neuropil j. Matrices were analysed both as raw synapse-count weights and after normalization (e.g. by total synapse counts per neuropil and by neuropil volume) and after applying minimum-synapse thresholds to remove spurious weak edges.
+
+    Results were exported as readable tables mapping neuropil-level connectivity and graph measures. For each neuropil we report: total incoming synapses, total outgoing synapses, in-/out-strength, degree, betweenness, eigenvector centrality, clustering coefficient, and assigned community. Tabular outputs were produced as CSV and as LaTeX tables for inclusion in the manuscript and Supplementary Materials. Code and raw matrices used to generate the tables are provided in the project repository to ensure reproducibility.
 
 
-%%DANs%
+
+\section{Identification of Central Complex Neuropils}
+
 \section{Identifying non-Mushroom Body Dopaminergic Neurons}
     \subsection{Multicolor Stochastic Labelling via FLP-out} 
     We were interested if any of the identified central complex neurons are dopaminergic. To verify that, we used the GAL4/UAS system to tag all the dopaminergic neurons(DANs) in the brain, and focused on those located outside the Mushroom Body (non-MB DANs).
@@ -42,20 +35,21 @@
     Our line had three MCFO reporters(smGFPs) \- HA, FLAG, V5.
 
     \subsection{Fly Strains}
-    We used TH-GAL4, a line that tags all the dopaminergic neurons in the Central nervous system of the larva, and crossed it with tsh-gal 80 to suppress expression in the VNC. 
+    We used \geno{TH-GAL4}, a line that tags all dopaminergic neurons in the central nervous system of the larva \citep{selcho2009thgal4}, and crossed it with \geno{tsh-GAL80} to suppress expression in the VNC. 
+    The following driver line was used:  
+    \geno{R57C10-FlpL in su(Hw)attP8;; pJFRC210-10XUAS-FRT>STOP>FRT-myr::smGFP-OLLAS in attP2. pJFRC210-10XUAS-FRT>STOP>FRT...}.
+    The following effector line was used:   \geno{w; tsh-Gal80/cyo.Tb.RFP; TH-Gal4}.
+    These were crossed, and the desired progeny was:  \geno{R57C10-FlpL / + ; tsh-Gal80 / CyO.Tb.RFP ; TH-Gal4 / UAS-smGFP}. To select for larvae that express \geno{GAL4} only in the brain, only larvae with red fluorescent bodies were dissected, as this indicates the presence of \geno{tsh-GAL80}.  
+    
+    %We used TH-GAL4, a line that tags all the dopaminergic neurons in the Central nervous system of the larva, and crossed it with tsh-gal 80 to suppress expression in the VNC. 
+    %The following driver line was used:
+    %R57C10-FlpL in su(Hw)attP8;;pJFRC210-10XUAS-FRT>STOP>FRT-myr::smGFP-OLLAS inattP2.pJFRC210-10XUAS-FRT>STOP>FRT…...
+    %The following effector line was used:
+    %w;tsh-Gal80/cyo.Tb.RFP; TH-Gal4
+    %were crossed and the desired selected progeny was the following:
+    %R57C10-FlpL / + ; tsh-Gal80 / CyO.Tb.RFP ; TH-Gal4 / UAS-smGFP
 
-    The following driver line was used:
-    R57C10-FlpL in su(Hw)attP8;;pJFRC210-10XUAS-FRT>STOP>FRT-myr::smGFP-OLLAS inattP2.pJFRC210-10XUAS-FRT>STOP>FRT…...
-
-    The following effector line was used:
-    w;tsh-Gal80/cyo.Tb.RFP; TH-Gal4
-    were crossed and the desired selected progeny was the following:
-    R57C10-FlpL / + ; tsh-Gal80 / CyO.Tb.RFP ; TH-Gal4 / UAS-smGFP
-
-
-    To select for larvae that express GLA4 only in the brain, only larvae that had red fluorescent bodies were selected for dissection, as this indicates the presence of tsh-GAL80.
-
-\subsection{Immunohistochemistry}
+    \subsection{Immunohistochemistry}
     For Immunohistochemistry, we adapted the protocol from HHMI Janelia Research Campus, in combination with the protocol from \citep{nern2015multicolor}. The following primary antibodies were used: \textbf{Mouse $\alpha$-Neuroglian; Rabbit $\alpha$-HA Tag; Rat $\alpha$-FLAG Tag} (Sigma). The following secondary antibodies were used: AF488 Donkey \textbf{$\alpha$-Mouse; DL549 Goat $\alpha$-Rabbit (Sigma)}. The following conjugated antibody was used: AF647 \textbf{Mouse $\alpha$-V5} 
 
     Optimization of the protocol required extensive iteration over many months, during which multiple combinations of primary, secondary, and conjugated antibodies were systematically tested. The aim was to obtain strong, specific signals in all imaging channels without cross-reactivity or bleed-through. The final antibody set reported here represents the outcome of this process and was selected because it consistently provided clear labeling across epitopes, enabling reliable multichannel visualization.
@@ -68,61 +62,37 @@
 
     For mounting, tissues were placed on poly-L-lysine (PLL)-coated coverslips. Samples were dehydrated through a graded ethanol series (30\%, 50\%, 75\%, 95\%, and three changes of 100\%), soaking for 10~min at each step. Tissues were cleared by immersion in three sequential 5~min xylene baths. Finally, samples were embedded by applying 4--5 (80~$\mu$l) drops of dibutyl phthalate in xylene (DPX) to the mounted tissue, placing the coverslip (DPX side down) onto a prepared slide with spacers, and applying gentle pressure to seat the coverslip. Slides were left to dry in the hood for 1--2 days prior to imaging.
 
-\subsection{Imaging}
+    \subsection{Imaging}
     For imaging, the Zeiss LSM 780 was used.
 
-\subsection{Matching LM images with Seymour Data} %Laser Scanning Confocal Microscopy
+\subsection{Matching LM images with Seymour Data} %Laser Scanning Confocal 
 
-
-
-
-
-
-
-%%Light Sheet Microscopy%%
-
-
-
-\section{Ca$^{2+}$ Imaging with Light Sheet Microscopy}
-
-\subsection{Fly lines} %RH5 and no RH5
-
-\subsection{Sample Preparation}
-Fly larvae were raised on standard cornmeal-based food.
-Second instar larvae were selected for live imaging.Individual larvae were dissected in physiological saline.
-After being pinned dorsal side up in Sylgard-lined Petri dishes, a dorsal incision was made along the larval body with fine scissors. The body wall was pinned flat and internal organs were removed. The isolated Drosophila CNS was then dissected away, preserving the Rh5 photoreceptors which expressed fluorescence.  Only CNS samples that expressed irfp were selected.%TO DO edit + double check with nicolo how that is done 
-The samples were then embedded in 1\% low-melting temperature agarose in physiological saline at 36\,\textdegree C. The agarose containing the CNS was drawn into a glass capillary with 1.4\,mm inner diameter and 2.0\,mm outer diameter, where the agarose quickly cooled to room temperature, forming a soft gel. The agarose cylinder was extruded from the capillary so that the CNS was optically accessible outside of the glass. %TO DO edit
-
-
-\subsection{LSM and Functional Imaging}
-The SiMView software was used to locate the brain. There are 2 views, one from the back and from the front. The view was set to an angle that is as flat and central as possible. Imaging is with green (561nm) exciting jRGECO(present in the cytosol) which is the Ca reporter expressed pan neuronally, and with red is the IRFP(expressd in the nuclei) brightens the cell nuclei very well which allows you to see the cell position. 
-
-
-\subsection{Data Analysis}
 
 
 
 %%Behavioural Assays%%
-\section{Behavioural Assays}
-\subsection{Fly strains}
-9 split GAL4 lines were used and crossed with either UAS-TNT and UAS-impTNT effector lines.
-The cross was set at 25°C on fly food for 3 days. Larvae containing the UAS-TNT or UAS-impTNT transgene were raised at 18°C for 7 days with normal cornmeal food. Foraging third instar larvae were used for all experiments. 
+
+\section{Loss-of-Function Behavioural Assays}
+
+    \subsection{Fly strains}
+    The following effector lines were used: UAS-impTNT-HA, UAS-TNT-HA, obtained from the Bloomington Stock Center (Indiana, USA).
+
+    We used the following split-GAL4 GMR driver lines: SS01978, SS26146, SS2856, SS22965, SS04497, SS25740, SS27197, SS36847, SS55970 (HHMI Jannelia Research Campus; \citep{li2014gal4, meissner2025splitgal4}). See Fig. \ref{fig:behaviour}.
+    
 
 \subsection{Behavioural Experiments}
 
-9 split GAL4 lines were used and crossed with either UAS-TNT (effector) or UAS-impTNT (control) genetic driver lines lines.
-The cross was set at 25$^o$C and the flies were laid on fly food for 3 days.
-Larvae containing the UAS-TNT or UAS-impTNT transgene were raised at 18$^o$C for 7 days with normal cornmeal food.
-Third instar larvae were used for all experiments.
+    9 split GAL4 lines were used and crossed with either UAS-TNT (effector) or UAS-impTNT (control) genetic driver lines lines.
+    The cross was set at 25$^o$C and the flies were laid on fly food for 3 days.
+    Larvae containing the UAS-TNT or UAS-impTNT transgene were raised at 18$^o$C for 7 days with normal cornmeal food.
+    Third instar larvae were used for all experiments.
 
-Larvae were separated from food by using 15\% sucrose and washed with water, then dried and placed in the center of the arena, consisting in 3\% Bacto agar gel in a 25 × 25 cm square plastic plate.
-Experiments were conducted at 25$^o$C.
-Larvae were monitored with the Multi-Worm Tracker (MWT) software (http://sourceforge.net/projects/mwt); \citep{Ohyama2013PlosONE}.
+    Larvae were separated from food by using 15\% sucrose and washed with water, then dried and placed in the center of the arena, consisting in 3\% Bacto agar gel in a 25 × 25 cm square plastic plate.
+    Experiments were conducted at 25$^o$C.
+    Larvae were monitored with the Multi-Worm Tracker (MWT) software (http://sourceforge.net/projects/mwt); \citep{Ohyama2013PlosONE}.
 
-For light-stimulation experiments, we used approximately 30 larvae for each run. The larvae were presented with green light for 40 seconds, and the amount of larvae turning was monitored before, during and after stimulus presentation. 6 runs were performed for every line.
+    For light-stimulation experiments, we used approximately 30 larvae for each run. The larvae were presented with green light for 40 seconds, and the amount of larvae turning was monitored before, during and after stimulus presentation. 6 runs were performed for every line.
 
-%\textbf{Behavioural Apparatus}The apparatus comprises a video camera (DALSA Falcon 4M30 camera) for monitoring larvae, a ring light illuminator (Cree C503B-RCS-CW0Z0AA1 at 624 nm in the red), a computer and two hardware modules for controlling vibration and temperature (Oven Industries PA, Model 0805). Both hardware modules were controlled through multi worm tracker (MWT) software (http://sourceforge.net/projects/mwt). %from Ohyama
-%Before the experiments, the larvae were separated from food by using 15\% sucrose and washed with water. The larvae were then dried and placed in the center of the arena. The substrate for the behavioural experiments was 3\% Bacto agar gel in a 25 × 25 cm square plastic plate for experiments involving thermal activation and vibration stimuli, or a 10 × 10 cm plate for those involving thermal activation alone. We tested approximately 15–50 larvae at once in the behavioural assays. The temperature of the entire rig was kept at 25 °C (for optogenetic activation experiments) or 30 °C or 32 °C for thermogenetic activation experiments. The agar plates were also kept at the room temperature prior to experiment. The MWT software64 (http://sourceforge.net/projects/mwt) was used to record all behavioural responses and to control the presentation of vibration stimuli. %from ohyama
 
 \subsection{Behavioural Quantification}
 Larvae were tracked in real-time using the MWT software. We rejected objects that were tracked for less than 5 seconds or moved less than one body length of the larva. For each larva MWT returns a contour, spine and centre of mass as a function of time. Raw videos are never stored. From the MWT tracking data we computed the key parameters of larval motion, using specific choreography (part of the MWT software package) variables28. From the tracking data, we detected and quantified crawling and rolling events and the speed of peristaltic crawling strides.%ohyama
@@ -135,6 +105,31 @@ Larvae were tracked in real-time using the MWT software. We rejected objects tha
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+    %\subsection{Sensory Information Flow}
+    %\subsection{Lineage Matching}
+
+
+\section{Ca$^{2+}$ Imaging with Light Sheet Microscopy}
+    \subsection{Fly lines} %RH5 and no RH5
+    \subsection{Sample Preparation}
+    Fly larvae were raised on standard cornmeal-based food.
+    Second instar larvae were selected for live imaging.Individual larvae were dissected in physiological saline.
+    After being pinned dorsal side up in Sylgard-lined Petri dishes, a dorsal incision was made along the larval body with fine scissors. The body wall was pinned flat and internal organs were removed. The isolated Drosophila CNS was then dissected away, preserving the Rh5 photoreceptors which expressed fluorescence.  Only CNS samples that expressed irfp were selected.%TO DO edit + double check with nicolo how that is done 
+    The samples were then embedded in 1\% low-melting temperature agarose in physiological saline at 36\,\textdegree C. The agarose containing the CNS was drawn into a glass capillary with 1.4\,mm inner diameter and 2.0\,mm outer diameter, where the agarose quickly cooled to room temperature, forming a soft gel. The agarose cylinder was extruded from the capillary so that the CNS was optically accessible outside of the glass. %TO DO edit
+    \subsection{LSM and Functional Imaging}
+    The SiMView software was used to locate the brain. There are 2 views, one from the back and from the front. The view was set to an angle that is as flat and central as possible. Imaging is with green (561nm) exciting jRGECO(present in the cytosol) which is the Ca reporter expressed pan neuronally, and with red is the IRFP(expressd in the nuclei) brightens the cell nuclei very well which allows you to see the cell position. 
+    \subsection{Data Analysis}
 
 
 
