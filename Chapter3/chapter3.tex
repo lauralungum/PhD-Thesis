@@ -109,33 +109,33 @@
     \end{table}
 
     % green gradient 
-    \definecolor{forest1}{HTML}{EAF2E3} 
-    \definecolor{forest2}{HTML}{D7E8C9}
-    \definecolor{forest3}{HTML}{B9D89C}
-    \definecolor{forest4}{HTML}{93C47D}
-    \definecolor{forest5}{HTML}{6AA84F} 
+    \definecolor{forest1}{HTML}{EEF4EA} % very light
+    \definecolor{forest2}{HTML}{D6E3CB} 
+    \definecolor{forest3}{HTML}{B1D19B}
+    \definecolor{forest4}{HTML}{84B96F}
+    \definecolor{forest5}{HTML}{4C8437} % deep green
 
     \begin{table}[h!]
-\centering
-\begin{tabular}{|l|c|c|c|c|}
-\hline
-\textbf{Lineage} & \textbf{Left Hemisphere} & \textbf{Right Hemisphere} & \textbf{CX neurons} & \textbf{CX \% of Lineage} \\
-\hline
-Dalcl12 & 25 & 27 & 38 & \cellcolor{forest5}73.08\% \\
-Dalv1 & 11 & 11 & 14 & \cellcolor{forest4}63.64\% \\
-dplc\_post\_med & 6 & 10 & 10 & \cellcolor{forest4}62.50\% \\
-DPMl12 & 13 & 2 & 7 & \cellcolor{forest3}46.67\% \\
-Dalv23 & 18 & 21 & 18 & \cellcolor{forest3}46.15\% \\
-DPLc5 & 13 & 14 & 12 & \cellcolor{forest3}44.44\% \\
-dplal1-3 & 2 & 12 & 5 & \cellcolor{forest2}35.71\% \\
-CPb & 14 & 20 & 12 & \cellcolor{forest2}35.29\% \\
-DPMm1 & 38 & 47 & 24 & \cellcolor{forest1}28.24\% \\
-dall1 & 9 & 18 & 6 & \cellcolor{forest1}22.22\% \\
-\hline
-\end{tabular}
-\caption[Contribution of lineage to CX]{\textbf{Lineage contribution to CX}  This table illustrates lineages that contribute more that 20\% of their neurons ot the CX. the second and third column show their distribution across the brain hemispheres, whilst tha last column shows the percentage of neurons that contribute(axons, dendrites or both) to CX neuropils}
-\label{cx_percentage}
-    \end{table}
+    \centering
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline
+    \textbf{Lineage} & \textbf{Left Hemisphere} & \textbf{Right Hemisphere} & \textbf{CX neurons} & \textbf{CX \% of Lineage} \\
+    \hline
+    Dalcl12 & 25 & 27 & 38 & \cellcolor{forest5}73.08\% \\
+    Dalv1 & 11 & 11 & 14 & \cellcolor{forest4}63.64\% \\
+    dplc\_post\_med & 6 & 10 & 10 & \cellcolor{forest4}62.50\% \\
+    DPMl12 & 13 & 2 & 7 & \cellcolor{forest3}46.67\% \\
+    Dalv23 & 18 & 21 & 18 & \cellcolor{forest3}46.15\% \\
+    DPLc5 & 13 & 14 & 12 & \cellcolor{forest3}44.44\% \\
+    dplal1-3 & 2 & 12 & 5 & \cellcolor{forest2}35.71\% \\
+    CPb & 14 & 20 & 12 & \cellcolor{forest2}35.29\% \\
+    DPMm1 & 38 & 47 & 24 & \cellcolor{forest1}28.24\% \\
+    dall1 & 9 & 18 & 6 & \cellcolor{forest1}22.22\% \\
+    \hline
+    \end{tabular}
+    \caption[Contribution of lineage to CX]{\textbf{Lineage contribution to CX}  This table illustrates lineages that contribute more that 20\% of their neurons ot the CX. the second and third column show their distribution across the brain hemispheres, whilst tha last column shows the percentage of neurons that contribute(axons, dendrites or both) to CX neuropils}
+    \label{cx_percentage}
+        \end{table}
 
     \subsection{Connectivity of CX neurons}
     %CONNECTIVITY
@@ -232,12 +232,12 @@ dall1 & 9 & 18 & 6 & \cellcolor{forest1}22.22\% \\
     \toprule
     \textbf{PB Horizontal} & \multicolumn{10}{c}{\textbf{PB Columnar}} \\
     \cmidrule(lr){2-11}
-    & \rot{PB to NO,\\MB2ON-2\\04\_l}
-    & \rot{PB to NO,\\MB2ON-2\\04\_r}
-    & \rot{PB to NO,\\MB2ON-2\\41\_r}
-    & \rot{PB to NO,\\MB2ON-2\\41\_l}
-    & \rot{PB to EB,\\MB2IN-19\\5\_l}
-    & \rot{PB to EB,\\MB2IN-19\\5\_r}
+    & \rot{PB to NO,\\MB2ON-204\\\_l}
+    & \rot{PB to NO,\\MB2ON-204\\\_r}
+    & \rot{PB to NO,\\MB2ON-241\\\_r}
+    & \rot{PB to NO,\\MB2ON-241\\\_l}
+    & \rot{PB to EB,\\MB2IN-195\\\_l}
+    & \rot{PB to EB,\\MB2IN-195\\\_r}
     & \rot{PB Descending\\\_1\_l}
     & \rot{PB Descending\\\_1\_r}
     & \rot{PB Descending\\\_2\_l}
@@ -286,8 +286,8 @@ dall1 & 9 & 18 & 6 & \cellcolor{forest1}22.22\% \\
     & \cellcolor{forest4}19 \\
     \bottomrule
     \end{tabular}
-    \caption{HF-PB (horizontal) neurons projecting to columnar targets; 90° column labels preserved. Darker green indicates larger values.}
-    \label{tab:pb_sheet_exact}
+    \caption[PB horizontal fibers connection to  PB columnar ]{}
+    \label{PBconnections}
     \end{table}
 
 
@@ -398,33 +398,131 @@ dall1 & 9 & 18 & 6 & \cellcolor{forest1}22.22\% \\
 
 
     \subsection{Fan-Shaped Body}
-    % Constituent neurons and the horizontal and vertical compartments they define
-    The adult FB is a bilaterally symmetric neuropil anterior to the PB, with well-defined horizontal and vertical components: it has 6 horizontal layers stacked dorso-ventrally that are defined by distinct sets of horizontal neurons(FB tangential neurons); and 9 vertical columns stacked medio-laterally are defined by column-specific columnar neurons. Both horizontal and vertical neurons innervate the FB in a layer- and column-restricted manner ~\citep{heinze2017unraveling}. As one of the biggest CX neuropils, a large variety of lineages contribute to the FB.
-    The FB does not receive input along only one clearly defined input pathway, but it is connected to many regions of the surrounding protocerebrum via tangential neurons. 
-
-    There are 2 types of FB tangential cells: (1)neurons that relay the presence of an attractive odor to the FB, originating in the MB or the LH (learnt or innate valences); (2) neurons that relay sleep drive to the FB, whose activity is mandatory for sleep initiation. 
-
-    The FB columnar neurons, or columnar input cells are known as PFN (PB-FB-NO) and they receive information both in the PB and in the Noduli output cells with dendritic fibers mainly in the FB; 
-
-    There are 5 types of PFNs, they form a p they all receive the same head direction input from the PB, which is integrated with different input signals received in the NO. The PFN outputs are located in distinct layers of the ventral/posterior FB, essentially mapping the noduli layers onto corresponding regions of the FB. PFN cells have a columnar projection pattern that is offset from the default projection scheme between the PB and the central body. This offset generates a head direction bump in the FB that is contralaterally shifted relative to the PB by one column, i.e., 45° of azimuthal space, thus separating right and left cells originating in corresponding PB columns by 90° in the FB.
-
-    The third class of FB cells are interneurons which input and output within the regions of the FB.There are 2 types: FB intrinsic neurons; FB mixed arborisation neurons with additional output branches outside the CX and sometimes input fibers in the PB.
-
-
-    % Typical synaptic inputs and outputs
-    A key feature of the the adult FB is strong innervation by Mushroom Body Output Neurons (MBONs)~\citep{MISSING}. % many, including hemibrain paper
-    In addition, the axons of dopaminergic neurons driven by visual inputs innervate the FB~\citep{lin2013comprehensive}.
-
-
-    % In larva, these are CNs or LHONs:
-    %Among the many other inputs to the FB, to remark inputs from the lateral horn (LH)~\citep{hulse2021connectome}, a region known to compute valences from multimodal inputs~\citep{StrutzSachse2014odorquality}. Within the CX, the FB forms bidirectional connections with the PB, the Noduli (NO), and the Lateral Accessory Lobe (LAL). 
-
-    % In larva, now describe FB.b (mostly horizontal fibers like the u-shaped horseshoe neurons) and the FB.d.
 
     In the larva, we found a number of putative FB horizontal/tangential cells
     originating in lineages known to contribute neurons to the adult FB. Characteristically, most present a bilateral axon closely wrapping around the midline, and an ipsilateral dendrite positioned within the superior dorsal protocerebrum (dorsal anterior neuropil) where they integrate numerous inputs from MBON axons. Among the various neurons with dendrites within this very medial neuropil, we find neurons from lineages known to contribute to the adult FB and whose axons project to the putative larval NO, EB, PB and LAL.
 
-    %We found that a putative FB is also present at the larva, with neurons from the lineages DPMpm1, CM13, DPMpl12 and DPMpm2, and which receives strong synaptic input from MBONs as well as strong reciprocal connectivity with the LAL, the putative NO, and the putative PB. 
+
+    \textbf{\textit{Larval FB tangential cells}}
+
+    % TODO: FB.b neurons
+    % Types:
+    % 2. CX columnar FB.b PB.b (and the dendrites?). Some are postsynaptic to Munin (feeding system, Schlegel et al. 2016 eLife)
+    % 3. CX columnar FB.b (and the dendrites?)
+    % 4. MB2ON-208 FB.b
+    % 5. SEZ FB.b
+    % 6. VNC pCC FB.b (insulin?)
+    % 7. rest of the brain FB.b
+
+    We found a diverse and large collection of larval FB tangential cell types.
+    All types contribute synapses rather specifically to the FB and are hence labeled as FB.b, a defining feature across them all.
+    The somas originate in a number of larval lineages whose adult homologs are known to contribute neurons to the adult FB (see above), but also a few from the nerve cord, projecting their ascending axons directly to the FB such as the pCC neurons (a cell type first reported in grasshopper \citep{goodman1984pCC} and later in the \textit{Drosophila} embryo \citep{jacobs1989pCC}). The axons of the pCC project to the ipsilateral FB. The set of ascending neurons isn't complete, for the ventral nerve cord (VNC) remains incompletely mapped.
+
+    Among all neurons projecting their axons to the FB, many are brain neurons that do so with a typical bilateral horseshoe ('hs') axon, and hence we named then hs-FB, with a numeric label for each subtype.
+
+        \begin{figure}
+            \centering
+            \includegraphics[width=10cm]{Figs/CX/HS-FBneurons.pdf}
+            \caption{\textbf{FB tangential cells,} also known informally as "horseshoe" neurons for the shape of their bilateral axons. The seven hs-FB subtypes are shown, each with a morphological reconstruction (top) and a simplified schematic (bottom). Input synapses (dendrites) are indicated by blue arrows, and output synapses (axons) by red arrows. The mushroom body is shown in magenta. Neuron counts (left+right) are given below each schematic. \textbf{A–C.} Individual examples of hs-FB.1, hs-FB.2, and hs-FB.3. \textbf{D.} Overlay of hs-FB.1 through .3, illustrating the FB compartments they define. \textbf{E–H.} Individual examples of hs-FB.4 through .7.}
+        \label{fig:HSFBneurons}
+        \end{figure}
+
+    The DM1-DM4 lineages that contribute to the adult CX also generate a number of neurons in the larva (larval lineages DPMm1, DPMpm1, DPMpm2, and CM4-vm, respectively). Targeting the FB, there are several major subtypes. First, 6 pairs of neurons (hs-FB.1) with a bilaterally symmetric axon that tightly lines the medial surface in a horseshoe shape, and with a smallish dendrite dorsal and slightly lateral to the FB, within the medial side of the superior protocerebrum. Second, 2 pairs of neurons (hs-FB.2) also with bilaterally symmetric axons but that target the more posterior-lateral FB and beyond into the larval PB,
+    with also ipsilateral dendrites that extend anteriorly and ventrally along the neuraxis.
+    Third, a pair of neurons (hs-FB.3) with bilateral axons placed towards the most posterior end of the FB and perhaps beyond, into the lateral side, and with small ipsilateral dendrites.
+    The axons of all 6 pairs of hs-FB.1 neurons define the ventral layer of the FB, and the axons of the hs-FB.2 the dorsal one, which is shorter and more anterior. The hs-FB.3 axons project in between the other two types but also cover the posterior-dorsal area that hs-FB.2 doesn't (Fig. \ref{fig:HSFBneurons}). 
+    The larval BAla34 lineage generates sensory PNs, of which two pairs (hs-FB.4) present the typical bilateral axon and their dendrites collect inputs from the ventral posterior brain where ascending PNs from the somatosensory system (mostly mechanosensory) project their axons. One of the pairs is also NO.d (collects inputs from NO.b neurons).
+    The larval BAmd2 lineage contributes two pairs of neurons (hs-FB.5) with a bilateral axon and dendrites that cover a region medial but lateral to the FB, and also far more ventral.
+    The larval DALl1 lineage contributes two pairs of neurons (hs-FB.6) with a bilateral axon and dendrites integrating inputs from the intermediate and lateral areas to the FB, primarily from neurons postsynaptic to ascending mechanoreceptive neurons like A00c \citep{ohyama2015multilevel}. A number of neurons presynaptic to hs-FB.6 are also labeled as FFNs and MB2INs, meaning they converge onto MB DANs, MBINs and OANs \citep{eschbach2020recurrent}.
+    The larval CPa lineage contributes a pair of neurons (hs-FB.7) with a bilateral axon and dendrites that cover the most posterior end of the FB, or right outside, plus sparsely a space lateral to the FB, collecting inputs from polysynaptic pathways originating in somatosensory mechanoreceptive neurons.
+
+
+    %%%Other FB.b neurons 
+    Finally, the DPLal1-3 lineage contributes a pair of small neurons (ip-FB.1) with an ipsilateral-only axon targeting the most posterior lateral side of the larval FB, and with dendrites more lateral that integrate inputs from a variety of neurons, some of which are NO.d.
+
+     
+
+    \textbf{\textit{Larval FB columnar neurons}}
+
+    % TODO: FB.d neurons
+    % Types:
+    % 1. FB.d HF-PB (DALv1; which are also MB2ONs)  !!!
+    % 2. FB.d NO.b MB2ON-201, MB2ON-204, CN-34
+    % 3. FB.d FFN-6  -> upstream of MB DANs
+    % 4. FB.d ni (MB non-intrinsic early-born KC-like but not KCs), two cell types
+    % 4b. FB.d PB.d ni
+    % 5. FB.d "descending contralateral 2"
+    % 6. FB.d horseshoe that aren't FB.b
+    % 7. FB.d FB-NO 1
+    % 8. FB.d NO.d " CM4 cen ant 1" (and the axons?)
+
+    % TODO Note the loop between FB and NO, with NO.d-FB.b and FB.d-NO.b neurons.
+
+    By definition, all larval FB columnar neurons present dendrites in the FB (are FB.d), and are postsynaptic to FB.b neurons.
+
+    In addition to generating FB tangential neurons, the DM1-DM4 lineages also contribute 5 pairs of FB columnar neurons. These neurons (FB.d.1) are characterized by ipsilateral-only dendrites largely circumscribed to the FB (except for the Bushy neuron from the DPMpm1/DM3 lineage), and projecting their ipsilateral-only clutchy axons solely the NO (so they are FB.d-NO.b). Therefore, FB.d.1 are specialized in relaying information from the FB to the NO hemilaterally. Among FB.d.1 we find CN-34, MB2ON-201 and MB2ON-204 \citep{eschbach2021circuits}.
+
+    The DM lineage (larval CM4-vm lineage) further contributes 1 pair of neurons (FB.d.4) with ipsilateral dendrites in the posterior FB and beyond into an area adjacent to the LAL medially, and a contralateral axon that descends into the VNC, dropping presynaptic sites from the SEZ to the most posterior abdominal segments. Within the brain, FB.d.4 synapses onto some NO.d neurons (e.g., MB2ON-200) and also onto CN-28 \citep{eschbach2021circuits}.
+
+    The MB neuroblasts contribute 3 pairs of early-born, non-Kenyon cell neurons (the 'ni' for "non-intrinsic"), named FB.d.2, with ipsilateral dendrites in the FB and a contralateral axon targeting exclusively the LAL.
+
+    Then there are a collection of single pairs of neurons, each contributed by a different neuroblast, with dendrites in the FB and their axons targeting widely divergent neuropils, across the brain and also into the SEZ and VNC.
+
+    The larval BLAv12 lineage contributes 1 pair of neurons (FB.d.3) with ipsilateral dendrites in the FB and also more medially, and ipsilateral axons targeting exclusively the LAL.
+
+    The larval DALcm12-v lineage (adult CREa1) contributes 1 pair of neurons (FB.d.5) with ipsilateral dendrites in the FB and in the area adjacent but medial and ventral to the LAL, projecting their axons ipsilaterally from the NO to the medio-ventral brain and dorsal SEZ. The axons synapse onto a large number of NO.d neurons.
+
+    The BAmv12-dor larval lineage contributes 1 pair of neurons (FB.d.6) with compact ipsilateral dendrites within the FB, and a compact short ipsilateral axon immediately dorsal on the PB. The FB.d.6 hence serve as a direct relay from the FB to the PB, synapsing onto hald a dozen PB.d neuron types.
+
+    The BAla12 larval lineage contributes 1 pair of neurons (FB.d.7; also known as FFN-6, \citep{eschbach2021circuits}) with compact ipsilateral dendrites in the FB, and an ipsilateral axon that targets the superior anterior protocerebrum where it synapses profusely onto the dendrites of DANs and OANs of the MB (DAN-i1, DAN-j1, DAN-c1, OAN-g1). Hence, FB.d.7 serves as a relay between the FB and the MB input neurons, conveying teaching signals for associative memories.
+
+    The BLAl larval lineage contributes 1 pair of neurons (FB.d.8) with ipsilateral dendrites within the FB but also extensively lateral to the FB, and with peculiarly curving axons that follow the neuraxis, closely apposed to the dendrites of some hs-FB subtypes (hs-FB.1, hs-FB.2, hs-FB.3) and synapsing onto them.
+
+    The DPMl2 larval lineage contributes 1 pair of neurons (FB.d.9, also known as FB-LAL1) with ipsilateral dendrites on the posterior  hemilateral FB (with inputs from hs-FB.2, hs-FB.5, hs-FB.6) and also reaching into the PB (with inputs only from ADC1), and a contralateral axon targeting the LAL where they synapse onto LAL LNs, EB.d neurons, and multiple descending neurons (DNs) that project to the SEZ and VNC.
+
+    Finally, 3 of the 4 pairs of HF-PB neurons (the ones with a doubly crossing axon) are all FB.d, namely, they have dendrites within the FB and receive numerous synapses from FB.d neurons, in particular subtypes hs-FB.2, hs-FB.5 and hs-FB.6 (with further but weaker inputs from other subtypes). This indicates that the PB horizontal fibers not only integrate inputs from multiple sensory systems and gated by MB outputs, but are also modulated by the FB.
+
+    % TODO the 4th pair of HF-PB neurons needs a distinctive name or tag.
+
+    \begin{table}[ht]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{l|ccccccccc}
+    \toprule
+    & \multicolumn{9}{c}{\textbf{FB Columnar}} \\
+    \cmidrule(lr){2-10}
+    \textbf{FB Tangential} & FB.d.1 & FB.d.2 & FB.d.3 & FB.d.4 & FB.d.5 & FB.d.6 & FB.d.7 & FB.d.8 & FB.d.9 \\
+    \midrule
+    hs-FB.1 & \cellcolor{forest5}70 & \cellcolor{forest3}10 & \cellcolor{forest2}6 & \cellcolor{forest3}16 & \cellcolor{forest4}25 &  & \cellcolor{forest4}54 & \cellcolor{forest2}2 &  \\
+    hs-FB.2 & \cellcolor{forest5}145 & \cellcolor{forest4}68 & \cellcolor{forest3}24 &  & \cellcolor{forest4}43 & \cellcolor{forest2}8 & \cellcolor{forest2}2 & \cellcolor{forest3}19 & \cellcolor{forest4}30 \\
+    hs-FB.3 & \cellcolor{forest4}35 & \cellcolor{forest3}19 &  &  &  & \cellcolor{forest3}19 & \cellcolor{forest3}18 &  & \cellcolor{forest2}1 \\
+    hs-FB.4 & \cellcolor{forest2}3 & \cellcolor{forest2}4 &  &  &  &  & \cellcolor{forest3}21 & \cellcolor{forest2}1 &  \\
+    hs-FB.5 & \cellcolor{forest3}18 & \cellcolor{forest2}2 & \cellcolor{forest1}1 &  &  &  & \cellcolor{forest2}1 & \cellcolor{forest2}1 &  \\
+    hs-FB.6 & \cellcolor{forest5}166 & \cellcolor{forest4}41 & \cellcolor{forest3}11 &  & \cellcolor{forest3}6 &  & \cellcolor{forest2}1 & \cellcolor{forest3}19 & \cellcolor{forest3}18 \\
+    hs-FB.7 & \cellcolor{forest4}63 & \cellcolor{forest3}16 & \cellcolor{forest3}10 &  &  & \cellcolor{forest2}8 & \cellcolor{forest4}50 & \cellcolor{forest2}1 & \cellcolor{forest3}19 \\
+    hs-FB.8 & \cellcolor{forest3}8 & \cellcolor{forest2}4 &  &  &  &  & \cellcolor{forest2}5 & \cellcolor{forest2}1 & \cellcolor{forest2}1 \\
+    \bottomrule
+    \end{tabular}
+    }
+    \caption{Connectivity between FB Tangential and FB Columnar neurons. Cell shading corresponds to relative connection strength (darker = stronger).}
+    \label{tab:fb-connectivity}
+    \end{table}
+
+    \textbf{\textit{Larval FB intrinsic neurons}}
+
+    % Neurons that are both FB.b and FB.d
+    We found two pairs of neurons (MB2ON-125 and eDAN-2) that are both FB.d and FB.b, corresponding to the third type of adult FB neurons: the intrinsic.
+
+    MB2ON-125 integrate inputs across many neuron types, from PB.d columnar neurons to LH output neurons.
+    As the MB2ON-125 name indicates (see \citep{eschbach2021circuits}), it receives direct synapses from MBONs (just MBON-c1, but a strong connection).
+    Fairly large, its dendrites span approximately the entire spatial domain of the putative larval FB.
+    Postsynaptically we find the CSD neuron \citep{berck2016wiring} and ascending neurons from the ventral nerve cord~(VNC), among many others such as FFN-31 (so-called feedforward neurons, from the MB perspective, that bring sensory inputs to MB DANs; \citep{eschbach2021circuits}).
+
+    % DPMpl12
+    eDAN-2 is a non-MB dopaminergic neuron (DAN) entirely circumscribed to the posterior-lateral end of the FB. See section on DANs of the CX below for details.
+
+
+
 
     \subsection{Noduli}
     \label{NO}
