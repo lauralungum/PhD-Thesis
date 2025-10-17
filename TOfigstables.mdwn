@@ -23,7 +23,7 @@
         \bottomrule
     \end{tabular}
     }
-    \caption{..}
+    \caption[]{..}
     \label{label}
     \end{table} 
 

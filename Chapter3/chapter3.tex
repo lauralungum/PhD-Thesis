@@ -203,6 +203,27 @@
         \label{cxdiagram}
     \end{figure}    
 
+
+
+    \begin{table}
+    \centering
+    \begin{tabular}{l|ccccc}
+        \toprule
+        Neuropil & PB & FB & EB & NO & LAL \\
+        \midrule
+        PB &  & * & * & * & * \\
+        FB & * & & & * & * \\
+        EB & & & & & * \\
+        NO & & * & & & * \\
+        LAL & & & * & & \\ % Does the LAL connect to any of PB, FB, etc. ?
+        MBONs &  & * & * & & \\
+        \bottomrule
+    \end{tabular}
+    \caption[Monosynaptic connectivity between CX neuropils]{\textbf{Monosynaptic connectivity between CX neuropils.} Asterisks indicate direct synaptic connections, with row neuropils synapting onto column neuropils. The table summarizes the non-empty intersection sets for annotations in CATMAID such as FB.d with NO.b (i.e., neurons with dendrites in the fan-shaped body and axons in the noduli).}
+    \label{inputsoutputs}
+    \end{table}
+
+
 \section{The Central Complex of \textit{Drosophila} Larva}
     \subsection{Protocerebral Bridge}
     \label{PB}
@@ -243,7 +264,7 @@
     & \rot{PB Descending\\\_2\_l}
     & \rot{PB Descending\\\_2\_r} \\
     \midrule
-    HF-PB1\_r
+    HF-PB1\_1\_r
     &  &  &  &
     & \cellcolor{forest1}1
     & \cellcolor{forest3}13
@@ -252,7 +273,7 @@
     & \cellcolor{forest5}26
     &  \\
 
-    HF-PB1\_l
+    HF-PB1\_1\_l
     &  &  &  &
     & \cellcolor{forest1}1
     & \cellcolor{forest2}11
@@ -261,7 +282,7 @@
     & \cellcolor{forest5}27
     &  \\
 
-    HF-PB3\_r
+    HF-PB1\_2\_r
     & \cellcolor{forest3}12
     & \cellcolor{forest4}21
     & \cellcolor{forest3}17
@@ -273,7 +294,7 @@
     & \cellcolor{forest3}13
     & \cellcolor{forest4}18 \\
 
-    HF-PB3\_l
+    HF-PB1\_2\_l
     & \cellcolor{forest3}17
     & \cellcolor{forest4}22
     & \cellcolor{forest2}7
@@ -286,7 +307,7 @@
     & \cellcolor{forest4}19 \\
     \bottomrule
     \end{tabular}
-    \caption[PB horizontal fibers connection to  PB columnar ]{}
+    \caption[PB horizontal fibers connection to  PB columnar ]{\textbf{PB horizontal fibers connections to  PB columnar neurons} the two pairs of HF-PB1 (written here as HF-PB1\_1 and HF-PB1\_2), the other hf-pb don't connect therefore not shown, connections to the PB columnar  }
     \label{PBconnections}
     \end{table}
 
@@ -376,7 +397,7 @@
     Similarly, we found two pairs of neurons (RN1/2) from the larval DALv23 lineage (adult EBa1 lineage, also known to generate ring neurons), synaptically connected like RN1/2 (Fig. \ref{EBneurons}B). We classified all of these as larval EB Ring neurons, all of them having both dendrites and axons inside the EB, making them EB.d.b neurons, and as such, Core CX neurons. 
 
     \textbf{\textit{Additional EB.d Neurons}}
-    There are seven more pairs of EB.d (neurons that contribute presynaptic sites to the EB) that didn't fall under ring or wedge neuron categories. Two of these are MB Dopaminergic neurons (DAN-d1 and DAN-g1), another 3 are LAL intrinsic neurons, and the last 2 are MB second order output neurons. %TODO add appendix 
+    There are seven more pairs of EB.d (neurons that contribute presynaptic sites to the EB) that didn't fall under ring or wedge neuron categories. Two of these are MB Dopaminergic neurons (DAN-d1 and DAN-g1), another 3 are LAL neurons(we refer to these as EB to LAL nerons) - these can be LAL.d LAL.b or LAL.d.b - and the last 2 are MB second order output neurons. %TODO add appendix 
 
 
     \textbf{\textit{Sensory inputs to the larval EB:}}
@@ -547,6 +568,30 @@
         \label{fig:label}
     \end{figure}
 
+
+    In addition to the 21 NO.b neurons described above, we identified approximately 92 neurons whose dendrites are located within the putative noduli (henceforth NO.d neurons). These NO.d neurons arise from a variety of larval lineages and can be grouped by their predominant connectivity and putative function. The major classes are: MB-related inputs and feedback neurons (many MB2INs/M2ONs/FBNs and convergence neurons(CNs) that convey learned-valence and feedback signals to the NO); LAL-projecting neurons that route processed NO signals to premotor or integrative centers; descending/SEZ-projecting neurons that relay NO-processed information toward motor circuits; and a small set of ascending or sensory-associated neurons that provide multisensory context.
+
+    \begin{table}[h!]
+    \centering
+    \begin{tabular}{l r}
+    \toprule
+    Class & Approx. count \\
+    \midrule
+    MB-related inputs (MBINs, FBNs, CNs) & 38 \\
+    Local interneurons / recurrent NO circuitry & 20 \\
+    LAL-projecting neurons & 12 \\
+    Descending / SEZ-projecting neurons & 10 \\
+    Ascending / sensory-associated inputs & 7 \\
+    Unclassified / other & 5 \\
+    \midrule
+    Total (approx.) & 92 \\
+    \bottomrule
+    \end{tabular}
+    \caption[Summary of NO.d neurons]{Approximate classification and counts of neurons with dendrites in the larval noduli (NO.d).}
+    \label{NOd_summary}
+    \end{table}
+
+    Functionally, the large fraction of MB-related NO.d neurons indicates that the they neurons are a implicated in memory-modulated signals in the larva. The presence of many LAL- and descending-projecting NO.d neurons supports the idea that the noduli contribute to transforming MB-gated sensory or internal-state information into action-related commands.
     Not a single NO.d neuron projects its axon onto any of the other core larval central complex neuropil, but some project to the LAL (Table \ref{inputsoutputs}), supporting a role for the NO as an output neuropil of the central complex.
 
 
@@ -779,13 +824,86 @@ Overall, there seems to be a higher sensitivity to blue light from in PB compare
 
 
 \section{Descending Neurons from CX}    
-%catmaid annotation: 
-                129 neurons descending to VNC
-                93 neurons descending to SEZ
-                216 total descending
-                layer 1 annotated as: 'cx descending l1' (56 neurons) 25.6\%
-                569 second order descending
-                layer 2 annotated as: 'cx descending l2' (71 neurons of 569) 12.4\%
+
+In the larva, several CX neurons ()
+
+
+\definecolor{cxhl}{RGB}{255,243,191} 
+\begin{table}
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{p{0.6\textwidth}|p{0.6\textwidth}}
+        \toprule
+        \textbf{CX Descending} & \textbf{CX Descending l1 (layer 1)} \\
+        \midrule
+        DPMm1 Columnar & A03o\_a1l \\
+        FB.d, FB.d.4, NO.d CM4 cen ant 1 & A23f2 (= Pre-goro9)\_a3l \\
+        EB-DN 1, EB.d, LAL-DN 1, LAL.d MB2ON-75 & ascending to hairbrush and LBA3 \\
+        DPMpm1 s 1 & \cellcolor{cxhl} BAmd descending \\
+        DPMpm1 s 1 & BAmv12 descending 1 \\
+        FB.d, FB.d.5, NO.d, PB.d pitch; & BAmv12 descending 2 \\
+        LAL output, LAL.d, NO.d DALd bushy & CM4 Bridle \\
+        NO.d ASB Gust descending & CM4 contralateral descending 1 \\
+        NO.d BAla34 lateral descending 1b & CP4 8 \\
+        NO.d BA1p descending 1 & DALcm12-v descending \\
+        NO.d BA1p descending 3 & DPMI\_ant\_ven descending \\
+        NO.d BAmd2\_v descending & EB-MB 1, EB.d FB2IN-12, MB2IN-77 Mickey Mouse\\
+        \cellcolor{cxhl} NO.d DPMI\_ant\_ven descending 3 & EB.d CN-36, FAN-4, MB2IN-10, MB2ON-18 B \\
+        NO.d MB2IN-216 LAL to VNC up to A6 & EB.d, FB.d MB2ON-17 Tomato Vine \\
+        NO.d MB2ON-200 CM4 ven pos 2 & FAN-5, MB2IN-11, MB2ON-19 AR \\
+        NO.d UNK descending 3 & FB-29, FBN-16, MB2IN-33, MB2ON-100 D \\
+        & FB.d CP descending contralateral 2 \\
+        & FB.d, FB.d.1 DPMpm1 bushy descending \\
+        & FB.d, FB.d.5, NO.d, PB.d pitch \\
+        & FB2IN-6, MB2IN-48, MB2ON-198 AS \\
+        & Horseshoe deviant \\
+        & \cellcolor{cxhl} MB2IN-172 DPLc1 Descending \\
+        & MB2IN-180 DNs-1 \\
+        & MB2IN-182 CSD \\
+        & MB2ON-4 BH ; Descending 2; CP1 v 2 \\
+        & \cellcolor{cxhl} MB2ON-39 ipsigoro \\
+        & MB2ON-144 Tomato Vine 2 \\
+        & MB2ON-205 DPLc\_post\_med descending \\
+        & MB2ON-249 try5thLN\_sibling 35 \\
+        & mPN ginkgo 2 \\
+        & NO-looper, NO.b BAmv12 looper 1 \\
+        & NO.b CN-6, MB2ON-41 T5 \\
+        & NO.d ASB Gust descending \\
+        & NO.d BA1p descending 1 \\
+        & NO.d BA1p descending 3 \\
+        & \cellcolor{cxhl} NO.d DPMI\_ant\_ven descending 3 \\
+        & NO.d MB2IN-216 LAL to VNC up to A6 \\
+        & NO.d MB2ON-139 WD \\
+        & NO.d MB2ON-200 CM4 ven pos 2 \\
+        & NO.d UNK descending 3 \\
+        & PB.d MIXED descending T \\
+        \bottomrule
+    \end{tabular}%
+    }
+    \caption[CX Descending Neurons]{CX Descending Neurons; highlighted columns indicate behaviour tested}
+    \label{CXDescending}
+\end{table}
+
+
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{l l p{0.45\textwidth} l}
+        \toprule
+        \textbf{Behaviour} & \textbf{CellType} & \textbf{Neuron Name} & \textbf{Split Line} \\
+        \midrule
+        Back & DN-VNC & \cellcolor{cxhl} NO.d DPMI\_ant\_ven descending 3 & \cellcolor{cxhl} SS04603 \\
+        Turn angle & DN-VNC & \cellcolor{cxhl} BAmd descending & \cellcolor{cxhl} SS01652 \\
+        Stop & DN-SEZ & \cellcolor{cxhl} MB2IN-172 DPLc1 Descending & \cellcolor{cxhl} SS38042 \\
+        Crawl & DN-VNC & \cellcolor{cxhl} MB2ON-39 ipsigoro & \cellcolor{cxhl} SS03731 \\
+        \bottomrule
+    \end{tabular}
+    \caption[Behaviour of CX Descending Neurons]{Descending neurons associated with specific behaviours and their split lines. Yellow cells highlight neuron and line pairs of interest.}
+    \label{behaviourCXdescending}
+\end{table}
+
+
+
 
 
 

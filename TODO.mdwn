@@ -4,21 +4,9 @@
 
 #RESULTS
 
-    \begin{figure}
-        \centering
-        \includegraphics[width=12cm]{Figs/CX/NOneurons.pdf}
-        \caption[]{...}
-        \label{fig:label}
-    \end{figure}
-4. Descending neurons (DNs) and the association of CX
-structures with known DNs.
-10. eDANs connectivity
-
-12. a table of .b rows vs .d columns for each neuropil could be clarifying, perhaps reveal some non-obvious structure.
 1. Proprioceptive ascending inputs
-
-7. Make supplemental connectivity matrices, axo-axonic,
-axo-dendritc etc. with the Export tool.
+2. mentions Pitch neuron in the FB section
+3. Put together figure for visual to CX
 
 #DISCUSSION
 5. TODO Discussion section on learning and DANs, related to DNs.
@@ -32,8 +20,7 @@ the board, like for eDANs, and for whatever else can help relate to the
 PEN, PFN, etc names of neurons in Hulse et al.
 13. add a \section{Visual input into the Larval Central Complex}%- 4 graphs showing connectivity between
 %TODO: potentially make the orthographic view 3D volumes, where you show PB horizontal fibers and pb.d, and the eb neurons
+7. Make supplemental connectivity matrices, axo-axonic,
+axo-dendritc etc. with the Export tool.
 
 
-
-#DONE
-2. EB.d neurons not listed in the EB section (additional)
