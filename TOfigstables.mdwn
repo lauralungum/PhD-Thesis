@@ -28,3 +28,7 @@
     \end{table} 
 
 
+shortcuts
+⌘ + Option + B buil pdf (⌘+S does the same I think)
+⌘ + Option + J - jump from source to pdf
+⌘ + click - jump from pdf to source 
