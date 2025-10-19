@@ -13,7 +13,7 @@
     \item Recurrent intra-CX connectivity, such as with columnar neurons relating the PB with the FB and EB, or with the NO.
     \end{enumerate}
     
-    \subsection{Identifying larva CXl neuronal lineages }
+    \subsection{Identifying larva CX neuronal lineages }
     The \textit{Drosophila melanogaster} central brain consists of stereotyped neural lineages, developmental-structural units of macrocircuitry formed by the sibling neurons of single progenitor cells, the neuroblasts \citep{Spindler2010Lineages}; a subset of these structures the CX \citep{Pereanu2011LineagesCX}. Starting with the currently identified set of quiescent, embryonic-born neurons present in the larval brain that develop into the adult CX during metamorphosis~\citep{andrade2019developmentally}
     I identified larval brain neurons satisfying imposed connectivity rules as per known circuit patterns across the adult CX neuropils \citep{wolff2015neuroarchitecture, wolff2018neuroarchitecture, franconville2018building, hulse2021connectome} (see \ref{CXAdultIntro}) .
     
@@ -375,7 +375,7 @@
             \textbf{\textit{Additional EB.d Neurons}}
             There are seven more pairs of EB.d (neurons that contribute presynaptic sites to the EB) that didn't fall under ring or wedge neuron categories. Two of these are MB Dopaminergic neurons (DAN-d1 and DAN-g1), another 3 are LAL neurons(I refer to these as EB to LAL nerons) - these can be LAL.d LAL.b or LAL.d.b - and the last 2 are MB second order output neurons (see Appendix for more)%TODO ADD APPENDIX 
 
-        \subsubsection{Connectivity between Ring Neurons and Wedge Neurons}
+        \subsubsection{EB Ring Neurons and EB Wedge Neurons connectivity}
             In the adult, a key feature of nearly all ring neuron types(ER1-6)is their dense interconnectivity. Since ER neurons send output processes within the CX \citep{hulse2021connectome}, I deduced majority of them are axo-axonic. Interestingly, this is the exact pattern I observe in the larval ring neurons (RN1/2, RN3), with all these 3 neurons being reciprocally connected axo-axonically (Table \ref{EBmatrix}). 
 
             The larval EB wedge neurons (W1–W8) form a densely recurrent network, reminiscent of adult wedge EPG neurons. Every wedge pair is connected reciprocally, with the predominant motif being axo-dendritic synapses; axo-axonic contacts are also present but weaker and fewer in number. 
@@ -549,14 +549,13 @@
         \label{MBtoCX}
     \end{figure}
     
-    \subsubsection{A loop between FB and the 'c' compartment of the MB}
+    \subsection{A loop between FB and the 'c' compartment of the MB}
     
     I found that MBON-c1 synapses onto one FB.b neuron, MB2ON-125.
     Interestingly, DAN-c1 integrates inputs from an FB.d neuron, FFN-6, which in turn integrates inputs from a few neurons that are directly postsynaptic to MB2ON-125, defining a loop between the MB 'c' compartment and the FB.
     No other MBON supplies direct or two-hop inputs onto the FB.
 
-   
-    \subsubsection{Reciprocal connectivity between EB ring neurons and the 'g' compartment of the MB}
+    \subsection{Reciprocal connectivity between EB RNs and the 'g' compartment of the MB}
 
     Four MBONs (a2, b3, g1 and g2) are EB.b (i.e., deliver synapses to the EB; Fig. \ref{MBtoCX}). Interestingly, some of these MBONs are monosynaptically interrelated, namely MBON-g1 and -g2 (which promote approach) are GABAergic neurons that synapse onto MBON-a2 (which promote avoidance) \citep{eschbach2021circuits}.
     Furthermore, MBON-g1 and -g2 synapse axo-axonically onto an EB ring neuron, RN1/2 (also known as FBN-20; \citep{eschbach2021circuits}), a core GABAergic neuron of the EB, which in addition to synapting axo-axonically recyprocally onto EB wedge neurons also synapses onto an EB.d neuron, DAN-g1.
@@ -566,44 +565,27 @@
     This disinhibition could be understood as a learning-based gating mechanism over EB wedge neurons, with features of input space expressed in the Kenyon cell population code, by coincident activity with DAN-g1, modulating the activity of the EB wedge neurons that the ring neurons also synapse onto.
     Taken together, this implies that, if the larval EB is functionally similar to that of the adult EB, there is a component of learning built-in into the internal representation of the direction of movement.
     
-    \subsubsection{A loop between the NO and the MB vertical lobe via the LAL}
-    % All are axo-dendritic synapses:
-    % MBON-p1 (NO.b) -> FBN-24/25/27 (NO.d) -> MBIN-l1
-
+    \subsection{A loop between the NO and the MB vertical lobe via LAL}
     MBON-p1 is a multi-compartment MBON of the MB vertical lobe that is an NO.b, (i.e., it delivers output synapses to the NO).
     At the NO, MBON-p1 synapses onto several NO.d neurons, FBN-24, FBN-25, and FBN-27, which are MB feedback neurons \citep{eschbach2020recurrent} that all project to the LAL and synapse strongly onto MBIN-l1, a MB input neuron targeting multiple compartments of the vertical lobe.
     This circuit configuration defines a strong tight loop between the MB vertical lobe and the NO via the LAL.  Note that the dendrites of MBIN-l1 are entirely contained within the LAL compartment.
     In addition, these three feedback neurons also synapse weakly onto DAN-d1.
 
-
-    \subsubsection{The MB modulates inputs to the PB}
-    % MBON-d1 -> MB2ON-63 (PB.b) -> multiple PB.d (some are NO.b like MB2ON-241)
-    % CN-53, CN-54, MB2ON-175 all synapse onto DALv1 neurons
-
-    % VISUAL input to the PB and the EB
+    \subsection{The MB modulates inputs to the PB}
     Multiple sensory modalities converge onto the horizontal fibers of the PB (DALv1 neurons) via MB convergence neurons (CN-53, CN-54) and a neuron postsynaptic to MBONs (MB2ON-175).
     These CNs were previously described as integrating the output of both the lateral horn (LH), which conveys innate pathways, and the mushroom body (MB), for associative memory \citep{eschbach2021circuits}.
     Synapses from CN-53, CN-54 and MB2ON-175 onto PB horizontal fiber neurons (DALv1) follow an intriguing pattern of synapting onto either the dendrite or the axon, but largely not both, with specific target choices among the 4 DALv1 neurons.
     In considering that 3 of the 4 DALv1 neurons (PB horizontal fibers) present an unusual bilateral axon that first deploys output synapses contralaterally and then ipsilaterally (Fig. \ref{fig:dalv1neurons}A), the observed pattern of selective axo-dendritic and axo-axonic connections has implications for the modulation of the output of the unusual axons of DALv1 neurons.
 
-    In summary, from the perspective of the PB, I find the following circuit architecture: the multi-sensory convergence onto the PB horizontal fibers is directly modulated by the MB, precisely because the neurons that mediate the multi-sensory convergence are themselves CNs (i.e., integrate also MBON synapses in addition to LH inputs): the CN-53 and CN-54. %Both of these neurons are also Lateral Horn (LH) neurons.
-    Note CN-54 is in addition a PB.d neuron, integrating inputs from PB horizontal fibers (DALv1 neurons).
+    In summary, from the perspective of the PB, I find the following circuit architecture: the multi-sensory convergence onto the PB horizontal fibers is directly modulated by the MB, precisely because the neurons that mediate the multi-sensory convergence are themselves CNs (i.e., integrate also MBON synapses in addition to LH inputs): the CN-53 and CN-54. Both of these neurons are also Lateral Horn (LH) neurons.  Notably, CN-54 is in addition a PB.d neuron, integrating inputs from PB horizontal fibers (DALv1 neurons).
 
-    Upstream, among various MBONs, MBON-c1 is the most strongly connected to both CN-53 and CN-54, which also integrate inputs from MBON-b1 and MBON-b2. All three are MBONs of the MB peduncle; MBON-c1 has no known function, while MBON-b1 and MBON-b2 promote approach \citep{eschbach2021circuits}.
+    Upstreamof these convergence neurons, among various MBONs, MBON-c1 is the most strongly connected to both CN-53 and CN-54, which also integrate inputs from MBON-b1 and MBON-b2. All three are MBONs of the MB peduncle; MBON-c1 has no known function, while MBON-b1 and MBON-b2 promote approach \citep{eschbach2021circuits}.
 
-    Of note, the axon of MBON-c1 receives direct presumably inhibitory (GABAergic) inputs from MBON-g1, MBON-g2, and MBON-d1, with all three MBONs participating of circuit loops with other central complex neuropils.
+   Importantly, the axon of MBON-c1 receives direct presumably inhibitory (GABAergic) inputs from MBON-g1, MBON-g2, and MBON-d1, with all three MBONs participating of circuit loops with other central complex neuropils.
 
     Additionally, neurons directly postsynaptic to MBONs, such as MB2ON-175, in turn directly synapse onto the horizontal fibers of the PB, either axo-axonically or axo-dendritically, in a pattern selective of specific DALv1 neurons.
 
-    In summary, not only are navigational decisions - such as whether to turn towards a stimuli or not- proceeding co-dependently per sensory modality but they are also integrated across modalities, an observation that is in line with previous behavioral experiments \citep{gepner2015computations}. Importantly, this integration is modulated by prior memories. (vis the MB). 
-
-    %Vertical lobe is used by the NO and MB and LAL.
-    %mb2on-c1 has no results(when it comes to aversion), but massively related to EB so it might 
-    %mb2in-l1 according to eschback all the compartments of vertical love are for aversive behaviour.only mnbin that is not bilateral.  
-    %m2on-p1 noduli itself gets input from(..) 
-    % (extended data figure 6a - complete connectome of learning memory centre) 
-    % ipsilateral control via these only mbons and mbins that are ipsilateral as opposed to bilateral. 
-
+    Overally, I observe that not only are navigational decisions - such as whether to turn towards a stimuli or not - proceeding co-dependently per sensory modality but they are also integrated across modalities, an observation that is in line with previous behavioral experiments \citep{gepner2015computations}. Importantly, this integration is modulated by prior memories. (vis the MB). 
 
 
 
