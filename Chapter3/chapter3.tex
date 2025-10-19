@@ -13,7 +13,7 @@
     \item Recurrent intra-CX connectivity, such as with columnar neurons relating the PB with the FB and EB, or with the NO.
     \end{enumerate}
     
-    \subsection{Identifying larval neuronal lineages that contribute to the larval CX}
+    \subsection{Identifying larva CXl neuronal lineages }
     The \textit{Drosophila melanogaster} central brain consists of stereotyped neural lineages, developmental-structural units of macrocircuitry formed by the sibling neurons of single progenitor cells, the neuroblasts \citep{Spindler2010Lineages}; a subset of these structures the CX \citep{Pereanu2011LineagesCX}. Starting with the currently identified set of quiescent, embryonic-born neurons present in the larval brain that develop into the adult CX during metamorphosis~\citep{andrade2019developmentally}
     I identified larval brain neurons satisfying imposed connectivity rules as per known circuit patterns across the adult CX neuropils \citep{wolff2015neuroarchitecture, wolff2018neuroarchitecture, franconville2018building, hulse2021connectome} (see \ref{CXAdultIntro}) .
     
@@ -21,12 +21,10 @@
 
     I broadened the search beyond these lineages based on the expectation that some larval neurons may have been recruited to CX structures but would later take another identity in the adult, as is known for larval MB neurons \citep{truman2023metamorphosis}, on the basis of matching synaptic connectivity patterns as observed in the adult (see Section \ref{CXAdultIntro}) ; for example, for EB Ring neurons I looked for neurons with recurrent axo-axonic synapses with each other and with Wedge neurons, where their axon is located at the most anterior end of the brain neuropil, at an intermediate dorso-ventral position just anterior to the MB medial lobe.
 
-    I found several neurons that satisfied said criteria, and were therefore classified as central complex neurons  Section \ref{CXLarva}). A comprehensive list of their lineages as well as the above lineages is shown in Table \ref{larvallineages}. 
+    I found several neurons that satisfied said criteria, and were therefore classified as central complex neurons (see Section \ref{CXLarva}). A comprehensive list of their lineages as well as the above lineages is shown in Table \ref{larvallineages}. 
     
-    None of these lineages are exclusive contributors to the larval CX - i.e all of these lineages contribute neurons to other parts of the brain - however, there are a few(about 10) that contribute more than a fifth (20\%) of their neurons to CX neuropils, and are summarised in Figure \ref{cx_percentage}.
-
-
-        \begin{table}
+    %9 common lineages 
+        \begin{table} [H]
         \centering
         \begin{tabular}{|c|c|}
         \hline
@@ -49,71 +47,71 @@
         \caption[Lineges of the Adult CX that also contribute neurons to the Larval CX]{\textbf{Lineges of the Adult CX that also contribute neurons to the Larval CX} A selection of adult CX lineages that were found to contribute to the larval CX neuropils.  Adult CX lineages names are listed in the first column, and their corresponding larval lineage nomenclature in the second column\citep{eckstein2024neurotransmitter}.}
         \label{lineagemap}
         \end{table}
+    %ALL larval lineages
+        \begin{table} [H]
+        \centering
+        \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+        \toprule
+        Larval lineages & PB.b & PB.d & FB.b & FB.d & EB.b & EB.d & NO.b & NO.d & Total \\
+        \midrule
+        BAla12 &  &  &  & 2 & 2 &  &  &  & 4 \\
+        BAla34 &  &  & 4 &  &  &  &  & 9 & 13 \\
+        BAlp\_ant &  & 2 &  &  & 2 &  &  & 1 & 5 \\
+        bamd1 &  &  &  &  &  & 1 &  & 2 & 3 \\
+        bamd2\_d &  &  & 1 &  &  &  &  &  & 1 \\
+        bamd2\_v &  &  & 3 &  &  &  &  & 4 & 7 \\
+        bamv12\_dor & 1 &  &  & 1 &  &  & 2 & 5 & 9 \\
+        BAmv12\_dor & 1 &  &  & 1 &  &  & 2 & 5 & 9 \\
+        Bamv12\_ven & 1 &  &  & 1 & 2 & 2 &  & 1 & 7 \\
+        BLAd-OL & 2 &  &  &  &  &  &  &  & 2 \\
+        BLAl &  &  &  & 2 &  &  &  &  & 2 \\
+        BLAV12\_ant &  &  &  & 2 &  &  &  &  & 2 \\
+        BLP12 &  &  &  &  &  & 2 &  &  & 2 \\
+        BLVp2 &  & 2 &  &  &  &  &  &  & 2 \\
+        CM13\_lat &  & 2 &  &  & 4 & 2 &  &  & 8 \\
+        CM13\_med &  &  &  &  & 2 & 2 &  &  & 4 \\
+        CM4-vm &  &  &  & 2 &  &  &  & 4 & 6 \\
+        CPa &  &  & 1 &  &  &  &  &  & 1 \\
+        CPb &  &  &  &  & 8 & 4 &  &  & 12 \\
+        CPe &  &  &  & 2 &  &  &  & 4 & 6 \\
+        Dalcl12 &  &  &  &  & 16 & 22 &  &  & 38 \\
+        Dalcm12-m &  &  &  &  &  & 4 &  & 2 & 6 \\
+        DALcm12-v &  & 2 &  & 2 &  &  & 4 & 1 & 9 \\
+        dall1 &  & 2 & 4 &  &  &  &  &  & 6 \\
+        Dalv1 & 8 &  &  & 6 &  &  &  &  & 14 \\
+        Dalv23 &  &  &  &  & 14 &  &  & 4 & 18 \\
+        dplal1-3 &  &  & 2 &  & 3 &  &  &  & 5 \\
+        dplc\_post\_med &  & 4 &  & 2 &  &  & 4 &  & 10 \\
+        DPLc5 &  & 6 & 1 & 2 &  &  & 3 &  & 12 \\
+        DPMl\_ant & 3 & 2 &  &  &  &  &  & 3 & 8 \\
+        DPMl12 &  & 3 &  & 2 &  &  & 2 &  & 7 \\
+        DPMl34\_post &  &  &  & 1 &  &  & 1 &  & 2 \\
+        DPMm1 & 4 &  & 14 & 2 &  &  & 4 &  & 24 \\
+        DPMm2 &  & 3 &  & 2 &  & 2 &  &  & 7 \\
+        DPMpl12 &  & 5 & 2 & 2 &  &  &  &  & 9 \\
+        dpmpl3 &  &  &  &  &  &  &  & 1 & 1 \\
+        DPMpm1 &  &  & 4 & 2 &  & 4 &  &  & 10 \\
+        DPMpm2 &  &  &  &  &  & 2 & 2 &  & 4 \\
+        \bottomrule
+        Total & 20 & 33 & 36 & 36 & 53 & 47 & 24 & 46 & 295 \\
+        \bottomrule
+        \end{tabular}
+        }
+        \caption[Larval Central Complex Lineages]{\textbf{Larval Central Complex Lineages.} A full list of Larval CX lineages is shown in the first column.  Columns 2--5 indicate the number of neurons from each lineage that contribute axons (“.b” for boutons) or dendrites (“.d”) to individual neuropils: PB, FB, EB and NO.}
+        \label{larvallineages}
+        \end{table}
 
+    None of these lineages are exclusive contributors to the larval CX - i.e all of these lineages contribute neurons to other parts of the brain - however, there are a few(about 10) that contribute more than a fifth (20\%) of their neurons to CX neuropils, and are summarised in Figure \ref{cx_percentage}.
 
-
-    \begin{table}
-    \centering
-    \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
-    \toprule
-    Larval lineages & PB.b & PB.d & FB.b & FB.d & EB.b & EB.d & NO.b & NO.d & Total \\
-    \midrule
-    BAla12 &  &  &  & 2 & 2 &  &  &  & 4 \\
-    BAla34 &  &  & 4 &  &  &  &  & 9 & 13 \\
-    BAlp\_ant &  & 2 &  &  & 2 &  &  & 1 & 5 \\
-    bamd1 &  &  &  &  &  & 1 &  & 2 & 3 \\
-    bamd2\_d &  &  & 1 &  &  &  &  &  & 1 \\
-    bamd2\_v &  &  & 3 &  &  &  &  & 4 & 7 \\
-    bamv12\_dor & 1 &  &  & 1 &  &  & 2 & 5 & 9 \\
-    BAmv12\_dor & 1 &  &  & 1 &  &  & 2 & 5 & 9 \\
-    Bamv12\_ven & 1 &  &  & 1 & 2 & 2 &  & 1 & 7 \\
-    BLAd-OL & 2 &  &  &  &  &  &  &  & 2 \\
-    BLAl &  &  &  & 2 &  &  &  &  & 2 \\
-    BLAV12\_ant &  &  &  & 2 &  &  &  &  & 2 \\
-    BLP12 &  &  &  &  &  & 2 &  &  & 2 \\
-    BLVp2 &  & 2 &  &  &  &  &  &  & 2 \\
-    CM13\_lat &  & 2 &  &  & 4 & 2 &  &  & 8 \\
-    CM13\_med &  &  &  &  & 2 & 2 &  &  & 4 \\
-    CM4-vm &  &  &  & 2 &  &  &  & 4 & 6 \\
-    CPa &  &  & 1 &  &  &  &  &  & 1 \\
-    CPb &  &  &  &  & 8 & 4 &  &  & 12 \\
-    CPe &  &  &  & 2 &  &  &  & 4 & 6 \\
-    Dalcl12 &  &  &  &  & 16 & 22 &  &  & 38 \\
-    Dalcm12-m &  &  &  &  &  & 4 &  & 2 & 6 \\
-    DALcm12-v &  & 2 &  & 2 &  &  & 4 & 1 & 9 \\
-    dall1 &  & 2 & 4 &  &  &  &  &  & 6 \\
-    Dalv1 & 8 &  &  & 6 &  &  &  &  & 14 \\
-    Dalv23 &  &  &  &  & 14 &  &  & 4 & 18 \\
-    dplal1-3 &  &  & 2 &  & 3 &  &  &  & 5 \\
-    dplc\_post\_med &  & 4 &  & 2 &  &  & 4 &  & 10 \\
-    DPLc5 &  & 6 & 1 & 2 &  &  & 3 &  & 12 \\
-    DPMl\_ant & 3 & 2 &  &  &  &  &  & 3 & 8 \\
-    DPMl12 &  & 3 &  & 2 &  &  & 2 &  & 7 \\
-    DPMl34\_post &  &  &  & 1 &  &  & 1 &  & 2 \\
-    DPMm1 & 4 &  & 14 & 2 &  &  & 4 &  & 24 \\
-    DPMm2 &  & 3 &  & 2 &  & 2 &  &  & 7 \\
-    DPMpl12 &  & 5 & 2 & 2 &  &  &  &  & 9 \\
-    dpmpl3 &  &  &  &  &  &  &  & 1 & 1 \\
-    DPMpm1 &  &  & 4 & 2 &  & 4 &  &  & 10 \\
-    DPMpm2 &  &  &  &  &  & 2 & 2 &  & 4 \\
-    \bottomrule
-    Total & 20 & 33 & 36 & 36 & 53 & 47 & 24 & 46 & 295 \\
-    \bottomrule
-    \end{tabular}
-    }
-    \caption[Larval Central Complex Lineages]{\textbf{Larval Central Complex Lineages.} A full list of Larval CX lineages is shown in the first column.  Columns 2--5 indicate the number of neurons from each lineage that contribute axons (“.b” for boutons) or dendrites (“.d”) to individual neuropils: PB, FB, EB and NO.}
-    \label{larvallineages}
-    \end{table}
-
+    %Percentage of top 10 lineage contributions 
     % green gradient 
     \definecolor{forest1}{HTML}{EEF4EA} % very light
     \definecolor{forest2}{HTML}{D6E3CB} 
     \definecolor{forest3}{HTML}{B1D19B}
     \definecolor{forest4}{HTML}{84B96F}
     \definecolor{forest5}{HTML}{4C8437} % deep green
-
-    \begin{table}[h!]
+    \begin{table}[h!] [!htbp]
     \centering
     \begin{tabular}{|l|c|c|c|c|}
     \hline
@@ -131,7 +129,7 @@
     dall1 & 9 & 18 & 6 & \cellcolor{forest1}22.22\% \\
     \hline
     \end{tabular}
-    \caption[Contribution of lineage to CX]{\textbf{Lineage contribution to CX}  Lineages contributing more that 20\% of their neurons to the CX are captured, alongside their distribution across the left and the right hemispheres. The percentage represents the ratio between the total number of cells in an individual lineage devided by the number of neurons contributing to CX neuropils (axons, dendrites or both). }
+    \caption[Contribution of lineages to CX]{\textbf{Lineage contribution to CX}  Lineages contributing more that 20\% of their neurons to the CX are captured, alongside their distribution across the left and the right hemispheres. The percentage represents the ratio between the total number of cells in an individual lineage devided by the number of neurons contributing to CX neuropils (axons, dendrites or both). }
     \label{cx_percentage}
         \end{table}
 
@@ -139,25 +137,43 @@
     %CONNECTIVITY
     When investigating circuit motifs across the larval CX, I explored connectivity with established brain regions, starting with sensory input areas such as the Optic lobe(OL), and progressing to regions such as the MB, the LAL and the Lateral Horn (LH).  I categorised individual cells on the basis of the location of thier processes:  where a neuron receives synaptic input (location of its dendrites) and sends output synapses (location of its axons) (for nomenclature see methods section \ref{nomenclature}).
 
-    %Sensory
-    The central complex is known primarily for visual input processing, therefore in the larva I was looked at neurons downstream of photoreceptors.section \ref{CXvisual}. I investigated cells immediately connected to visual projection neurons (vPNs) which are directly connected to photoreceptors. Several of these neurons have been catalogued as Protocerebral Bridge (see section \ref{PB}) or Noduli(see section \ref{NO}) neurons. 
+    %SENSORY
+     \textbf{ textit{Sensory Inpus} }
+    The central complex is known primarily for visual input processing, therefore in the larva I looked at neurons downstream of photoreceptors.section \ref{CXvisual}. I investigated cells immediately connected to visual projection neurons (vPNs) which are directly connected to photoreceptors. Several of these neurons have been catalogued as Protocerebral Bridge (see section \ref{PB}) or Noduli(see section \ref{NO}) neurons. 
     In additon to visual input, I found that olfactory input is integrated by all the larval CX neuropils indirectly via the Lateral Horn(LH) and the Mushroom Body through convergence neurons(CNs; which integrate learnt valences from the MB and innate valences from the LH \citep{eschbach2021circuits}) or MB output neurons and MB input neurons \ref{CXMB}. This is in line with previous findings about the CX being integrative across multiple sensory modalities \citep{hulse2021connectome}. Since Gepner et al., 2015 demonstrated that Larvae  have to integrate visual and olfactory gradients, with convergence of these sensory systems before decision to act on them. I expected there would be a structure recieving input from these modalities and used information such as lineage membership to figure out if these could be central complex neurons. 
 
-    %Input from  MB,LAL,LH etc
+    %OTHER NEUROPILS
+    \textbf{\textit{Connectivity between CX Neuropils and Accessory Structures}}
     Columnar and horizontal neurons have stereotyped connectivity patterns within the CX, being connected between themselves or with other accessory structures (e.g.LAL). To be able to define these, I categorised them similarly to how they have been categorised in the literature. For naming, I adapted Wolff et al., 2015 nomenclature, and named them on the baisis of the location of input synapses (.d for dendrites) and the location of their output synapses (.b for axonal bouttons). Once the synapses for each neuron were mapped, I categorised them on the basis of their location within the CX neuropils and relative to accesory structures as per Figure \ref{CXclasses}.  As such I devided them into Intrinsic Neurons(those whose inputs and outputs are located within CX neuropils), Local Neurons (cells whose inputs and outputs located within the same neuropil), Input Neurons (those that send only dendrites processes within the CX and output outside of it) and Output Neurons: Cells that send denritic inputs outside of the CX but output onto the CX neuropils. Since the CX of the larva is numerically reduced, I grouped Intrinsic and Local neurons, and named these \textbf{Core CX neurons} for a more concise, cohesive analysis of the CX network. There are 15 pairs of CX core neurons, all of which are presented in Table \ref{CXCoreNeurons}. For a comprehensive understanding of the connectivity patterns of these neurons, they have been written in a nomenclature adapted from Wolff et al., 2015 \citep{wolff2015neuroarchitecture}. I classified neurons using the suffixes ".b" (axon boutons) and ".d" (dendrites) for CX neuropils.
     Hence, a neuron annotated as NO.b projects its axon into the NO, and likewise, a neuron annotated as FB.d places its dendrites in the FB.
     As such, neurons that are both .b and .d for CX neuropils are the CX Core neurons. 
-
-
-
-            \begin{figure}
+        %Figure with Nomenclature
+         \begin{figure} [H]
                 \centering
                 \includegraphics[width=12cm]{Figs/CX/CX_Nomenclature_Neurons.pdf}
                 \caption[Central Complex Neuron Classes]{\textbf{Classes of CX neurons} This schematic illustrates neuron classes of the adult CX (upper panel) and the larval CX (lower panel). The PB, FB, EB, NO and LAL are shown in each case to illustrate where a neuron arborizes. Neurons are drawn as a sketch, where the soma is represented by a green circle, the arbors are split into dendritic inputs - filled green boxed - and spiny axonal outputs - hashed scribbled green boxes. Cells are classified as either \textbf{Intrinsic Neurons}:neurons whose inputs and outputs are located within CX neuropils; \textbf{Local Neurons}: cells whose inputs and outputs located within one neuropil; \textbf{Input Neurons}: Neurons that have  dendrites (receive synaptic input) located within the CX but output outside of it; and \textbf{Output Neurons}: Cells that receive inputs outside of the CX but output onto CX neuropils}
                 \label{CXclasses}
             \end{figure}
-
-            \begin{table}[h!]
+        %Table with Neuropils connecting wirh eachother
+        \begin{table}[H]
+        \centering
+        \begin{tabular}{l|ccccc}
+            \toprule
+            Neuropil & PB & FB & EB & NO & LAL \\
+            \midrule
+            PB &  & * & * & * & * \\
+            FB & * & & & * & * \\
+            EB & & & & & * \\
+            NO & & * & & & * \\
+            LAL & & & * & & \\ % Does the LAL connect to any of PB, FB, etc. ?
+            MBONs &  & * & * & & \\
+            \bottomrule
+        \end{tabular}
+        \caption[Monosynaptic connectivity between CX neuropils]{\textbf{Monosynaptic connectivity between CX neuropils.} Asterisks indicate direct synaptic connections, with row neuropils synapting onto column neuropils. The table summarizes the non-empty intersection sets for annotations in CATMAID such as FB.d with NO.b (i.e., neurons with dendrites in the fan-shaped body and axons in the noduli).}
+        \label{inputsoutputs}
+        \end{table}
+        %Table with CX Core Neurons
+         \begin{table}[h!][H]
             \centering
             \begin{tabular}{|l|l|}
             \hline
@@ -183,10 +199,19 @@
             \caption[CX Core Neurons]{\textbf{CX Core Neurons} The table illustrates, in the first column, the CX Core neurons in nomenclature adapted from Wolff et al., 2015\citep{wolff2018neuroarchitecture}, depicting the location of the dendrites (.d) axonal butons (.b) in the Central Complex Neuropils. Each neuron is listed alongside their CX neuropil-specific nomenclature, and/or their MB nomenclature}
             \label{CXCoreNeurons}
             \end{table}
+        %Figure with CATMAID Neuropils
+        \begin{figure}
+            \centering
+            \includegraphics[width=11cm]{/Users/lauralungu/Desktop/Latex/PhD-Thesis/Figs/CX/CATMAIDCXneurons.pdf}
+            \caption[Larval CX neuron boutons define the volumes of the 4 main CX neuropils]{\textbf{Larval CX neuron boutons define the volumes of the 4 main CX neuropils.} Posterior and lateral views of neurons that contribute boutons (".b") to each of the 4 neuropils. In concordance with the adult, the PB is the most dorsal and posterior neuropil of the whole brain; the FB occupies an intermediate medial position; the EB is the most medial anterior neuropil (same dorso-ventral level as the mushroom body medial lobe but even more anterior); and the NO are medial and ventral. Note that the white medial space in the larval cartoon is truly devoid of brain tissue: the larval CX neuropils line the medial boundary of the brain hemispheres, with the pharynx occupying most of the intermediate space.
+            }
+            \label{cxneuropils}
+        \end{figure}    
 
-
-
-    \begin{figure}
+\section{The Central Complex of \textit{Drosophila} Larva}
+\label{CXLarva}
+    %LARVAL vs ADULT CX cartoon
+    \begin{figure}[H]
         \centering
         \includegraphics[width=12cm]{/Users/lauralungu/Desktop/Latex/PhD-Thesis/Figs/CX/cxdiagram.pdf}
         \caption[The Central Complex Neuropils in Adult and Larva]{\textbf{The Central Complex Neuropils in Adult and Larva}. Dotted-line arrows represent unidirectional connections, filled-line arrows indicate bidirectional connections. In panel \textbf{A.} I show the adult \textit{\textit{Drosophila}} CX. Bidirectional connectivity is seen between PB-FB, PB-EB, FB-LAL and FB-NO, with unidirectional connections from NO-PB, PB-LAL, LAL-NO and NO-EB; Panel \textbf{B.} displays the larval \textit{Drosophila} CX. Bidirectional connections are  PB-FB, FB-EB, FB-LAL, FB-NO and EB-LAL; unidirectional connections are seen from NO-LAL, PB-NO and EB-NO.The volumes of the adult neuropils were adapted from \citep{franconville2018building}.
@@ -194,40 +219,9 @@
         \label{cxdiagram}
     \end{figure}
 
-    \begin{figure}
-        \centering
-        \includegraphics[width=11cm]{/Users/lauralungu/Desktop/Latex/PhD-Thesis/Figs/CX/CATMAIDCXneurons.pdf}
-        \caption[Larval CX neuron boutons define the volumes of the 4 main CX neuropils]{\textbf{Larval CX neuron boutons define the volumes of the 4 main CX neuropils.} Posterior and lateral views of neurons that contribute boutons (".b") to each of the 4 neuropils. In concordance with the adult, the PB is the most dorsal and posterior neuropil of the whole brain; the FB occupies an intermediate medial position; the EB is the most medial anterior neuropil (same dorso-ventral level as the mushroom body medial lobe but even more anterior); and the NO are medial and ventral. Note that the white medial space in the larval cartoon is truly devoid of brain tissue: the larval CX neuropils line the medial boundary of the brain hemispheres, with the pharynx occupying most of the intermediate space.
-        }
-        \label{cxdiagram}
-    \end{figure}    
-
-
-
-    \begin{table}
-    \centering
-    \begin{tabular}{l|ccccc}
-        \toprule
-        Neuropil & PB & FB & EB & NO & LAL \\
-        \midrule
-        PB &  & * & * & * & * \\
-        FB & * & & & * & * \\
-        EB & & & & & * \\
-        NO & & * & & & * \\
-        LAL & & & * & & \\ % Does the LAL connect to any of PB, FB, etc. ?
-        MBONs &  & * & * & & \\
-        \bottomrule
-    \end{tabular}
-    \caption[Monosynaptic connectivity between CX neuropils]{\textbf{Monosynaptic connectivity between CX neuropils.} Asterisks indicate direct synaptic connections, with row neuropils synapting onto column neuropils. The table summarizes the non-empty intersection sets for annotations in CATMAID such as FB.d with NO.b (i.e., neurons with dendrites in the fan-shaped body and axons in the noduli).}
-    \label{inputsoutputs}
-    \end{table}
-
-
-\section{The Central Complex of \textit{Drosophila} Larva}
-\label{CXLarva}
     \subsection{Protocerebral Bridge}
     \label{PB}
-    In searching for the larval PB, we expected two sets of neurons: columnar and horizontal. In larva, four central complex lineages contribute columnar neurons, a subset of which position their dendrites at a posterior-dorsal location. We could not find a central complex lineage that would contribute horizontal fibers at a posterior-dorsal location necessary to intersect and synapse onto the dendrites of the PB columnar neurons; however, we found a larval lineage (DALv1) whose axons are bilateral and project to the appropriate area, and is developmentally related to another central complex lineage (DALv23). This suggests that neurons from non-central complex lineages may be recruited temporarily during the larval period, in a pattern reported so far for the mushroom body (see Discussion; \citep{truman2023metamorphosis}). 
+    In searching for the larval PB, I expected two sets of neurons: columnar and horizontal. In larva, four central complex lineages contribute columnar neurons, a subset of which position their dendrites at a posterior-dorsal location. I could not find a central complex lineage that would contribute horizontal fibers at a posterior-dorsal location necessary to intersect and synapse onto the dendrites of the PB columnar neurons; however, I found a larval lineage (DALv1) whose axons are bilateral and project to the appropriate area, and is developmentally related to another central complex lineage (DALv23). This suggests that neurons from non-central complex lineages may be recruited temporarily during the larval period, in a pattern reported so far for the mushroom body (see Discussion; \citep{truman2023metamorphosis}). 
 
     \textbf{\textit{Larval PB horizontal fibers:}}
     Among neurons of the DALv1 lineage, 4 left-right pairs (named HF-PB for "Horizontal Fiber PB") project their axons bilaterally and across the dendrites of the columnar neurons.
@@ -238,109 +232,32 @@
     \begin{figure}
         \centering
         \includegraphics[width=12cm]{Figs/CX/DALV1s.pdf}
-        \caption[PB Dalv1 Neurons]{\textbf{PB Horizontal Fibers (HF-PB).} Two types of horizontal fiber neurons are shown, each with a morphological reconstruction (top) and a simplified schematic (bottom). The mushroom body is shown in magenta. Input synapses (dendrites) are indicated by blue arrows, while output synapses (axons) are indicated by red arrows. Panel \textbf{A.} shows HF-PB1 neurons, characterized by a double-crossing axon; panel \textbf{B.} displays HF-PB2 neurons, with outputs projecting only contralaterally; and panel \textbf{C.} the four bilateral pairs of HF-PB neurons shown together.}
+        \caption[PB Dalv1 Neurons]{\textbf{PB Horizontal Fibers (HF-PB).} Two types of horizontal fiber neurons are shown, each with a morphological reconstruction (top) and a simplified schematic (bottom). The mushroom body is shown in magenta. Input synapses (dendrites) are indicated by blue arrows, while output synapses (axons) are indicated by red arrows. Panel \textbf{A.} shows the 3 pairs of HF-PB1 neurons, characterized by a double-crossing axon; panel \textbf{B.} displays the single pair of HF-PB2 neurons, with outputs projecting only contralaterally; and panel \textbf{C.} the four bilateral pairs of HF-PB neurons shown together.}
         \label{DALv1s}
     \end{figure}
 
     % Relative to the root of their dendritic tree, which is ipsilateral, the first set of output synapses are found contralaterally. Then the axon crosses the midline a second time, returning to the ipsilateral hemisphere to establish more output synapses in a spatially symmetric way to the contralateral set of output synapses.
 
-    The presynaptic outputs of DALv1 neurons are symmetric, in that they contact the same homologous pairs of left-right neurons which are predominantly neurons of the columnar system from the DM1-DM4 lineages.%figure with columnar and horizontal connections
+    The presynaptic outputs of DALv1 neurons are symmetric, in that they contact the same homologous pairs of left-right neurons which are predominantly neurons of the columnar system from the DM1-DM4 lineages.
 
+    The axons of these 4 pairs of HF-PB neurons are tiled dorso-ventrally, falling into two bilaterally symmetric groups which I interpret as defining 2 + 2 bilaterally arranged PB compartments, each innervated by 2 pairs of axons (Figure \ref{DALv1s}C). 
 
-    \begin{table}[h!]
-    \centering
-    \begin{tabular}{l|cccccccccc}
-    \toprule
-    \textbf{PB Horizontal} & \multicolumn{10}{c}{\textbf{PB Columnar}} \\
-    \cmidrule(lr){2-11}
-    & \rot{PB to NO,\\MB2ON-204\\\_l}
-    & \rot{PB to NO,\\MB2ON-204\\\_r}
-    & \rot{PB to NO,\\MB2ON-241\\\_r}
-    & \rot{PB to NO,\\MB2ON-241\\\_l}
-    & \rot{PB to EB,\\MB2IN-195\\\_l}
-    & \rot{PB to EB,\\MB2IN-195\\\_r}
-    & \rot{PB Descending\\\_1\_l}
-    & \rot{PB Descending\\\_1\_r}
-    & \rot{PB Descending\\\_2\_l}
-    & \rot{PB Descending\\\_2\_r} \\
-    \midrule
-    HF-PB1\_1\_r
-    &  &  &  &
-    & \cellcolor{forest1}1
-    & \cellcolor{forest3}13
-    & \cellcolor{forest3}15
-    & \cellcolor{forest4}22
-    & \cellcolor{forest5}26
-    &  \\
-
-    HF-PB1\_1\_l
-    &  &  &  &
-    & \cellcolor{forest1}1
-    & \cellcolor{forest2}11
-    & \cellcolor{forest2}9
-    & \cellcolor{forest4}23
-    & \cellcolor{forest5}27
-    &  \\
-
-    HF-PB1\_2\_r
-    & \cellcolor{forest3}12
-    & \cellcolor{forest4}21
-    & \cellcolor{forest3}17
-    &
-    & \cellcolor{forest2}8
-    & \cellcolor{forest2}10
-    & \cellcolor{forest2}9
-    & \cellcolor{forest3}13
-    & \cellcolor{forest3}13
-    & \cellcolor{forest4}18 \\
-
-    HF-PB1\_2\_l
-    & \cellcolor{forest3}17
-    & \cellcolor{forest4}22
-    & \cellcolor{forest2}7
-    &
-    & \cellcolor{forest2}8
-    & \cellcolor{forest3}11
-    & \cellcolor{forest3}14
-    & \cellcolor{forest2}10
-    & \cellcolor{forest3}13
-    & \cellcolor{forest4}19 \\
-    \bottomrule
-    \end{tabular}
-    \caption[PB horizontal fibers connection to  PB columnar ]{\textbf{PB horizontal fibers connections to  PB columnar neurons} the two pairs of HF-PB1 (written here as HF-PB1\_1 and HF-PB1\_2), the other hf-pb don't connect therefore not shown, connections to the PB columnar  }
-    \label{PBconnections}
-    \end{table}
-
-
-    The axons of these 4 pairs of HF-PB neurons are tiled dorso-ventrally, falling into two bilaterally symmetric groups which we interpret as defining 2 + 2 bilaterally arranged PB compartments, each innervated by 2 pairs of axons (Figure \ref{DALv1s}C). %potentially different figure see TODO list 
-
-
-    The dendrites of these 4 pairs of DALv1 neurons (HF-PB) are ipsilateral and dorsal, receiving polysynaptic inputs from vision and olfaction, like in the adult PB~(\citep{hulse2021connectome}). In the larva, we found that these multi-sensory inputs to the horizontal fibers of the PB are mediated by Convergence Neurons (CN-53 and CN-54, among others; \citep{eschbach2021circuits}) that, as their name indicates, integrate inputs from both Mushroom Body Output Neurons (MBONs) and from the Lateral Horn (LH) such as olfactory and visual PNs \citep{eschbach2020recurrent}). This circuit architecture indicates that sensory inputs arriving to the larval PB will have been modulated or gated by previously established associative memories, with implications for spatial navigation.
+    The dendrites of these 4 pairs of DALv1 neurons (HF-PB) are ipsilateral and dorsal, receiving polysynaptic inputs from vision and olfaction, like in the adult PB~(\citep{hulse2021connectome}). In the larva, I found that these multi-sensory inputs to the horizontal fibers of the PB are mediated by Convergence Neurons (CN-53 and CN-54, among others; \citep{eschbach2021circuits}) that, as their name indicates, integrate inputs from both Mushroom Body Output Neurons (MBONs) and from the Lateral Horn (LH) such as olfactory and visual PNs \citep{eschbach2020recurrent}). This circuit architecture indicates that sensory inputs arriving to the larval PB will have been modulated or gated by previously established associative memories, with implications for spatial navigation.
 
     Three more larval lineages contribute HF-PB neurons: the BLAvm (neuron SLR), the BLAd-OL (neuron MB2ON-63), and the DPMm2 (neuron ADC1),  with one pair of neurons each. 
-
     MB2ON-63 presents a bilateral axon similar to the 4th pair of HF-PB (DALv1), and an ipsilateral dendrite that integrates inputs from multiple convergence neurons (CN-54, CN-9), MBONs (MBON-c1, MBON-d1), and sensory PNs (olfactory mPN B1, visual PVL09).
 
     SLR presents a contralateral axon that spans both the FB and PB, and an ipsilateral dendrite that integrates inputs from MB2ON-63, CN-9, and the FB intrinsic neuron MB2ON-175 (see below), in addition to a long tail of weaker input from ascending neurons relaying information from the somatosensory system.
 
-    ADC1 presents an ipsilateral dendrite projecting to the posterior brain and a bilateral axon circumscribed to the PB. These neurons integrate inputs from multiple sensory PNs (mPN B2, mPN 5 (also known as mPN BAmd1-g), mPN A1, and weakly from others), a convergent neuron (CN-35), MB2ON-94, and a few others weakly. Their axons target primarily HF-PB neurons (DALv1), but also convergent neurons strongly (CN-56, CN-15, CN-35).
-
-
-    % check for more CNs or other neurons converging onto PB DALv1 dendrites
-    %ANSWER: CN35, CN45, CN9 low syn count CN26, CN15
-    %as well as from other sensory modalities (Table \ref{sensoryinputs})
-    %TODO: describe dendritic and axonic contributions in specific (especially from AL, OL and MB) 
-    %2 systems: pattern of input of dendrites of the DALv1 s.
-    % MB2ON-175 & 48 & 208 
-    % given the PB1-4 compartments, which ones are connected to the MBONs, and the CNs. 175 targets one compartment, 208 targets another.  The pattern is that CNs connect to one compartment of the PB while simultaneously connecting to another CN that connects to the opposite compartment - there could be a gating mechanism. 
-    %MB2ON 202 - feedback from the NO to the PB dalv1 
+    ADC1 presents an ipsilateral dendrite projecting to the posterior brain and a bilateral axon circumscribed to the PB. These neurons integrate inputs from multiple sensory PNs (mPN B2, mPN 5 (also known as mPN BAmd1-g), mPN A1, and weakly from others), a convergence neuron (CN-35), MB2ON-94, and a few others weakly. Their axons target primarily HF-PB neurons (DALv1), but also convergence neurons  (CN-56, CN-15, CN-35).
+ 
 
     \textbf{\textit{Larval PB columnar neurons:}}
 
     In the larva, the columnar system consists of neurons from 4 central complex lineages (DPMpm1, DPMpm2, DPMm1 and CM4) that also generate the columnar neurons of the adult (DM1, DM2, DM3 and DM4, correspondingly: these are the same lineages with different names for the larva and the adult for historical reasons).
     Larval columnar neurons present small, narrow dendrites circumscribed within the 2 + 2 compartments defined by the axons of the HF-PB (DALv1) neurons, from whom they recieve synapses. These are catalogued as PB.d neurons since they contribute their dendrites to the PB.
 
-        \begin{figure}
+        \begin{figure}[H]
             \centering
             \includegraphics[width=12cm]{Figs/CX/PBcolumnar.pdf}
             \caption[PB columnar neurons]{\textbf{PB columnar neurons.} The three types of columnar neurons are shown. The mushroom body is shown in magenta. \textbf{A.} Neurons projecting from the PB to the NO (PB.d NO.b), with the NO neuropil shown in dark blue. \textbf{B.} Neurons projecting from the PB to the EB (PB.d EB.b), with the EB represented by the red structure beneath the mushroom body. \textbf{C.} Descending PB neurons projecting toward the SEZ or the VNC.}
@@ -349,24 +266,93 @@
 
     Among the columnar neurons, a subset project their axons directly to the NO (Fig. \ref{pbcolumnar}A), and another subset project directly to the larval EB (Fig. \ref{pbcolumnar}B).
 
-    We did not find among the larval columnar neurons any whose axon would project to more than one CX neuropil, despite such types being common in the adult~\citep{wolff2015neuroarchitecture, wolff2018neuroarchitecture, hulse2021connectome}.
-    Beyond the canonical columnar neurons projecting to other CX neuropils, we found some whose axons descend directly to the SEZ or nerve cord~(Fig. \ref{pbcolumnar}C).
+    I did not find among the larval columnar neurons any whose axon would project to more than one CX neuropil, despite such types being common in the adult~\citep{wolff2015neuroarchitecture, wolff2018neuroarchitecture, hulse2021connectome}.
+    Beyond the canonical columnar neurons projecting to other CX neuropils, I found some whose axons descend directly to the SEZ or nerve cord~(Fig. \ref{pbcolumnar}C), and have been accordingly named 'PB descending' neurons. (N.B. These neurons go on to connect to descending neurons, but aren't themsevles descending neurons.
+    
+\subsection{PB Horizonal and PB Columnar connectivity}
+    With the PB columnar neurons having dendrites encolsed in the PB (PB.d) and the PB horizonlal neurons (HF-PB) sending output to the PB(PB.b), I expected there to be significant connectivity between the two types of neurons. Indeed a half of the HF-PB neurons are connected with columnar PB cells (\ref{PBconnections}).  Interestingly, only 2 pairs of neurons, both of HF-PB1 type, connected to every type of PB columnar neuron. Specifically a pair of HF-PB1 (annotated as HF-PB1\_1 in table \ref{PBconnections}) sends output synapses to 2 PB-NO (PB.d-NO.b) neurons, both of which are also second order MB output neurons (MB2ON-204 and MB2ON-241). The other pair of  HF-PB1 (HF-PB1\_2) send outputs to 1 PBtoEB (PB.dNO.b) neuron, which is a second order MB input neuron (MB2IN-195), as well as 2 pairs of PB Descending neurons. 
+
+        %Table with PB Horizontal to PB Columnar. 
+        \begin{table}[h!] [H]
+        \centering
+        \begin{tabular}{l|cccccccccc}
+        \toprule
+        \textbf{PB Horizontal} & \multicolumn{10}{c}{\textbf{PB Columnar}} \\
+        \cmidrule(lr){2-11}
+        & \rot{PB to NO,\\MB2ON-204\\\_l}
+        & \rot{PB to NO,\\MB2ON-204\\\_r}
+        & \rot{PB to NO,\\MB2ON-241\\\_r}
+        & \rot{PB to NO,\\MB2ON-241\\\_l}
+        & \rot{PB to EB,\\MB2IN-195\\\_l}
+        & \rot{PB to EB,\\MB2IN-195\\\_r}
+        & \rot{PB Descending\\\_1\_l}
+        & \rot{PB Descending\\\_1\_r}
+        & \rot{PB Descending\\\_2\_l}
+        & \rot{PB Descending\\\_2\_r} \\
+        \midrule
+        HF-PB1\_1\_r
+        &  &  &  &
+        & \cellcolor{forest1}1
+        & \cellcolor{forest3}13
+        & \cellcolor{forest3}15
+        & \cellcolor{forest4}22
+        & \cellcolor{forest5}26
+        &  \\
+
+        HF-PB1\_1\_l
+        &  &  &  &
+        & \cellcolor{forest1}1
+        & \cellcolor{forest2}11
+        & \cellcolor{forest2}9
+        & \cellcolor{forest4}23
+        & \cellcolor{forest5}27
+        &  \\
+
+        HF-PB1\_2\_r
+        & \cellcolor{forest3}12
+        & \cellcolor{forest4}21
+        & \cellcolor{forest3}17
+        &
+        & \cellcolor{forest2}8
+        & \cellcolor{forest2}10
+        & \cellcolor{forest2}9
+        & \cellcolor{forest3}13
+        & \cellcolor{forest3}13
+        & \cellcolor{forest4}18 \\
+
+        HF-PB1\_2\_l
+        & \cellcolor{forest3}17
+        & \cellcolor{forest4}22
+        & \cellcolor{forest2}7
+        &
+        & \cellcolor{forest2}8
+        & \cellcolor{forest3}11
+        & \cellcolor{forest3}14
+        & \cellcolor{forest2}10
+        & \cellcolor{forest3}13
+        & \cellcolor{forest4}19 \\
+        \bottomrule
+        \end{tabular}
+        \caption[PB horizontal fibers connection to  PB columnar ]{\textbf{PB horizontal fibers connections to  PB columnar neurons} the two pairs of HF-PB1 (written here as HF-PB1\_1 and HF-PB1\_2), the other hf-pb don't connect therefore not shown, connections to the PB columnar  }
+        \label{PBconnections}
+        \end{table}
+
 
 
     % TODO Discussion point: this is different than in the adult. 
     % QUESTION: in the adult, are there columnar neurons that descend to the nerve cord? We have them too in larvae. Should mention them.
     %ANSWER: see figure 63A Hulse et al. supplement 1 PFL -> MDNs (I have a feeling mdn is smth else in adult)
-    %In the \textit{Drosophila} larva Electron Microscopy (EM) volume, we found a putative PB situated at the most medial-posterior side of the brain, that receives high levels of visual input and is made of neurons belonging to lineages DM2 (DPMpm1 in the larva) and 8 columnar neurons(4 pairs) belonging to the lineage DALv1. 
+    %In the \textit{Drosophila} larva Electron Microscopy (EM) volume, I found a putative PB situated at the most medial-posterior side of the brain, that receives high levels of visual input and is made of neurons belonging to lineages DM2 (DPMpm1 in the larva) and 8 columnar neurons(4 pairs) belonging to the lineage DALv1. 
     % also - a dopaminergic pathway formed by large field CIVP neurons that relay IDFP signals to the entire PB
 
 
 
     \subsection{Ellipsoid Body}
-    %In the 1st instar larva, we found a group of 8 pairs of reciprocally connected neurons from lineage DALcl12 known to produce wedge-neurons in the adult, and categorised these together with one other pair of lineage Dalv23 (which produces ring neurons in adult) with the same connectivity pattern as wedge-neurons. Both their dendrites and axons are very small, and tiled medio-laterally, defining 8 compartments with one single neuron pair contributing to each. These are the intrinsic set of neurons, fully enclosed within the putative larval EB. Similarly, we found one pair of neurons of the BAmv1/2 lineage - known to contribute to ring neurons in adult flies - that receive visual input via PB neurons, and reciprocally interconnects with the previously mentioned wedge-neurons, and whose axons are fully contained within the space defined by the wedge neurons. We categorised these as larval "ring" neurons.
+    %In the 1st instar larva, I found a group of 8 pairs of reciprocally connected neurons from lineage DALcl12 known to produce wedge-neurons in the adult, and categorised these together with one other pair of lineage Dalv23 (which produces ring neurons in adult) with the same connectivity pattern as wedge-neurons. Both their dendrites and axons are very small, and tiled medio-laterally, defining 8 compartments with one single neuron pair contributing to each. These are the intrinsic set of neurons, fully enclosed within the putative larval EB. Similarly, I found one pair of neurons of the BAmv1/2 lineage - known to contribute to ring neurons in adult flies - that receive visual input via PB neurons, and reciprocally interconnects with the previously mentioned wedge-neurons, and whose axons are fully contained within the space defined by the wedge neurons. We categorised these as larval "ring" neurons.
 
     
     \textbf{\textit{Larval EB Wedge neurons:}}
-    In the larval brain, we found a group of 8 pairs of reciprocally synaptically connected neurons from larval lineage DALcl12, known to produce Wedge neurons in the adult, so we named them Wedge neurons.
+    In the larval brain, I found a group of 8 pairs of reciprocally synaptically connected neurons from larval lineage DALcl12, known to produce Wedge neurons in the adult, so I named them Wedge neurons.
     Both their dendrites and axons are very small, and tiled medio-laterally, defining 8 compartments with one single neuron pair contributing to each (Fig. \ref{EBneurons}C).
     We found an additional pair of neurons from larval lineage DALv23 (which produces ring neurons in the adult) with the same connectivity pattern as Wedge neurons (Fig. \ref{EBneurons}B). All wedge neurons have contribute both axons and dendrites to the EB,making them EB.d.b neurons, and Core CX neurons, accordingly.
 
@@ -394,10 +380,10 @@
 
     We found one pair of neurons (RN3) of the larval BAmv1/2 lineage (corresponding to adult lineage LALv1 known to generate ring neurons) that receive visual input via PB columnar neurons, and reciprocally synapses axo-axonically with larval Wedge-neurons (Fig. \ref{EBneurons}A).
     Their axons are fully contained within the space defined by the wedge neurons.
-    Similarly, we found two pairs of neurons (RN1/2) from the larval DALv23 lineage (adult EBa1 lineage, also known to generate ring neurons), synaptically connected like RN1/2 (Fig. \ref{EBneurons}B). We classified all of these as larval EB Ring neurons, all of them having both dendrites and axons inside the EB, making them EB.d.b neurons, and as such, Core CX neurons. 
+    Similarly, I found two pairs of neurons (RN1/2) from the larval DALv23 lineage (adult EBa1 lineage, also known to generate ring neurons), synaptically connected like RN1/2 (Fig. \ref{EBneurons}B). We classified all of these as larval EB Ring neurons, all of them having both dendrites and axons inside the EB, making them EB.d.b neurons, and as such, Core CX neurons. 
 
     \textbf{\textit{Additional EB.d Neurons}}
-    There are seven more pairs of EB.d (neurons that contribute presynaptic sites to the EB) that didn't fall under ring or wedge neuron categories. Two of these are MB Dopaminergic neurons (DAN-d1 and DAN-g1), another 3 are LAL neurons(we refer to these as EB to LAL nerons) - these can be LAL.d LAL.b or LAL.d.b - and the last 2 are MB second order output neurons. %TODO add appendix 
+    There are seven more pairs of EB.d (neurons that contribute presynaptic sites to the EB) that didn't fall under ring or wedge neuron categories. Two of these are MB Dopaminergic neurons (DAN-d1 and DAN-g1), another 3 are LAL neurons(I refer to these as EB to LAL nerons) - these can be LAL.d LAL.b or LAL.d.b - and the last 2 are MB second order output neurons. %TODO add appendix 
 
 
     \textbf{\textit{Sensory inputs to the larval EB:}}
@@ -411,7 +397,7 @@
         
     % Blue photoreceptors -> Visual PN (PVL09) -> MB2ON-187 (TuBu?) -> EBa1 ring neurons (DALv23)
     In the adult, the EB is known to receive visual inputs via a polysynaptic pathway (see Fig. 6 in \citep{hulse2021connectome}, and Fig. 4 in \citep{omoto2018neuronal}).
-    In the larva, we find that the main visual PN for negative phototaxis, PVL09 \citep{Humberg2018PVL09}, synapses axo-dendritically onto MB2ON-187, which relays sensory inputs from visual and other sensory modalities axo-axonically onto larval Wedge neurons and Ring neurons (Fig. \ref{visualPBEB}).
+    In the larva, I find that the main visual PN for negative phototaxis, PVL09 \citep{Humberg2018PVL09}, synapses axo-dendritically onto MB2ON-187, which relays sensory inputs from visual and other sensory modalities axo-axonically onto larval Wedge neurons and Ring neurons (Fig. \ref{visualPBEB}).
     MB2ON-187 is named so for being postsynaptic to MBONs (MBON-c1 in particular; \citep{eschbach2021circuits}).
     Through MB2ON-187, multiple sensory PNs (PVL09, mgPN 7) and many neurons postsynaptic to MBONs (MB2ONs) synapse onto Wedge neurons (see Suppl. Connectivity Matrix).
     The latter indicate, again, that MBONs modulate or filter sensory inputs converging onto the EB.
@@ -420,8 +406,8 @@
 
     \subsection{Fan-Shaped Body}
 
-    In the larva, we found a number of putative FB horizontal/tangential cells
-    originating in lineages known to contribute neurons to the adult FB. Characteristically, most present a bilateral axon closely wrapping around the midline, and an ipsilateral dendrite positioned within the superior dorsal protocerebrum (dorsal anterior neuropil) where they integrate numerous inputs from MBON axons. Among the various neurons with dendrites within this very medial neuropil, we find neurons from lineages known to contribute to the adult FB and whose axons project to the putative larval NO, EB, PB and LAL.
+    In the larva, I found a number of putative FB horizontal/tangential cells
+    originating in lineages known to contribute neurons to the adult FB. Characteristically, most present a bilateral axon closely wrapping around the midline, and an ipsilateral dendrite positioned within the superior dorsal protocerebrum (dorsal anterior neuropil) where they integrate numerous inputs from MBON axons. Among the various neurons with dendrites within this very medial neuropil, I find neurons from lineages known to contribute to the adult FB and whose axons project to the putative larval NO, EB, PB and LAL.
 
 
     \textbf{\textit{Larval FB tangential cells}}
@@ -439,7 +425,7 @@
     All types contribute synapses rather specifically to the FB and are hence labeled as FB.b, a defining feature across them all.
     The somas originate in a number of larval lineages whose adult homologs are known to contribute neurons to the adult FB (see above), but also a few from the nerve cord, projecting their ascending axons directly to the FB such as the pCC neurons (a cell type first reported in grasshopper \citep{goodman1984pCC} and later in the \textit{Drosophila} embryo \citep{jacobs1989pCC}). The axons of the pCC project to the ipsilateral FB. The set of ascending neurons isn't complete, for the ventral nerve cord (VNC) remains incompletely mapped.
 
-    Among all neurons projecting their axons to the FB, many are brain neurons that do so with a typical bilateral horseshoe ('hs') axon, and hence we named then hs-FB, with a numeric label for each subtype.
+    Among all neurons projecting their axons to the FB, many are brain neurons that do so with a typical bilateral horseshoe ('hs') axon, and hence I named then hs-FB, with a numeric label for each subtype.
 
         \begin{figure}
             \centering
@@ -489,7 +475,7 @@
     \end{figure}
 
 
-    In addition to generating FB tangential neurons, the DM1-DM4 lineages also contribute 5 pairs of FB columnar neurons. These neurons (FB.d.1) are characterized by ipsilateral-only dendrites largely circumscribed to the FB (except for the Bushy neuron from the DPMpm1/DM3 lineage), and projecting their ipsilateral-only clutchy axons solely the NO (so they are FB.d-NO.b). Therefore, FB.d.1 are specialized in relaying information from the FB to the NO hemilaterally. Among FB.d.1 we find CN-34, MB2ON-201 and MB2ON-204 \citep{eschbach2021circuits}. Importantly, 4 of the 5 FB.d1 pairs also send their dendrites to the PB, making them PB.d neurons as well, therefore PB.d-FB.d-NO.b as well as core cx neurons. This is the closest to the adult PFN, however the adult analogue would be PB.d-FBb.b-NO.b. %TODO refer figure with cx neurons analogues. 
+    In addition to generating FB tangential neurons, the DM1-DM4 lineages also contribute 5 pairs of FB columnar neurons. These neurons (FB.d.1) are characterized by ipsilateral-only dendrites largely circumscribed to the FB (except for the Bushy neuron from the DPMpm1/DM3 lineage), and projecting their ipsilateral-only clutchy axons solely the NO (so they are FB.d-NO.b). Therefore, FB.d.1 are specialized in relaying information from the FB to the NO hemilaterally. Among FB.d.1 I find CN-34, MB2ON-201 and MB2ON-204 \citep{eschbach2021circuits}. Importantly, 4 of the 5 FB.d1 pairs also send their dendrites to the PB, making them PB.d neurons as well, therefore PB.d-FB.d-NO.b as well as core cx neurons. This is the closest to the adult PFN, however the adult analogue would be PB.d-FBb.b-NO.b. %TODO refer figure with cx neurons analogues. 
 
 
 
@@ -547,7 +533,7 @@
     MB2ON-125 integrate inputs across many neuron types, from PB.d columnar neurons to LH output neurons.
     As the MB2ON-125 name indicates (see \citep{eschbach2021circuits}), it receives direct synapses from MBONs (just MBON-c1, but a strong connection).
     Fairly large, its dendrites span approximately the entire spatial domain of the putative larval FB.
-    Postsynaptically we find the CSD neuron \citep{berck2016wiring} and ascending neurons from the ventral nerve cord~(VNC), among many others such as FFN-31 (so-called feedforward neurons, from the MB perspective, that bring sensory inputs to MB DANs; \citep{eschbach2021circuits}).
+    Postsynaptically I find the CSD neuron \citep{berck2016wiring} and ascending neurons from the ventral nerve cord~(VNC), among many others such as FFN-31 (so-called feedforward neurons, from the MB perspective, that bring sensory inputs to MB DANs; \citep{eschbach2021circuits}).
 
     % DPMpl12
     eDAN-2 is a non-MB dopaminergic neuron (DAN) entirely circumscribed to the posterior-lateral end of the FB. See section on DANs of the CX below for details.
@@ -556,10 +542,10 @@
     \subsection{Noduli}
     \label{NO}
 
-    In the larva we found a set of 21 neurons (10 pairs plus one unpaired) with highly compact, clutchy axons situated in the posterior ventral area of the brain, from lineages DPMm1 (DM1 in the adult), DALcm12, DPMl12, DPLc5, and BAMv12, as well as a few other larval lineages.
+    In the larva I found a set of 21 neurons (10 pairs plus one unpaired) with highly compact, clutchy axons situated in the posterior ventral area of the brain, from lineages DPMm1 (DM1 in the adult), DALcm12, DPMl12, DPLc5, and BAMv12, as well as a few other larval lineages.
     We define the volume encapsulating all their clutchy axons as the putative Noduli of the larval \textit{Drosophila}, and labeled all these neurons as NO.b.
 
-    Among the 21 NO.b neurons in the larva we find FB.d neurons (four pairs of the 5 FB.d.1 subtype including CN-34), convergence neurons (CN-6, CN-16/MBON-p1 \citep{eschbach2020recurrent}), neurons postsynaptic to MBONs (MB2ON-37, MB2ON-241), NO-looper (lineage BAmv12dor), MBON-p1 (a multi-compartment MBON of the MB vertical lobe; \citep{eichler2017complete}), and an unpaired neuron (DLPc lineage). Most NO.b neurons integrate inputs from the MB, as their names indicate (see \citep{eschbach2021circuits}).
+    Among the 21 NO.b neurons in the larva I find FB.d neurons (four pairs of the 5 FB.d.1 subtype including CN-34), convergence neurons (CN-6, CN-16/MBON-p1 \citep{eschbach2020recurrent}), neurons postsynaptic to MBONs (MB2ON-37, MB2ON-241), NO-looper (lineage BAmv12dor), MBON-p1 (a multi-compartment MBON of the MB vertical lobe; \citep{eichler2017complete}), and an unpaired neuron (DLPc lineage). Most NO.b neurons integrate inputs from the MB, as their names indicate (see \citep{eschbach2021circuits}).
 
     \begin{figure}
         \centering
@@ -569,7 +555,7 @@
     \end{figure}
 
 
-    In addition to the 21 NO.b neurons described above, we identified approximately 92 neurons whose dendrites are located within the putative noduli (henceforth NO.d neurons). These NO.d neurons arise from a variety of larval lineages and can be grouped by their predominant connectivity and putative function. The major classes are: MB-related inputs and feedback neurons (many MB2INs/M2ONs/FBNs and convergence neurons(CNs) that convey learned-valence and feedback signals to the NO); LAL-projecting neurons that route processed NO signals to premotor or integrative centers; descending/SEZ-projecting neurons that relay NO-processed information toward motor circuits; and a small set of ascending or sensory-associated neurons that provide multisensory context.
+    In addition to the 21 NO.b neurons described above, I identified approximately 92 neurons whose dendrites are located within the putative noduli (henceforth NO.d neurons). These NO.d neurons arise from a variety of larval lineages and can be grouped by their predominant connectivity and putative function. The major classes are: MB-related inputs and feedback neurons (many MB2INs/M2ONs/FBNs and convergence neurons(CNs) that convey learned-valence and feedback signals to the NO); LAL-projecting neurons that route processed NO signals to premotor or integrative centers; descending/SEZ-projecting neurons that relay NO-processed information toward motor circuits; and a small set of ascending or sensory-associated neurons that provide multisensory context.
 
     \begin{table}[h!]
     \centering
@@ -596,7 +582,7 @@
 
 
 
-    %In the putative larval NO, we find that the neurons projecting onto this neuropil receive input from LAL, (LAL.d MB2ON-75)
+    %In the putative larval NO, I find that the neurons projecting onto this neuropil receive input from LAL, (LAL.d MB2ON-75)
 
     %%17 MAY
     %Larval NO - 
@@ -625,20 +611,20 @@
     %In the adult Drosophila, the NO receives optic flow-based self-motion information and wind direction information via the columnar neurons.
 
     %an important hub for self-motion information according to physiological and anatomical observations. 
-    % TODO In the larva, we find ... 16/21 receive inputs from MBONs, from PB (via 7 PB to noduli neurons, like in the adult), and from FB (some NO.b neurons are also FB.d neurons). 6/21 neurons are columanr neurons that aren't FB.d or PB.d or anything like that.
+    % TODO In the larva, I find ... 16/21 receive inputs from MBONs, from PB (via 7 PB to noduli neurons, like in the adult), and from FB (some NO.b neurons are also FB.d neurons). 6/21 neurons are columanr neurons that aren't FB.d or PB.d or anything like that.
 
     %%Larva
-    %In \textit{Drosophila} larva, we found a set of 21 neurons (10 pairs plus a confirmed unpaired neuron) with highly compact, clutchy axons clumped together in the posterior ventro-medial area of the brain (similarly to the adult NO) and belonging to neurons in lineages DM1 and DM3, as well as a few other larval lineages. We observe that these neurons are highly interconnected with the PB and FB,  with strong inputs from  PB and strong outputs to FB, and many of these neurons receive inputs in the LAL.
+    %In \textit{Drosophila} larva, I found a set of 21 neurons (10 pairs plus a confirmed unpaired neuron) with highly compact, clutchy axons clumped together in the posterior ventro-medial area of the brain (similarly to the adult NO) and belonging to neurons in lineages DM1 and DM3, as well as a few other larval lineages. We observe that these neurons are highly interconnected with the PB and FB,  with strong inputs from  PB and strong outputs to FB, and many of these neurons receive inputs in the LAL.
     %Their highly distinctive morphology, location as well as similarities in connectivity to the adult noduli, make these neurons an excellent candidate for the putative larval noduli.
 
 
-    %TO DO: can we see the kind of specific recurrent activity
+    %TO DO: can I see the kind of specific recurrent activity
 
     % CONSIDER introducing the LAL but in the adult it is not considered a CX neuropil
 
 \section{Mushroom Body and the Central Complex}
     \label{CXMB}
-    In the adult \textbf{Drosophila}, the Mushroom Body is known to output onto the Central Complex neuropils through the MB Output Neurons (MBONs). At this stage, adult MBONs primarily target the Fan-shaped Body - tangential neurons from the middle layers (4-6) - and the Noduli - via a direct glutamatergic connection from MBON-30 to LCNOp(LAL–NO) neurons which then target the PFN (PB-FB-NO) neurons \citep{hulse2021connectome}.Here, we examine the synaptic relationships between mushroom body input (DANs, MBINs, OANs) and output (MBONs) neurons and the larval central complex neuropils. 
+    In the adult \textbf{Drosophila}, the Mushroom Body is known to output onto the Central Complex neuropils through the MB Output Neurons (MBONs). At this stage, adult MBONs primarily target the Fan-shaped Body - tangential neurons from the middle layers (4-6) - and the Noduli - via a direct glutamatergic connection from MBON-30 to LCNOp(LAL–NO) neurons which then target the PFN (PB-FB-NO) neurons \citep{hulse2021connectome}.Here, I examine the synaptic relationships between mushroom body input (DANs, MBINs, OANs) and output (MBONs) neurons and the larval central complex neuropils. 
         
     \begin{figure}
         \centering
@@ -689,7 +675,7 @@
     In considering that 3 of the 4 DALv1 neurons (PB horizontal fibers) present an unusual bilateral axon that first deploys output synapses contralaterally and then ipsilaterally (Fig. \ref{fig:dalv1neurons}A), the observed pattern of selective axo-dendritic and axo-axonic connections has implications for the modulation of the output of the unusual axons of DALv1 neurons.
 
 
-    In summary, from the perspective of the PB, we find the following circuit architecture: the multi-sensory convergence onto the PB horizontal fibers is directly modulated by the MB, precisely because the neurons that mediate the multi-sensory convergence are themselves CNs (i.e., integrate also MBON synapses in addition to LH inputs): the CN-53 and CN-54. %Both of these neurons are also Lateral Horn (LH) neurons.
+    In summary, from the perspective of the PB, I find the following circuit architecture: the multi-sensory convergence onto the PB horizontal fibers is directly modulated by the MB, precisely because the neurons that mediate the multi-sensory convergence are themselves CNs (i.e., integrate also MBON synapses in addition to LH inputs): the CN-53 and CN-54. %Both of these neurons are also Lateral Horn (LH) neurons.
     Note CN-54 is in addition a PB.d neuron, integrating inputs from PB horizontal fibers (DALv1 neurons).
 
     Upstream, among various MBONs, MBON-c1 is the most strongly connected to both CN-53 and CN-54, which also integrate inputs from MBON-b1 and MBON-b2. All three are MBONs of the MB peduncle; MBON-c1 has no known function, while MBON-b1 and MBON-b2 promote approach \citep{eschbach2021circuits}.
@@ -718,7 +704,7 @@
 
 Dopaminergic release outside the MB in the adult fly is known to trigger sleep via dorsal FB (dFB) neurons~\citep{pimentel2016sleep}, among other potential roles, depending upon the dopamine receptors expressed in the postsynaptic neurons and the circuits the neurons are part of.
 
-The larval MB houses 7 pairs of DANs \citep{eichler2017complete}, with several more DANs scattered across the brain \citep{selcho2009thgal4}. By flp-out of the TH-GAL4 expression pattern that encompasses all DANs \citep{selcho2009thgal4} followed by immunohistochemistry, we isolated individual neurons from the TH-GAL4 expression patteern and compared their morphology with EM-reconstructed brain neurons \citep{winding2023connectome}. We identified with reasonable certainty the following 5 eDAN types (eDAN for \textit{external} DAN, i.e., not a MB DAN), comprising 6 neuron pairs.
+The larval MB houses 7 pairs of DANs \citep{eichler2017complete}, with several more DANs scattered across the brain \citep{selcho2009thgal4}. By flp-out of the TH-GAL4 expression pattern that encompasses all DANs \citep{selcho2009thgal4} followed by immunohistochemistry, I isolated individual neurons from the TH-GAL4 expression patteern and compared their morphology with EM-reconstructed brain neurons \citep{winding2023connectome}. We identified with reasonable certainty the following 5 eDAN types (eDAN for \textit{external} DAN, i.e., not a MB DAN), comprising 6 neuron pairs.
 
 \textbf{eDAN-1}: from the larval lineage DPMpm2, this neuron presents an ipsilateral dendrite in the posterior-dorsal brain, and a bilateral axon exactly overlapping with HF-PB dendrites. eDAN-1 integrates inputs from PB.d neurons like CN-54 (which mediates multi-sensory input integration and relays them to HF-PB, modulated by MB output; see above) but also from multiple sensory PNs such as for temperature (Suckerfish PN, Thermo PN 3 and Thermo PN 5), olfaction (mPN A3), and for unknown sensory modalities (Suckerfish PN 2, from unknown sensory MN-Sens-B2-ACp-21 and -22; \citep{miroschnikow2018convergence}), and also from PB.b neurons like MB2ON-63. The axon of eDAN-1 synapses onto multiple PB.d neurons (MB2ON-187, CN-15, CN-54, ADC1, FB-LAL1, and SP2-1) and weakly onto HF-PB neurons.
 
@@ -730,7 +716,7 @@ The larval MB houses 7 pairs of DANs \citep{eichler2017complete}, with several m
 
 \textbf{eDAN-5}: from the DPMpm1 larval lineage, this neuron's dendrite lays posterior to the LAL and projects its axon inside the lateral LAL. The dendrite integrates inputs from EB.d neurons, MB2IN-195, MB2ON-67, and sVUM2mx. The axon targets weakly but axo-dendritically an EB Ring neuron (RN1/2), and more strongly other neurons (MB2ON-67, MB2ON-78, MB2ON-68).
 
-According to \citep{selcho2009thgal4} there are further non-MB DANs yet to be identified in the larval brain connectome. Note an effort was made to relate the eDANs we could identify to non-MB DAN names in \citep{selcho2009thgal4} but the resolution mismatch was too great to bridge, except for eDAN-1 which is most likely named "DM3" in \citep{selcho2009thgal4}.
+According to \citep{selcho2009thgal4} there are further non-MB DANs yet to be identified in the larval brain connectome. Note an effort was made to relate the eDANs I could identify to non-MB DAN names in \citep{selcho2009thgal4} but the resolution mismatch was too great to bridge, except for eDAN-1 which is most likely named "DM3" in \citep{selcho2009thgal4}.
 
 %TODO: add eDAN-6 and eDAN-7
 %TODO: add connectivity between all DANs
@@ -746,7 +732,7 @@ According to \citep{selcho2009thgal4} there are further non-MB DANs yet to be id
     We identified genetic driver lines for eight neurons of the larval central complex: EB-MB1, PB2, LAL-DN1, LAL wrap1, FB-NO1, EB-DN1, RN1/2, plus DAN-d1, which is an EB.d (i.e., integrates inputs from the EB). 
     We quantified larval turning behavior following targeted inhibition of each of these driver lines via Tetanus neurotoxin (TNT).
     Control animals expressed the inactive variant, Impotent Tetanus (ImpTNT).
-    Given that the central complex is classically implicated in visually guided navigation, we used green light stimulation as the sensory stimuli.
+    Given that the central complex is classically implicated in visually guided navigation, I used green light stimulation as the sensory stimuli.
      \begin{table}[h!]
     \centering
     \begin{tabular}{llllll}
@@ -777,7 +763,7 @@ We were curious if the identified putative central comlpex would be responsive t
 We monitored the activity across the entire larval brain in response to stimulation of Rh5 (blue senstitive) phtoreceptors. Photoreceptors (the Bolwig Organ) are located outside of the Central Nervous System(CNS) of Drosophila. We thus expressed  EGFP fluorescent tag in these neurons(Rh5s) to be to ensure they are present during dissection of the CNS and that they are preserved for mounting the sample in the glass capilary prior to Calcium Imaging. We created a final line that expresses green fluorescent RGECO (a calcium indicator of neural activity present cytosl) and red fluorescent IRFP (which brightens the cell nuclei very well and allows visualisation of cell position) and green fluorescent Rh5 photoreceptors. 
 
 
-Upon blue light stimulation, robust calcium transients in multiple regions of the larval brain were observed. Amongst the CX neuropils, we expected the neuropil with the most visual input (Protocerebral Bridge) to be realiably responsive to photoreceptors. To test this, the brain was segmented into distinct anatomical regions using manual annotation. Regions corresponding to the optic lobe (OL) - to confirm functional photoreceptors - the putative Protocerebral Bridge, and the MB - as a control -  were delinated (Fig. \ref{LSSegmentation}).
+Upon blue light stimulation, robust calcium transients in multiple regions of the larval brain were observed. Amongst the CX neuropils, I expected the neuropil with the most visual input (Protocerebral Bridge) to be realiably responsive to photoreceptors. To test this, the brain was segmented into distinct anatomical regions using manual annotation. Regions corresponding to the optic lobe (OL) - to confirm functional photoreceptors - the putative Protocerebral Bridge, and the MB - as a control -  were delinated (Fig. \ref{LSSegmentation}).
 based on anatomical landmarks and lineage tracing data. Flu orescence intensity changes $\Delta F/F_0$ were quantified for each region before, during and after blue light stimulation. 
 
    \begin{figure}
@@ -810,7 +796,6 @@ Overall, there seems to be a higher sensitivity to blue light from in PB compare
         \caption[Visual Inputs to larval Central Complex Neuropils]{\textbf{Visual Inputs to the larval Central Complex}}
         \label{visualCXneuropils}
     \end{figure}
-
 
 \section{Descending Neurons from CX}    
 
