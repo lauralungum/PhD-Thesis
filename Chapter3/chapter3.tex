@@ -599,27 +599,54 @@
 
 
 \section{Visual Input into the larval CX}
-\label{CXvisual}
-    \begin{figure}
+\label{CXvisual}  
+In adults, the CX is primarily involved in visually guided behaviour and is a core hub for visual information processing \citep{omoto2017visual, hulse2021connectome}; hence I was curious  if there whether the same concentration of visual inputs - and in what architecture - exists in the larva larva.
+The larval \textit{drosophila} deosn't actually have eyes, however it does have 2  photoreceptor(PR) classes:  Rhodopsin5-PRs (Rh5-PRs) which detect blue light and are critical for rapid avoidance l \citep{keene2011distinct}; and Rhodopsin6-PRs (Rh6-PRs) which primarily detect green light. 
+The larval visual circuit, terminating in the larval optic neuropil (LON), includes two types of downstream interneurons:  Visual Projection Interneurons (VPNs) and Visual Local Interneurons (VLNs). Whilst PRs synapse onto both, Rh5-PRs preferentially synapse onto VPNs (90\% of Rh5-PR targets are VPNs).
+whereas Rh6-PRs principally synapse onto VLNs (79\%), and much less onto VPNs (15\%, specifically the Pdf-LaNs). 
+
+ I investigated visual inputs towards the central complex from both VPNs (Fig. \ref{VPNs}) and VLNs(Fig. \ref{VLNs}) by looking connections immediately downsream of them as well as 2 hops away.
+
+    \subsection{VPNs inputs to the CX}
+    Several VPNs contact the FB neurons: pOLP, PVL09 (aversive behaviour neurons), nc1 and nc2. While no VPNs directly connect to the FB, these neurons first synapse onto convergence neurons CN-34, CN-50, CN-59,  and MB2ON-54 as well as two downstream VPN neurons (down_PVL09 and down_pOLP) before reaching 6 FB tangential horseshoe neuron types (hs-FB1, hs-FB2, hs-FB3, hs-FB4, hs-FB5 and hs-FB6) which project their axons to the FB; as well as one FB.d.b neurons (MB2ON-125).  
+
+    In the adult, the EB is known to receive visual inputs via a polysynaptic pathways (see Fig. 6 in \citep{hulse2021connectome}, and Fig. 4 in \citep{omoto2018neuronal}). In the larva, I find that the main visual PN for negative phototaxis, PVL09  \citep{Humberg2018PVL09}, synapses axo-dendritically onto MB2ON-187, which relays sensory inputs from visual and other sensory modalities axo-axonically onto all of larval Ring neurons (Fig. \ref{VPNs}). MB2ON-187 is named so for being postsynaptic to MBONs (MBON-c1 in particular; \citep{eschbach2021circuits}). Through MB2ON-187, multiple sensory PNs (PVL09, mgPN 7) and many neurons postsynaptic to MBONs (MB2ONs) synapse onto Wedge neurons. 
+    The latter indicate, again, that MBONs modulate or filter sensory inputs converging onto the EB. The EB also recieves input from pOLP - another VPN contrubuting to negative phototaxis - via a non-PB Dalv1 neuron (DALV1 contralateral 4) which interestingly also recieves input from PVL09.  This interneuron targets an FFN8, a feedback neuron sending axons to the EB. 
+
+    Another, perhaps unexpected, visual hub in the larval CX is the NO. PVL09, as well as nc1 and nc2, which compute light intensity, synapse directly onto 3 NO.b neurons, two of which FB.d1 neurons, while the other is a neuron innervating dendrites in the PB. In addition, VPNs send indirect connections to 3 more NO.b neurons which are CNs (CN-6, CN-16, CN61) via two (again!) CNs(CN-45 and CN-53) and two MB2INs (MB2IN-144 and MB2IN-210).
+
+    In the adult, the PB is the primary processing layer of visual input before it's passed on to the EB. which 
+
+
+
+
+    \begin{figure}[H]
         \centering
-        \includegraphics[width=12cm]{Figs/CX/VisualtoCX.pdf}
-        \caption[Visual Inputs to larval Central Complex Neuropils]{\textbf{Visual Inputs to the larval Central Complex}}
-        \label{visualCXneuropils}
+        \includegraphics[width=11cm]{Figs/CX/VPNstoCX.pdf}
+        \caption[Visual Inputs via VPNs to larval Central Complex Neuropils]{\textbf{VPNs Input to the Larval Central Complex.} The inputs from visual projection neurons (VPNs) towards each larval CX neuropil are shown. In each case, neurons are colored to represent anatomical regions: VPNs are highlighted in a blue rectangle to represent the larval optic neuropil (LON), whilst the layer of interneurons connecting VPNs to the CX are highlighted in yellow. Individual CX neuropils are colored in magenta (FB), red (EB), dark blue (NO), and deep purple (PB). In each case, both .d and .b neurons are included in the analysis. Panel \textbf{A} displays VPN connections to FB neurons; panel \textbf{B} illustrates VPN inputs towards EB; panel \textbf{C} shows VPN circuits towards the NO; finally, panel \textbf{D} illustrates two separate figures for VPN input into PB columnar (\textbf{D1}) and PB horizontal fibers (\textbf{D2}) for ease of visualisation.}
+        \label{VPNs}
     \end{figure}
 
-        \textbf{\textit{Sensory inputs to the larval EB:}}
-        \begin{figure}
+
+    \subsection{VLNs inputs to the CX}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=14cm]{Figs/CX/VLNstoCX.pdf}
+        \caption[Visual Inputs via VLNs to larval Central Complex Neuropils]{\textbf{VLN Inputs to the Larval Central Complex.} The inputs from visual local interneurons (VLNs) towards each larval CX neuropil are shown. In each case, neurons are colored to represent anatomical regions: VLNs are highlighted in a blue rectangle to represent the larval optic neuropil (LON), whilst the layer of interneurons connecting VLNs to the CX are highlighted in yellow. Individual CX neuropils are colored in magenta (FB), red (EB), dark blue (NO), and deep purple (PB). In each case, both .d and .b neurons are included in the analysis. Panel \textbf{A} shows the VLN synaptic circuit towards the PB neurons; panel \textbf{B} displays the VLN synapses to EB neurons; panel \textbf{C} shows those to FB neurons; and panel \textbf{D} presents the VLN pathways towards the NO.}
+        \label{VLNs}
+    \end{figure}
+
+
+
+
+    \begin{figure}
             \centering
             \includegraphics[width=10cm]{Figs/CX/visualPNstoPBEB.pdf}
             \caption{\textbf{Visual Input into the EB}. Input from visual Projection Neurons (Visual PN) to the Ellipsoid Body~(EB) via two convergence neurons~(CN53, CN54), a pair of PB DALv1s and a second-order Mushroom Body output neuron~(MB2ON-187).}
             \label{visualPBEB}
-        \end{figure}
+     \end{figure}
         
-    % Blue photoreceptors -> Visual PN (PVL09) -> MB2ON-187 (TuBu?) -> EBa1 ring neurons (DALv23)
-    In the adult, the EB is known to receive visual inputs via a polysynaptic pathway (see Fig. 6 in \citep{hulse2021connectome}, and Fig. 4 in \citep{omoto2018neuronal}). In the larva, I find that the main visual PN for negative phototaxis, PVL09 \citep{Humberg2018PVL09}, synapses axo-dendritically onto MB2ON-187, which relays sensory inputs from visual and other sensory modalities axo-axonically onto larval Wedge neurons and Ring neurons (Fig. \ref{visualPBEB}).
-    MB2ON-187 is named so for being postsynaptic to MBONs (MBON-c1 in particular; \citep{eschbach2021circuits}).
-    Through MB2ON-187, multiple sensory PNs (PVL09, mgPN 7) and many neurons postsynaptic to MBONs (MB2ONs) synapse onto Wedge neurons (see Suppl. Connectivity Matrix).
-    The latter indicate, again, that MBONs modulate or filter sensory inputs converging onto the EB.
+
 
  \section{Descending Neurons from CX}    
 
