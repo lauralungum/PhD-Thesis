@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.13)  19 OCT 2025 23:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.13)  20 OCT 2025 01:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -658,7 +658,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'numeric-comp.dbx' not found.
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count424
@@ -772,10 +772,6 @@ Package biblatex Info: ... file 'blx-natbib.def' found.
 File: blx-natbib.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
 )
-Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
-Package biblatex Info: ... file 'numeric-comp.bbx' found.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
-File: numeric-comp.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
@@ -786,7 +782,7 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count501
 \c@bbx:relatedtotal=\count502
-)))
+))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
@@ -896,30 +892,30 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks37
 \@floatcapt=\box70
 )) (./thesis-info.tex)
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 115.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 116.
 \@quotelevel=\count509
 \@quotereset=\count510
  (./thesis.aux (./Dedication/dedication.aux) (./Declaration/declaration.aux) (./Acknowledgement/acknowledgement.aux) (./Abstract/abstract.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux) (./Chapter4/chapter4.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
  (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count511
@@ -939,13 +935,13 @@ File: fc-english.def 2016/01/12
 Package microtype Info: Patching varwidth to enable character protrusion.
 \MT@vwid@leftmargin=\dimen279
 \MT@vwid@rightmargin=\dimen280
-LaTeX Info: Redefining \microtypecontext on input line 115.
-Package microtype Info: Applying patch `item' on input line 115.
-Package microtype Info: Applying patch `toc' on input line 115.
-Package microtype Info: Applying patch `eqnum' on input line 115.
-Package microtype Info: Applying patch `footnote' on input line 115.
-Package microtype Info: Applying patch `verbatim' on input line 115.
-LaTeX Info: Redefining \microtypesetup on input line 115.
+LaTeX Info: Redefining \microtypecontext on input line 116.
+Package microtype Info: Applying patch `item' on input line 116.
+Package microtype Info: Applying patch `toc' on input line 116.
+Package microtype Info: Applying patch `eqnum' on input line 116.
+Package microtype Info: Applying patch `footnote' on input line 116.
+Package microtype Info: Applying patch `verbatim' on input line 116.
+LaTeX Info: Redefining \microtypesetup on input line 116.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -959,7 +955,7 @@ Package microtype Info: No adjustment of character kerning.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-Package hyperref Info: Link coloring ON on input line 115.
+Package hyperref Info: Link coloring ON on input line 116.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write6
 \openout6 = `thesis.out'.
@@ -985,7 +981,7 @@ Package hyperref Info: Link coloring ON on input line 115.
 * \oddsidemargin=14.86656pt
 * \evensidemargin=0.64021pt
 * \topmargin=1.48708pt
-* \headheight=14.5pt
+* \headheight=15.0pt
 * \headsep=19.8738pt
 * \topskip=12.0pt
 * \footskip=30.0pt
@@ -1008,7 +1004,7 @@ Package caption Info: End \AtBeginDocument code.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 115.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 116.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1022,10 +1018,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
  (./thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 115.
-Package biblatex Info: Reference segment=0 on input line 115.
+Package biblatex Info: Reference section=0 on input line 116.
+Package biblatex Info: Reference segment=0 on input line 116.
 \PHD@Title=\box72
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 119.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 120.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -1033,44 +1029,44 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 119.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 120.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 119.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 120.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 119.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 120.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 119.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 120.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 120.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 120.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 120.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 \PHD@crest=\box73
-<Figs/University_Crest.pdf, id=301, 59.22125pt x 69.25874pt>
+<Figs/University_Crest.pdf, id=313, 59.22125pt x 69.25874pt>
 File: Figs/University_Crest.pdf Graphic file (type pdf)
 <use Figs/University_Crest.pdf>
-Package pdftex.def Info: Figs/University_Crest.pdf  used on input line 119.
+Package pdftex.def Info: Figs/University_Crest.pdf  used on input line 120.
 (pdftex.def)             Requested size: 87.49088pt x 102.32376pt.
 \PHD@collegecrest=\box74
-<Figs/CollegeShields/LucyCav_Crest.png, id=302, 803.0pt x 1005.7575pt>
+<Figs/CollegeShields/LucyCav_Crest.png, id=314, 803.0pt x 1005.7575pt>
 File: Figs/CollegeShields/LucyCav_Crest.png Graphic file (type png)
 <use Figs/CollegeShields/LucyCav_Crest.png>
-Package pdftex.def Info: Figs/CollegeShields/LucyCav_Crest.png  used on input line 119.
+Package pdftex.def Info: Figs/CollegeShields/LucyCav_Crest.png  used on input line 120.
 (pdftex.def)             Requested size: 43.74878pt x 54.78737pt.
 \PHD@author=\box75
 \PHD@supervisor=\box76
@@ -1503,4 +1499,601 @@ LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 8 undefined on inpu
 LaTeX Warning: Citation 'hulse2021connectome' on page 8 undefined on input line 277.
 
 
-LaTeX 
+LaTeX Warning: Citation 'andrade2019developmentally' on page 8 undefined on input line 277.
+
+
+Overfull \hbox (5.56725pt too wide) in paragraph at lines 277--279
+\T1/ptm/m/n/12 (-20) set them apart from other CX neu-rons [[], []]
+ []
+
+
+LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 8 undefined on input line 282.
+
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 8 undefined on input line 282.
+
+
+LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 8 undefined on input line 283.
+
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 8 undefined on input line 283.
+
+
+
+[8]
+
+LaTeX Warning: Citation 'kahsai2011neuromodulators' on page 9 undefined on input line 289.
+
+
+LaTeX Warning: Citation 'kahsai2012distribution' on page 9 undefined on input line 289.
+
+
+LaTeX Warning: Citation 'donlea2019sleep' on page 9 undefined on input line 289.
+
+
+LaTeX Warning: Citation 'PfeifferHomberg2014' on page 9 undefined on input line 289.
+
+
+LaTeX Warning: Citation 'larderet2017opticlobe' on page 9 undefined on input line 291.
+
+
+LaTeX Warning: Citation 'eschbach2020recurrent' on page 9 undefined on input line 294.
+
+
+Overfull \hbox (33.80943pt too wide) in paragraph at lines 294--295
+[]\T1/ptm/m/n/12 (-20) Another oc-topamin-er-gic VUM (a lad-der neu-ron), named MB2IN-191 [[]],
+ []
+
+
+LaTeX Warning: Citation 'szuperak2018sleep' on page 9 undefined on input line 296.
+
+
+LaTeX Warning: Citation 'PfeifferHomberg2014' on page 9 undefined on input line 296.
+
+
+LaTeX Warning: Citation 'ShaferKeene2021sleep' on page 9 undefined on input line 296.
+
+
+Overfull \hbox (16.72267pt too wide) in paragraph at lines 296--297
+[]\T1/ptm/m/n/12 (-20) Given the known role of oc-topamine in con-trol-ling sleep/wake in lar-vae [[]]
+ []
+
+
+Overfull \hbox (18.55756pt too wide) in paragraph at lines 296--297
+\T1/ptm/m/n/12 (-20) and the role of the adult CX in mod-u-lat-ing mo-tor ac-tiv-ity lev-els and sleep [[],
+ []
+
+
+LaTeX Warning: Citation 'larderet2017opticlobe' on page 9 undefined on input line 298.
+
+
+LaTeX Warning: Citation 'berck2016wiring' on page 9 undefined on input line 300.
+
+
+LaTeX Warning: Citation 'vogt2021internalstate' on page 9 undefined on input line 300.
+
+
+
+[9]
+
+LaTeX Warning: Citation 'vogt2021internalstate' on page 10 undefined on input line 302.
+
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 10 undefined on input line 305.
+
+
+LaTeX Warning: Citation 'andrade2019developmentally' on page 10 undefined on input line 310.
+
+
+LaTeX Warning: Citation 'hanesch1989neuronal' on page 10 undefined on input line 312.
+
+
+LaTeX Warning: Citation 'ofstad2011visual' on page 10 undefined on input line 312.
+
+
+LaTeX Warning: Citation 'seelig2013feature' on page 10 undefined on input line 312.
+
+
+LaTeX Warning: Citation 'PfeifferHomberg2014' on page 10 undefined on input line 312.
+
+
+LaTeX Warning: Citation 'Stone2017CXModel' on page 10 undefined on input line 312.
+
+
+LaTeX Warning: Citation 'franconville2018building' on page 10 undefined on input line 312.
+
+
+LaTeX Warning: Citation 'heinze2018principles' on page 10 undefined on input line 312.
+
+
+LaTeX Warning: Citation 'szuperak2018sleep' on page 10 undefined on input line 312.
+
+
+LaTeX Warning: Citation 'pisokas2020head' on page 10 undefined on input line 312.
+
+
+LaTeX Warning: Citation 'ShaferKeene2021sleep' on page 10 undefined on input line 312.
+
+
+LaTeX Warning: Citation 'fisher2022flexible' on page 10 undefined on input line 312.
+
+
+Overfull \hbox (13.37444pt too wide) in paragraph at lines 312--313
+[]\T1/ptm/m/n/12 (-20) , [], [], [],
+ []
+
+
+LaTeX Warning: Citation 'fishilevich2005chemotaxis' on page 10 undefined on input line 314.
+
+
+LaTeX Warning: Citation 'khurana2013olfactory' on page 10 undefined on input line 314.
+
+
+LaTeX Warning: Citation 'Ebrahim2015OR49' on page 10 undefined on input line 314.
+
+
+LaTeX Warning: Citation 'davies2015model' on page 10 undefined on input line 314.
+
+
+LaTeX Warning: Citation 'sawin1995phototaxis' on page 10 undefined on input line 314.
+
+
+LaTeX Warning: Citation 'gong2009phototaxis' on page 10 undefined on input line 314.
+
+
+LaTeX Warning: Citation 'KeeneSprecher2012photobehavior' on page 10 undefined on input line 314.
+
+
+LaTeX Warning: Citation 'gepner2015computations' on page 10 undefined on input line 315.
+
+
+LaTeX Warning: Citation 'poe2023sleepmemory' on page 10 undefined on input line 316.
+
+
+LaTeX Warning: Citation 'donlea2011sleep' on page 10 undefined on input line 316.
+
+
+LaTeX Warning: Citation 'donlea2019sleep' on page 10 undefined on input line 316.
+
+
+LaTeX Warning: Citation 'ShaferKeene2021sleep' on page 10 undefined on input line 316.
+
+
+LaTeX Warning: Citation 'lacin2016lineage' on page 10 undefined on input line 318.
+
+
+LaTeX Warning: Citation 'pereanu2010neuropildev' on page 10 undefined on input line 318.
+
+
+LaTeX Warning: Citation 'berck2016wiring' on page 10 undefined on input line 319.
+
+
+LaTeX Warning: Citation 'eichler2017complete' on page 10 undefined on input line 319.
+
+
+LaTeX Warning: Citation 'larderet2017opticlobe' on page 10 undefined on input line 319.
+
+
+
+[10]
+
+LaTeX Warning: Citation 'winding2023connectome' on page 11 undefined on input line 322.
+
+
+LaTeX Warning: Citation 'lacin2016lineage' on page 11 undefined on input line 323.
+
+
+LaTeX Warning: Citation 'truman2023metamorphosis' on page 11 undefined on input line 323.
+
+
+LaTeX Warning: Citation 'truman1999origins' on page 11 undefined on input line 324.
+
+
+LaTeX Warning: Citation 'koniszewski2016TriboliumCX' on page 11 undefined on input line 324.
+
+
+LaTeX Warning: Citation 'farnworth2020TriboliumCXvsFly' on page 11 undefined on input line 324.
+
+
+LaTeX Warning: Citation 'andrade2019developmentally' on page 11 undefined on input line 325.
+
+
+Overfull \hbox (7.01694pt too wide) in paragraph at lines 322--326
+\T1/ptm/m/n/12 (-20) [[]] and neu-ronal iden-ti-ties from lar-val to adult [[]],
+ []
+
+
+Overfull \hbox (52.75578pt too wide) in paragraph at lines 322--326
+\T1/ptm/m/n/12 (-20) the CX de-vel-ops em-bry-on-i-cally [[], []].
+ []
+
+
+Overfull \hbox (69.9145pt too wide) in paragraph at lines 322--326
+\T1/ptm/m/n/12 (-20) de-vel-op-ment of the adult CX re-main un-dif-fer-en-ti-ated through-out lar-val life [[]]. 
+ []
+
+
+LaTeX Warning: Citation 'andrade2019developmentally' on page 11 undefined on input line 330.
+
+
+LaTeX Warning: Citation 'winding2023connectome' on page 11 undefined on input line 331.
+
+
+LaTeX Warning: Citation 'mast2014pheromones' on page 11 undefined on input line 331.
+
+
+LaTeX Warning: Citation 'ohyama2015multilevel' on page 11 undefined on input line 331.
+
+
+LaTeX Warning: Citation 'berck2016wiring' on page 11 undefined on input line 331.
+
+
+LaTeX Warning: Citation 'schlegel2016synaptic' on page 11 undefined on input line 331.
+
+
+LaTeX Warning: Citation 'larderet2017opticlobe' on page 11 undefined on input line 331.
+
+
+LaTeX Warning: Citation 'miroschnikow2018convergence' on page 11 undefined on input line 331.
+
+
+LaTeX Warning: Citation 'huckesfeld2021unveiling' on page 11 undefined on input line 331.
+
+
+LaTeX Warning: Citation 'hernandez2021thermo' on page 11 undefined on input line 331.
+
+
+Overfull \hbox (82.55428pt too wide) in paragraph at lines 327--333
+[]\T1/ptm/m/n/12 (-20) , [], [], [],
+ []
+
+
+
+[11])
+
+[12]
+
+[13]
+
+[14]
+\openout2 = `Chapter2/chapter2.aux'.
+
+ (./Chapter2/chapter2.tex
+Chapter 2.
+
+LaTeX Warning: Citation 'winding2023connectome' on page 15 undefined on input line 11.
+
+
+LaTeX Warning: Citation 'schneider2016quantitative' on page 15 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'saalfeld2009catmaid' on page 15 undefined on input line 16.
+
+
+
+[15
+
+
+
+
+]
+
+LaTeX Warning: Citation 'selcho2009thgal4' on page 16 undefined on input line 38.
+
+
+
+[16]
+
+LaTeX Warning: Citation 'nern2015multicolor' on page 17 undefined on input line 53.
+
+
+
+[17]
+
+LaTeX Warning: Citation 'li2014gal4' on page 18 undefined on input line 80.
+
+
+LaTeX Warning: Citation 'meissner2025splitgal4' on page 18 undefined on input line 80.
+
+
+LaTeX Warning: Citation 'Ohyama2013PlosONE' on page 18 undefined on input line 92.
+
+
+
+[18]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 123.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 123.
+)
+
+[19]
+
+[20]
+\openout2 = `Chapter3/chapter3.aux'.
+
+ (./Chapter3/chapter3.tex
+Chapter 3.
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 21 undefined on input line 11.
+
+
+Overfull \hbox (7.4112pt too wide) in paragraph at lines 11--12
+\T1/ptm/m/n/12 (-20) adult's for in-te-grat-ing vi-sual in-puts into the PB, EB,FB and NO [[]];
+ []
+
+
+LaTeX Warning: Citation 'Spindler2010Lineages' on page 21 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'Pereanu2011LineagesCX' on page 21 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'andrade2019developmentally' on page 21 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 21 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 21 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'franconville2018building' on page 21 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 21 undefined on input line 18.
+
+
+Overfull \hbox (19.58153pt too wide) in paragraph at lines 17--19
+\T1/ptm/m/n/12 (-20) The \T1/ptm/m/it/12 (-20) Drosophila melanogaster \T1/ptm/m/n/12 (-20) cen-tral brain con-sists of stereo-typed neu-ral lin-eages, developmental-
+ []
+
+
+Overfull \hbox (43.86638pt too wide) in paragraph at lines 17--19
+\T1/ptm/m/n/12 (-20) neu-rob-lasts [[]]; a sub-set of these struc-tures the CX [[]].
+ []
+
+
+Overfull \hbox (23.6696pt too wide) in paragraph at lines 17--19
+\T1/ptm/m/n/12 (-20) lar-val brain that de-velop into the adult CX dur-ing meta-mor-pho-sis [[]]
+ []
+
+
+Overfull \hbox (20.90805pt too wide) in paragraph at lines 17--19
+\T1/ptm/m/n/12 (-20) terns across the adult CX neu-ropils [[], [],
+ []
+
+
+
+[21
+
+
+
+
+]
+
+LaTeX Warning: Citation 'truman2023metamorphosis' on page 22 undefined on input line 22.
+
+
+LaTeX Warning: Citation 'eckstein2024neurotransmitter' on page 22 undefined on input line 47.
+
+
+LaTeX Warning: Citation 'eckstein2024neurotransmitter' on page 22 undefined on input line 47.
+
+
+
+[22]
+
+[23]
+Overfull \vbox (175.84688pt too high) has occurred while \output is active []
+
+
+
+[24]
+Overfull \hbox (28.25497pt too wide) in paragraph at lines 116--132
+ [][] 
+ []
+
+
+LaTeX Warning: Citation 'eschbach2021circuits' on page 25 undefined on input line 143.
+
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 25 undefined on input line 143.
+
+
+
+[25]
+
+LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 26 undefined on input line 147.
+
+<Figs/CX/CX_Nomenclature_Neurons.pdf, id=676, 1374.13374pt x 1042.89626pt>
+File: Figs/CX/CX_Nomenclature_Neurons.pdf Graphic file (type pdf)
+<use Figs/CX/CX_Nomenclature_Neurons.pdf>
+Package pdftex.def Info: Figs/CX/CX_Nomenclature_Neurons.pdf  used on input line 153.
+(pdftex.def)             Requested size: 341.43306pt x 259.11618pt.
+
+
+[26]
+
+LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 27 undefined on input line 199.
+
+
+LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 27 undefined on input line 199.
+
+
+
+[27 <./Figs/CX/CX_Nomenclature_Neurons.pdf>]
+<Figs/CX/CATMAIDCXneurons.pdf, id=754, 1967.49054pt x 3003.1999pt>
+File: Figs/CX/CATMAIDCXneurons.pdf Graphic file (type pdf)
+<use Figs/CX/CATMAIDCXneurons.pdf>
+Package pdftex.def Info: Figs/CX/CATMAIDCXneurons.pdf  used on input line 205.
+(pdftex.def)             Requested size: 312.9803pt x 477.72649pt.
+<Figs/CX/cxdiagram.pdf, id=755, 1820.8025pt x 1366.10374pt>
+File: Figs/CX/cxdiagram.pdf Graphic file (type pdf)
+<use Figs/CX/cxdiagram.pdf>
+Package pdftex.def Info: Figs/CX/cxdiagram.pdf  used on input line 216.
+(pdftex.def)             Requested size: 341.43306pt x 256.16467pt.
+
+
+LaTeX Warning: Citation 'franconville2018building' on page 28 undefined on input line 218.
+
+
+LaTeX Warning: Citation 'franconville2018building' on page 28 undefined on input line 218.
+
+
+
+[28]
+
+[29 <./Figs/CX/CATMAIDCXneurons.pdf>]
+
+LaTeX Warning: Citation 'truman2023metamorphosis' on page 30 undefined on input line 224.
+
+
+LaTeX Warning: Citation 'winding2023connectome' on page 30 undefined on input line 229.
+
+
+
+[30 <./Figs/CX/cxdiagram.pdf>]
+<Figs/CX/DALV1s.pdf, id=838, 722.7pt x 406.51875pt>
+File: Figs/CX/DALV1s.pdf Graphic file (type pdf)
+<use Figs/CX/DALV1s.pdf>
+Package pdftex.def Info: Figs/CX/DALV1s.pdf  used on input line 234.
+(pdftex.def)             Requested size: 341.43306pt x 192.0563pt.
+
+
+[31 <./Figs/CX/DALV1s.pdf>]
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 32 undefined on input line 245.
+
+
+LaTeX Warning: Citation 'eschbach2021circuits' on page 32 undefined on input line 245.
+
+
+LaTeX Warning: Citation 'eschbach2020recurrent' on page 32 undefined on input line 245.
+
+
+Overfull \hbox (13.92043pt too wide) in paragraph at lines 245--246
+\T1/ptm/m/n/12 (-20) ing polysy-nap-tic in-puts from vi-sion and ol-fac-tion, like in the adult PB ([[]]).
+ []
+
+
+Overfull \hbox (45.15591pt too wide) in paragraph at lines 245--246
+\T1/ptm/m/n/12 (-20) (MBONs) and from the Lat-eral Horn (LH) such as ol-fac-tory and vi-sual PNs [[]]).
+ []
+
+<Figs/CX/PBcolumnar.pdf, id=867, 722.7pt x 406.51875pt>
+File: Figs/CX/PBcolumnar.pdf Graphic file (type pdf)
+<use Figs/CX/PBcolumnar.pdf>
+Package pdftex.def Info: Figs/CX/PBcolumnar.pdf  used on input line 261.
+(pdftex.def)             Requested size: 341.43306pt x 192.0563pt.
+
+
+[32]
+
+LaTeX Warning: Citation 'wolff2015neuroarchitecture' on page 33 undefined on input line 268.
+
+
+LaTeX Warning: Citation 'wolff2018neuroarchitecture' on page 33 undefined on input line 268.
+
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 33 undefined on input line 268.
+
+
+Overfull \hbox (26.98985pt too wide) in paragraph at lines 268--270
+\T1/ptm/m/n/12 (-20) than one CX neu-ropil, de-spite such types be-ing com-mon in the adult [[],
+ []
+
+
+
+[33 <./Figs/CX/PBcolumnar.pdf>]
+
+LaTeX Warning: Citation 'berck2016wiring' on page 34 undefined on input line 357.
+
+<Figs/CX/EBneurons.pdf, id=905, 722.7pt x 406.51875pt>
+File: Figs/CX/EBneurons.pdf Graphic file (type pdf)
+<use Figs/CX/EBneurons.pdf>
+Package pdftex.def Info: Figs/CX/EBneurons.pdf  used on input line 363.
+(pdftex.def)             Requested size: 341.43306pt x 192.0563pt.
+
+
+[34]
+<Figs/CX/EBneuronsmatrix.pdf, id=912, 597.23125pt x 845.1575pt>
+File: Figs/CX/EBneuronsmatrix.pdf Graphic file (type pdf)
+<use Figs/CX/EBneuronsmatrix.pdf>
+Package pdftex.def Info: Figs/CX/EBneuronsmatrix.pdf  used on input line 377.
+(pdftex.def)             Requested size: 341.43306pt x 483.17624pt.
+
+
+[35 <./Figs/CX/EBneurons.pdf>]
+
+[36 <./Figs/CX/EBneuronsmatrix.pdf>]
+
+LaTeX Warning: Citation 'hulse2021connectome' on page 37 undefined on input line 386.
+
+
+LaTeX Warning: Citation 'goodman1984pCC' on page 37 undefined on input line 399.
+
+
+LaTeX Warning: Citation 'jacobs1989pCC' on page 37 undefined on input line 399.
+
+
+
+[37]
+<Figs/CX/HS-FBneurons.pdf, id=970, 614.295pt x 794.97pt>
+File: Figs/CX/HS-FBneurons.pdf Graphic file (type pdf)
+<use Figs/CX/HS-FBneurons.pdf>
+Package pdftex.def Info: Figs/CX/HS-FBneurons.pdf  used on input line 405.
+(pdftex.def)             Requested size: 284.52756pt x 368.21373pt.
+
+
+[38 <./Figs/CX/HS-FBneurons.pdf>]
+
+LaTeX Warning: Citation 'ohyama2015multilevel' on page 39 undefined on input line 417.
+
+
+LaTeX Warning: Citation 'eschbach2020recurrent' on page 39 undefined on input line 417.
+
+<Figs/CX/FBColumnar.pdf, id=1210, 510.90875pt x 702.625pt>
+File: Figs/CX/FBColumnar.pdf Graphic file (type pdf)
+<use Figs/CX/FBColumnar.pdf>
+Package pdftex.def Info: Figs/CX/FBColumnar.pdf  used on input line 439.
+(pdftex.def)             Requested size: 426.79134pt x 586.94173pt.
+
+
+[39]
+
+LaTeX Warning: Citation 'eschbach2021circuits' on page 40 undefined on input line 445.
+
+
+LaTeX Warning: Citation 'eschbach2021circuits' on page 40 undefined on input line 447.
+
+
+LaTeX Warning: Citation 'eschbach2021circuits' on page 40 undefined on input line 459.
+
+
+
+[40]
+
+[41 <./Figs/CX/FBColumnar.pdf>]
+
+[42]
+
+LaTeX Warning: Citation 'eschbach2021circuits' on page 43 undefined on input line 503.
+
+
+LaTeX Warning: Citation 'berck2016wiring' on page 43 undefined on input line 504.
+
+
+LaTeX Warning: Citation 'eschbach2021circuits' on page 43 undefined on input line 504.
+
+
+LaTeX Warning: Citation 'eschbach2020recurrent' on page 43 undefined on input line 514.
+
+
+LaTeX Warning: Citation 'eichler2017complete' on page 43 undefined on input line 514.
+
+
+LaTeX Warning: Citation 'eschbach2021circuits' on page 43 undefined on input line 514.
+
+
+Overfull \h

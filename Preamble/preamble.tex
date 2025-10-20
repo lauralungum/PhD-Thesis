@@ -125,7 +125,9 @@
 %\usepackage[backend=biber, style=numeric-comp, sorting=nty]{biblatex}
 
 %\usepackage[backend=biber,style=numeric-comp,citestyle=numeric,natbib=true,sorting=nty]{biblatex}
-\usepackage[backend=biber,style=numeric-comp,citestyle=numeric,natbib=true,sorting=nty,refsection=none]{biblatex}
+
+\usepackage[backend=biber,style=numeric,sorting=nty,natbib=true]{biblatex}
+%\usepackage[backend=biber,style=numeric-comp,citestyle=numeric,natbib=true,sorting=nty,refsection=none]{biblatex}
 
 \addbibresource{References/references.bib}
 
@@ -215,10 +217,15 @@
 
     \usepackage{booktabs}
     \usepackage{graphicx}   % for \rotatebox
+    %  \newcommand{\rot}[1]{\rotatebox{90}{#1}}
+    \newcommand{\rot}[1]{\rotatebox{90}{\makecell{\footnotesize #1}}}
+
     \usepackage{makecell}   % for \shortstack
     \usepackage[table]{xcolor}
     \usepackage{colortbl}
     \usepackage{float}
 
 
-    \newcommand{\rot}[1]{\rotatebox{90}{\footnotesize\shortstack{#1}}}
+
+
+  

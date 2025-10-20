@@ -111,7 +111,7 @@
     \definecolor{forest3}{HTML}{B1D19B}
     \definecolor{forest4}{HTML}{84B96F}
     \definecolor{forest5}{HTML}{4C8437} % deep green
-    \begin{table}[h!] [!htbp]
+    \begin{table} [!htbp]
     \centering
     \begin{tabular}{|l|c|c|c|c|}
     \hline
@@ -138,12 +138,12 @@
     When investigating circuit motifs across the larval CX, I explored connectivity with established brain regions, starting with sensory input areas such as the Optic lobe(OL), and progressing to regions such as the MB, the LAL and the Lateral Horn (LH).  I categorised individual cells on the basis of the location of thier processes:  where a neuron receives synaptic input (location of its dendrites) and sends output synapses (location of its axons) (for nomenclature see methods section \ref{nomenclature}).
 
     %SENSORY
-     \textbf{ textit{Sensory Inpus} }
+     \subsubsection{Sensory Inpus} 
     The central complex is known primarily for visual input processing, therefore in the larva I looked at neurons downstream of photoreceptors.section \ref{CXvisual}. I investigated cells immediately connected to visual projection neurons (vPNs) which are directly connected to photoreceptors. Several of these neurons have been catalogued as Protocerebral Bridge (see section \ref{PB}) or Noduli(see section \ref{NO}) neurons. 
     In additon to visual input, I found that olfactory input is integrated by all the larval CX neuropils indirectly via the Lateral Horn(LH) and the Mushroom Body through convergence neurons(CNs; which integrate learnt valences from the MB and innate valences from the LH \citep{eschbach2021circuits}) or MB output neurons and MB input neurons \ref{CXMB}. This is in line with previous findings about the CX being integrative across multiple sensory modalities \citep{hulse2021connectome}. Since Gepner et al., 2015 demonstrated that Larvae  have to integrate visual and olfactory gradients, with convergence of these sensory systems before decision to act on them. I expected there would be a structure recieving input from these modalities and used information such as lineage membership to figure out if these could be central complex neurons. 
 
     %OTHER NEUROPILS
-    \textbf{\textit{Connectivity between CX Neuropils and Accessory Structures}}
+    \subsubsection{Connectivity between CX Neuropils and Accessory Structures}
     Columnar and horizontal neurons have stereotyped connectivity patterns within the CX, being connected between themselves or with other accessory structures (e.g.LAL). To be able to define these, I categorised them similarly to how they have been categorised in the literature. For naming, I adapted Wolff et al., 2015 nomenclature, and named them on the baisis of the location of input synapses (.d for dendrites) and the location of their output synapses (.b for axonal bouttons). Once the synapses for each neuron were mapped, I categorised them on the basis of their location within the CX neuropils and relative to accesory structures as per Figure \ref{CXclasses}.  As such I devided them into Intrinsic Neurons(those whose inputs and outputs are located within CX neuropils), Local Neurons (cells whose inputs and outputs located within the same neuropil), Input Neurons (those that send only dendrites processes within the CX and output outside of it) and Output Neurons: Cells that send denritic inputs outside of the CX but output onto the CX neuropils. Since the CX of the larva is numerically reduced, I grouped Intrinsic and Local neurons, and named these \textbf{Core CX neurons} for a more concise, cohesive analysis of the CX network. There are 15 pairs of CX core neurons, all of which are presented in Table \ref{CXCoreNeurons}. For a comprehensive understanding of the connectivity patterns of these neurons, they have been written in a nomenclature adapted from Wolff et al., 2015 \citep{wolff2015neuroarchitecture}. I classified neurons using the suffixes ".b" (axon boutons) and ".d" (dendrites) for CX neuropils.
     Hence, a neuron annotated as NO.b projects its axon into the NO, and likewise, a neuron annotated as FB.d places its dendrites in the FB.
     As such, neurons that are both .b and .d for CX neuropils are the CX Core neurons. 
@@ -173,7 +173,7 @@
         \label{inputsoutputs}
         \end{table}
         %Table with CX Core Neurons
-         \begin{table}[h!][H]
+         \begin{table}[H]
             \centering
             \begin{tabular}{|l|l|}
             \hline
@@ -202,7 +202,7 @@
         %Figure with CATMAID Neuropils
         \begin{figure}
             \centering
-            \includegraphics[width=11cm]{/Users/lauralungu/Desktop/Latex/PhD-Thesis/Figs/CX/CATMAIDCXneurons.pdf}
+            \includegraphics[width=11cm]{Figs/CX/CATMAIDCXneurons.pdf}
             \caption[Larval CX neuron boutons define the volumes of the 4 main CX neuropils]{\textbf{Larval CX neuron boutons define the volumes of the 4 main CX neuropils.} Posterior and lateral views of neurons that contribute boutons (".b") to each of the 4 neuropils. In concordance with the adult, the PB is the most dorsal and posterior neuropil of the whole brain; the FB occupies an intermediate medial position; the EB is the most medial anterior neuropil (same dorso-ventral level as the mushroom body medial lobe but even more anterior); and the NO are medial and ventral. Note that the white medial space in the larval cartoon is truly devoid of brain tissue: the larval CX neuropils line the medial boundary of the brain hemispheres, with the pharynx occupying most of the intermediate space.
             }
             \label{cxneuropils}
@@ -213,7 +213,7 @@
     %LARVAL vs ADULT CX cartoon
     \begin{figure}[H]
         \centering
-        \includegraphics[width=12cm]{/Users/lauralungu/Desktop/Latex/PhD-Thesis/Figs/CX/cxdiagram.pdf}
+        \includegraphics[width=12cm]{Figs/CX/cxdiagram.pdf}
         \caption[The Central Complex Neuropils in Adult and Larva]{\textbf{The Central Complex Neuropils in Adult and Larva}. Dotted-line arrows represent unidirectional connections, filled-line arrows indicate bidirectional connections. In panel \textbf{A.} I show the adult \textit{\textit{Drosophila}} CX. Bidirectional connectivity is seen between PB-FB, PB-EB, FB-LAL and FB-NO, with unidirectional connections from NO-PB, PB-LAL, LAL-NO and NO-EB; Panel \textbf{B.} displays the larval \textit{Drosophila} CX. Bidirectional connections are  PB-FB, FB-EB, FB-LAL, FB-NO and EB-LAL; unidirectional connections are seen from NO-LAL, PB-NO and EB-NO.The volumes of the adult neuropils were adapted from \citep{franconville2018building}.
         The volumes of the larval neuropils were drawn via CATMAID using the .b and .d parts of the neurons contributing to each.}
         \label{cxdiagram}
@@ -268,11 +268,17 @@
     I did not find among the larval columnar neurons any whose axon would project to more than one CX neuropil, despite such types being common in the adult~\citep{wolff2015neuroarchitecture, wolff2018neuroarchitecture, hulse2021connectome}.
     Beyond the canonical columnar neurons projecting to other CX neuropils, I found some whose axons descend directly to the SEZ or nerve cord~(Fig. \ref{pbcolumnar}C), and have been accordingly named 'PB descending' neurons. (N.B. These neurons go on to connect to descending neurons, but aren't themsevles descending neurons.
 
-        \subsubsection{PB Horizonal and PB Columnar connectivity}
+    \subsubsection{PB Horizonal and PB Columnar connectivity}
     With the PB columnar neurons having dendrites encolsed in the PB (PB.d) and the PB horizonlal neurons (HF-PB) sending output to the PB(PB.b), I expected there to be significant connectivity between the two types of neurons. Indeed a half of the HF-PB neurons are connected with columnar PB cells (\ref{PBconnections}).  Interestingly, only 2 pairs of neurons, both of HF-PB1 type, connected to every type of PB columnar neuron. Specifically a pair of HF-PB1 (annotated as HF-PB1\_1 in table \ref{PBconnections}) sends output synapses to 2 PB-NO (PB.d-NO.b) neurons, both of which are also second order MB output neurons (MB2ON-204 and MB2ON-241). The other pair of  HF-PB1 (HF-PB1\_2) send outputs to 1 PBtoEB (PB.dNO.b) neuron, which is a second order MB input neuron (MB2IN-195), as well as 2 pairs of PB Descending neurons. 
 
         %Table with PB Horizontal to PB Columnar. 
-        \begin{table}[h!] [H]
+        \definecolor{forest1}{HTML}{EEF4EA}
+        \definecolor{forest2}{HTML}{D6E3CB}
+        \definecolor{forest3}{HTML}{B1D19B}
+        \definecolor{forest4}{HTML}{84B96F}
+        \definecolor{forest5}{HTML}{4C8437}
+
+        \begin{table} [h!]
         \centering
          \resizebox{\textwidth}{!}{%
         \begin{tabular}{l|cccccccccc}
@@ -333,7 +339,8 @@
         & \cellcolor{forest4}19 \\
         \bottomrule
         \end{tabular}
-         }
+        
+        }
         \caption[PB Horizontal Neurons connection to  PB columnar ]{\textbf{PB horizontal fibers (HF-PB) connectivity to  PB columnar neurons} A connectivity matrix representing connections from HF-PB neurons (rows) to PB columnar neurons (columns) is shown. Only the the two pairs of HF-PB1 (written here as HF-PB1\_1 and HF-PB1\_2) which send connections to PB columnar are presented. Neuron pairs are split in left (\_l) and right (\_r) cells for a more comprehensive udnerstanding of the strength of connections.  The left neuron from pair MB2ON-241 (5th column) has missing synapses because these haven't been traced yet, however these are considerd present given realiability of the right one. }
         \label{PBconnections}
         \end{table}
@@ -515,7 +522,7 @@
 
     In addition to the 21 NO.b neurons described above, I identified approximately 92 neurons whose dendrites are located within the putative noduli (henceforth NO.d neurons). These NO.d neurons arise from a variety of larval lineages and can be grouped by their predominant connectivity and putative function. The major classes are: MB-related inputs and feedback neurons (many MB2INs/M2ONs/FBNs and convergence neurons(CNs) that convey learned-valence and feedback signals to the NO); LAL-projecting neurons that route processed NO signals to premotor or integrative centers; descending/SEZ-projecting neurons that relay NO-processed information toward motor circuits; and a small set of ascending or sensory-associated neurons that provide multisensory context.
 
-    \begin{table}[h!][H]
+    \begin{table}[H]
     \centering
     \begin{tabular}{l r}
     \toprule
@@ -575,7 +582,7 @@
     Multiple sensory modalities converge onto the horizontal fibers of the PB (DALv1 neurons) via MB convergence neurons (CN-53, CN-54) and a neuron postsynaptic to MBONs (MB2ON-175).
     These CNs were previously described as integrating the output of both the lateral horn (LH), which conveys innate pathways, and the mushroom body (MB), for associative memory \citep{eschbach2021circuits}.
     Synapses from CN-53, CN-54 and MB2ON-175 onto PB horizontal fiber neurons (DALv1) follow an intriguing pattern of synapting onto either the dendrite or the axon, but largely not both, with specific target choices among the 4 DALv1 neurons.
-    In considering that 3 of the 4 DALv1 neurons (PB horizontal fibers) present an unusual bilateral axon that first deploys output synapses contralaterally and then ipsilaterally (Fig. \ref{fig:dalv1neurons}A), the observed pattern of selective axo-dendritic and axo-axonic connections has implications for the modulation of the output of the unusual axons of DALv1 neurons.
+    In considering that 3 of the 4 DALv1 neurons (PB horizontal fibers) present an unusual bilateral axon that first deploys output synapses contralaterally and then ipsilaterally (Fig. \ref{DALv1s}A), the observed pattern of selective axo-dendritic and axo-axonic connections has implications for the modulation of the output of the unusual axons of DALv1 neurons.
 
     In summary, from the perspective of the PB, I find the following circuit architecture: the multi-sensory convergence onto the PB horizontal fibers is directly modulated by the MB, precisely because the neurons that mediate the multi-sensory convergence are themselves CNs (i.e., integrate also MBON synapses in addition to LH inputs): the CN-53 and CN-54. Both of these neurons are also Lateral Horn (LH) neurons.  Notably, CN-54 is in addition a PB.d neuron, integrating inputs from PB horizontal fibers (DALv1 neurons).
 
@@ -734,7 +741,7 @@ According to \citep{selcho2009thgal4} there are further non-MB DANs yet to be id
     I quantified larval turning behavior following targeted inhibition of each of these driver lines via Tetanus neurotoxin (TNT).
     Control animals expressed the inactive variant, Impotent Tetanus (ImpTNT).
     Given that the central complex is classically implicated in visually guided navigation, I used green light stimulation as the sensory stimuli.
-     \begin{table}[h!]
+     \begin{table}[H]
     \centering
     \begin{tabular}{llllll}
     \toprule
