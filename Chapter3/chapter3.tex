@@ -442,7 +442,8 @@
             \end{figure}
 
 
-            In addition to generating FB tangential neurons, the DM1-DM4 lineages also contribute 5 pairs of FB columnar neurons. These neurons (FB.d1) are characterized by ipsilateral-only dendrites largely circumscribed to the FB (except for the Bushy neuron from the DPMpm1/DM3 lineage), and projecting their ipsilateral-only clutchy axons solely the NO (so they are FB.d-NO.b). Therefore, FB.d.1 neurons are specialized in relaying information from the FB to the NO hemilaterally. Among FB.d.1, there are 3 MB related neuron, namely CN-34, MB2ON-201 and MB2ON-204  \citep{eschbach2021circuits}. Importantly, 4 of the 5 FB.d1 pairs also send their dendrites to the PB, making them PB.d neurons as well, therefore they are PB.d-FB.d-NO.b and also core cx neurons. This is the closest version to the adult PFN, however the adult analogue would be PB.d-FBb.b-NO.b. %TODO refer figure with cx neurons analogues. 
+            In addition to generating FB tangential neurons, the DM1-DM4 lineages also contribute 5 pairs of FB columnar neurons. These neurons (FB.d1) are characterized by ipsilateral-only dendrites largely circumscribed to the FB (except for the Bushy neuron from the DPMpm1/DM3 lineage), and projecting their ipsilateral-only clutchy axons solely the NO (so they are FB.d-NO.b). Therefore, FB.d.1 neurons are specialized in relaying information from the FB to the NO hemilaterally. Among FB.d.1, there are 3 MB related neuron, namely CN-34, MB2ON-201 and MB2ON-204  \citep{eschbach2021circuits}. One of the FB.d.1 was uncategorised so I named it FB-NO1, and the last one is known a descending neuron known as DPMpm1 bushy descending. 
+            Importantly, 2 of the 5 FB.d1 pairs also send their dendrites to the PB, making them PB.d neurons as well, therefore they are PB.d-FB.d-NO.b and also core cx neurons. This is the closest version to the adult PFN, however the adult analogue would be PB.d-FBb.b-NO.b. %TODO refer figure with cx neurons analogues. 
 
             The DM lineage (larval CM4-vm lineage) further contributes 1 pair of neurons (FB.d4) with ipsilateral dendrites in the posterior FB and beyond into an area adjacent to the LAL medially, and a contralateral axon that descends into the VNC, dropping presynaptic sites from the SEZ to the most posterior abdominal segments. Within the brain, FB.d.4 synapses onto some NO.d neurons (e.g., MB2ON-200) and also onto CN-28 \citep{eschbach2021circuits}..
 
@@ -552,7 +553,7 @@
     \begin{figure}
         \centering
         \includegraphics[width=17cm]{Figs/CX/MBtoCX.pdf}
-        \caption[Mushroom Body Connections to the Larval CX]{Mushroom Body Connections to the Larval CX}
+        \caption[Mushroom Body Connections to the Larval CX]{\textbf{Mushroom Body Connections to the Larval CX.} Key connections between the larval MB and the larval CX neuropils are shown. Rounded shaped cartoons are used to illustrate different regions: light blue for PB and light grey for lateral horn (LH) (panel \textbf{A.}); red for the EB (panel \textbf{B.}); light beije for FB(panel \textbf {C.}); dark blue for NO (panel \textbf{D.}) and magenta for the MB. }
         \label{MBtoCX}
     \end{figure}
     
@@ -641,6 +642,7 @@
     \end{figure}
 
  \section{Descending Neurons from CX}    
+ \label{CXDescendingsection}
     To establish where central-complex neurons ultimately influence motor circuits, I traced all downstream partners of CX neurons and identified those whose axons descend into premotor compartments (SEZ and VNC). Descending neurons (DNs) were defined as neurons with a clear axonal projection leaving the supraesophageal zone and coursing toward the subesophageal zone (SEZ) and/or the ventral nerve cord (VNC). Only synaptic partners with at least three output synapses from CX neurons were counted as meaningful CX to DNs links. 
 
     I found a set of 22 DNs that send presynapses (dendritic processes, therefore .d neurons) to CX neuropils, 9 of which are NO.d neurons, 4 EB.d neurons, 5 FB.d neurons and one pair of PB.d neurons (Table \ref{CXDescending}), annotated them as CX Descending. I then captured the 1st downstream layer of descending neurons from the CX (i.e DNs that are one hop away from CX, with one layer of interneurons; see second column of Table \ref{CXDescending}) and named these CX Descending l1. These were significantly more abundant (40 neurons), and interestingly many of the same .d neurons mentioned above appear here, suggesting recurrent connectivity between descending neurons. 
@@ -698,7 +700,7 @@
         \bottomrule
     \end{tabular}%
     }
-    \caption[CX Descending Neurons]{CX Descending Neurons; highlighted cells indicate behaviour tested}
+    \caption[CX Descending Neurons]{\textbf{CX Descending Neurons.} Descending neurons that either send dendrites to the CX (first column) are are one layer distance from the CX (second column) are shown. Highlighted cells indicate neurons whose activity has been screened via optogenetic stimulation.}
     \label{CXDescending}
 \end{table}
 
@@ -732,18 +734,22 @@
     \end{table}
 
 
- \section{Dopaminergic neurons (DANs) of the larval central complex}
+ \section{Dopaminergic neurons (DANs) of the larval Central Complex}
 \label{CXDANs}
-    Dopaminergic release outside the MB in the adult fly is known to trigger sleep via dorsal FB (dFB) neurons~\citep{pimentel2016sleep}, among other potential roles, depending upon the dopamine receptors expressed in the postsynaptic neurons and the circuits the neurons are part of.
+    Dopaminergic release outside the MB in the adult fly is known to trigger sleep via dorsal FB (dFB) neurons~\citep{pimentel2016sleep}, among other potential roles, depending upon the dopamine receptors expressed in the postsynaptic neurons and the circuits the neurons are part of. 
 
-    The larval MB houses 7 pairs of DANs \citep{eichler2017complete}, with several more DANs scattered across the brain \citep{selcho2009thgal4}. By flp-out of the TH-GAL4 expression pattern that encompasses all DANs \citep{selcho2009thgal4} followed by immunohistochemistry, I isolated individual neurons from the TH-GAL4 expression patteern and compared their morphology with EM-reconstructed brain neurons \citep{winding2023connectome}. I identified with reasonable certainty the following 7 eDAN types (eDAN for \textit{external} DAN, i.e., not a MB DAN), comprising 6 neuron pairs.
-    
+    The larval MB houses 7 pairs of DANs \citep{eichler2017complete}, with several more DANs scattered across the brain \citep{selcho2009thgal4}. By flp-out of the TH-GAL4 expression pattern that encompasses all DANs \citep{selcho2009thgal4} followed by immunohistochemistry, I isolated individual neurons from the TH-GAL4 expression patteern and compared their morphology with EM-reconstructed brain neurons \citep{winding2023connectome}. I identified with reasonable certainty the following 7 eDAN types (eDAN for \textit{external} DAN, i.e., not a MB DAN), comprising 8 neuron pairs.
+
+    \subsection{8 pairs of DANs outside of the MB}
+
     \begin{figure}
         \centering
         \includegraphics[width=17cm]{Figs/CX/DANs.pdf}
-        \caption{Confocal Images of Immunostained Dopaminergic neurons of the Larval Central Complex}
+        \caption{\textbf{Immunostained Dopaminergic Neurons of non-MB neurons.}  Representative TH-GAL4 flp-out labeled neurons in the Drosophila larval brain classified as central-complex dopaminergic neurons (eDANs). Three secondary antibodies were used, but only the channel showing the neuron of interest is displayed in each panel; the neuron signal is rendered green for consistency and background staining is tinted purple to improve contrast. Arrows mark the soma of the neuron of interest from a specific channel. On the right side of each confocal image,  the EM 3D reconstruction of the correcponding neuron is shown.  }
         \label{DANs}
     \end{figure}
+    
+
 
     \textbf{eDAN-1}: from the larval lineage DPMpm2, this neuron presents an ipsilateral dendrite in the posterior-dorsal brain, and a bilateral axon exactly overlapping with HF-PB dendrites. eDAN-1 integrates inputs from PB.d neurons like CN-54 (which mediates multi-sensory input integration and relays them to HF-PB, modulated by MB output; see above) but also from multiple sensory PNs such as for temperature (Suckerfish PN, Thermo PN 3 and Thermo PN 5), olfaction (mPN A3), and for unknown sensory modalities (Suckerfish PN 2, from unknown sensory MN-Sens-B2-ACp-21 and -22; \citep{miroschnikow2018convergence}), and also from PB.b neurons like MB2ON-63. The axon of eDAN-1 synapses onto multiple PB.d neurons (MB2ON-187, CN-15, CN-54, ADC1, FB-LAL1, and SP2-1) and weakly onto HF-PB neurons.
 
@@ -755,17 +761,40 @@
 
     \textbf{eDAN-5}: from the DPMpm1 larval lineage, this neuron's dendrite lays posterior to the LAL and projects its axon inside the lateral LAL. The dendrite integrates inputs from EB.d neurons, MB2IN-195, MB2ON-67, and sVUM2mx. The axon targets weakly but axo-dendritically an EB Ring neuron (RN1/2), and more strongly other neurons (MB2ON-67, MB2ON-78, MB2ON-68).
 
-    \textbf{eDAN-6}: 
+
+    \textbf{eDAN-6}: Originating from the BLAvm larval lineage, this neuron (also known as SLR) presents a contralateral axon that spans both the FB and PB (therefore it is a PB.b FB.b), and notably targets PB horizontal fibers (HF-PB), and FB-NO1 neuron(which is an FB.d.1). This cell has an ipsilateral dendrite that integrates inputs from MB2ON-63, CN-9, and the FB intrinsic neuron MB2ON-175, in addition to a long tail of weaker input from ascending neurons relaying information from the somatosensory system. 
+
 
     \textbf{eDAN-7}: 
+    This neuron is a latern horn neuron known as LH-LN2 (which stands for lateral horn local interneuron \ref{seki2010physiological}), originating from lineage BLP34. This neuron has an ipsilateral dendrite that integrates inputs from two CX core neurons: MB2ON-125, a local FB neuron(FB.d.b) and MB2IN-124 a local EB neuron (EB.d.b). 
 
     According to \citep{selcho2009thgal4} there are further non-MB DANs yet to be identified in the larval brain connectome. Note an effort was made to relate the eDANs I could identify to non-MB DAN names in \citep{selcho2009thgal4} but the resolution mismatch was too great to bridge, except for eDAN-1 which is most likely named "DM3" in \citep{selcho2009thgal4}.
 
-%TODO: add eDAN-6 and eDAN-7
-%TODO: add connectivity between all DANs
+    \subsection{eDANs Connectivity}
+     Whilst eDANs do not exhibit any significant innerconnectivity, with the exception of eDAN-4l and eDAN-4m, all of CX neuropils recieve direct input from these (Figure \ref{eDANstoCX}). 
+
+    In the PB, ADC1(PB.b), HF-PB1 (PB.b), MMBON-63(PB.b), CN-54(PB.d) and CN-4 (PB.d) all collect strong synaptic inputs from 6 separate DANs,  suggesting dopaminergic modulation of neurons sending axonal processes to the PB as well as modulation of learning and memory inputs from the CNs.  Notably, many PB nerons feed back onto these DANs.
+
+    The EB recieves synaptic inputs from only 3 of eDANs, majority of which are eDAN-3. Notably, one wedge neuron (W1) which contributes both axons and dendrites to the EB (EB.d.b) collects strong synaptic inputs from eDAN3. Similarly, several EB.d neurns (MB2ON-17, CN-43, and EB to LAL) all receive postsynapses from this eDAN. Interestingly, the EB to LAL neuron connects reciprocally to eDAN-4l and eDAN-5. 
+
+    There are 3 tangential FB neurons (hs-FB.1, hs-FB.3 and hs-FB.5) recieving dopaminergic inputs fron eDAN-2, eDAN-4l and eDAN4m, and recurrent connections from eDAN-2 to hs-FB.1 and hs-FB.3). 
+
+    Finally, three neurons contributing dendrites to the NO(NO.d neurons) seem to both recieve inputs from and send synapses to eDANs. CN-37 and MB2ON-248 recieve synapses from eDAN-3 and eDAN-4l, respectively, whilst one MB2ON-35 sends synapsesto eDAN3. 
+
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=12cm]{Figs/CX/eDANstoCX.pdf}
+            \caption[eDANs Connections to the CX]{\textbf{Conenctivity between eDANs and the CX.} Panel \textbf{A.} displays the 8 eDANs connections to eachother; panel \textbf{B.} presents direct downstream connections from eDANs to the CX neuropils (PB, EB, FB, NO)}
+            \label{eDANstoCX}
+        \end{figure}
+
+    %TODO: add connectivity between all DANs
 
 \section{Behavioral Assays - Loss of Function Analysis during green Light stimulation}
-     I was curious what behaviour would the larva exhibit in the absence and presence of CX neurons. I hence tested those neurons for I was able to find a GAL4 driver line match. Since the larva is known to exhibit negative phototaxis in response to blue light, I explored this animal's behaviour in response to green light.  
+
+         To probe the CX's role in visually-guided behaviors, I measured turning rates of larvae expressing TNT and impTNT in 9 distinct CX neurons during green light stimulation.  
+         
 
     \begin{figure}
         \centering
@@ -774,12 +803,14 @@
         \label{LOS}
     \end{figure}
 
-    I identified genetic driver lines for eight neurons of the larval central complex: EB-MB1, PB2, LAL-DN1, LAL wrap1, FB-NO1, EB-DN1, RN1/2, plus DAN-d1, which is an EB.d (i.e., integrates inputs from the EB). 
+    I identified genetic driver lines for nine neurons of the larval central complex: EB-MB1, PB2, LAL-DN1, LAL wrap1, FB-NO1, EB-DN1, RN1/2, plus DAN-d1, which is an EB.d (i.e., integrates inputs from the EB). 
     I quantified larval turning behavior following targeted inhibition of each of these driver lines via Tetanus neurotoxin (TNT).
     Control animals expressed the inactive variant, Impotent Tetanus (ImpTNT).
     Given that the central complex is classically implicated in visually guided navigation, I used green light stimulation as the sensory stimuli.
+
      \begin{table}[H]
     \centering
+    \resizebox{\textwidth}{!}{%
     \begin{tabular}{llllll}
     \toprule
     \textbf{Neuron Name} & \textbf{Other names} & \textbf{Split Line} & \textbf{.b} & \textbf{.d} & \textbf{Lineage} \\ 
@@ -792,22 +823,26 @@
     EB-DN 1     & MB20N-75        & SS25740 &       & EB.d, LAL.d & DPMpm1 \\ 
     LAL-DN 1    &                 & SS27197 &       & EB.d            & DALd   \\ 
     PB2         & PB horizontal fibers & SS36847 & PB.b      &             & Dalv1  \\ 
+    DPMm1 Columnar         & DPMm1 ipsilateral descending &  SS55970 &       &             & DPMm1  \\ 
     \bottomrule
     \end{tabular}
+    }
     \caption{ \textbf{Neurons tested for LOF} Neuron names, corresponding split GAL4 line used for LOF experiments, and lineage information.}
+    \label{TNTlines}
     \end{table}
 
-    I found that expressing TNT did not show significant changes to turning rates for most neurons when compared to controls in response to green light stimulation, with the exception of DAN-d1 \ref{LOS}. 
+    I found that expressing TNT did not show significant changes to turning rates for most neurons when compared to controls in response to green light stimulation, with the exception of DAN-d1 and DPMm1 Columnar \ref{LOS}. 
 
-    % TODO consider creating above a separate subsubsection for DAN-d1
-    % To investigate their contribution to navigation and to test the hypothesis that they function as components of a navigational center, – DISCUSSION
+    DAN-d1, an EB.d neuron, showed significantly altered turning behavior compared to controls. 
+    Silimarly, DPMm1 Columnar, which is a descending neuron of the CX (see Table. \ref{CXDescending}) that was classified as columnar and synapses onto NO.d neurons,  also seems to have visibly higher rates of turning compared to control. 
+    
+    While most CX neurons tested did not exhibit strong phenotypes individually this may reflect redundancy in the circuit or involvement in other aspects of visual processing beyond simple light avoidance. The selective effect of DAN-d1 manipulation suggests dopaminergic modulation of the EB may play a specific role in light-mediated behavioral responses. Further analysis is required into different types of behaviour for a compelte understanding of their roles. Experiments with additional driver lines and behavioral paradigms would be needed to fully elucidate the functions of individual CX neurons in larval navigation.
+
 
 \section{Calcium Activity in response to Blue Light stimulation}
-I was curious if the identified putative central comlpex would be responsive to light stimulation. 
 I monitored the activity across the entire larval brain in response to stimulation of Rh5 (blue senstitive) phtoreceptors. Photoreceptors (the Bolwig Organ) are located outside of the Central Nervous System(CNS) of Drosophila. I thus expressed EGFP fluorescent tag in these neurons(Rh5s) to ensure they are present during dissection of the CNS and that they are preserved for mounting the sample in the glass capilary prior to Calcium Imaging. I created a final line that expresses green fluorescent RGECO (a calcium indicator of neural activity present cytosl) and red fluorescent IRFP (which brightens the cell nuclei very well and allows visualisation of cell position) and green fluorescent Rh5 photoreceptors. 
 
-Upon blue light stimulation, robust calcium transients in multiple regions of the larval brain were observed. Amongst the CX neuropils, I expected the neuropil with the most visual input (Protocerebral Bridge) to be realiably responsive to photoreceptors. To test this, the brain was segmented into distinct anatomical regions using manual annotation. Regions corresponding to the optic lobe (OL) - to confirm functional photoreceptors - the putative Protocerebral Bridge, and the MB - as a control -  were delinated (Fig. \ref{LSSegmentation}).
-based on anatomical landmarks and lineage tracing data. Flu orescence intensity changes $\Delta F/F_0$ were quantified for each region before, during and after blue light stimulation. 
+Upon blue light stimulation, robust calcium transients in multiple regions of the larval brain were observed. Amongst the CX neuropils, I expected the neuropil with the most visual input (Protocerebral Bridge) to be realiably responsive to photoreceptor stimulation. To test this, the brain was segmented into distinct anatomical regions using manual annotation. Regions corresponding to the optic lobe (OL) - to confirm functional photoreceptors - the putative Protocerebral Bridge, and the MB - as a control -  were delineated (Fig. \ref{LSSegmentation}) based on anatomical landmarks and lineage tracing data. Fluorescence intensity changes $\Delta F/F_0$ were quantified for each region before, during and after blue light stimulation. 
 
    \begin{figure}
         \centering
@@ -828,7 +863,7 @@ Notably, across all samples, the OL exhibited a markedly larger $\Delta F/F_0$ r
     \end{figure}
 
 
-When compared to the control (MB), the larval Protocerebral Bridge (PB) exhibited higher amplitude calcium transients in samples 2, 4, and 5, whereas both neuropils showed similar activity in samples 1 and 3. Interestingly, the two samples with one inactive optic lobe (samples 2 and 4) displayed a more pronounced difference between PB and MB activity, suggesting that unilateral OL impairment may enhance the relative responsiveness of the PB to visual stimulation. This observation may indicate compensatory mechanisms or altered circuit dynamics in the presence of partial sensory deprivation. 
+When compared to the control (MB), the larval Protocerebral Bridge (PB) exhibited higher amplitude calcium transients in samples 2, 4, and 5, whereas both neuropils showed similar activity in samples 1 and 3. Interestingly, the two samples with one side of the optic lobe inactive (samples 2 and 4) displayed a more pronounced difference between PB and MB activity, suggesting that unilateral OL impairment may enhance the relative responsiveness of the PB to visual stimulation. This observation may indicate compensatory mechanisms or altered circuit dynamics in the presence of partial sensory deprivation. 
 Overall, there seems to be a higher sensitivity to blue light from in PB compared to the MB, supposrting the hypothesis of a functional role in visual input processing (Fig. \ref{LSanalysis}). However, the effects aren't as significant as expected, possibly due to small sample size, suggesting the experiment could be underpowered.
 
 
