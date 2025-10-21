@@ -247,7 +247,7 @@
     Three more larval lineages contribute HF-PB neurons: the BLAvm (neuron SLR), the BLAd-OL (neuron MB2ON-63), and the DPMm2 (neuron ADC1),  with one pair of neurons each. 
     MB2ON-63 presents a bilateral axon similar to the 4th pair of HF-PB (DALv1), and an ipsilateral dendrite that integrates inputs from multiple convergence neurons (CN-54, CN-9), MBONs (MBON-c1, MBON-d1), and sensory PNs (olfactory mPN B1, visual PVL09).
 
-    SLR presents a contralateral axon that spans both the FB and PB, and an ipsilateral dendrite that integrates inputs from MB2ON-63, CN-9, and the FB intrinsic neuron MB2ON-175 (see below), in addition to a long tail of weaker input from ascending neurons relaying information from the somatosensory system.
+    SLR presents a contralateral axon that spans both the FB and PB, and an ipsilateral dendrite that integrates inputs from MB2ON-63, CN-9, and the FB intrinsic neuron MB2ON-175 (see below), in addition to a long tail of weaker input from ascending neurons relaying information from the somatosensory system. This neuron was also proved to be dopaminergic (e-DAN6, see Section \ref{CXDANs}). 
 
     ADC1 presents an ipsilateral dendrite projecting to the posterior brain and a bilateral axon circumscribed to the PB. These neurons integrate inputs from multiple sensory PNs (mPN B2, mPN 5 (also known as mPN BAmd1-g), mPN A1, and weakly from others), a convergence neuron (CN-35), MB2ON-94, and a few others weakly. Their axons target primarily HF-PB neurons (DALv1), but also convergence neurons  (CN-56, CN-15, CN-35).
  
@@ -594,31 +594,24 @@
 
     Overally, I observe that not only are navigational decisions - such as whether to turn towards a stimuli or not - proceeding co-dependently per sensory modality but they are also integrated across modalities, an observation that is in line with previous behavioral experiments \citep{gepner2015computations}. Importantly, this integration is modulated by prior memories. (vis the MB). 
 
-
-
-
-
 \section{Visual Input into the larval CX}
 \label{CXvisual}  
-In adults, the CX is primarily involved in visually guided behaviour and is a core hub for visual information processing \citep{omoto2017visual, hulse2021connectome}; hence I was curious  if there whether the same concentration of visual inputs - and in what architecture - exists in the larva larva.
-The larval \textit{drosophila} deosn't actually have eyes, however it does have 2  photoreceptor(PR) classes:  Rhodopsin5-PRs (Rh5-PRs) which detect blue light and are critical for rapid avoidance l \citep{keene2011distinct}; and Rhodopsin6-PRs (Rh6-PRs) which primarily detect green light. 
-The larval visual circuit, terminating in the larval optic neuropil (LON), includes two types of downstream interneurons:  Visual Projection Interneurons (VPNs) and Visual Local Interneurons (VLNs). Whilst PRs synapse onto both, Rh5-PRs preferentially synapse onto VPNs (90\% of Rh5-PR targets are VPNs).
-whereas Rh6-PRs principally synapse onto VLNs (79\%), and much less onto VPNs (15\%, specifically the Pdf-LaNs). 
+    In the adult, the CX is primarily involved in visually guided behaviour and is a core hub for visual information processing \citep{omoto2017visual, hulse2021connectome}; hence I was curious  if there whether the same concentration of visual inputs - and in what architecture - exists in the larva larva.
+    The larval \textit{drosophila} deosn't actually have eyes, however it does have 2  photoreceptor(PR) classes:  Rhodopsin5-PRs (Rh5-PRs) which detect blue light and are critical for rapid avoidance l \citep{keene2011distinct}; and Rhodopsin6-PRs (Rh6-PRs) which primarily detect green light. 
+    The larval visual circuit, terminating in the larval optic neuropil (LON), includes two types of downstream interneurons:  Visual Projection Interneurons (VPNs) and Visual Local Interneurons (VLNs). Whilst PRs synapse onto both, Rh5-PRs preferentially synapse onto VPNs (90\% of Rh5-PR targets are VPNs).
+    whereas Rh6-PRs principally synapse onto VLNs (79\%), and much less onto VPNs (15\%, specifically the Pdf-LaNs). 
 
- I investigated visual inputs towards the central complex from both VPNs (Fig. \ref{VPNs}) and VLNs(Fig. \ref{VLNs}) by looking connections immediately downsream of them as well as 2 hops away.
+    I investigated visual inputs towards the central complex from both VPNs (Fig. \ref{VPNs}) and VLNs(Fig. \ref{VLNs}) by looking connections immediately downsream of them as well as 2 hops away.
 
     \subsection{VPNs inputs to the CX}
-    Several VPNs contact the FB neurons: pOLP, PVL09 (aversive behaviour neurons), nc1 and nc2. While no VPNs directly connect to the FB, these neurons first synapse onto convergence neurons CN-34, CN-50, CN-59,  and MB2ON-54 as well as two downstream VPN neurons (down_PVL09 and down_pOLP) before reaching 6 FB tangential horseshoe neuron types (hs-FB1, hs-FB2, hs-FB3, hs-FB4, hs-FB5 and hs-FB6) which project their axons to the FB; as well as one FB.d.b neurons (MB2ON-125).  
+    Several VPNs (neurons that recieve RH5-PR input) contact the FB neurons: pOLP, PVL09 (aversive behaviour neurons), nc1 and nc2. While no VPNs directly connect to the FB, these neurons first synapse onto convergence neurons CN-34, CN-50, CN-59,  and MB2ON-54 as well as two downstream VPN neurons (down\_PVL09 and down\_pOLP) before reaching 6 FB tangential horseshoe neuron types (hs-FB1, hs-FB2, hs-FB3, hs-FB4, hs-FB5 and hs-FB6) which project their axons to the FB; as well as one FB.d.b neurons (MB2ON-125; Fig. \ref{VPNs} A).
 
-    In the adult, the EB is known to receive visual inputs via a polysynaptic pathways (see Fig. 6 in \citep{hulse2021connectome}, and Fig. 4 in \citep{omoto2018neuronal}). In the larva, I find that the main visual PN for negative phototaxis, PVL09  \citep{Humberg2018PVL09}, synapses axo-dendritically onto MB2ON-187, which relays sensory inputs from visual and other sensory modalities axo-axonically onto all of larval Ring neurons (Fig. \ref{VPNs}). MB2ON-187 is named so for being postsynaptic to MBONs (MBON-c1 in particular; \citep{eschbach2021circuits}). Through MB2ON-187, multiple sensory PNs (PVL09, mgPN 7) and many neurons postsynaptic to MBONs (MB2ONs) synapse onto Wedge neurons. 
+    In the adult, the EB is known to receive visual inputs via a polysynaptic pathways (see Fig. 6 in \citep{hulse2021connectome}, and Fig. 4 in \citep{omoto2018neuronal}). In the larva, I find that the main visual PN for negative phototaxis, PVL09  \citep{Humberg2018PVL09}, synapses axo-dendritically onto MB2ON-187, which relays sensory inputs from visual and other sensory modalities axo-axonically onto all of larval Ring neurons.  MB2ON-187 is named so for being postsynaptic to MBONs (MBON-c1 in particular; \citep{eschbach2021circuits}). Through MB2ON-187, multiple sensory PNs (PVL09, mgPN 7) and many neurons postsynaptic to MBONs (MB2ONs) synapse onto Wedge neurons. (Fig. \ref{VPNs} B).
     The latter indicate, again, that MBONs modulate or filter sensory inputs converging onto the EB. The EB also recieves input from pOLP - another VPN contrubuting to negative phototaxis - via a non-PB Dalv1 neuron (DALV1 contralateral 4) which interestingly also recieves input from PVL09.  This interneuron targets an FFN8, a feedback neuron sending axons to the EB. 
 
-    Another, perhaps unexpected, visual hub in the larval CX is the NO. PVL09, as well as nc1 and nc2, which compute light intensity, synapse directly onto 3 NO.b neurons, two of which FB.d1 neurons, while the other is a neuron innervating dendrites in the PB. In addition, VPNs send indirect connections to 3 more NO.b neurons which are CNs (CN-6, CN-16, CN61) via two (again!) CNs(CN-45 and CN-53) and two MB2INs (MB2IN-144 and MB2IN-210).
-
-    In the adult, the PB is the primary processing layer of visual input before it's passed on to the EB. which 
-
-
-
+    In the adult,  processed visual information in the EB is transferred to PB columnar neurons. In the larva , I find that not only do PB Columnar neurons recieve visual input, but also all the HF-PB Dalv1 neurons do.  Four PB columnar neurons recieve visual input from PVL09,  pOLP, nc1 and nc2 via CNs (CN-3, CN-26, CN-54, CN-57, CN-59) and MB related neurons (MB2IN-194 and MB2ON-175; Fig. \ref{VPNs} D1).  
+    All of HF-PB neurons (HF-PB1 and HF-PB2) recieve input from VPNs, this time only from PVL09, nc1 and nc2. The information is sent via similar CNs (CN-26, CN-45, CN-53) as well as from MBON-175 (as for PB columnar and EB neurons above), and from MB2ON-63, which sends axons to the PB (Fig. \ref{VPNs} D2).  
+    Another, perhaps unexpected, visual hub in the larval CX is the NO. PVL09, as well as nc1 and nc2, which compute light intensity, synapse directly onto three NO.b neurons, two of which FB.d1 neurons, while the other is a neuron innervating dendrites in the PB. In addition, VPNs send indirect connections to three more NO.b neurons which are CNs (CN-6, CN-16, CN61) via two (again!) CNs(CN-45 and CN-53) and two MB2INs (MB2IN-144 and MB2IN-210). (Fig. \ref{VPNs} C).
 
     \begin{figure}[H]
         \centering
@@ -627,91 +620,102 @@ whereas Rh6-PRs principally synapse onto VLNs (79\%), and much less onto VPNs (1
         \label{VPNs}
     \end{figure}
 
-
     \subsection{VLNs inputs to the CX}
+    Similar patterns of connectivity are found from VLNs (neurons mostly recieving input from RH6-PRs). 
+    Several PB neurons -  HF-PB2 (which is also an FB.d neuron), MBONs (MBON-63, MBON-94, MBON-204 which is also an NO.b and FB.d1 neuron) and CNs (CN-35, CN-54) - collect input from one VLN, named 5thLN. A VPN(PVL09) is downstream of this VLN and facilitates transmission sensory input.  Other interneurons include CN-15 and MB2ON-199 (Fig. \ref{VLNs} A).
+
+    The EB displays simillar circuit patterns, with 5thLN being the only one sending sensory inputs to several EB.b neurons, interestingly, to none of the ring or wedge neurons, but to several MBONs (MBON-a2, MBON-b3, MBON-g1, MBON-g2) known to recieve dopaminergic input from DANs with analogus names \citep{eschbach2020recurrent}, as well as to two DANs themselved (DAN-d1 and DAN-g1). In addition CN-36 is also an EB.b that collects visual input (Fig. \ref{VLNs} B).
+
+    The larval FB collects visual input from 3 VLNs: LN1, LN4 and 5th LN.The information os sent via three MB-related neurons (MB2IN-209 MB2IN-162 MB2ON-175), one convergence neuron (CN150 and a lateral horn neuron LH-17, towards two FB tangential horseshoe neurons (hs-FB.1 hs-FB.2; (Fig. \ref{VLNs} C). and an FB.d1 neurons (MB2ON-204) which is also PB.d and NO.b.
+
+    Finally, the NO recieves inputs from LN1, LN4 and 5th LN, mediated by KC LON, MB2ON-199 and CN-15 towards several neurons that send their clutchy axons to the NO:  MB2ON-204 (which is also a PB.d and a FB.d1), CN-61, CN-6 and CN-37 (which is also an LAL.b). 
+
+    Interestingly, all neuropils seem to collect visual input from at least one VLN, reliably from the 5thLN, suggesting the larval CX must be implicated in processing of green light. 
+
+
     \begin{figure}[H]
         \centering
-        \includegraphics[width=14cm]{Figs/CX/VLNstoCX.pdf}
+        \includegraphics[width=15cm]{Figs/CX/VLNstoCX.pdf}
         \caption[Visual Inputs via VLNs to larval Central Complex Neuropils]{\textbf{VLN Inputs to the Larval Central Complex.} The inputs from visual local interneurons (VLNs) towards each larval CX neuropil are shown. In each case, neurons are colored to represent anatomical regions: VLNs are highlighted in a blue rectangle to represent the larval optic neuropil (LON), whilst the layer of interneurons connecting VLNs to the CX are highlighted in yellow. Individual CX neuropils are colored in magenta (FB), red (EB), dark blue (NO), and deep purple (PB). In each case, both .d and .b neurons are included in the analysis. Panel \textbf{A} shows the VLN synaptic circuit towards the PB neurons; panel \textbf{B} displays the VLN synapses to EB neurons; panel \textbf{C} shows those to FB neurons; and panel \textbf{D} presents the VLN pathways towards the NO.}
         \label{VLNs}
     \end{figure}
 
-
-
-
-    \begin{figure}
-            \centering
-            \includegraphics[width=10cm]{Figs/CX/visualPNstoPBEB.pdf}
-            \caption{\textbf{Visual Input into the EB}. Input from visual Projection Neurons (Visual PN) to the Ellipsoid Body~(EB) via two convergence neurons~(CN53, CN54), a pair of PB DALv1s and a second-order Mushroom Body output neuron~(MB2ON-187).}
-            \label{visualPBEB}
-     \end{figure}
-        
-
-
  \section{Descending Neurons from CX}    
+    To establish where central-complex neurons ultimately influence motor circuits, I traced all downstream partners of CX neurons and identified those whose axons descend into premotor compartments (SEZ and VNC). Descending neurons (DNs) were defined as neurons with a clear axonal projection leaving the supraesophageal zone and coursing toward the subesophageal zone (SEZ) and/or the ventral nerve cord (VNC). Only synaptic partners with at least three output synapses from CX neurons were counted as meaningful CX to DNs links. 
 
-    In the larva, several CX neurons ()
-
-
-    \definecolor{cxhl}{RGB}{255,243,191} 
-    \begin{table}
-        \centering
-        \resizebox{\textwidth}{!}{%
-        \begin{tabular}{p{0.6\textwidth}|p{0.6\textwidth}}
-            \toprule
-            \textbf{CX Descending} & \textbf{CX Descending l1 (layer 1)} \\
-            \midrule
-            DPMm1 Columnar & A03o\_a1l \\
-            FB.d, FB.d.4, NO.d CM4 cen ant 1 & A23f2 (= Pre-goro9)\_a3l \\
-            EB-DN 1, EB.d, LAL-DN 1, LAL.d MB2ON-75 & ascending to hairbrush and LBA3 \\
-            DPMpm1 s 1 & \cellcolor{cxhl} BAmd descending \\
-            DPMpm1 s 1 & BAmv12 descending 1 \\
-            FB.d, FB.d.5, NO.d, PB.d pitch; & BAmv12 descending 2 \\
-            LAL output, LAL.d, NO.d DALd bushy & CM4 Bridle \\
-            NO.d ASB Gust descending & CM4 contralateral descending 1 \\
-            NO.d BAla34 lateral descending 1b & CP4 8 \\
-            NO.d BA1p descending 1 & DALcm12-v descending \\
-            NO.d BA1p descending 3 & DPMI\_ant\_ven descending \\
-            NO.d BAmd2\_v descending & EB-MB 1, EB.d FB2IN-12, MB2IN-77 Mickey Mouse\\
-            \cellcolor{cxhl} NO.d DPMI\_ant\_ven descending 3 & EB.d CN-36, FAN-4, MB2IN-10, MB2ON-18 B \\
-            NO.d MB2IN-216 LAL to VNC up to A6 & EB.d, FB.d MB2ON-17 Tomato Vine \\
-            NO.d MB2ON-200 CM4 ven pos 2 & FAN-5, MB2IN-11, MB2ON-19 AR \\
-            NO.d UNK descending 3 & FB-29, FBN-16, MB2IN-33, MB2ON-100 D \\
-            & FB.d CP descending contralateral 2 \\
-            & FB.d, FB.d.1 DPMpm1 bushy descending \\
-            & FB.d, FB.d.5, NO.d, PB.d pitch \\
-            & FB2IN-6, MB2IN-48, MB2ON-198 AS \\
-            & Horseshoe deviant \\
-            & \cellcolor{cxhl} MB2IN-172 DPLc1 Descending \\
-            & MB2IN-180 DNs-1 \\
-            & MB2IN-182 CSD \\
-            & MB2ON-4 BH ; Descending 2; CP1 v 2 \\
-            & \cellcolor{cxhl} MB2ON-39 ipsigoro \\
-            & MB2ON-144 Tomato Vine 2 \\
-            & MB2ON-205 DPLc\_post\_med descending \\
-            & MB2ON-249 try5thLN\_sibling 35 \\
-            & mPN ginkgo 2 \\
-            & NO-looper, NO.b BAmv12 looper 1 \\
-            & NO.b CN-6, MB2ON-41 T5 \\
-            & NO.d ASB Gust descending \\
-            & NO.d BA1p descending 1 \\
-            & NO.d BA1p descending 3 \\
-            & \cellcolor{cxhl} NO.d DPMI\_ant\_ven descending 3 \\
-            & NO.d MB2IN-216 LAL to VNC up to A6 \\
-            & NO.d MB2ON-139 WD \\
-            & NO.d MB2ON-200 CM4 ven pos 2 \\
-            & NO.d UNK descending 3 \\
-            & PB.d MIXED descending T \\
-            \bottomrule
-        \end{tabular}%
-        }
-        \caption[CX Descending Neurons]{CX Descending Neurons; highlighted columns indicate behaviour tested}
-        \label{CXDescending}
-    \end{table}
+    I found a set of 22 DNs that send presynapses (dendritic processes, therefore .d neurons) to CX neuropils, 9 of which are NO.d neurons, 4 EB.d neurons, 5 FB.d neurons and one pair of PB.d neurons (Table \ref{CXDescending}), annotated them as CX Descending. I then captured the 1st downstream layer of descending neurons from the CX (i.e DNs that are one hop away from CX, with one layer of interneurons; see second column of Table \ref{CXDescending}) and named these CX Descending l1. These were significantly more abundant (40 neurons), and interestingly many of the same .d neurons mentioned above appear here, suggesting recurrent connectivity between descending neurons. 
 
 
+\definecolor{cxhl}{RGB}{255,243,191}
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{p{0.6\textwidth}|p{0.6\textwidth}}
+        \toprule
+        \textbf{CX Descending} & \textbf{CX Descending l1 (layer 1)} \\
+        \midrule
+        CX columnar system DPMm1 ipsilateral descending & A03o\_a1l \\
+        FB.d, FB.d.4, NO.d CM4 cen ant 1 & A23f2 (= Pre-goro9)\_a3l \\
+        EB-DN 1, EB.d, LAL-DN 1, LAL.d MB2ON-75 DPMpm1 3 & ascending to hairbrush and LBA3 \\
+        DPMpm1 s 1 & \cellcolor{cxhl} BAmd descending \\
+        DPMpm1 s 1 & BAmv12 descending 1 \\
+        FB.d, FB.d.5, NO.d, PB.d pitch; & BAmv12 descending 2 \\
+        LAL output, LAL.d, NO.d DALd bushy & CM4 Bridle \\
+        NO.d ASB Gust descending & CM4 contralateral descending 1 \\
+        NO.d BAla34 lateral descending 1b & CP4 8 \\
+        NO.d BA1p descending 1 & DALcm12-v descending \\
+        NO.d BA1p descending 3 & DPMI\_ant\_ven descending \\
+        NO.d BAmd2\_v descending & FAN-5, FB-10, MB2IN-11, MB2ON-19 AR ; \\
+        \cellcolor{cxhl} NO.d DPMI\_ant\_ven descending 3 & FB-29, FBN-16, MB2IN-33, MB2ON-100 D \\
+        NO.d MB2IN-216 LAL to VNC up to A6 & FB2IN-6, MB2IN-48, MB2ON-198 AS \\
+        NO.d MB2ON-200 CM4 ven pos 2 & Horseshoe deviant \\
+        NO.d UNK descending 3 & \cellcolor{cxhl} MB2IN-172 DPLc1 Descending \\
+        EB.d CN-36, FAN-4, FB-9, MB2IN-10, MB2ON-18 B & MB2IN-180 DNs-1 \\
+        EB.d, FB.d MB2ON-17 Tomato Vine\_ & MB2IN-182 CSD \\
+        EB-MB 1, EB.d FB2IN-12, MB2IN-77 Mickey Mouse & MB2ON-4 BH ; Descending 2; CP1 v 2 \\
+        FB.d CP descending contralateral 2 & \cellcolor{cxhl} MB2ON-39 ipsigoro \\
+        FB.d, FB.d.1 DPMpm1 bushy descending & MB2ON-144 Tomato Vine 2 \\
+        FB.d, FB.d.5, NO.d, PB.d pitch & MB2ON-205 DPLc\_post\_med descending \\
+        PB.d MIXED descending T & MB2ON-249 try5thLN\_sibling 35 \\
+        & mPN ginkgo 2 \\
+        & NO-looper, NO.b BAmv12 looper 1 \\
+        & NO.b CN-6, MB2ON-41 T5; \\
+        & NO.d ASB Gust descending \\
+        & NO.d BA1p descending 1 \\
+        & NO.d BA1p descending 3 \\
+        & \cellcolor{cxhl} NO.d DPMI\_ant\_ven descending 3 \\
+        & NO.d MB2IN-216 LAL to VNC up to A6 \\
+        & NO.d MB2ON-139 WD \\
+        & NO.d MB2ON-200 CM4 ven pos 2 \\
+        & NO.d UNK descending 3 \\
+        & EB.d CN-36, FAN-4, FB-9, MB2IN-10, MB2ON-18 B \\
+        & EB.d, FB.d MB2ON-17 Tomato Vine\_ \\
+        & EB-MB 1, EB.d FB2IN-12, MB2IN-77 Mickey Mouse \\
+        & FB.d CP descending contralateral 2 \\
+        & FB.d, FB.d.1 DPMpm1 bushy descending \\
+        & FB.d, FB.d.5, NO.d, PB.d pitch \\
+        & PB.d MIXED descending T \\
+        \bottomrule
+    \end{tabular}%
+    }
+    \caption[CX Descending Neurons]{CX Descending Neurons; highlighted cells indicate behaviour tested}
+    \label{CXDescending}
+\end{table}
 
-    \begin{table}[ht]
+
+   Among these descending neurons, I found several that were optogenetically tested and, when activated, were shown to trigger specific motor behaviors (Table \ref{behaviourCXdescending}): 
+    \begin{itemize}
+        \item NO.d DPMI\_ant\_ven descending 3 triggers backward crawling
+        \item BAmd descending modulates turning
+        \item MB2IN-172 DPLc1 Descending triggers stopping behavior
+        \item MB2ON-39 ipsigoro initiates forward crawling
+    \end{itemize}
+
+    Since one of the tested DNs is NO.d (DPMI\_ant\_ven descending 3) and triggers backward crawling, while the other behaviorally-tested DNs (BAmd descending, MB2IN-172, MB2ON-39) are one layer downstream from CX, this suggests direct involvement of the NO in motor behavior, specifically backward locomotion. This aligns with the NO being the primary output area of the larval CX. The presence of additional DNs in the first downstream layer indicates that the CX can also influence motor behavior through indirect pathways, particularly for turning, stopping, and forward crawling behaviors.
+
+    Overall, the fact that neurons directly influencing specific motor outputs receive input from CX neuropils suggests that the larval CX, like its adult counterpart, is involved in action selection and motor control.
+
+    \begin{table}[H]
         \centering
         \begin{tabular}{l l p{0.45\textwidth} l}
             \toprule
@@ -727,8 +731,12 @@ whereas Rh6-PRs principally synapse onto VLNs (79\%), and much less onto VPNs (1
         \label{behaviourCXdescending}
     \end{table}
 
-\section{Dopaminergic neurons (DANs) of the larval central complex}
+
+ \section{Dopaminergic neurons (DANs) of the larval central complex}
 \label{CXDANs}
+    Dopaminergic release outside the MB in the adult fly is known to trigger sleep via dorsal FB (dFB) neurons~\citep{pimentel2016sleep}, among other potential roles, depending upon the dopamine receptors expressed in the postsynaptic neurons and the circuits the neurons are part of.
+
+    The larval MB houses 7 pairs of DANs \citep{eichler2017complete}, with several more DANs scattered across the brain \citep{selcho2009thgal4}. By flp-out of the TH-GAL4 expression pattern that encompasses all DANs \citep{selcho2009thgal4} followed by immunohistochemistry, I isolated individual neurons from the TH-GAL4 expression patteern and compared their morphology with EM-reconstructed brain neurons \citep{winding2023connectome}. I identified with reasonable certainty the following 7 eDAN types (eDAN for \textit{external} DAN, i.e., not a MB DAN), comprising 6 neuron pairs.
     
     \begin{figure}
         \centering
@@ -737,26 +745,28 @@ whereas Rh6-PRs principally synapse onto VLNs (79\%), and much less onto VPNs (1
         \label{DANs}
     \end{figure}
 
-Dopaminergic release outside the MB in the adult fly is known to trigger sleep via dorsal FB (dFB) neurons~\citep{pimentel2016sleep}, among other potential roles, depending upon the dopamine receptors expressed in the postsynaptic neurons and the circuits the neurons are part of.
+    \textbf{eDAN-1}: from the larval lineage DPMpm2, this neuron presents an ipsilateral dendrite in the posterior-dorsal brain, and a bilateral axon exactly overlapping with HF-PB dendrites. eDAN-1 integrates inputs from PB.d neurons like CN-54 (which mediates multi-sensory input integration and relays them to HF-PB, modulated by MB output; see above) but also from multiple sensory PNs such as for temperature (Suckerfish PN, Thermo PN 3 and Thermo PN 5), olfaction (mPN A3), and for unknown sensory modalities (Suckerfish PN 2, from unknown sensory MN-Sens-B2-ACp-21 and -22; \citep{miroschnikow2018convergence}), and also from PB.b neurons like MB2ON-63. The axon of eDAN-1 synapses onto multiple PB.d neurons (MB2ON-187, CN-15, CN-54, ADC1, FB-LAL1, and SP2-1) and weakly onto HF-PB neurons.
 
-The larval MB houses 7 pairs of DANs \citep{eichler2017complete}, with several more DANs scattered across the brain \citep{selcho2009thgal4}. By flp-out of the TH-GAL4 expression pattern that encompasses all DANs \citep{selcho2009thgal4} followed by immunohistochemistry, I isolated individual neurons from the TH-GAL4 expression patteern and compared their morphology with EM-reconstructed brain neurons \citep{winding2023connectome}. I identified with reasonable certainty the following 5 eDAN types (eDAN for \textit{external} DAN, i.e., not a MB DAN), comprising 6 neuron pairs.
+    \textbf{eDAN-2}: from the larval lineage CM4-dm, this DAN presents a small, compact ipsilateral dendrite and a contralateral axon on the corresponding contralateral hemisphere right at the posterior end of the FB. eDAN-2 integrates inputs from FB neurons (strongly from FB.d.6, hs-FB.3, hs-FB.1, and weakly from many more). Its axon synapses onto MB2IN-195 (which is presynaptic to EB Wedge neurons), multiple FB neurons (hs-FB.3, hs-FB.1, FB.d.7 (FFN-6)), and weakly onto MB2IN-191 (the octopaminergic VUM of the CX).
 
-\textbf{eDAN-1}: from the larval lineage DPMpm2, this neuron presents an ipsilateral dendrite in the posterior-dorsal brain, and a bilateral axon exactly overlapping with HF-PB dendrites. eDAN-1 integrates inputs from PB.d neurons like CN-54 (which mediates multi-sensory input integration and relays them to HF-PB, modulated by MB output; see above) but also from multiple sensory PNs such as for temperature (Suckerfish PN, Thermo PN 3 and Thermo PN 5), olfaction (mPN A3), and for unknown sensory modalities (Suckerfish PN 2, from unknown sensory MN-Sens-B2-ACp-21 and -22; \citep{miroschnikow2018convergence}), and also from PB.b neurons like MB2ON-63. The axon of eDAN-1 synapses onto multiple PB.d neurons (MB2ON-187, CN-15, CN-54, ADC1, FB-LAL1, and SP2-1) and weakly onto HF-PB neurons.
+    \textbf{eDAN-3}: also known as MB2IN-139 \citep{eschbach2021circuits}, this neuron is from the larval lineage DPMpl12. Its dendrite is ipsilateral, sitting lateral to the FB but also extending into the LAL. The eDAN-3 axon targets a region dorsal to the LAL, housing the dendrites of  many EB.d neurons onto which it synapses, such as MB2IN-114, EB-DN1, MB2ON-17, EB wedge neurons (only W1), and many more neurons such as convergence neurons (CN-30, CN-37, CN-38, CN-41, CN-42, CN-43), MB2ON-256, and a peculiar FB.d.1 neuron (Bushy).
 
-\textbf{eDAN-2}: from the larval lineage CM4-dm, this DAN presents a small, compact ipsilateral dendrite and a contralateral axon on the corresponding contralateral hemisphere right at the posterior end of the FB. eDAN-2 integrates inputs from FB neurons (strongly from FB.d.6, hs-FB.3, hs-FB.1, and weakly from many more). Its axon synapses onto MB2IN-195 (which is presynaptic to EB Wedge neurons), multiple FB neurons (hs-FB.3, hs-FB.1, FB.d.7 (FFN-6)), and weakly onto MB2IN-191 (the octopaminergic VUM of the CX).
+    \textbf{eDAN-4}: this type consists of two nearly identical neurons that share most inputs but differ only slightly in their outputs, since their axons are juxtaposed but tiled medio-laterally. From the larval lineage DPMpl12, they present an ipsilateral dendrite in the posterior ventral brain and a contralateral axon in the posterior intermediate brain, beyond the limits of the FB proper. Both integrate inputs from numerous EB.d neurons like MB2IN-124, but only eDAN-4l (lateral axon) receives synapse from hs-FB.3. The axons of both eDAN-4 synapse onto some NO.d neurons like MB2ON-248 (whose dendrite has a domain in the NO and another outside where it meets the axon of both eDAN-4) and of other unidentified neurons (lasso-top 3, DALcm12-v descending), but only eDAN-4l synapses onto convergence neurons (CN-9, CN-26), and only eDAN-4m synapses onto hs-FB.5 and hs-FB.7.
 
-\textbf{eDAN-3}: also known as MB2IN-139 \citep{eschbach2021circuits}, this neuron is from the larval lineage DPMpl12. Its dendrite is ipsilateral, sitting lateral to the FB but also extending into the LAL. The eDAN-3 axon targets a region dorsal to the LAL, housing the dendrites of  many EB.d neurons onto which it synapses, such as MB2IN-114, EB-DN1, MB2ON-17, EB wedge neurons (only W1), and many more neurons such as convergence neurons (CN-30, CN-37, CN-38, CN-41, CN-42, CN-43), MB2ON-256, and a peculiar FB.d.1 neuron (Bushy).
+    \textbf{eDAN-5}: from the DPMpm1 larval lineage, this neuron's dendrite lays posterior to the LAL and projects its axon inside the lateral LAL. The dendrite integrates inputs from EB.d neurons, MB2IN-195, MB2ON-67, and sVUM2mx. The axon targets weakly but axo-dendritically an EB Ring neuron (RN1/2), and more strongly other neurons (MB2ON-67, MB2ON-78, MB2ON-68).
 
-\textbf{eDAN-4}: this type consists of two nearly identical neurons that share most inputs but differ only slightly in their outputs, since their axons are juxtaposed but tiled medio-laterally. From the larval lineage DPMpl12, they present an ipsilateral dendrite in the posterior ventral brain and a contralateral axon in the posterior intermediate brain, beyond the limits of the FB proper. Both integrate inputs from numerous EB.d neurons like MB2IN-124, but only eDAN-4l (lateral axon) receives synapse from hs-FB.3. The axons of both eDAN-4 synapse onto some NO.d neurons like MB2ON-248 (whose dendrite has a domain in the NO and another outside where it meets the axon of both eDAN-4) and of other unidentified neurons (lasso-top 3, DALcm12-v descending), but only eDAN-4l synapses onto convergence neurons (CN-9, CN-26), and only eDAN-4m synapses onto hs-FB.5 and hs-FB.7.
+    \textbf{eDAN-6}: 
 
-\textbf{eDAN-5}: from the DPMpm1 larval lineage, this neuron's dendrite lays posterior to the LAL and projects its axon inside the lateral LAL. The dendrite integrates inputs from EB.d neurons, MB2IN-195, MB2ON-67, and sVUM2mx. The axon targets weakly but axo-dendritically an EB Ring neuron (RN1/2), and more strongly other neurons (MB2ON-67, MB2ON-78, MB2ON-68).
+    \textbf{eDAN-7}: 
 
-According to \citep{selcho2009thgal4} there are further non-MB DANs yet to be identified in the larval brain connectome. Note an effort was made to relate the eDANs I could identify to non-MB DAN names in \citep{selcho2009thgal4} but the resolution mismatch was too great to bridge, except for eDAN-1 which is most likely named "DM3" in \citep{selcho2009thgal4}.
+    According to \citep{selcho2009thgal4} there are further non-MB DANs yet to be identified in the larval brain connectome. Note an effort was made to relate the eDANs I could identify to non-MB DAN names in \citep{selcho2009thgal4} but the resolution mismatch was too great to bridge, except for eDAN-1 which is most likely named "DM3" in \citep{selcho2009thgal4}.
 
 %TODO: add eDAN-6 and eDAN-7
 %TODO: add connectivity between all DANs
 
 \section{Behavioral Assays - Loss of Function Analysis during green Light stimulation}
+     I was curious what behaviour would the larva exhibit in the absence and presence of CX neurons. I hence tested those neurons for I was able to find a GAL4 driver line match. Since the larva is known to exhibit negative phototaxis in response to blue light, I explored this animal's behaviour in response to green light.  
+
     \begin{figure}
         \centering
         \includegraphics[width=12cm]{Figs/CX/BehaviourAssays.pdf}
@@ -820,9 +830,6 @@ Notably, across all samples, the OL exhibited a markedly larger $\Delta F/F_0$ r
 
 When compared to the control (MB), the larval Protocerebral Bridge (PB) exhibited higher amplitude calcium transients in samples 2, 4, and 5, whereas both neuropils showed similar activity in samples 1 and 3. Interestingly, the two samples with one inactive optic lobe (samples 2 and 4) displayed a more pronounced difference between PB and MB activity, suggesting that unilateral OL impairment may enhance the relative responsiveness of the PB to visual stimulation. This observation may indicate compensatory mechanisms or altered circuit dynamics in the presence of partial sensory deprivation. 
 Overall, there seems to be a higher sensitivity to blue light from in PB compared to the MB, supposrting the hypothesis of a functional role in visual input processing (Fig. \ref{LSanalysis}). However, the effects aren't as significant as expected, possibly due to small sample size, suggesting the experiment could be underpowered.
-
-
-
 
 
 
