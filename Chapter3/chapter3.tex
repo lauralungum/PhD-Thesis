@@ -118,7 +118,7 @@
     \textbf{Lineage} & \textbf{Left Hemisphere} & \textbf{Right Hemisphere} & \textbf{CX neurons} & \textbf{CX \% of Lineage} \\
     \hline
     Dalcl12 & 25 & 27 & 38 & \cellcolor{forest5}73.08\% \\
-    Dalv1 & 11 & 11 & 14 & \cellcolor{forest4}63.64\% \\
+    DALv1 & 11 & 11 & 14 & \cellcolor{forest4}63.64\% \\
     dplc\_post\_med & 6 & 10 & 10 & \cellcolor{forest4}62.50\% \\
     DPMl12 & 13 & 2 & 7 & \cellcolor{forest3}46.67\% \\
     Dalv23 & 18 & 21 & 18 & \cellcolor{forest3}46.15\% \\
@@ -154,7 +154,7 @@
                 \caption[Central Complex Neuron Classes]{\textbf{Classes of CX neurons} This schematic illustrates neuron classes of the adult CX (upper panel) and the larval CX (lower panel). The PB, FB, EB, NO and LAL are shown in each case to illustrate where a neuron arborizes. Neurons are drawn as a sketch, where the soma is represented by a green circle, the arbours are split into dendritic inputs - filled green boxed - and spiny axonal outputs - hashed scribbled green boxes. Cells are classified as either \textbf{Intrinsic Neurons}:neurons whose inputs and outputs are located within CX neuropils; \textbf{Local Neurons}: cells whose inputs and outputs located within one neuropil; \textbf{Input Neurons}: Neurons that have  dendrites (receive synaptic input) located within the CX but output outside of it; and \textbf{Output Neurons}: Cells that receive inputs outside of the CX but output onto CX neuropils}
                 \label{CXclasses}
             \end{figure}
-        %Table with Neuropils connecting wirh eachother
+        %Table with Neuropils connecting with each other
         \begin{table}[H]
         \centering
         \begin{tabular}{l|ccccc}
@@ -212,6 +212,7 @@
 
 \section{The Central Complex of \textit{Drosophila} Larva}
 \label{CXLarva}
+
     %LARVAL vs ADULT CX cartoon
     \begin{figure}[H]
         \centering
@@ -220,6 +221,60 @@
         The volumes of the larval neuropils were drawn via CATMAID using the .b and .d parts of the neurons contributing to each.}
         \label{cxdiagram}
     \end{figure}
+
+
+    
+\definecolor{pbhl}{RGB}{120,156,163}   % PB teal
+\definecolor{ebhl}{RGB}{224,115,111}   % EB salmon
+\definecolor{fbhl}{RGB}{230,224,188}   % FB cream
+\definecolor{nohl}{RGB}{92,110,123}    % NO slate
+
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{l|l|l|l}
+        \toprule
+        \multicolumn{2}{c|}{\cellcolor{pbhl}\textbf{PB}} & \multicolumn{2}{c}{\textit{FB.d.2}} \\
+        \multicolumn{2}{c|}{\textit{PB Horizontal}} & ni contralateral 2 & FB.d LAL.b \\
+        HF PB1\_1 & FB.d PB.b & ni contralateral 3 & FB.d PB.d LAL.b \\
+        HF PB1\_2 & FB.d PB.b & ni contralateral 4 & FB.d LAL.d \\
+        HF PB1\_3 & FB.d PB.b & \multicolumn{2}{c}{\textit{FB.d.3}} \\
+        HF PB2 & FB.d PB.b & FB.d.3 & FB.d LAL.b \\
+        \multicolumn{2}{c|}{\textit{PB Columnar}} & \multicolumn{2}{c}{\textit{FB.d.4}} \\
+        PB to NO & PB.d NO.b & FB.d.4 & FB.b NO.d \\
+        PB to EB & PB.d EB.d LAL.b & \multicolumn{2}{c}{\textit{FB.d.5}} \\
+        \multicolumn{2}{c|}{\textit{PB Intrinsic}} & Pitch & FB.d PB.d NO.b \\
+        CN 35 & PB.d.b & \multicolumn{2}{c}{\textit{FB.d.6}} \\
+        \multicolumn{2}{c|}{\cellcolor{ebhl}\textbf{EB}} & Lure 3 & FB.d PB.b \\
+        \multicolumn{2}{c|}{\textit{EB Wedge}} & \multicolumn{2}{c}{\textit{FB.d.7}} \\
+        W1-W8 & EB.d.b & MB2IN 54/MB2ON & FB.d \\
+        \multicolumn{2}{c|}{\textit{EB Ring}} & \multicolumn{2}{c}{\textit{FB.d.8}} \\
+        RN1/2 & EB.b & BLAI horseshoe & FB.d \\
+        RN3 & EB.d.b & \multicolumn{2}{c}{\textit{FB.d.9}} \\
+        RN4 & EB.d.b LAL.d & FB.d.9 & FB.d PB.d LAL.b \\
+        \multicolumn{2}{c|}{\cellcolor{fbhl}\textbf{FB}} & \multicolumn{2}{c}{\textit{FB Intrinsic}} \\
+        \multicolumn{2}{c|}{\textit{FB Tangential}} & e DAN2 & FB.d.b \\
+        hs FB.1 & FB.b & MB2ON 125 & FB.d.b \\
+        hs FB.2 & FB.b PB.b & \multicolumn{2}{c}{\cellcolor{nohl}\textbf{NO}} \\
+        hs FB.3 & FB.b & \multicolumn{2}{c}{\textit{PB/FB to NO}} \\
+        hs FB.4 & NO.d FB.b & FB NO & FB.d NO.b \\
+        hs FB.5 & FB.b & CN 34 & FB.d PB.d NO.b \\
+        hs FB.6 & FB.b & MB2ON 204 & FB.d PB.d NO.b \\
+        hs FB.7 & FB.b & MB2ON 201 & FB.d NO.b \\
+        \multicolumn{2}{c|}{\textit{FB Columnar}} & MB2ON 241 & PB.d NO.b \\
+        \multicolumn{2}{c|}{\textit{FB.d.1}} & \multicolumn{2}{c}{\textit{NO Intrinsic}} \\
+        FB NO & FB.d NO.b & CN 6/16/61 & NO.d.b \\
+        CN 34 & FB.d PB.d NO.b & MB2ON 37 & NO.d.b \\
+        MB2ON 204 & FB.d PB.d NO.b & NO looper & NO.d.b \\
+        MB2ON 201 & FB.d NO.b & \multicolumn{2}{c}{\textit{NO LAL}} \\
+        DPMpm1 bushy & FB.d & CN 37 & NO.d LAL.b \\
+        &  & MB2INs/ONs & NO.d LAL.b \\
+        \bottomrule
+    \end{tabular}
+    }
+    \caption[The Neurons of \textit{Drosophila Larva Central Complex}] { \textbf{Central Complex Neurons of \textit{Drosophila} Larva.} All the classes of neurons found in each neuropil of the larval CX are shown.}
+    \label{tab:neuropil_connectivity}
+\end{table}
 
     \subsection{Protocerebral Bridge}
     \label{PB}
@@ -265,10 +320,13 @@
             \label{pbcolumnar}
         \end{figure}
 
-    Among the columnar neurons, a subset project their axons directly to the NO (Fig. \ref{pbcolumnar}A), and another subset project directly to the larval EB (Fig. \ref{pbcolumnar}B).
+    Among the columnar neurons, a subset project their axons directly to the NO (Fig. \ref{pbcolumnar}A), and another subset project directly to the larval EB (Fig. \ref{pbcolumnar}B). 
 
     I did not find among the larval columnar neurons any whose axon would project to more than one CX neuropil, despite such types being common in the adult~\citep{wolff2015neuroarchitecture, wolff2018neuroarchitecture, hulse2021connectome}.
+
     Beyond the canonical columnar neurons projecting to other CX neuropils, I found some whose axons descend directly to the SEZ or nerve cord~(Fig. \ref{pbcolumnar}C), and have been accordingly named 'PB descending' neurons. (N.B. These neurons go on to connect to descending neurons, but aren't themselves descending neurons.
+
+    An additional group of CNs (CN-4, CN-23, CN-35, CN-54) send their dendrites to the PB. Notably, CN-35 sends both axons and dendrites to the PB, making it a \textbf{PB.d.b intrinsic neuron}. However these wouldn't be classified as columnar. 
 
     \subsubsection{PB Horizonal and PB Columnar connectivity}
     With the PB columnar neurons having dendrites enclosed in the PB (PB.d) and the PB horizontal neurons (HF-PB) sending output to the PB(PB.b), I expected there to be significant connectivity between the two types of neurons. Indeed a half of the HF-PB neurons are connected with columnar PB cells (\ref{PBconnections}).  Interestingly, only 2 pairs of neurons, both of HF-PB1 type, connected to every type of PB columnar neuron. Specifically a pair of HF-PB1 (annotated as HF-PB1\_1 in table \ref{PBconnections}) sends output synapses to 2 PB-NO (PB.d-NO.b) neurons, both of which are also second order MB output neurons (MB2ON-204 and MB2ON-241). The other pair of  HF-PB1 (HF-PB1\_2) send outputs to 1 PBtoEB (PB.dNO.b) neuron, which is a second order MB input neuron (MB2IN-195), as well as 2 pairs of PB Descending neurons. 
@@ -363,7 +421,7 @@
         \begin{figure}[H]
             \centering
             \includegraphics[width=12cm]{Figs/CX/EBneurons.pdf}
-            \caption{\textbf{Ellipsoid Body Neurons}. Ring and Wedge Neurons with their corresponding lineages are shown. The mushroom body is colored in magenta as a landmark in the larval brain. \textbf{A.} Ring neurons of lineage Dalv23, namely RN1/2a and RN1/2b; \textbf{B.} Ring neuron RN3 originating from lineage BAmv1/2; and \textbf{C.} The 8 EB wedge neurons (W1-8) originating from DALcl12 lineage. Panel \textbf{D.} depicts all these neurons stacked together to form the EB}
+            \caption{\textbf{Ellipsoid Body Neurons}. Ring and Wedge Neurons with their corresponding lineages are shown. The mushroom body is coloured in magenta as a landmark in the larval brain. \textbf{A.} Ring neurons of lineage Dalv23, namely RN1/2a and RN1/2b; \textbf{B.} Ring neuron RN3 originating from lineage BAmv1/2; and \textbf{C.} The 8 EB wedge neurons (W1-8) originating from DALcl12 lineage. Panel \textbf{D.} depicts all these neurons stacked together to form the EB}
             \label{EBneurons}
         \end{figure}
 
@@ -372,6 +430,9 @@
             I found one pair of neurons (RN3) of the larval BAmv1/2 lineage (corresponding to adult lineage LALv1 known to generate ring neurons) that receive visual input via PB columnar neurons, and reciprocally synapses axo-axonically with larval Wedge-neurons (Fig. \ref{EBneurons}A).
             Their axons are fully contained within the space defined by the wedge neurons.
             Similarly, I found two pairs of neurons (RN1/2) from the larval DALv23 lineage (adult EBa1 lineage, also known to generate ring neurons), synaptically connected like RN1/2 (Fig. \ref{EBneurons}B). I classified all of these as larval EB Ring neurons, all of them having both dendrites and axons inside the EB, making them EB.d.b neurons, and as such, CX Core neurons. 
+
+            There were also 2 pairs of RN4 neurons, of lineage CM1/3, which have both dendrites and boutons in the EB, making them an EB.d.b intrinsic neuron, in addition to sending dendrites to the LAL.
+
 
 
             \begin{figure}[H]
@@ -383,6 +444,7 @@
 
             \textbf{\textit{Additional EB.d Neurons}}
             There are seven more pairs of EB.d (neurons that contribute presynaptic sites to the EB) that didn't fall under ring or wedge neuron categories. Two of these are MB Dopaminergic neurons (DAN-d1 and DAN-g1), another 3 are LAL neurons(I refer to these as EB to LAL neurons) - these can be LAL.d LAL.b or LAL.d.b - and the last 2 are MB second order output neurons (see Appendix for more)%TODO ADD APPENDIX 
+
 
         \subsubsection{EB Ring Neurons and EB Wedge Neurons connectivity}
             In the adult, a key feature of nearly all ring neuron types(ER1-6)is their dense interconnectivity. Since ER neurons send output processes within the CX \citep{hulse2021connectome}, I deduced majority of them are axo-axonic. Interestingly, this is the exact pattern I observe in the larval ring neurons (RN1/2, RN3), with all these 3 neurons being reciprocally connected axo-axonically (Table \ref{EBmatrix}). 
@@ -514,7 +576,7 @@
     In the larva I found a set of 21 neurons (10 pairs plus one unpaired) with highly compact, clutchy axons situated in the posterior ventral area of the brain, from lineages DPMm1 (DM1 in the adult), DALcm12, DPMl12, DPLc5, and BAMv12, as well as a few other larval lineages (Fig. \ref{cxneuropils}).
     I define the volume encapsulating all their clutchy axons as the putative Noduli of the larval \textit{Drosophila}, and labelled all these neurons as NO.b.
 
-    Among the 21 NO.b neurons in the larva I find FB.d neurons (four pairs of the 5 FB.d.1 subtype including CN-34), convergence neurons (CN-6, CN-16/MBON-p1 \citep{eschbach2020recurrent}), neurons postsynaptic to MBONs (MB2ON-37, MB2ON-241), NO-looper (lineage BAmv12dor), MBON-p1 (a multi-compartment MBON of the MB vertical lobe; \citep{eichler2017complete}), and an unpaired neuron (DLPc lineage). Most NO.b neurons integrate inputs from the MB, as their names indicate (see \citep{eschbach2021circuits}).
+    Among the 21 NO.b neurons in the larva I find several FB.d neurons (four pairs of the FB.d.1 subtype including CN-34) as well as a PB.d neuron (MB2ON-241) and convergence neurons (CN-6, CN-16/MBON-p1 \citep{eschbach2020recurrent} and CN-61), the latter of which also innervate the NO with their dendrites, making them intrinsic NO neurons (NO.d.b). There were many neurons postsynaptic to MBONs (MB2ON-37, MB2ON-241), NO-looper (lineage BAmv12dor), MBON-p1 (a multi-compartment MBON of the MB vertical lobe; \citep{eichler2017complete}), and an unpaired neuron (DLPc lineage). Most NO.b neurons integrate inputs from the MB, as their names indicate (see \citep{eschbach2021circuits}).
 
     \begin{figure}
         \centering
@@ -715,7 +777,7 @@
         \item MB2ON-39 ipsigoro initiates forward crawling
     \end{itemize}
 
-    Since one of the tested DNs is NO.d (DPMI\_ant\_ven descending 3) and triggers backward crawling, while the other behaviorally-tested DNs (BAmd descending, MB2IN-172, MB2ON-39) are one layer downstream from CX, this suggests direct involvement of the NO in motor behavior, specifically backward locomotion. This aligns with the NO being the primary output area of the larval CX. The presence of additional DNs in the first downstream layer indicates that the CX can also influence motor behavior through indirect pathways, particularly for turning, stopping, and forward crawling behaviors.
+    Since one of the tested DNs is NO.d (DPMI\_ant\_ven descending 3) and triggers backward crawling, while the other behaviourally-tested DNs (BAmd descending, MB2IN-172, MB2ON-39) are one layer downstream from CX, this suggests direct involvement of the NO in motor behaviour, specifically backward locomotion. This aligns with the NO being the primary output area of the larval CX. The presence of additional DNs in the first downstream layer indicates that the CX can also influence motor behaviour through indirect pathways, particularly for turning, stopping, and forward crawling behaviors.
 
     Overall, the fact that neurons directly influencing specific motor outputs receive input from CX neuropils suggests that the larval CX, like its adult counterpart, is involved in action selection and motor control.
 
