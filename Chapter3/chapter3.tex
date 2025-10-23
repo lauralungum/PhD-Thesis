@@ -36,7 +36,7 @@
         DM4 & CM4 \\
         DM5/DM6 & CM1/3 \\
         DL1 & CP23 \\
-        EBa1 & DALv2 \\
+        EBa1 & DALv23 \\
         LALv1 & BAMv1 \\
         CREa1 & BAmd1 \\
         CREa2 & DALCm12 \\
@@ -50,7 +50,7 @@
     %ALL larval lineages
         \begin{table} [H]
         \centering
-        \resizebox{\textwidth}{!}{%
+        \resizebox{0.8\textwidth}{!}{%
         \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
         \toprule
         Larval lineages & PB.b & PB.d & FB.b & FB.d & EB.b & EB.d & NO.b & NO.d & Total \\
@@ -174,6 +174,7 @@
         \end{table}
         %Table with CX Core Neurons
          \begin{table}[H]
+            \resizebox{\textwidth}{!}{%
             \centering
             \begin{tabular}{|l|l|}
             \hline
@@ -196,6 +197,7 @@
             PB.d, NO.b & MB2ON-241 \\
             \hline
             \end{tabular}
+            }
             \caption[CX Core Neurons]{\textbf{CX Core Neurons} The table illustrates, in the first column, the CX Core neurons in nomenclature adapted from Wolff et al., 2015\citep{wolff2018neuroarchitecture}, depicting the location of the dendrites (.d) axonal boutons (.b) in the Central Complex Neuropils. Each neuron is listed alongside their CX neuropil-specific nomenclature, and/or their MB nomenclature}
             \label{CXCoreNeurons}
             \end{table}
@@ -241,7 +243,7 @@
         HF PB1\_3 & FB.d PB.b & \multicolumn{2}{c}{\textit{FB.d.3}} \\
         HF PB2 & FB.d PB.b & FB.d.3 & FB.d LAL.b \\
         \multicolumn{2}{c|}{\textit{PB Columnar}} & \multicolumn{2}{c}{\textit{FB.d.4}} \\
-        PB to NO & PB.d NO.b & FB.d.4 & FB.b NO.d \\
+        PB to NO & PB.d NO.b & FB.d.4 & FB.d NO.d \\
         PB to EB & PB.d EB.d LAL.b & \multicolumn{2}{c}{\textit{FB.d.5}} \\
         \multicolumn{2}{c|}{\textit{PB Intrinsic}} & Pitch & FB.d PB.d NO.b \\
         CN 35 & PB.d.b & \multicolumn{2}{c}{\textit{FB.d.6}} \\
@@ -401,7 +403,7 @@
         \end{tabular}
         
         }
-        \caption[PB Horizontal Neurons connection to  PB columnar ]{\textbf{PB horizontal fibres (HF-PB) connectivity to  PB columnar neurons} A connectivity matrix representing connections from HF-PB neurons (rows) to PB columnar neurons (columns) is shown. Only the the two pairs of HF-PB1 (written here as HF-PB1\_1 and HF-PB1\_2) which send connections to PB columnar are presented. Neuron pairs are split in left (\_l) and right (\_r) cells for a more comprehensive understanding of the strength of connections.  The left neuron from pair MB2ON-241 (5th column) has missing synapses because these haven't been traced yet, however these are considered present given reliability of the right one.}
+        \caption[PB Horizontal Fibres connection to  PB Columnar ]{\textbf{PB horizontal fibres (HF-PB) connectivity to  PB columnar neurons} A connectivity matrix representing connections from HF-PB neurons (rows) to PB columnar neurons (columns) is shown. Only the the two pairs of HF-PB1 (written here as HF-PB1\_1 and HF-PB1\_2) which send connections to PB columnar are presented. Neuron pairs are split in left (\_l) and right (\_r) cells for a more comprehensive understanding of the strength of connections.  The left neuron from pair MB2ON-241 (5th column) has missing synapses because these haven't been traced yet, however these are considered present given reliability of the right one.}
         \label{PBconnections}
         \end{table}
 
@@ -509,7 +511,7 @@
             In addition to generating FB tangential neurons, the DM1-DM4 lineages also contribute 5 pairs of FB columnar neurons. These neurons (FB.d1) are characterized by ipsilateral-only dendrites largely circumscribed to the FB (except for the Bushy neuron from the DPMpm1/DM3 lineage), and projecting their ipsilateral-only clutchy axons solely the NO (so they are FB.d-NO.b). Therefore, FB.d.1 neurons are specialized in relaying information from the FB to the NO hemilaterally. Among FB.d.1, there are 3 MB related neuron, namely CN-34, MB2ON-201 and MB2ON-204  \citep{eschbach2021circuits}. One of the FB.d.1 was uncategorised so I named it FB-NO1, and the last one is known a descending neuron known as DPMpm1 bushy descending. 
             Importantly, 2 of the 5 FB.d1 pairs also send their dendrites to the PB, making them PB.d neurons as well, therefore they are PB.d-FB.d-NO.b and also core cx neurons. This is the closest version to the adult PFN, however the adult analogue would be PB.d-FBb.b-NO.b. %TODO refer figure with cx neurons analogues. 
 
-            The DM lineage (larval CM4-vm lineage) further contributes 1 pair of neurons (FB.d4) with ipsilateral dendrites in the posterior FB and beyond into an area adjacent to the LAL medially, and a contralateral axon that descends into the VNC, dropping presynaptic sites from the SEZ to the most posterior abdominal segments. Within the brain, FB.d.4 synapses onto some NO.d neurons (e.g., MB2ON-200) and also onto CN-28 \citep{eschbach2021circuits}..
+            The DM4 lineage (larval CM4-vm lineage) further contributes 1 pair of neurons (FB.d4) with ipsilateral dendrites in the posterior FB and beyond into an area adjacent to the LAL medially, and a contralateral axon that descends into the VNC, dropping presynaptic sites from the SEZ to the most posterior abdominal segments. Within the brain, FB.d.4 synapses onto some NO.d neurons (e.g., MB2ON-200) and also onto CN-28 \citep{eschbach2021circuits}..
 
             The MB neuroblasts contribute 3 pairs of early-born, non-Kenyon cell neurons (the 'ni' for "non-intrinsic"), named FB.d2, with ipsilateral dendrites in the FB and a contralateral axon targeting exclusively the LAL.
 
@@ -581,11 +583,11 @@
     \begin{figure}
         \centering
         \includegraphics[width=14cm]{Figs/CX/NOneurons.pdf}
-        \caption[Noduli Neurons]{\textbf{NO neurons}. The two types of NO.b neurons are shown. In panel A, the 4 pairs of FB.d1 neurons are displayed. In panel B, the MB related neurons (M2BONs and CNs) are presented. Panel C shows both of these combined. The MB is shown in magenta, and the volume circumscribing NO.b and therefore defining the Noduli is highlighted in dark blue under the MB}
+        \caption[Noduli Neurons]{\textbf{NO neurons}. The three types of NO neurons are shown. In panel A, the 5 pairs of PB/FB neurons are displayed. In panel B, the 5 pairs of intrinsic neurons are presented. Panel C shows NO to LAL neurons. The MB is shown in magenta, and the volume circumscribing NO.b and therefore defining the Noduli is highlighted in dark blue under the MB}
         \label{NOneurons}
     \end{figure}
 
-    In addition to the 21 NO.b neurons described above, I identified approximately 92 neurons whose dendrites are located within the putative noduli (henceforth NO.d neurons). These NO.d neurons arise from a variety of larval lineages and can be grouped by their predominant connectivity and putative function. The major classes are: MB-related inputs and feedback neurons (many MB2INs/M2ONs/FBNs and convergence neurons(CNs) that convey learned-valence and feedback signals to the NO); LAL-projecting neurons that route processed NO signals to premotor or integrative centers; descending/SEZ-projecting neurons that relay NO-processed information toward motor circuits; and a small set of ascending or sensory-associated neurons that provide multisensory context.
+    In addition to the 21 NO.b neurons described above, I identified approximately 92 neurons whose dendrites are located within the putative noduli (henceforth NO.d neurons). These NO.d neurons arise from a variety of larval lineages and can be grouped by their predominant connectivity and putative function. The major classes are: MB-related inputs and feedback neurons (many MB2INs/M2ONs/FBNs and convergence neurons(CNs) that convey learned-valence and feedback signals to the NO); LAL-projecting neurons that route processed NO signals to premotor or integrative centers; FB projecting neurons (ha-FB.4) descending/SEZ-projecting neurons that relay NO-processed information toward motor circuits; and a small set of ascending or sensory-associated neurons that provide multisensory context.
 
     \begin{table}[H]
     \centering

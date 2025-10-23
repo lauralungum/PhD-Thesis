@@ -1411,6 +1411,64 @@
       \field{pages}{e37017}
       \range{pages}{-1}
     \endentry
+    \entry{frighetto2022dopamine}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=b8cb2fedd8f909d310460a92428e59a0}{%
+           family={Frighetto},
+           familyi={F\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddd15dae4f7bc34d7e45be2d4df982c8}{%
+           family={Zordan},
+           familyi={Z\bibinitperiod},
+           given={Mauro\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aaf6fae7cb14b7bf8ed166f7c505615d}{%
+           family={Castiello},
+           familyi={C\bibinitperiod},
+           given={Umberto},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b040a06d108104aa2c6575af9a702fc}{%
+           family={Megighian},
+           familyi={M\bibinitperiod},
+           given={Aram},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0fc6aeff48e4b97485a46084a2651a09}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Jean-René},
+           giveni={J\bibinithyphendelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media SA}%
+      }
+      \strng{namehash}{308172b72cf3b2080d3f36ae6bdf1bcc}
+      \strng{fullhash}{ab033f92f850f36a4e6255a1ec00b18e}
+      \strng{fullhashraw}{ab033f92f850f36a4e6255a1ec00b18e}
+      \strng{bibnamehash}{ab033f92f850f36a4e6255a1ec00b18e}
+      \strng{authorbibnamehash}{ab033f92f850f36a4e6255a1ec00b18e}
+      \strng{authornamehash}{308172b72cf3b2080d3f36ae6bdf1bcc}
+      \strng{authorfullhash}{ab033f92f850f36a4e6255a1ec00b18e}
+      \strng{authorfullhashraw}{ab033f92f850f36a4e6255a1ec00b18e}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in physiology}
+      \field{title}{Dopamine modulation of Drosophila ellipsoid body neurons, a nod to the mammalian basal ganglia}
+      \field{volume}{13}
+      \field{year}{2022}
+      \field{pages}{849142}
+      \range{pages}{1}
+    \endentry
     \entry{microns2025functional}{article}{}{}
       \list{publisher}{1}{%
         {Nature Publishing Group UK London}%
@@ -3237,6 +3295,65 @@
       \field{year}{2013}
       \field{pages}{1739\bibrangedash 1753}
       \range{pages}{15}
+    \endentry
+    \entry{liu2012two}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=2bd47769de061938bc26891a97c3744b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Qili},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f56045cb3b27465cc474c956947be650}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Sha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=376d00c0edca5beb4e805387f4807ba3}{%
+           family={Kodama},
+           familyi={K\bibinitperiod},
+           given={Lay},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8c9467205ad015610cf6e3e7b7e51b5}{%
+           family={Driscoll},
+           familyi={D\bibinitperiod},
+           given={Maria\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cddf0a8e3fe530ddec8d1d649e48af84}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Mark\bibnamedelima N},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{aa78220b8c336b69cb950f296dd7121c}
+      \strng{fullhash}{1ae2e2a3d9c86f0523285b23b64b9078}
+      \strng{fullhashraw}{1ae2e2a3d9c86f0523285b23b64b9078}
+      \strng{bibnamehash}{1ae2e2a3d9c86f0523285b23b64b9078}
+      \strng{authorbibnamehash}{1ae2e2a3d9c86f0523285b23b64b9078}
+      \strng{authornamehash}{aa78220b8c336b69cb950f296dd7121c}
+      \strng{authorfullhash}{1ae2e2a3d9c86f0523285b23b64b9078}
+      \strng{authorfullhashraw}{1ae2e2a3d9c86f0523285b23b64b9078}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Biology}
+      \field{number}{22}
+      \field{title}{Two dopaminergic neurons signal to the dorsal fan-shaped body to promote wakefulness in Drosophila}
+      \field{volume}{22}
+      \field{year}{2012}
+      \field{pages}{2114\bibrangedash 2123}
+      \range{pages}{10}
     \endentry
     \entry{lovick2013postembryonic}{article}{}{}
       \name{author}{6}{}{%
@@ -7367,6 +7484,64 @@
       \field{pages}{e37017}
       \range{pages}{-1}
     \endentry
+    \entry{frighetto2022dopamine}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=b8cb2fedd8f909d310460a92428e59a0}{%
+           family={Frighetto},
+           familyi={F\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddd15dae4f7bc34d7e45be2d4df982c8}{%
+           family={Zordan},
+           familyi={Z\bibinitperiod},
+           given={Mauro\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aaf6fae7cb14b7bf8ed166f7c505615d}{%
+           family={Castiello},
+           familyi={C\bibinitperiod},
+           given={Umberto},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b040a06d108104aa2c6575af9a702fc}{%
+           family={Megighian},
+           familyi={M\bibinitperiod},
+           given={Aram},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0fc6aeff48e4b97485a46084a2651a09}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Jean-René},
+           giveni={J\bibinithyphendelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media SA}%
+      }
+      \strng{namehash}{308172b72cf3b2080d3f36ae6bdf1bcc}
+      \strng{fullhash}{ab033f92f850f36a4e6255a1ec00b18e}
+      \strng{fullhashraw}{ab033f92f850f36a4e6255a1ec00b18e}
+      \strng{bibnamehash}{ab033f92f850f36a4e6255a1ec00b18e}
+      \strng{authorbibnamehash}{ab033f92f850f36a4e6255a1ec00b18e}
+      \strng{authornamehash}{308172b72cf3b2080d3f36ae6bdf1bcc}
+      \strng{authorfullhash}{ab033f92f850f36a4e6255a1ec00b18e}
+      \strng{authorfullhashraw}{ab033f92f850f36a4e6255a1ec00b18e}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in physiology}
+      \field{title}{Dopamine modulation of Drosophila ellipsoid body neurons, a nod to the mammalian basal ganglia}
+      \field{volume}{13}
+      \field{year}{2022}
+      \field{pages}{849142}
+      \range{pages}{1}
+    \endentry
     \entry{microns2025functional}{article}{}{}
       \list{publisher}{1}{%
         {Nature Publishing Group UK London}%
@@ -9193,6 +9368,65 @@
       \field{year}{2013}
       \field{pages}{1739\bibrangedash 1753}
       \range{pages}{15}
+    \endentry
+    \entry{liu2012two}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=2bd47769de061938bc26891a97c3744b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Qili},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f56045cb3b27465cc474c956947be650}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Sha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=376d00c0edca5beb4e805387f4807ba3}{%
+           family={Kodama},
+           familyi={K\bibinitperiod},
+           given={Lay},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8c9467205ad015610cf6e3e7b7e51b5}{%
+           family={Driscoll},
+           familyi={D\bibinitperiod},
+           given={Maria\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cddf0a8e3fe530ddec8d1d649e48af84}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Mark\bibnamedelima N},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{aa78220b8c336b69cb950f296dd7121c}
+      \strng{fullhash}{1ae2e2a3d9c86f0523285b23b64b9078}
+      \strng{fullhashraw}{1ae2e2a3d9c86f0523285b23b64b9078}
+      \strng{bibnamehash}{1ae2e2a3d9c86f0523285b23b64b9078}
+      \strng{authorbibnamehash}{1ae2e2a3d9c86f0523285b23b64b9078}
+      \strng{authornamehash}{aa78220b8c336b69cb950f296dd7121c}
+      \strng{authorfullhash}{1ae2e2a3d9c86f0523285b23b64b9078}
+      \strng{authorfullhashraw}{1ae2e2a3d9c86f0523285b23b64b9078}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Biology}
+      \field{number}{22}
+      \field{title}{Two dopaminergic neurons signal to the dorsal fan-shaped body to promote wakefulness in Drosophila}
+      \field{volume}{22}
+      \field{year}{2012}
+      \field{pages}{2114\bibrangedash 2123}
+      \range{pages}{10}
     \endentry
     \entry{lovick2013postembryonic}{article}{}{}
       \name{author}{6}{}{%
