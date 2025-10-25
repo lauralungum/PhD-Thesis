@@ -275,7 +275,7 @@
     \end{tabular}
     }
     \caption[The Neurons of \textit{Drosophila Larva Central Complex}] { \textbf{Central Complex Neurons of \textit{Drosophila} Larva.} All the classes of neurons found in each neuropil of the larval CX are shown.}
-    \label{tab:neuropil_connectivity}
+    \label{larvalneurons}
 \end{table}
 
     \subsection{Protocerebral Bridge}
@@ -306,7 +306,7 @@
     Three more larval lineages contribute HF-PB neurons: the BLAvm (neuron SLR), the BLAd-OL (neuron MB2ON-63), and the DPMm2 (neuron ADC1),  with one pair of neurons each. 
     MB2ON-63 presents a bilateral axon similar to the 4th pair of HF-PB (DALv1), and an ipsilateral dendrite that integrates inputs from multiple convergence neurons (CN-54, CN-9), MBONs (MBON-c1, MBON-d1), and sensory PNs (olfactory mPN B1, visual PVL09).
 
-    SLR presents a contralateral axon that spans both the FB and PB, and an ipsilateral dendrite that integrates inputs from MB2ON-63, CN-9, and the FB intrinsic neuron MB2ON-175 (see below), in addition to a long tail of weaker input from ascending neurons relaying information from the somatosensory system. This neuron was also proved to be dopaminergic (e-DAN6, see Section \ref{CXDANs}). 
+    SLR presents a contralateral axon that spans both the FB and PB, and an ipsilateral dendrite that integrates inputs from MB2ON-63, CN-9, and the FB intrinsic neuron MB2ON-175 (see below), in addition to a long tail of weaker input from ascending neurons relaying information from the somatosensory system. This neuron was also proved to be dopaminergic (eDAN-6, see Section \ref{CXDANs}). 
 
     ADC1 presents an ipsilateral dendrite projecting to the posterior brain and a bilateral axon circumscribed to the PB. These neurons integrate inputs from multiple sensory PNs (mPN B2, mPN 5 (also known as mPN BAmd1-g), mPN A1, and weakly from others), a convergence neuron (CN-35), MB2ON-94, and a few others weakly. Their axons target primarily HF-PB neurons (DALv1), but also convergence neurons  (CN-56, CN-15, CN-35).
  
@@ -776,10 +776,10 @@
         \item NO.d DPMI\_ant\_ven descending 3 triggers backward crawling
         \item BAmd descending modulates turning
         \item MB2IN-172 DPLc1 Descending triggers stopping behaviour
-        \item MB2ON-39 ipsigoro initiates forward crawling
+        \item MB2ON-39 ipsigoro initiates rolling 
     \end{itemize}
 
-    Since one of the tested DNs is NO.d (DPMI\_ant\_ven descending 3) and triggers backward crawling, while the other behaviourally-tested DNs (BAmd descending, MB2IN-172, MB2ON-39) are one layer downstream from CX, this suggests direct involvement of the NO in motor behaviour, specifically backward locomotion. This aligns with the NO being the primary output area of the larval CX. The presence of additional DNs in the first downstream layer indicates that the CX can also influence motor behaviour through indirect pathways, particularly for turning, stopping, and forward crawling behaviors.
+    Since one of the tested DNs is NO.d (DPMI\_ant\_ven descending 3) and triggers backward crawling, while the other behaviourally-tested DNs (BAmd descending, MB2IN-172, MB2ON-39) are one layer downstream from CX, this suggests direct involvement of the NO in motor behaviour, specifically backward locomotion. This aligns with the NO being the primary output area of the larval CX. The presence of additional DNs in the first downstream layer indicates that the CX can also influence motor behaviour through indirect pathways, particularly for turning, stopping, and rolling behaviors.
 
     Overall, the fact that neurons directly influencing specific motor outputs receive input from CX neuropils suggests that the larval CX, like its adult counterpart, is involved in action selection and motor control.
 
@@ -792,7 +792,7 @@
             Back & DN-VNC & \cellcolor{cxhl} NO.d DPMI\_ant\_ven descending 3 & \cellcolor{cxhl} SS04603 \\
             Turn angle & DN-VNC & \cellcolor{cxhl} BAmd descending & \cellcolor{cxhl} SS01652 \\
             Stop & DN-SEZ & \cellcolor{cxhl} MB2IN-172 DPLc1 Descending & \cellcolor{cxhl} SS38042 \\
-            Crawl & DN-VNC & \cellcolor{cxhl} MB2ON-39 ipsigoro & \cellcolor{cxhl} SS03731 \\
+            Rolling & DN-VNC & \cellcolor{cxhl} MB2ON-39 ipsigoro & \cellcolor{cxhl} SS03731 \\
             \bottomrule
         \end{tabular}
         \caption[Behaviour of CX Descending Neurons]{Descending neurons associated with specific behaviours and their split lines. Yellow cells highlight neuron and line pairs of interest.}
@@ -869,7 +869,7 @@
         \label{LOS}
     \end{figure}
 
-    I identified genetic driver lines for nine neurons of the larval central complex: EB-MB1, PB2, LAL-DN1, LAL wrap1, FB-NO1, EB-DN1, RN1/2, plus DAN-d1, which is an EB.d (i.e., integrates inputs from the EB). 
+    I identified genetic driver lines for nine neurons of the larval central complex: EB-MB1, HF-PB1\_2, LAL-DN1, LAL wrap1, FB-NO1, EB-DN1, RN1/2, plus DAN-d1, which is an EB.d (i.e., integrates inputs from the EB). 
     I quantified larval turning behaviour following targeted inhibition of each of these driver lines via Tetanus neurotoxin (TNT).
     Control animals expressed the inactive variant, Impotent Tetanus (ImpTNT).
     Given that the central complex is classically implicated in visually guided navigation, I used green light stimulation as the sensory stimuli.
@@ -888,7 +888,7 @@
     RN 1/2      & FBN-20, MB2IN-38 & SS04497 & EB.b  &             &  DALv23    \\ 
     EB-DN 1     & MB20N-75        & SS25740 &       & EB.d, LAL.d & DPMpm1 \\ 
     LAL-DN 1    &                 & SS27197 &       & EB.d            & DALd   \\ 
-    PB2         & PB horizontal fibres & SS36847 & PB.b      &             & Dalv1  \\ 
+    HF-PB1\_2         & PB horizontal fibres & SS36847 & PB.b      &             & Dalv1  \\ 
     DPMm1 Columnar         & DPMm1 ipsilateral descending &  SS55970 &       &             & DPMm1  \\ 
     \bottomrule
     \end{tabular}
@@ -906,6 +906,7 @@
 
 
 \section{Calcium Activity in response to Blue Light stimulation}
+\label{CaImaging}
 I monitored the activity across the entire larval brain in response to stimulation of Rh5 (blue sensitive) photoreceptors. Photoreceptors (the Bolwig Organ) are located outside of the Central Nervous System(CNS) of Drosophila. I thus expressed EGFP fluorescent tag in these neurons(Rh5s) to ensure they are present during dissection of the CNS and that they are preserved for mounting the sample in the glass capillary prior to Calcium Imaging. I created a final line that expresses green fluorescent RGECO (a calcium indicator of neural activity present cytosol) and red fluorescent IRFP (which brightens the cell nuclei very well and allows visualisation of cell position) and green fluorescent Rh5 photoreceptors. 
 
 Upon blue light stimulation, robust calcium transients in multiple regions of the larval brain were observed. Amongst the CX neuropils, I expected the neuropil with the most visual input (Protocerebral Bridge) to be reliably responsive to photoreceptor stimulation. To test this, the brain was segmented into distinct anatomical regions using manual annotation. Regions corresponding to the optic lobe (OL) - to confirm functional photoreceptors - the putative Protocerebral Bridge, and the MB - as a control -  were delineated (Fig. \ref{LSSegmentation}) based on anatomical landmarks and lineage tracing data. Fluorescence intensity changes $\Delta F/F_0$ were quantified for each region before, during and after blue light stimulation. 

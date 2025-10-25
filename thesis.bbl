@@ -504,6 +504,96 @@
       \field{pages}{6700\bibrangedash 6705}
       \range{pages}{6}
     \endentry
+    \entry{burgos2018nociceptive}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=6dc31d2589ca95ae0bbda6aedd1e781e}{%
+           family={Burgos},
+           familyi={B\bibinitperiod},
+           given={Anita},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d76d381bd6eb348876e74b586d32764}{%
+           family={Honjo},
+           familyi={H\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfad8ac9426a85a6c82d87c949ce1261}{%
+           family={Ohyama},
+           familyi={O\bibinitperiod},
+           given={Tomoko},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=780aae23f7f447b3798dd4ac59511ae4}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Cheng\bibnamedelima Sam},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d43e67d2931a7096a36e415eaaae5bef}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={Grace\bibnamedelima Ji-eun},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinithyphendelim e\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6dd4f246b58b7d961094ce0f54bdd49a}{%
+           family={Gohl},
+           familyi={G\bibinitperiod},
+           given={Daryl\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddd9dae990952185e8e53cdcb959fb7a}{%
+           family={Silies},
+           familyi={S\bibinitperiod},
+           given={Marion},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68bbf01bdd56fde06252d1475d1622fa}{%
+           family={Tracey},
+           familyi={T\bibinitperiod},
+           given={W\bibnamedelima Daniel},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54ef774522747de83e9fa543d2756cbc}{%
+           family={Zlatic},
+           familyi={Z\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=704fa1d6130928d88680f2323fd9ff84}{%
+           family={Cardona},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {eLife Sciences Publications, Ltd}%
+      }
+      \strng{namehash}{ed16eab1a3c6db3d8e45964fbbbf3040}
+      \strng{fullhash}{b6180705c1dd26d967468e4c69b501d7}
+      \strng{fullhashraw}{b6180705c1dd26d967468e4c69b501d7}
+      \strng{bibnamehash}{b6180705c1dd26d967468e4c69b501d7}
+      \strng{authorbibnamehash}{b6180705c1dd26d967468e4c69b501d7}
+      \strng{authornamehash}{ed16eab1a3c6db3d8e45964fbbbf3040}
+      \strng{authorfullhash}{b6180705c1dd26d967468e4c69b501d7}
+      \strng{authorfullhashraw}{b6180705c1dd26d967468e4c69b501d7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Elife}
+      \field{title}{Nociceptive interneurons control modular motor pathways to promote escape behavior in Drosophila}
+      \field{volume}{7}
+      \field{year}{2018}
+      \field{pages}{e26016}
+      \range{pages}{-1}
+    \endentry
     \entry{carreira2018mdn}{article}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=faff9cf1a5923b616e1ab2fa312d10bc}{%
@@ -2469,6 +2559,63 @@
       \field{year}{1989}
       \field{pages}{2412\bibrangedash 2422}
       \range{pages}{11}
+    \endentry
+    \entry{jones2025descending}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=d9892862c0c6d471ef4b79004cc41f9d}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Benjamin\bibnamedelima MW},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c66927eaac42e015113a9aefbf0095b8}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Samuel\bibnamedelima N},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d1c3295e2c339fe475e4dd86f78dfc5}{%
+           family={Ceffa},
+           familyi={C\bibinitperiod},
+           given={Nicolo\bibnamedelima G},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=704fa1d6130928d88680f2323fd9ff84}{%
+           family={Cardona},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54ef774522747de83e9fa543d2756cbc}{%
+           family={Zlatic},
+           familyi={Z\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cold Spring Harbor Laboratory}%
+      }
+      \strng{namehash}{e46569fec10a7031a1857a6a1383edfe}
+      \strng{fullhash}{5be9169f65bb3fe29608b4067e72fff7}
+      \strng{fullhashraw}{5be9169f65bb3fe29608b4067e72fff7}
+      \strng{bibnamehash}{5be9169f65bb3fe29608b4067e72fff7}
+      \strng{authorbibnamehash}{5be9169f65bb3fe29608b4067e72fff7}
+      \strng{authornamehash}{e46569fec10a7031a1857a6a1383edfe}
+      \strng{authorfullhash}{5be9169f65bb3fe29608b4067e72fff7}
+      \strng{authorfullhashraw}{5be9169f65bb3fe29608b4067e72fff7}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{bioRxiv}
+      \field{title}{Descending neurons integrate learnt information from mushroom body with context to promote escape behaviour}
+      \field{year}{2025}
+      \field{pages}{2025\bibrangedash 09}
+      \range{pages}{5}
     \endentry
     \entry{kahsai2011neuromodulators}{article}{}{}
       \name{author}{2}{}{%
@@ -4571,6 +4718,95 @@
       \field{title}{Embryonic origin of olfactory circuitry in Drosophila: contact and activity-mediated interactions pattern connectivity in the antennal lobe}
       \field{year}{2012}
     \endentry
+    \entry{randel2025combining}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=6c9be9b5d612bffdc6eba5985ff59e6f}{%
+           family={Randel},
+           familyi={R\bibinitperiod},
+           given={Nadine},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=147b8560865739e558b0631402b38ee6}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=abaae61560175f43e45b4e2a23b43dd9}{%
+           family={Clayton},
+           familyi={C\bibinitperiod},
+           given={Micheal\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=e792ce49deb975512f7f60a7a75cfa66}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Kun},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=ef96a8c46a21e1dc62dcfdc0130654bb}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Song},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=01e34d03f4f17f3299db7986719ffca9}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Shan\bibnamedelima C},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=f951f27d3fa1ec9bf321ad6f98954b81}{%
+           family={Champion},
+           familyi={C\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a9f7b887133c20f3fac101431d4de44}{%
+           family={Hess},
+           familyi={H\bibinitperiod},
+           given={Harald\bibnamedelima F},
+           giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=704fa1d6130928d88680f2323fd9ff84}{%
+           family={Cardona},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b80cb4d7af40a9840cc6129cf0bf83f}{%
+           family={Keller},
+           familyi={K\bibinitperiod},
+           given={Philipp\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cold Spring Harbor Laboratory}%
+      }
+      \strng{namehash}{a01795eca0788319be4ee5d0751b2348}
+      \strng{fullhash}{3181dc09b191c3c245d646a13a3d32f5}
+      \strng{fullhashraw}{3181dc09b191c3c245d646a13a3d32f5}
+      \strng{bibnamehash}{3181dc09b191c3c245d646a13a3d32f5}
+      \strng{authorbibnamehash}{3181dc09b191c3c245d646a13a3d32f5}
+      \strng{authornamehash}{a01795eca0788319be4ee5d0751b2348}
+      \strng{authorfullhash}{3181dc09b191c3c245d646a13a3d32f5}
+      \strng{authorfullhashraw}{3181dc09b191c3c245d646a13a3d32f5}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{bioRxiv}
+      \field{title}{Combining brainwide activity imaging and electron microscopy reveals novel nociceptive circuits}
+      \field{year}{2025}
+      \field{pages}{2025\bibrangedash 09}
+      \range{pages}{5}
+    \endentry
     \entry{saalfeld2009catmaid}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=e3100f88cc060bd3d2cc5fc5d24ea490}{%
@@ -4681,12 +4917,12 @@
            given={Louis\bibnamedelima K},
            giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=e7620740612b992954f6827731d72526}{%
+        {{un=1,uniquepart=given,hash=e7620740612b992954f6827731d72526}{%
            family={Xu},
            familyi={X\bibinitperiod},
            given={C\bibnamedelima Shan},
            giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=61c229bc7f02786310a41ea02eb51aec}{%
            family={Januszewski},
            familyi={J\bibinitperiod},
@@ -6577,6 +6813,96 @@
       \field{pages}{6700\bibrangedash 6705}
       \range{pages}{6}
     \endentry
+    \entry{burgos2018nociceptive}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=6dc31d2589ca95ae0bbda6aedd1e781e}{%
+           family={Burgos},
+           familyi={B\bibinitperiod},
+           given={Anita},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d76d381bd6eb348876e74b586d32764}{%
+           family={Honjo},
+           familyi={H\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfad8ac9426a85a6c82d87c949ce1261}{%
+           family={Ohyama},
+           familyi={O\bibinitperiod},
+           given={Tomoko},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=780aae23f7f447b3798dd4ac59511ae4}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Cheng\bibnamedelima Sam},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d43e67d2931a7096a36e415eaaae5bef}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={Grace\bibnamedelima Ji-eun},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinithyphendelim e\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6dd4f246b58b7d961094ce0f54bdd49a}{%
+           family={Gohl},
+           familyi={G\bibinitperiod},
+           given={Daryl\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddd9dae990952185e8e53cdcb959fb7a}{%
+           family={Silies},
+           familyi={S\bibinitperiod},
+           given={Marion},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68bbf01bdd56fde06252d1475d1622fa}{%
+           family={Tracey},
+           familyi={T\bibinitperiod},
+           given={W\bibnamedelima Daniel},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54ef774522747de83e9fa543d2756cbc}{%
+           family={Zlatic},
+           familyi={Z\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=704fa1d6130928d88680f2323fd9ff84}{%
+           family={Cardona},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {eLife Sciences Publications, Ltd}%
+      }
+      \strng{namehash}{ed16eab1a3c6db3d8e45964fbbbf3040}
+      \strng{fullhash}{b6180705c1dd26d967468e4c69b501d7}
+      \strng{fullhashraw}{b6180705c1dd26d967468e4c69b501d7}
+      \strng{bibnamehash}{b6180705c1dd26d967468e4c69b501d7}
+      \strng{authorbibnamehash}{b6180705c1dd26d967468e4c69b501d7}
+      \strng{authornamehash}{ed16eab1a3c6db3d8e45964fbbbf3040}
+      \strng{authorfullhash}{b6180705c1dd26d967468e4c69b501d7}
+      \strng{authorfullhashraw}{b6180705c1dd26d967468e4c69b501d7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Elife}
+      \field{title}{Nociceptive interneurons control modular motor pathways to promote escape behavior in Drosophila}
+      \field{volume}{7}
+      \field{year}{2018}
+      \field{pages}{e26016}
+      \range{pages}{-1}
+    \endentry
     \entry{carreira2018mdn}{article}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=faff9cf1a5923b616e1ab2fa312d10bc}{%
@@ -8542,6 +8868,63 @@
       \field{year}{1989}
       \field{pages}{2412\bibrangedash 2422}
       \range{pages}{11}
+    \endentry
+    \entry{jones2025descending}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=d9892862c0c6d471ef4b79004cc41f9d}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Benjamin\bibnamedelima MW},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c66927eaac42e015113a9aefbf0095b8}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Samuel\bibnamedelima N},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d1c3295e2c339fe475e4dd86f78dfc5}{%
+           family={Ceffa},
+           familyi={C\bibinitperiod},
+           given={Nicolo\bibnamedelima G},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=704fa1d6130928d88680f2323fd9ff84}{%
+           family={Cardona},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54ef774522747de83e9fa543d2756cbc}{%
+           family={Zlatic},
+           familyi={Z\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cold Spring Harbor Laboratory}%
+      }
+      \strng{namehash}{e46569fec10a7031a1857a6a1383edfe}
+      \strng{fullhash}{5be9169f65bb3fe29608b4067e72fff7}
+      \strng{fullhashraw}{5be9169f65bb3fe29608b4067e72fff7}
+      \strng{bibnamehash}{5be9169f65bb3fe29608b4067e72fff7}
+      \strng{authorbibnamehash}{5be9169f65bb3fe29608b4067e72fff7}
+      \strng{authornamehash}{e46569fec10a7031a1857a6a1383edfe}
+      \strng{authorfullhash}{5be9169f65bb3fe29608b4067e72fff7}
+      \strng{authorfullhashraw}{5be9169f65bb3fe29608b4067e72fff7}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{bioRxiv}
+      \field{title}{Descending neurons integrate learnt information from mushroom body with context to promote escape behaviour}
+      \field{year}{2025}
+      \field{pages}{2025\bibrangedash 09}
+      \range{pages}{5}
     \endentry
     \entry{kahsai2012distribution}{article}{}{}
       \name{author}{4}{}{%
@@ -10644,6 +11027,95 @@
       \field{title}{Embryonic origin of olfactory circuitry in Drosophila: contact and activity-mediated interactions pattern connectivity in the antennal lobe}
       \field{year}{2012}
     \endentry
+    \entry{randel2025combining}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=6c9be9b5d612bffdc6eba5985ff59e6f}{%
+           family={Randel},
+           familyi={R\bibinitperiod},
+           given={Nadine},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=147b8560865739e558b0631402b38ee6}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=abaae61560175f43e45b4e2a23b43dd9}{%
+           family={Clayton},
+           familyi={C\bibinitperiod},
+           given={Micheal\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=e792ce49deb975512f7f60a7a75cfa66}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Kun},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=ef96a8c46a21e1dc62dcfdc0130654bb}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Song},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=01e34d03f4f17f3299db7986719ffca9}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Shan\bibnamedelima C},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=f951f27d3fa1ec9bf321ad6f98954b81}{%
+           family={Champion},
+           familyi={C\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a9f7b887133c20f3fac101431d4de44}{%
+           family={Hess},
+           familyi={H\bibinitperiod},
+           given={Harald\bibnamedelima F},
+           giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=704fa1d6130928d88680f2323fd9ff84}{%
+           family={Cardona},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b80cb4d7af40a9840cc6129cf0bf83f}{%
+           family={Keller},
+           familyi={K\bibinitperiod},
+           given={Philipp\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cold Spring Harbor Laboratory}%
+      }
+      \strng{namehash}{a01795eca0788319be4ee5d0751b2348}
+      \strng{fullhash}{3181dc09b191c3c245d646a13a3d32f5}
+      \strng{fullhashraw}{3181dc09b191c3c245d646a13a3d32f5}
+      \strng{bibnamehash}{3181dc09b191c3c245d646a13a3d32f5}
+      \strng{authorbibnamehash}{3181dc09b191c3c245d646a13a3d32f5}
+      \strng{authornamehash}{a01795eca0788319be4ee5d0751b2348}
+      \strng{authorfullhash}{3181dc09b191c3c245d646a13a3d32f5}
+      \strng{authorfullhashraw}{3181dc09b191c3c245d646a13a3d32f5}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{bioRxiv}
+      \field{title}{Combining brainwide activity imaging and electron microscopy reveals novel nociceptive circuits}
+      \field{year}{2025}
+      \field{pages}{2025\bibrangedash 09}
+      \range{pages}{5}
+    \endentry
     \entry{saalfeld2009catmaid}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=e3100f88cc060bd3d2cc5fc5d24ea490}{%
@@ -10754,12 +11226,12 @@
            given={Louis\bibnamedelima K},
            giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=e7620740612b992954f6827731d72526}{%
+        {{un=1,uniquepart=given,hash=e7620740612b992954f6827731d72526}{%
            family={Xu},
            familyi={X\bibinitperiod},
            given={C\bibnamedelima Shan},
            giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=61c229bc7f02786310a41ea02eb51aec}{%
            family={Januszewski},
            familyi={J\bibinitperiod},
