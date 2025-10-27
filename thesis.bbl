@@ -2519,6 +2519,41 @@
       \field{pages}{1260}
       \range{pages}{1}
     \endentry
+    \entry{hunter2007matplotlib}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a2f53dcc6bb05a06b8ad94176f80fe26}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{fullhash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{fullhashraw}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{bibnamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authorbibnamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authornamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authorfullhash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authorfullhashraw}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computing in science \& engineering}
+      \field{number}{03}
+      \field{title}{Matplotlib: A 2D graphics environment}
+      \field{volume}{9}
+      \field{year}{2007}
+      \field{pages}{90\bibrangedash 95}
+      \range{pages}{6}
+    \endentry
     \entry{jacobs1989pCC}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a28b0ebf624d94aad0ce128a2fbadbd8}{%
@@ -3875,6 +3910,43 @@
       \field{year}{2014}
       \field{pages}{e04205}
       \range{pages}{-1}
+    \endentry
+    \entry{mckinney2011pandas}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=27ca77940a5e8c07c5d89d0f3fb11d75}{%
+           family={McKinney},
+           familyi={M\bibinitperiod},
+           given={Wes},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Dallas, TX}%
+      }
+      \strng{namehash}{84ea0b50b84c6b830a2c688f901f7d1a}
+      \strng{fullhash}{84ea0b50b84c6b830a2c688f901f7d1a}
+      \strng{fullhashraw}{84ea0b50b84c6b830a2c688f901f7d1a}
+      \strng{bibnamehash}{84ea0b50b84c6b830a2c688f901f7d1a}
+      \strng{authorbibnamehash}{84ea0b50b84c6b830a2c688f901f7d1a}
+      \strng{authornamehash}{84ea0b50b84c6b830a2c688f901f7d1a}
+      \strng{authorfullhash}{84ea0b50b84c6b830a2c688f901f7d1a}
+      \strng{authorfullhashraw}{84ea0b50b84c6b830a2c688f901f7d1a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Python for high performance and scientific computing}
+      \field{number}{9}
+      \field{title}{pandas: a foundational Python library for data analysis and statistics}
+      \field{volume}{14}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
     \endentry
     \entry{mckinstry2013connectome}{article}{}{}
       \name{author}{2}{}{%
@@ -5991,6 +6063,59 @@
       \field{pages}{e33220}
       \range{pages}{-1}
     \endentry
+    \entry{tomer2012quantitative}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=b7d30545b520d98b09cd0b2171fc8e2c}{%
+           family={Tomer},
+           familyi={T\bibinitperiod},
+           given={Raju},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52b01e7706038b7535af8128cc920b63}{%
+           family={Khairy},
+           familyi={K\bibinitperiod},
+           given={Khaled},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0369a88111ff3efd622ecd4ed1581c33}{%
+           family={Amat},
+           familyi={A\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b80cb4d7af40a9840cc6129cf0bf83f}{%
+           family={Keller},
+           familyi={K\bibinitperiod},
+           given={Philipp\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group US New York}%
+      }
+      \strng{namehash}{e1eec1fe96dafadfe36d9e2684d0f574}
+      \strng{fullhash}{c3220e4e829f4480dbfd103d7fbdc3fa}
+      \strng{fullhashraw}{c3220e4e829f4480dbfd103d7fbdc3fa}
+      \strng{bibnamehash}{c3220e4e829f4480dbfd103d7fbdc3fa}
+      \strng{authorbibnamehash}{c3220e4e829f4480dbfd103d7fbdc3fa}
+      \strng{authornamehash}{e1eec1fe96dafadfe36d9e2684d0f574}
+      \strng{authorfullhash}{c3220e4e829f4480dbfd103d7fbdc3fa}
+      \strng{authorfullhashraw}{c3220e4e829f4480dbfd103d7fbdc3fa}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature methods}
+      \field{number}{7}
+      \field{title}{Quantitative high-speed imaging of entire developing embryos with simultaneous multiview light-sheet microscopy}
+      \field{volume}{9}
+      \field{year}{2012}
+      \field{pages}{755\bibrangedash 763}
+      \range{pages}{9}
+    \endentry
     \entry{tomita2021DAN_PB}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=f38438980bd210926db7cbaee18eed5a}{%
@@ -6220,6 +6345,39 @@
       \field{pages}{R453\bibrangedash R457}
       \range{pages}{-1}
     \endentry
+    \entry{unpingco2021numpy}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=508b17db50caf6c81885800f359436a6}{%
+           family={Unpingco},
+           familyi={U\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{508b17db50caf6c81885800f359436a6}
+      \strng{fullhash}{508b17db50caf6c81885800f359436a6}
+      \strng{fullhashraw}{508b17db50caf6c81885800f359436a6}
+      \strng{bibnamehash}{508b17db50caf6c81885800f359436a6}
+      \strng{authorbibnamehash}{508b17db50caf6c81885800f359436a6}
+      \strng{authornamehash}{508b17db50caf6c81885800f359436a6}
+      \strng{authorfullhash}{508b17db50caf6c81885800f359436a6}
+      \strng{authorfullhashraw}{508b17db50caf6c81885800f359436a6}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Python programming for data analysis}
+      \field{title}{Numpy}
+      \field{year}{2021}
+      \field{pages}{103\bibrangedash 126}
+      \range{pages}{24}
+    \endentry
     \entry{vogelstein2014discovery}{article}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=863e81711362b73909705ca198fc742e}{%
@@ -6379,6 +6537,38 @@
       \field{year}{2021}
       \field{pages}{eabd6900}
       \range{pages}{-1}
+    \endentry
+    \entry{waskom2021seaborn}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0c809239417dcb9aef9b906eff53933d}{%
+           family={Waskom},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima L},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c809239417dcb9aef9b906eff53933d}
+      \strng{fullhash}{0c809239417dcb9aef9b906eff53933d}
+      \strng{fullhashraw}{0c809239417dcb9aef9b906eff53933d}
+      \strng{bibnamehash}{0c809239417dcb9aef9b906eff53933d}
+      \strng{authorbibnamehash}{0c809239417dcb9aef9b906eff53933d}
+      \strng{authornamehash}{0c809239417dcb9aef9b906eff53933d}
+      \strng{authorfullhash}{0c809239417dcb9aef9b906eff53933d}
+      \strng{authorfullhashraw}{0c809239417dcb9aef9b906eff53933d}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of open source software}
+      \field{number}{60}
+      \field{title}{Seaborn: statistical data visualization}
+      \field{volume}{6}
+      \field{year}{2021}
+      \field{pages}{3021}
+      \range{pages}{1}
     \endentry
     \entry{winding2023connectome}{article}{}{}
       \true{moreauthor}
@@ -9223,6 +9413,41 @@
       \field{pages}{1260}
       \range{pages}{1}
     \endentry
+    \entry{hunter2007matplotlib}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a2f53dcc6bb05a06b8ad94176f80fe26}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{fullhash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{fullhashraw}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{bibnamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authorbibnamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authornamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authorfullhash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authorfullhashraw}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computing in science \& engineering}
+      \field{number}{03}
+      \field{title}{Matplotlib: A 2D graphics environment}
+      \field{volume}{9}
+      \field{year}{2007}
+      \field{pages}{90\bibrangedash 95}
+      \range{pages}{6}
+    \endentry
     \entry{jacobs1989pCC}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a28b0ebf624d94aad0ce128a2fbadbd8}{%
@@ -10579,6 +10804,43 @@
       \field{year}{2014}
       \field{pages}{e04205}
       \range{pages}{-1}
+    \endentry
+    \entry{mckinney2011pandas}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=27ca77940a5e8c07c5d89d0f3fb11d75}{%
+           family={McKinney},
+           familyi={M\bibinitperiod},
+           given={Wes},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Dallas, TX}%
+      }
+      \strng{namehash}{84ea0b50b84c6b830a2c688f901f7d1a}
+      \strng{fullhash}{84ea0b50b84c6b830a2c688f901f7d1a}
+      \strng{fullhashraw}{84ea0b50b84c6b830a2c688f901f7d1a}
+      \strng{bibnamehash}{84ea0b50b84c6b830a2c688f901f7d1a}
+      \strng{authorbibnamehash}{84ea0b50b84c6b830a2c688f901f7d1a}
+      \strng{authornamehash}{84ea0b50b84c6b830a2c688f901f7d1a}
+      \strng{authorfullhash}{84ea0b50b84c6b830a2c688f901f7d1a}
+      \strng{authorfullhashraw}{84ea0b50b84c6b830a2c688f901f7d1a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Python for high performance and scientific computing}
+      \field{number}{9}
+      \field{title}{pandas: a foundational Python library for data analysis and statistics}
+      \field{volume}{14}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
     \endentry
     \entry{mckinstry2013connectome}{article}{}{}
       \name{author}{2}{}{%
@@ -12695,6 +12957,59 @@
       \field{pages}{e33220}
       \range{pages}{-1}
     \endentry
+    \entry{tomer2012quantitative}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=b7d30545b520d98b09cd0b2171fc8e2c}{%
+           family={Tomer},
+           familyi={T\bibinitperiod},
+           given={Raju},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52b01e7706038b7535af8128cc920b63}{%
+           family={Khairy},
+           familyi={K\bibinitperiod},
+           given={Khaled},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0369a88111ff3efd622ecd4ed1581c33}{%
+           family={Amat},
+           familyi={A\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b80cb4d7af40a9840cc6129cf0bf83f}{%
+           family={Keller},
+           familyi={K\bibinitperiod},
+           given={Philipp\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group US New York}%
+      }
+      \strng{namehash}{e1eec1fe96dafadfe36d9e2684d0f574}
+      \strng{fullhash}{c3220e4e829f4480dbfd103d7fbdc3fa}
+      \strng{fullhashraw}{c3220e4e829f4480dbfd103d7fbdc3fa}
+      \strng{bibnamehash}{c3220e4e829f4480dbfd103d7fbdc3fa}
+      \strng{authorbibnamehash}{c3220e4e829f4480dbfd103d7fbdc3fa}
+      \strng{authornamehash}{e1eec1fe96dafadfe36d9e2684d0f574}
+      \strng{authorfullhash}{c3220e4e829f4480dbfd103d7fbdc3fa}
+      \strng{authorfullhashraw}{c3220e4e829f4480dbfd103d7fbdc3fa}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature methods}
+      \field{number}{7}
+      \field{title}{Quantitative high-speed imaging of entire developing embryos with simultaneous multiview light-sheet microscopy}
+      \field{volume}{9}
+      \field{year}{2012}
+      \field{pages}{755\bibrangedash 763}
+      \range{pages}{9}
+    \endentry
     \entry{tomita2021DAN_PB}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=f38438980bd210926db7cbaee18eed5a}{%
@@ -12924,6 +13239,39 @@
       \field{pages}{R453\bibrangedash R457}
       \range{pages}{-1}
     \endentry
+    \entry{unpingco2021numpy}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=508b17db50caf6c81885800f359436a6}{%
+           family={Unpingco},
+           familyi={U\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{508b17db50caf6c81885800f359436a6}
+      \strng{fullhash}{508b17db50caf6c81885800f359436a6}
+      \strng{fullhashraw}{508b17db50caf6c81885800f359436a6}
+      \strng{bibnamehash}{508b17db50caf6c81885800f359436a6}
+      \strng{authorbibnamehash}{508b17db50caf6c81885800f359436a6}
+      \strng{authornamehash}{508b17db50caf6c81885800f359436a6}
+      \strng{authorfullhash}{508b17db50caf6c81885800f359436a6}
+      \strng{authorfullhashraw}{508b17db50caf6c81885800f359436a6}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Python programming for data analysis}
+      \field{title}{Numpy}
+      \field{year}{2021}
+      \field{pages}{103\bibrangedash 126}
+      \range{pages}{24}
+    \endentry
     \entry{vogelstein2014discovery}{article}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=863e81711362b73909705ca198fc742e}{%
@@ -13083,6 +13431,38 @@
       \field{year}{2021}
       \field{pages}{eabd6900}
       \range{pages}{-1}
+    \endentry
+    \entry{waskom2021seaborn}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0c809239417dcb9aef9b906eff53933d}{%
+           family={Waskom},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima L},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c809239417dcb9aef9b906eff53933d}
+      \strng{fullhash}{0c809239417dcb9aef9b906eff53933d}
+      \strng{fullhashraw}{0c809239417dcb9aef9b906eff53933d}
+      \strng{bibnamehash}{0c809239417dcb9aef9b906eff53933d}
+      \strng{authorbibnamehash}{0c809239417dcb9aef9b906eff53933d}
+      \strng{authornamehash}{0c809239417dcb9aef9b906eff53933d}
+      \strng{authorfullhash}{0c809239417dcb9aef9b906eff53933d}
+      \strng{authorfullhashraw}{0c809239417dcb9aef9b906eff53933d}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of open source software}
+      \field{number}{60}
+      \field{title}{Seaborn: statistical data visualization}
+      \field{volume}{6}
+      \field{year}{2021}
+      \field{pages}{3021}
+      \range{pages}{1}
     \endentry
     \entry{winding2023connectome}{article}{}{}
       \true{moreauthor}

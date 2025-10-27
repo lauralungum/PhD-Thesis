@@ -110,41 +110,43 @@ Neurons that are both .b and .d for CX neuropils were annotated as Core CX neuro
     For light-stimulation experiments, approximately 30 larvae were assayed per run. Green light was presented for 20~s, and the proportion of larvae turning was monitored before, during, and after stimulation. Six runs were performed for each line.
 
     \subsection{Behavioural Quantification}
-    Larvae were tracked in real-time using the MWT software \citep{Swierczek2011MWT}.  Objects that were tracked for less than 5 seconds or moved less than one larval body length were rejected. For each larva, MWT returns a contour, spine and center of mass as a function of time. From the MWT tracking data we computed the key parameters of larval motion, using Choreography software \citep{Swierczek2011MWT} with variables as in \citep{Ohyama2013PlosONE}. From the tracking data, we quantified crawling and rolling events and the speed of peristaltic crawling strides. %this is wrong? we onlt checked turning 
-
-    %Larvae were tracked in real-time using the MWT software. We rejected 
+    Larvae were tracked in real-time using the MWT software \citep{Swierczek2011MWT}.  Objects that were tracked for less than 5 seconds or moved less than one larval body length were rejected. For each larva, MWT returns a contour, spine and center of mass as a function of time. From the MWT tracking data we computed the key parameters of larval motion, using Choreography software \citep{Swierczek2011MWT} with variables as in \citep{Ohyama2013PlosONE}. From the tracking data, we quantified crawling and rolling events and the speed of peristaltic crawling strides. %this is wrong? we only checked turning 
 
     \subsection{Behavioural Data Analysis}
     The data was generated using the LarvaTagger software \citep{laurent2024larvatagger}, via automatic tagging of individual behaviours. 
 
     LarvaTagger employs a self-supervised autoencoder pre-trained on extensive behavioural datasets from Janelia Research Campus \citep{jovanic2016competitive, masson2020identifying, vogelstein2014discovery}, mapping short behavioural sequences into a low-dimensional latent representation.
-
-    Data were further processed and visualised using \texit{pandas} \citep{mckinney2011pandas}, \texit{matplotlib} \citep{Hunter2007}, and \texit{seaborn} \citep{Waskom2021} in Python.
-
+    Data were further processed and visualised using \textit{pandas} \citep{mckinney2011pandas}, \textit{matplotlib} \citep{hunter2007matplotlib}, and \textit{seaborn} \citep{waskom2021seaborn} in Python.
     For each animal, turning rate was quantified across three epochs: 20~s before stimulation (baseline), 20~s during green-light stimulation, and 40~s after stimulation (post-stimulus). Turning rates were compared between larvae expressing tetanus toxin (TNT) in the targeted neuron and their control counterparts expressing the inactive form (impTNT). Roll events occurred sporadically across epochs and were not separately analysed.
-
-
 
 \section{Ca\texorpdfstring{$^{2+}$}{2+}Imaging with Light Sheet Microscopy}
     \subsection{Fly strains} %RH5 
+    The following lines were crossed:
+    \geno{w; If/CyO; 57C10-GAL4 in attP2; 20XUAS-IVS-NES-jRGECO1a-p10 in VK00005/TM6B(3)} and \geno{w; 20XUAS-H2B::miRFP703-sv40 attP40; TM6B/MKRS}. The desired progeny (\geno{w; UAS-H2B::miRFP703; 57C10-GAL4, 20XUAS-IVS-NES-jRGECO1a/TM6B}) carried the pan-neuronal driver 57C10-GAL4, the calcium indicator UAS-jRGECO1a, and the nuclear fluorescent marker UAS-H2B::miRFP703. This combination enabled the visualization of calcium activity across the entire larval brain while enhancing the visibility of cell nuclei, thereby facilitating the identification of cellular positions and overall brain structure during imaging.
+
+    This line was subsequently crossed with \geno{y[1] w[*]; P{w[+mC]=Rh5-EGFP.P}2/CyO; MKRS/TM2} to fluorescently label Rh5 photoreceptors. The inclusion of Rh5-EGFP allowed the photoreceptors, which are located outside the larval brain, to be visualized during dissection. Because these structures are highly susceptible to mechanical damage, ensuring their visibility was essential for confirming their presence and integrity. The final progeny used for imaging experiments was \geno{w; UAS-H2B::miRFP703 / Rh5-EGFP; 57C10-GAL4, UAS-jRGECO1a/ MKRS}.
+
 
     \subsection{Sample Preparation}
     Fly larvae were raised on standard cornmeal-based food.
-    Second instar larvae were selected for live imaging.Individual larvae were dissected in physiological saline.
+    For live imaging, second instar larvae were isolated and dissected in physiological saline. Each larva was pinned with the dorsal side up in a Sylgard-lined Petri dish, and the head was cut at approximately two-thirds of the body length using micro-scissors. The body wall was pinned and its internal organs were removed, and the CNS was carefully dissected free while preserving the fluorescently labelled Rh5 photoreceptors.
 
-    %After being pinned dorsal side up in Sylgard-lined Petri dishes, a dorsal incision was made along the larval body with fine scissors. The body wall was pinned flat and internal organs were removed. The isolated Drosophila CNS was then dissected away, preserving the Rh5 photoreceptors which expressed fluorescence.  Only CNS samples that expressed irfp were selected.%TO DO edit + double check with nicolo how that is done 
-    %The samples were then embedded in 1\% low-melting temperature agarose in physiological saline at 36\,\textdegree C. The agarose containing the CNS was drawn into a glass capillary with 1.4\,mm inner diameter and 2.0\,mm outer diameter, where the agarose quickly cooled to room temperature, forming a soft gel. The agarose cylinder was extruded from the capillary so that the CNS was optically accessible outside of the glass. %TO DO edit
+    The samples were then embedded in 1\% low-melting-point agarose dissolved in physiological saline at 36\degree C. The agarose-embedded CNS was aspirated into a glass capillary (1.4\,mm inner diameter, 2.0\,mm outer diameter), where it rapidly cooled to room temperature and solidified into a soft gel. The agarose cylinder was subsequently extruded from the capillary, rendering the CNS optically accessible for imaging.
 
 
     \subsection{LSM and Functional Imaging}
-    The SiMView software was used to locate the brain. There are 2 views, one from the back and from the front. The view was set to an angle that is as flat and central as possible. Imaging is with green (561nm) exciting jRGECO(present in the cytosol) which is the Ca reporter expressed pan neuronally, and with red is the IRFP(expressed in the nuclei) brightens the cell nuclei very well which allows you to see the cell position. 
+    Imaging was performed on a dual‑view SiMView light‑sheet microscope at 2.87 Hz with a voxel sampling of 0.406 × 0.406 × 1.7 µm. The SiMView software was used to localize and center the brain, and the two opposing views (anterior/posterior) were oriented to be as flat and central as possible relative to the detection axes.
+    Cytosolic jRGECO1a was excited at 561 nm to report calcium dynamics, while nuclear H2B::miRFP703 was excited at 690 nm to visualize cell positions. Rh5 photoreceptors were stimulated with 488 nm light introduced via a dichroic beam splitter \citep{randel2025combining}. The two views were temporally interleaved during acquisition and subsequently registered, deconvolved, and fused using a custom pipeline following established multi‑view procedures \citep{lemon2015whole, tomer2012quantitative}.
+
+    \paragraph{Visual stimulation protocol}
+    Rh5 photoreceptors were driven with 488\,nm blue light delivered as 5\,s pulses. Each recording began with a 20\,s baseline, followed by repeated 5\,s ON epochs separated by 60\,s dark intervals (3 repetitions per animal). Across runs, the 488\,nm excitation power was \emph{titrated} in ascending blocks (e.g., 0.02–0.10\% in L\_1\_1, 0.12–0.20\% in L\_1\_2, 0.06–0.14\% in L\_5\_1), and separate runs tested 1\,s vs 30\,s stimuli at 0.10\% power (L\_1\_3, L\_5\_2). 
+
     
     \subsection{Data Analysis}
-     Calcium imaging data were analysed in Python using custom scripts developed in Jupyter Notebook. Fluorescence traces were extracted from defined neuropil regions of interest (ROIs) corresponding to the mushroom body (MB), optic lobe (OL), and protocerebral bridge (PB) in both hemispheres. For each experimental run, stimulus onset and offset times were retrieved from the associated metadata, and the duration of each light pulse was verified to match the 5\,s ON / 60\,s dark stimulation protocol. The temporal resolution of imaging (\emph{seconds per volume}) was estimated by comparing the number of acquired volumes during ON and dark intervals.
 
-      For each stimulation event, peri-stimulus windows were constructed including ten volumes preceding and thirty volumes following stimulus onset. A baseline fluorescence value ($F_0$) was computed per ROI from the pre-stimulus window, and normalized activity changes were expressed as $\Delta F / F_0 = (F - F_0)/F_0$. Trials were aligned to stimulus onset, and responses were averaged across repeated stimulations to obtain mean $\Delta F / F_0$ traces with corresponding standard error of the mean (SEM). These traces were plotted for each ROI, with shaded regions indicating the 5\,s light ON period. Data visualization and export were performed using \texttt{matplotlib}, and results were saved as scalable vector graphics (SVG) for inclusion in figures.
+    Calcium imaging data were analysed in Python using custom scripts developed in Jupyter Notebook. Fluorescence traces were extracted from defined neuropil regions of interest (ROIs) corresponding to the mushroom body (MB), optic lobe (OL), and protocerebral bridge (PB) in both hemispheres. Stimulus timing was read from the per-run metadata as frame indices for light \emph{ON} (\texttt{onTimes}; 5\,s) and \emph{OFF} (\texttt{offTimes}; 60\,s). The temporal resolution of imaging (\emph{seconds per volume}) was estimated by comparing the number of acquired volumes during ON and dark intervals.
 
+    For each stimulation event (“pulse”),  window of interest comprised the \textbf{10\,s} immediately preceding ON time and the subsequent \textbf{40\,s} after. A baseline fluorescence $F_{0}$ was computed \emph{per event and per ROI} as the mean over the 10\,s pre-stimulus window; normalized activity was then expressed as $\Delta F/F_{0} = (F - F_{0})/F_{0}$. Trials were aligned to stimulus ON ($t=0$\,s) and, for each ROI, I computed the \textbf{mean} $\Delta F/F_{0}$ across stimulations at each time point; dispersion is shown as the \textbf{standard error of the mean (SEM)}. 
 
-
-    %\subsection{Sensory Information Flow}
-    %\subsection{Lineage Matching}
+    \textit{Numpy} \citep{unpingco2021numpy} and \textit{matbplotlib} \citep{hunter2007matplotlib}, libraries were used to compute plots in Python. 
+    In each plot, the visual stimulus epoch is indicated by a transparent blue rectangle from $t=0$ to the \emph{median ON duration} (median of \texttt{offTimes}$-$\texttt{onTimes}, converted to seconds). Averaging and statistics were performed \emph{within a single run} (cross-run pooling was avoided because ROI identities can differ between runs). Figures were generated with \textit{matplotlib} and exported as SVG.
