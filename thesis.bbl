@@ -2617,6 +2617,95 @@
       \field{pages}{2025\bibrangedash 09}
       \range{pages}{5}
     \endentry
+    \entry{jovanic2016competitive}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=196289de407f0c52d32861a69c38b5f5}{%
+           family={Jovanic},
+           familyi={J\bibinitperiod},
+           given={Tihana},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f96ac2ec900504ce3c8e444be676788d}{%
+           family={Schneider-Mizell},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Casey\bibnamedelima Martin},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c764ef401060a6c71b937c279f4a7a1}{%
+           family={Shao},
+           familyi={S\bibinitperiod},
+           given={Mei},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae8342ea77688cc81b85f1c57cef17d1}{%
+           family={Masson},
+           familyi={M\bibinitperiod},
+           given={Jean-Baptiste},
+           giveni={J\bibinithyphendelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fccd9c7afe05f5ce2e84f6b6e9692b03}{%
+           family={Denisov},
+           familyi={D\bibinitperiod},
+           given={Gennady},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c92d2ac0aa365fb09236e302dea7cb46}{%
+           family={Fetter},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima Doty},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=036cd67632f3f6d905523badb08e11a6}{%
+           family={Mensh},
+           familyi={M\bibinitperiod},
+           given={Brett\bibnamedelima Daren},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bd6065dc95e9a9b16b51b36559074a9}{%
+           family={Truman},
+           familyi={T\bibinitperiod},
+           given={James\bibnamedelima William},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=704fa1d6130928d88680f2323fd9ff84}{%
+           family={Cardona},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54ef774522747de83e9fa543d2756cbc}{%
+           family={Zlatic},
+           familyi={Z\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{67fc327779110c0b2dbf0c10a198c0ae}
+      \strng{fullhash}{922cfc915a141a1154421dc9901093e3}
+      \strng{fullhashraw}{922cfc915a141a1154421dc9901093e3}
+      \strng{bibnamehash}{922cfc915a141a1154421dc9901093e3}
+      \strng{authorbibnamehash}{922cfc915a141a1154421dc9901093e3}
+      \strng{authornamehash}{67fc327779110c0b2dbf0c10a198c0ae}
+      \strng{authorfullhash}{922cfc915a141a1154421dc9901093e3}
+      \strng{authorfullhashraw}{922cfc915a141a1154421dc9901093e3}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cell}
+      \field{number}{3}
+      \field{title}{Competitive disinhibition mediates behavioral choice and sequences in Drosophila}
+      \field{volume}{167}
+      \field{year}{2016}
+      \field{pages}{858\bibrangedash 870}
+      \range{pages}{13}
+    \endentry
     \entry{kahsai2011neuromodulators}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=187f214f69b518edb9e6add42cc9b2b2}{%
@@ -3230,6 +3319,97 @@
       \field{pages}{e28387}
       \range{pages}{-1}
     \endentry
+    \entry{laurent2024larvatagger}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=00d5e41e7f8b5993588666df9d83daad}{%
+           family={Laurent},
+           familyi={L\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60c831995a38d382a94e83c84a6ff263}{%
+           family={Blanc},
+           familyi={B\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2e560ce63617516c17d7f788304e9a7}{%
+           family={May},
+           familyi={M\bibinitperiod},
+           given={Lilly},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=279cc3be8f1d01782c6bfb401e77f264}{%
+           family={Gándara},
+           familyi={G\bibinitperiod},
+           given={Lautaro},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=667ebeb8087e1ab67fb34acbe43d80df}{%
+           family={Cocanougher},
+           familyi={C\bibinitperiod},
+           given={Benjamin\bibnamedelima T},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9892862c0c6d471ef4b79004cc41f9d}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Benjamin\bibnamedelima MW},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81c0a83a5b326d3c414828c2e3df5948}{%
+           family={Hague},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1d3549ecbd15fe08ffca443231e2d9a}{%
+           family={Barré},
+           familyi={B\bibinitperiod},
+           given={Chloé},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=703149a7865d0e4a701a3fe6906a9a21}{%
+           family={Vestergaard},
+           familyi={V\bibinitperiod},
+           given={Christian\bibnamedelima L},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ff9c45ea47b18e0c13d9d8a23a3b448}{%
+           family={Crocker},
+           familyi={C\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{4bad8f61e309c5ffbfea87640d77afb5}
+      \strng{fullhash}{c74361c9b42016c56f426bb1721c77cd}
+      \strng{fullhashraw}{c74361c9b42016c56f426bb1721c77cd}
+      \strng{bibnamehash}{c74361c9b42016c56f426bb1721c77cd}
+      \strng{authorbibnamehash}{c74361c9b42016c56f426bb1721c77cd}
+      \strng{authornamehash}{4bad8f61e309c5ffbfea87640d77afb5}
+      \strng{authorfullhash}{c74361c9b42016c56f426bb1721c77cd}
+      \strng{authorfullhashraw}{c74361c9b42016c56f426bb1721c77cd}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioinformatics}
+      \field{number}{7}
+      \field{title}{LarvaTagger: manual and automatic tagging of Drosophila larval behaviour}
+      \field{volume}{40}
+      \field{year}{2024}
+      \field{pages}{btae441}
+      \range{pages}{-1}
+    \endentry
     \entry{lemon2015whole}{article}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=8e60226873b3bd772ccb3a6908c19068}{%
@@ -3566,6 +3746,77 @@
       \field{year}{2013}
       \field{pages}{228\bibrangedash 257}
       \range{pages}{30}
+    \endentry
+    \entry{masson2020identifying}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=ae8342ea77688cc81b85f1c57cef17d1}{%
+           family={Masson},
+           familyi={M\bibinitperiod},
+           given={Jean-Baptiste},
+           giveni={J\bibinithyphendelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00d5e41e7f8b5993588666df9d83daad}{%
+           family={Laurent},
+           familyi={L\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=704fa1d6130928d88680f2323fd9ff84}{%
+           family={Cardona},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1d3549ecbd15fe08ffca443231e2d9a}{%
+           family={Barré},
+           familyi={B\bibinitperiod},
+           given={Chloé},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a1adaa54b81d915db8f168ac23094f66}{%
+           family={Skatchkovsky},
+           familyi={S\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54ef774522747de83e9fa543d2756cbc}{%
+           family={Zlatic},
+           familyi={Z\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=196289de407f0c52d32861a69c38b5f5}{%
+           family={Jovanic},
+           familyi={J\bibinitperiod},
+           given={Tihana},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science San Francisco, CA USA}%
+      }
+      \strng{namehash}{10faa67629faff686bf295b2a85e3751}
+      \strng{fullhash}{0892346c9f3dbefb9a13487ec463143d}
+      \strng{fullhashraw}{0892346c9f3dbefb9a13487ec463143d}
+      \strng{bibnamehash}{0892346c9f3dbefb9a13487ec463143d}
+      \strng{authorbibnamehash}{0892346c9f3dbefb9a13487ec463143d}
+      \strng{authornamehash}{10faa67629faff686bf295b2a85e3751}
+      \strng{authorfullhash}{0892346c9f3dbefb9a13487ec463143d}
+      \strng{authorfullhashraw}{0892346c9f3dbefb9a13487ec463143d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS genetics}
+      \field{number}{2}
+      \field{title}{Identifying neural substrates of competitive interactions and sequence transitions during mechanosensory responses in Drosophila}
+      \field{volume}{16}
+      \field{year}{2020}
+      \field{pages}{e1008589}
+      \range{pages}{-1}
     \endentry
     \entry{mast2014pheromones}{article}{}{}
       \name{author}{5}{}{%
@@ -4997,6 +5248,97 @@
       \field{pages}{e57443}
       \range{pages}{-1}
     \endentry
+    \entry{schindelin2012fiji}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=ac82c7686cb5af1a978185f449f30702}{%
+           family={Schindelin},
+           familyi={S\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb4a9b4f8cb47f8bee748d32779b7d01}{%
+           family={Arganda-Carreras},
+           familyi={A\bibinithyphendelim C\bibinitperiod},
+           given={Ignacio},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a776e2acaca3da7f09464eed966703a}{%
+           family={Frise},
+           familyi={F\bibinitperiod},
+           given={Erwin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf3458a8158dd8bcbccb1d9f3bae1444}{%
+           family={Kaynig},
+           familyi={K\bibinitperiod},
+           given={Verena},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8d350e633e669ecce76f53a255ca7e6}{%
+           family={Longair},
+           familyi={L\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74624b572b3fd665ada5f45e837b3fad}{%
+           family={Pietzsch},
+           familyi={P\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52ebeccf5706d204d6ea2f00afdc0a82}{%
+           family={Preibisch},
+           familyi={P\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1278dc454496030a575c2364261b643e}{%
+           family={Rueden},
+           familyi={R\bibinitperiod},
+           given={Curtis},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3100f88cc060bd3d2cc5fc5d24ea490}{%
+           family={Saalfeld},
+           familyi={S\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21b481f5dff243098574c2319c707eef}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group US New York}%
+      }
+      \strng{namehash}{ad1bfba2c8792d8fa685fed6100cfb98}
+      \strng{fullhash}{d978dad5800270af9284a8dff5a90bfc}
+      \strng{fullhashraw}{d978dad5800270af9284a8dff5a90bfc}
+      \strng{bibnamehash}{d978dad5800270af9284a8dff5a90bfc}
+      \strng{authorbibnamehash}{d978dad5800270af9284a8dff5a90bfc}
+      \strng{authornamehash}{ad1bfba2c8792d8fa685fed6100cfb98}
+      \strng{authorfullhash}{d978dad5800270af9284a8dff5a90bfc}
+      \strng{authorfullhashraw}{d978dad5800270af9284a8dff5a90bfc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature methods}
+      \field{number}{7}
+      \field{title}{Fiji: an open-source platform for biological-image analysis}
+      \field{volume}{9}
+      \field{year}{2012}
+      \field{pages}{676\bibrangedash 682}
+      \range{pages}{7}
+    \endentry
     \entry{schlegel2016synaptic}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -5531,6 +5873,59 @@
       \field{year}{1993}
       \field{pages}{1852\bibrangedash 1861}
       \range{pages}{10}
+    \endentry
+    \entry{Swierczek2011MWT}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=b787349b31e71b81b83f1a1b3222d34a}{%
+           family={Swierczek},
+           familyi={S\bibinitperiod},
+           given={Nicholas\bibnamedelima A},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b83c7cacbef8a9a7980c7f6ca4fe928}{%
+           family={Giles},
+           familyi={G\bibinitperiod},
+           given={Andrew\bibnamedelima C},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1daa303afbe113da6f29f94def172a8e}{%
+           family={Rankin},
+           familyi={R\bibinitperiod},
+           given={Catharine\bibnamedelima H},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a7417d6c3d7bd1c55f76613f65d2967}{%
+           family={Kerr},
+           familyi={K\bibinitperiod},
+           given={Rex\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group US New York}%
+      }
+      \strng{namehash}{a0ee9dfd0374386257a36cb8a59cc8d9}
+      \strng{fullhash}{702c586bc552949de976c2db72d11217}
+      \strng{fullhashraw}{702c586bc552949de976c2db72d11217}
+      \strng{bibnamehash}{702c586bc552949de976c2db72d11217}
+      \strng{authorbibnamehash}{702c586bc552949de976c2db72d11217}
+      \strng{authornamehash}{a0ee9dfd0374386257a36cb8a59cc8d9}
+      \strng{authorfullhash}{702c586bc552949de976c2db72d11217}
+      \strng{authorfullhashraw}{702c586bc552949de976c2db72d11217}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature methods}
+      \field{number}{7}
+      \field{title}{High-throughput behavioral analysis in C. elegans}
+      \field{volume}{8}
+      \field{year}{2011}
+      \field{pages}{592\bibrangedash 598}
+      \range{pages}{7}
     \endentry
     \entry{szuperak2018sleep}{article}{}{}
       \name{author}{6}{}{%
@@ -8926,6 +9321,95 @@
       \field{pages}{2025\bibrangedash 09}
       \range{pages}{5}
     \endentry
+    \entry{jovanic2016competitive}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=196289de407f0c52d32861a69c38b5f5}{%
+           family={Jovanic},
+           familyi={J\bibinitperiod},
+           given={Tihana},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f96ac2ec900504ce3c8e444be676788d}{%
+           family={Schneider-Mizell},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Casey\bibnamedelima Martin},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c764ef401060a6c71b937c279f4a7a1}{%
+           family={Shao},
+           familyi={S\bibinitperiod},
+           given={Mei},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae8342ea77688cc81b85f1c57cef17d1}{%
+           family={Masson},
+           familyi={M\bibinitperiod},
+           given={Jean-Baptiste},
+           giveni={J\bibinithyphendelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fccd9c7afe05f5ce2e84f6b6e9692b03}{%
+           family={Denisov},
+           familyi={D\bibinitperiod},
+           given={Gennady},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c92d2ac0aa365fb09236e302dea7cb46}{%
+           family={Fetter},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima Doty},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=036cd67632f3f6d905523badb08e11a6}{%
+           family={Mensh},
+           familyi={M\bibinitperiod},
+           given={Brett\bibnamedelima Daren},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bd6065dc95e9a9b16b51b36559074a9}{%
+           family={Truman},
+           familyi={T\bibinitperiod},
+           given={James\bibnamedelima William},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=704fa1d6130928d88680f2323fd9ff84}{%
+           family={Cardona},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54ef774522747de83e9fa543d2756cbc}{%
+           family={Zlatic},
+           familyi={Z\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{67fc327779110c0b2dbf0c10a198c0ae}
+      \strng{fullhash}{922cfc915a141a1154421dc9901093e3}
+      \strng{fullhashraw}{922cfc915a141a1154421dc9901093e3}
+      \strng{bibnamehash}{922cfc915a141a1154421dc9901093e3}
+      \strng{authorbibnamehash}{922cfc915a141a1154421dc9901093e3}
+      \strng{authornamehash}{67fc327779110c0b2dbf0c10a198c0ae}
+      \strng{authorfullhash}{922cfc915a141a1154421dc9901093e3}
+      \strng{authorfullhashraw}{922cfc915a141a1154421dc9901093e3}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cell}
+      \field{number}{3}
+      \field{title}{Competitive disinhibition mediates behavioral choice and sequences in Drosophila}
+      \field{volume}{167}
+      \field{year}{2016}
+      \field{pages}{858\bibrangedash 870}
+      \range{pages}{13}
+    \endentry
     \entry{kahsai2012distribution}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=187f214f69b518edb9e6add42cc9b2b2}{%
@@ -9539,6 +10023,97 @@
       \field{pages}{e28387}
       \range{pages}{-1}
     \endentry
+    \entry{laurent2024larvatagger}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=00d5e41e7f8b5993588666df9d83daad}{%
+           family={Laurent},
+           familyi={L\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60c831995a38d382a94e83c84a6ff263}{%
+           family={Blanc},
+           familyi={B\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2e560ce63617516c17d7f788304e9a7}{%
+           family={May},
+           familyi={M\bibinitperiod},
+           given={Lilly},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=279cc3be8f1d01782c6bfb401e77f264}{%
+           family={Gándara},
+           familyi={G\bibinitperiod},
+           given={Lautaro},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=667ebeb8087e1ab67fb34acbe43d80df}{%
+           family={Cocanougher},
+           familyi={C\bibinitperiod},
+           given={Benjamin\bibnamedelima T},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9892862c0c6d471ef4b79004cc41f9d}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Benjamin\bibnamedelima MW},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81c0a83a5b326d3c414828c2e3df5948}{%
+           family={Hague},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1d3549ecbd15fe08ffca443231e2d9a}{%
+           family={Barré},
+           familyi={B\bibinitperiod},
+           given={Chloé},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=703149a7865d0e4a701a3fe6906a9a21}{%
+           family={Vestergaard},
+           familyi={V\bibinitperiod},
+           given={Christian\bibnamedelima L},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ff9c45ea47b18e0c13d9d8a23a3b448}{%
+           family={Crocker},
+           familyi={C\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{4bad8f61e309c5ffbfea87640d77afb5}
+      \strng{fullhash}{c74361c9b42016c56f426bb1721c77cd}
+      \strng{fullhashraw}{c74361c9b42016c56f426bb1721c77cd}
+      \strng{bibnamehash}{c74361c9b42016c56f426bb1721c77cd}
+      \strng{authorbibnamehash}{c74361c9b42016c56f426bb1721c77cd}
+      \strng{authornamehash}{4bad8f61e309c5ffbfea87640d77afb5}
+      \strng{authorfullhash}{c74361c9b42016c56f426bb1721c77cd}
+      \strng{authorfullhashraw}{c74361c9b42016c56f426bb1721c77cd}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioinformatics}
+      \field{number}{7}
+      \field{title}{LarvaTagger: manual and automatic tagging of Drosophila larval behaviour}
+      \field{volume}{40}
+      \field{year}{2024}
+      \field{pages}{btae441}
+      \range{pages}{-1}
+    \endentry
     \entry{lemon2015whole}{article}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=8e60226873b3bd772ccb3a6908c19068}{%
@@ -9875,6 +10450,77 @@
       \field{year}{2013}
       \field{pages}{228\bibrangedash 257}
       \range{pages}{30}
+    \endentry
+    \entry{masson2020identifying}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=ae8342ea77688cc81b85f1c57cef17d1}{%
+           family={Masson},
+           familyi={M\bibinitperiod},
+           given={Jean-Baptiste},
+           giveni={J\bibinithyphendelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00d5e41e7f8b5993588666df9d83daad}{%
+           family={Laurent},
+           familyi={L\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=704fa1d6130928d88680f2323fd9ff84}{%
+           family={Cardona},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1d3549ecbd15fe08ffca443231e2d9a}{%
+           family={Barré},
+           familyi={B\bibinitperiod},
+           given={Chloé},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a1adaa54b81d915db8f168ac23094f66}{%
+           family={Skatchkovsky},
+           familyi={S\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54ef774522747de83e9fa543d2756cbc}{%
+           family={Zlatic},
+           familyi={Z\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=196289de407f0c52d32861a69c38b5f5}{%
+           family={Jovanic},
+           familyi={J\bibinitperiod},
+           given={Tihana},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science San Francisco, CA USA}%
+      }
+      \strng{namehash}{10faa67629faff686bf295b2a85e3751}
+      \strng{fullhash}{0892346c9f3dbefb9a13487ec463143d}
+      \strng{fullhashraw}{0892346c9f3dbefb9a13487ec463143d}
+      \strng{bibnamehash}{0892346c9f3dbefb9a13487ec463143d}
+      \strng{authorbibnamehash}{0892346c9f3dbefb9a13487ec463143d}
+      \strng{authornamehash}{10faa67629faff686bf295b2a85e3751}
+      \strng{authorfullhash}{0892346c9f3dbefb9a13487ec463143d}
+      \strng{authorfullhashraw}{0892346c9f3dbefb9a13487ec463143d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS genetics}
+      \field{number}{2}
+      \field{title}{Identifying neural substrates of competitive interactions and sequence transitions during mechanosensory responses in Drosophila}
+      \field{volume}{16}
+      \field{year}{2020}
+      \field{pages}{e1008589}
+      \range{pages}{-1}
     \endentry
     \entry{mast2014pheromones}{article}{}{}
       \name{author}{5}{}{%
@@ -11306,6 +11952,97 @@
       \field{pages}{e57443}
       \range{pages}{-1}
     \endentry
+    \entry{schindelin2012fiji}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=ac82c7686cb5af1a978185f449f30702}{%
+           family={Schindelin},
+           familyi={S\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb4a9b4f8cb47f8bee748d32779b7d01}{%
+           family={Arganda-Carreras},
+           familyi={A\bibinithyphendelim C\bibinitperiod},
+           given={Ignacio},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a776e2acaca3da7f09464eed966703a}{%
+           family={Frise},
+           familyi={F\bibinitperiod},
+           given={Erwin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf3458a8158dd8bcbccb1d9f3bae1444}{%
+           family={Kaynig},
+           familyi={K\bibinitperiod},
+           given={Verena},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8d350e633e669ecce76f53a255ca7e6}{%
+           family={Longair},
+           familyi={L\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74624b572b3fd665ada5f45e837b3fad}{%
+           family={Pietzsch},
+           familyi={P\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52ebeccf5706d204d6ea2f00afdc0a82}{%
+           family={Preibisch},
+           familyi={P\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1278dc454496030a575c2364261b643e}{%
+           family={Rueden},
+           familyi={R\bibinitperiod},
+           given={Curtis},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3100f88cc060bd3d2cc5fc5d24ea490}{%
+           family={Saalfeld},
+           familyi={S\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21b481f5dff243098574c2319c707eef}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group US New York}%
+      }
+      \strng{namehash}{ad1bfba2c8792d8fa685fed6100cfb98}
+      \strng{fullhash}{d978dad5800270af9284a8dff5a90bfc}
+      \strng{fullhashraw}{d978dad5800270af9284a8dff5a90bfc}
+      \strng{bibnamehash}{d978dad5800270af9284a8dff5a90bfc}
+      \strng{authorbibnamehash}{d978dad5800270af9284a8dff5a90bfc}
+      \strng{authornamehash}{ad1bfba2c8792d8fa685fed6100cfb98}
+      \strng{authorfullhash}{d978dad5800270af9284a8dff5a90bfc}
+      \strng{authorfullhashraw}{d978dad5800270af9284a8dff5a90bfc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature methods}
+      \field{number}{7}
+      \field{title}{Fiji: an open-source platform for biological-image analysis}
+      \field{volume}{9}
+      \field{year}{2012}
+      \field{pages}{676\bibrangedash 682}
+      \range{pages}{7}
+    \endentry
     \entry{schlegel2016synaptic}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -11840,6 +12577,59 @@
       \field{year}{1993}
       \field{pages}{1852\bibrangedash 1861}
       \range{pages}{10}
+    \endentry
+    \entry{Swierczek2011MWT}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=b787349b31e71b81b83f1a1b3222d34a}{%
+           family={Swierczek},
+           familyi={S\bibinitperiod},
+           given={Nicholas\bibnamedelima A},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b83c7cacbef8a9a7980c7f6ca4fe928}{%
+           family={Giles},
+           familyi={G\bibinitperiod},
+           given={Andrew\bibnamedelima C},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1daa303afbe113da6f29f94def172a8e}{%
+           family={Rankin},
+           familyi={R\bibinitperiod},
+           given={Catharine\bibnamedelima H},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a7417d6c3d7bd1c55f76613f65d2967}{%
+           family={Kerr},
+           familyi={K\bibinitperiod},
+           given={Rex\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group US New York}%
+      }
+      \strng{namehash}{a0ee9dfd0374386257a36cb8a59cc8d9}
+      \strng{fullhash}{702c586bc552949de976c2db72d11217}
+      \strng{fullhashraw}{702c586bc552949de976c2db72d11217}
+      \strng{bibnamehash}{702c586bc552949de976c2db72d11217}
+      \strng{authorbibnamehash}{702c586bc552949de976c2db72d11217}
+      \strng{authornamehash}{a0ee9dfd0374386257a36cb8a59cc8d9}
+      \strng{authorfullhash}{702c586bc552949de976c2db72d11217}
+      \strng{authorfullhashraw}{702c586bc552949de976c2db72d11217}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature methods}
+      \field{number}{7}
+      \field{title}{High-throughput behavioral analysis in C. elegans}
+      \field{volume}{8}
+      \field{year}{2011}
+      \field{pages}{592\bibrangedash 598}
+      \range{pages}{7}
     \endentry
     \entry{szuperak2018sleep}{article}{}{}
       \name{author}{6}{}{%
