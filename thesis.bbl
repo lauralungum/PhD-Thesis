@@ -804,6 +804,97 @@
       \field{pages}{1571\bibrangedash 1576}
       \range{pages}{6}
     \endentry
+    \entry{dorkenwald2024neuronal}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=7fc633ae1f6441136527c5bf573824ca}{%
+           family={Dorkenwald},
+           familyi={D\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3eb9f5a1f701dba86487e8f6a5dfcea5}{%
+           family={Matsliah},
+           familyi={M\bibinitperiod},
+           given={Arie},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdcb0ae4f19ab1e5f7e46d057fde1cca}{%
+           family={Sterling},
+           familyi={S\bibinitperiod},
+           given={Amy\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c2fd4016e0e7d4783e01987e6923ccf}{%
+           family={Schlegel},
+           familyi={S\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29c7b25b0bbd40c406d5ea3ef128eb0c}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Szi-Chieh},
+           giveni={S\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71dca9436999123a5c9bf8dcada253ad}{%
+           family={McKellar},
+           familyi={M\bibinitperiod},
+           given={Claire\bibnamedelima E},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=0ca2a1c4bdf19becffbce831c9ac00d5}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=4d9917546d8db06a1ca5a27cdf945901}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74ca535498d0ff1b666d9ae98cfc7774}{%
+           family={Eichler},
+           familyi={E\bibinitperiod},
+           given={Katharina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0a9111e56882ccede0598d4ddda47e9}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Yijie},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{52f0a1be308421293e5fc2925a8069c6}
+      \strng{fullhash}{4ec4654a143732ea92f1c82f09477a10}
+      \strng{fullhashraw}{4ec4654a143732ea92f1c82f09477a10}
+      \strng{bibnamehash}{4ec4654a143732ea92f1c82f09477a10}
+      \strng{authorbibnamehash}{4ec4654a143732ea92f1c82f09477a10}
+      \strng{authornamehash}{52f0a1be308421293e5fc2925a8069c6}
+      \strng{authorfullhash}{4ec4654a143732ea92f1c82f09477a10}
+      \strng{authorfullhashraw}{4ec4654a143732ea92f1c82f09477a10}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{8032}
+      \field{title}{Neuronal wiring diagram of an adult brain}
+      \field{volume}{634}
+      \field{year}{2024}
+      \field{pages}{124\bibrangedash 138}
+      \range{pages}{15}
+    \endentry
     \entry{Ebrahim2015OR49}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -2952,6 +3043,47 @@
       \field{pages}{6527\bibrangedash 6534}
       \range{pages}{8}
     \endentry
+    \entry{khona2022attractor}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d0a560375a85aeafd073cd0d279e4db8}{%
+           family={Khona},
+           familyi={K\bibinitperiod},
+           given={Mikail},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6109f3fb9500c59caab3714299ac08b}{%
+           family={Fiete},
+           familyi={F\bibinitperiod},
+           given={Ila\bibnamedelima R},
+           giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{f0a65aed3e71c29272b71ce33886eb0c}
+      \strng{fullhash}{f0a65aed3e71c29272b71ce33886eb0c}
+      \strng{fullhashraw}{f0a65aed3e71c29272b71ce33886eb0c}
+      \strng{bibnamehash}{f0a65aed3e71c29272b71ce33886eb0c}
+      \strng{authorbibnamehash}{f0a65aed3e71c29272b71ce33886eb0c}
+      \strng{authornamehash}{f0a65aed3e71c29272b71ce33886eb0c}
+      \strng{authorfullhash}{f0a65aed3e71c29272b71ce33886eb0c}
+      \strng{authorfullhashraw}{f0a65aed3e71c29272b71ce33886eb0c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Reviews Neuroscience}
+      \field{number}{12}
+      \field{title}{Attractor and integrator networks in the brain}
+      \field{volume}{23}
+      \field{year}{2022}
+      \field{pages}{744\bibrangedash 766}
+      \range{pages}{23}
+    \endentry
     \entry{khurana2013olfactory}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=f119ea4464bf4057e32ee59c2a433067}{%
@@ -3340,8 +3472,100 @@
       \strng{authornamehash}{b50e5d5ec8889062072a17eedffefa70}
       \strng{authorfullhash}{9b64b07a94b3a3ba1987ce146db97c37}
       \strng{authorfullhashraw}{9b64b07a94b3a3ba1987ce146db97c37}
+      \field{extraname}{1}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Elife}
+      \field{title}{Organization of the Drosophila larval visual circuit}
+      \field{volume}{6}
+      \field{year}{2017}
+      \field{pages}{e28387}
+      \range{pages}{-1}
+    \endentry
+    \entry{larderet2017organization}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=e88fab6add2bc5ca8f4c57306992aa09}{%
+           family={Larderet},
+           familyi={L\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=836ff81305a92c89aaf7f0b458474b90}{%
+           family={Fritsch},
+           familyi={F\bibinitperiod},
+           given={Pauline\bibnamedelima MJ},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46a48e525ad6f7584b9720f903b02807}{%
+           family={Gendre},
+           familyi={G\bibinitperiod},
+           given={Nanae},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a4d1345a4ff26c725195d31d7270767}{%
+           family={Neagu-Maier},
+           familyi={N\bibinithyphendelim M\bibinitperiod},
+           given={G\bibnamedelima Larisa},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b90ef70f582fc5ff032b2aebfaa09640}{%
+           family={Fetter},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima D},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03871370b84832dba7924ef1df3a1543}{%
+           family={Schneider-Mizell},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Casey\bibnamedelima M},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=034cc855bdd58f395fd0e8421ec8ca38}{%
+           family={Truman},
+           familyi={T\bibinitperiod},
+           given={James\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54ef774522747de83e9fa543d2756cbc}{%
+           family={Zlatic},
+           familyi={Z\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=704fa1d6130928d88680f2323fd9ff84}{%
+           family={Cardona},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e45e878ed6c5ed72d4b8400fa2a2314}{%
+           family={Sprecher},
+           familyi={S\bibinitperiod},
+           given={Simon\bibnamedelima G},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {eLife Sciences Publications, Ltd}%
+      }
+      \strng{namehash}{b50e5d5ec8889062072a17eedffefa70}
+      \strng{fullhash}{9b64b07a94b3a3ba1987ce146db97c37}
+      \strng{fullhashraw}{9b64b07a94b3a3ba1987ce146db97c37}
+      \strng{bibnamehash}{9b64b07a94b3a3ba1987ce146db97c37}
+      \strng{authorbibnamehash}{9b64b07a94b3a3ba1987ce146db97c37}
+      \strng{authornamehash}{b50e5d5ec8889062072a17eedffefa70}
+      \strng{authorfullhash}{9b64b07a94b3a3ba1987ce146db97c37}
+      \strng{authorfullhashraw}{9b64b07a94b3a3ba1987ce146db97c37}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -3589,12 +3813,12 @@
     \endentry
     \entry{lin2013comprehensive}{article}{}{}
       \name{author}{7}{}{%
-        {{un=0,uniquepart=base,hash=88e978f66b574800236228430ed5396f}{%
+        {{un=1,uniquepart=given,hash=88e978f66b574800236228430ed5396f}{%
            family={Lin},
            familyi={L\bibinitperiod},
            given={Chih-Yung},
            giveni={C\bibinithyphendelim Y\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=cb2ee8c8a58f814c0c9198c617a2676c}{%
            family={Chuang},
            familyi={C\bibinitperiod},
@@ -7698,6 +7922,97 @@
       \field{pages}{1571\bibrangedash 1576}
       \range{pages}{6}
     \endentry
+    \entry{dorkenwald2024neuronal}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=7fc633ae1f6441136527c5bf573824ca}{%
+           family={Dorkenwald},
+           familyi={D\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3eb9f5a1f701dba86487e8f6a5dfcea5}{%
+           family={Matsliah},
+           familyi={M\bibinitperiod},
+           given={Arie},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdcb0ae4f19ab1e5f7e46d057fde1cca}{%
+           family={Sterling},
+           familyi={S\bibinitperiod},
+           given={Amy\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c2fd4016e0e7d4783e01987e6923ccf}{%
+           family={Schlegel},
+           familyi={S\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29c7b25b0bbd40c406d5ea3ef128eb0c}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Szi-Chieh},
+           giveni={S\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71dca9436999123a5c9bf8dcada253ad}{%
+           family={McKellar},
+           familyi={M\bibinitperiod},
+           given={Claire\bibnamedelima E},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=0ca2a1c4bdf19becffbce831c9ac00d5}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=4d9917546d8db06a1ca5a27cdf945901}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74ca535498d0ff1b666d9ae98cfc7774}{%
+           family={Eichler},
+           familyi={E\bibinitperiod},
+           given={Katharina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0a9111e56882ccede0598d4ddda47e9}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Yijie},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{52f0a1be308421293e5fc2925a8069c6}
+      \strng{fullhash}{4ec4654a143732ea92f1c82f09477a10}
+      \strng{fullhashraw}{4ec4654a143732ea92f1c82f09477a10}
+      \strng{bibnamehash}{4ec4654a143732ea92f1c82f09477a10}
+      \strng{authorbibnamehash}{4ec4654a143732ea92f1c82f09477a10}
+      \strng{authornamehash}{52f0a1be308421293e5fc2925a8069c6}
+      \strng{authorfullhash}{4ec4654a143732ea92f1c82f09477a10}
+      \strng{authorfullhashraw}{4ec4654a143732ea92f1c82f09477a10}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{8032}
+      \field{title}{Neuronal wiring diagram of an adult brain}
+      \field{volume}{634}
+      \field{year}{2024}
+      \field{pages}{124\bibrangedash 138}
+      \range{pages}{15}
+    \endentry
     \entry{Ebrahim2015OR49}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -9846,6 +10161,47 @@
       \field{pages}{104\bibrangedash 110}
       \range{pages}{7}
     \endentry
+    \entry{khona2022attractor}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d0a560375a85aeafd073cd0d279e4db8}{%
+           family={Khona},
+           familyi={K\bibinitperiod},
+           given={Mikail},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6109f3fb9500c59caab3714299ac08b}{%
+           family={Fiete},
+           familyi={F\bibinitperiod},
+           given={Ila\bibnamedelima R},
+           giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{f0a65aed3e71c29272b71ce33886eb0c}
+      \strng{fullhash}{f0a65aed3e71c29272b71ce33886eb0c}
+      \strng{fullhashraw}{f0a65aed3e71c29272b71ce33886eb0c}
+      \strng{bibnamehash}{f0a65aed3e71c29272b71ce33886eb0c}
+      \strng{authorbibnamehash}{f0a65aed3e71c29272b71ce33886eb0c}
+      \strng{authornamehash}{f0a65aed3e71c29272b71ce33886eb0c}
+      \strng{authorfullhash}{f0a65aed3e71c29272b71ce33886eb0c}
+      \strng{authorfullhashraw}{f0a65aed3e71c29272b71ce33886eb0c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Reviews Neuroscience}
+      \field{number}{12}
+      \field{title}{Attractor and integrator networks in the brain}
+      \field{volume}{23}
+      \field{year}{2022}
+      \field{pages}{744\bibrangedash 766}
+      \range{pages}{23}
+    \endentry
     \entry{khurana2013olfactory}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=f119ea4464bf4057e32ee59c2a433067}{%
@@ -10234,8 +10590,100 @@
       \strng{authornamehash}{b50e5d5ec8889062072a17eedffefa70}
       \strng{authorfullhash}{9b64b07a94b3a3ba1987ce146db97c37}
       \strng{authorfullhashraw}{9b64b07a94b3a3ba1987ce146db97c37}
+      \field{extraname}{1}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Elife}
+      \field{title}{Organization of the Drosophila larval visual circuit}
+      \field{volume}{6}
+      \field{year}{2017}
+      \field{pages}{e28387}
+      \range{pages}{-1}
+    \endentry
+    \entry{larderet2017organization}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=e88fab6add2bc5ca8f4c57306992aa09}{%
+           family={Larderet},
+           familyi={L\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=836ff81305a92c89aaf7f0b458474b90}{%
+           family={Fritsch},
+           familyi={F\bibinitperiod},
+           given={Pauline\bibnamedelima MJ},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46a48e525ad6f7584b9720f903b02807}{%
+           family={Gendre},
+           familyi={G\bibinitperiod},
+           given={Nanae},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a4d1345a4ff26c725195d31d7270767}{%
+           family={Neagu-Maier},
+           familyi={N\bibinithyphendelim M\bibinitperiod},
+           given={G\bibnamedelima Larisa},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b90ef70f582fc5ff032b2aebfaa09640}{%
+           family={Fetter},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima D},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03871370b84832dba7924ef1df3a1543}{%
+           family={Schneider-Mizell},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Casey\bibnamedelima M},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=034cc855bdd58f395fd0e8421ec8ca38}{%
+           family={Truman},
+           familyi={T\bibinitperiod},
+           given={James\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54ef774522747de83e9fa543d2756cbc}{%
+           family={Zlatic},
+           familyi={Z\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=704fa1d6130928d88680f2323fd9ff84}{%
+           family={Cardona},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e45e878ed6c5ed72d4b8400fa2a2314}{%
+           family={Sprecher},
+           familyi={S\bibinitperiod},
+           given={Simon\bibnamedelima G},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {eLife Sciences Publications, Ltd}%
+      }
+      \strng{namehash}{b50e5d5ec8889062072a17eedffefa70}
+      \strng{fullhash}{9b64b07a94b3a3ba1987ce146db97c37}
+      \strng{fullhashraw}{9b64b07a94b3a3ba1987ce146db97c37}
+      \strng{bibnamehash}{9b64b07a94b3a3ba1987ce146db97c37}
+      \strng{authorbibnamehash}{9b64b07a94b3a3ba1987ce146db97c37}
+      \strng{authornamehash}{b50e5d5ec8889062072a17eedffefa70}
+      \strng{authorfullhash}{9b64b07a94b3a3ba1987ce146db97c37}
+      \strng{authorfullhashraw}{9b64b07a94b3a3ba1987ce146db97c37}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -10483,12 +10931,12 @@
     \endentry
     \entry{lin2013comprehensive}{article}{}{}
       \name{author}{7}{}{%
-        {{un=0,uniquepart=base,hash=88e978f66b574800236228430ed5396f}{%
+        {{un=1,uniquepart=given,hash=88e978f66b574800236228430ed5396f}{%
            family={Lin},
            familyi={L\bibinitperiod},
            given={Chih-Yung},
            giveni={C\bibinithyphendelim Y\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=cb2ee8c8a58f814c0c9198c617a2676c}{%
            family={Chuang},
            familyi={C\bibinitperiod},
