@@ -3740,6 +3740,95 @@
       \field{pages}{7924}
       \range{pages}{1}
     \endentry
+    \entry{li2020connectome}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=1,uniquepart=given,hash=89b23cce0bb40099f7b69f6577f665fe}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=14fdeda7c33185e263561663b93e3000}{%
+           family={Lindsey},
+           familyi={L\bibinitperiod},
+           given={Jack\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5283b9c2687ce9c52d5ff5efc343c445}{%
+           family={Marin},
+           familyi={M\bibinitperiod},
+           given={Elizabeth\bibnamedelima C},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63b3aa8e8e099b1cf4baff04becad73a}{%
+           family={Otto},
+           familyi={O\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61d1617d11df21f8d14387d13fe564aa}{%
+           family={Dreher},
+           familyi={D\bibinitperiod},
+           given={Marisa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=381c29a81faf41c3ea455980d3909d2b}{%
+           family={Dempsey},
+           familyi={D\bibinitperiod},
+           given={Georgia},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32267ff6f465408fcc53bda302238aaf}{%
+           family={Stark},
+           familyi={S\bibinitperiod},
+           given={Ildiko},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db60dd9275d6475ae6eeda533a446bfc}{%
+           family={Bates},
+           familyi={B\bibinitperiod},
+           given={Alexander\bibnamedelima S},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9bf5fa348b5ea316c2847bd1b8bd2ee}{%
+           family={Pleijzier},
+           familyi={P\bibinitperiod},
+           given={Markus\bibnamedelima William},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c2fd4016e0e7d4783e01987e6923ccf}{%
+           family={Schlegel},
+           familyi={S\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {eLife Sciences Publications, Ltd}%
+      }
+      \strng{namehash}{4cbee84b4c55fc35ff6d95d452903add}
+      \strng{fullhash}{d1c7f036f8393aa31d4690154c87b1b3}
+      \strng{fullhashraw}{d1c7f036f8393aa31d4690154c87b1b3}
+      \strng{bibnamehash}{d1c7f036f8393aa31d4690154c87b1b3}
+      \strng{authorbibnamehash}{d1c7f036f8393aa31d4690154c87b1b3}
+      \strng{authornamehash}{4cbee84b4c55fc35ff6d95d452903add}
+      \strng{authorfullhash}{d1c7f036f8393aa31d4690154c87b1b3}
+      \strng{authorfullhashraw}{d1c7f036f8393aa31d4690154c87b1b3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Elife}
+      \field{title}{The connectome of the adult Drosophila mushroom body provides insights into function}
+      \field{volume}{9}
+      \field{year}{2020}
+      \field{pages}{e62576}
+      \range{pages}{-1}
+    \endentry
     \entry{li2014gal4}{article}{}{}
       \name{author}{7}{}{%
         {{un=1,uniquepart=given,hash=e0160656ec3f3229f1818b25966e32b7}{%
@@ -3800,7 +3889,6 @@
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cell reports}
@@ -10858,6 +10946,95 @@
       \field{pages}{7924}
       \range{pages}{1}
     \endentry
+    \entry{li2020connectome}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=1,uniquepart=given,hash=89b23cce0bb40099f7b69f6577f665fe}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=14fdeda7c33185e263561663b93e3000}{%
+           family={Lindsey},
+           familyi={L\bibinitperiod},
+           given={Jack\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5283b9c2687ce9c52d5ff5efc343c445}{%
+           family={Marin},
+           familyi={M\bibinitperiod},
+           given={Elizabeth\bibnamedelima C},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63b3aa8e8e099b1cf4baff04becad73a}{%
+           family={Otto},
+           familyi={O\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61d1617d11df21f8d14387d13fe564aa}{%
+           family={Dreher},
+           familyi={D\bibinitperiod},
+           given={Marisa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=381c29a81faf41c3ea455980d3909d2b}{%
+           family={Dempsey},
+           familyi={D\bibinitperiod},
+           given={Georgia},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32267ff6f465408fcc53bda302238aaf}{%
+           family={Stark},
+           familyi={S\bibinitperiod},
+           given={Ildiko},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db60dd9275d6475ae6eeda533a446bfc}{%
+           family={Bates},
+           familyi={B\bibinitperiod},
+           given={Alexander\bibnamedelima S},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9bf5fa348b5ea316c2847bd1b8bd2ee}{%
+           family={Pleijzier},
+           familyi={P\bibinitperiod},
+           given={Markus\bibnamedelima William},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c2fd4016e0e7d4783e01987e6923ccf}{%
+           family={Schlegel},
+           familyi={S\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {eLife Sciences Publications, Ltd}%
+      }
+      \strng{namehash}{4cbee84b4c55fc35ff6d95d452903add}
+      \strng{fullhash}{d1c7f036f8393aa31d4690154c87b1b3}
+      \strng{fullhashraw}{d1c7f036f8393aa31d4690154c87b1b3}
+      \strng{bibnamehash}{d1c7f036f8393aa31d4690154c87b1b3}
+      \strng{authorbibnamehash}{d1c7f036f8393aa31d4690154c87b1b3}
+      \strng{authornamehash}{4cbee84b4c55fc35ff6d95d452903add}
+      \strng{authorfullhash}{d1c7f036f8393aa31d4690154c87b1b3}
+      \strng{authorfullhashraw}{d1c7f036f8393aa31d4690154c87b1b3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Elife}
+      \field{title}{The connectome of the adult Drosophila mushroom body provides insights into function}
+      \field{volume}{9}
+      \field{year}{2020}
+      \field{pages}{e62576}
+      \range{pages}{-1}
+    \endentry
     \entry{li2014gal4}{article}{}{}
       \name{author}{7}{}{%
         {{un=1,uniquepart=given,hash=e0160656ec3f3229f1818b25966e32b7}{%
@@ -10918,7 +11095,6 @@
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cell reports}

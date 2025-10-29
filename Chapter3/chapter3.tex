@@ -151,7 +151,7 @@
          \begin{figure} [H]
                 \centering
                 \includegraphics[width=12cm]{Figs/CX/CX_Nomenclature_Neurons.pdf}
-                \caption[Central Complex Neuron Classes]{\textbf{Classes of CX neurons} This schematic illustrates neuron classes of the adult CX (upper panel) and the larval CX (lower panel). The PB, FB, EB, NO and LAL are shown in each case to illustrate where a neuron arborizes. Neurons are drawn as a sketch, where the soma is represented by a green circle, the arbours are split into dendritic inputs - filled green boxed - and spiny axonal outputs - hashed scribbled green boxes. Cells are classified as either \textbf{Intrinsic Neurons}:neurons whose inputs and outputs are located within CX neuropils; \textbf{Local Neurons}: cells whose inputs and outputs located within one neuropil; \textbf{Input Neurons}: Neurons that have  dendrites (receive synaptic input) located within the CX but output outside of it; and \textbf{Output Neurons}: Cells that receive inputs outside of the CX but output onto CX neuropils}
+                \caption[Central Complex Neuron Classes]{\textbf{Classes of CX neurons} This schematic illustrates neuron classes of the adult CX (upper panel) and the larval CX (lower panel). The PB, FB, EB, NO and LAL are shown in each case to illustrate where a neuron arborizes. Neurons are drawn as a sketch, where the soma is represented by a green circle, the arbours are split into dendritic inputs - filled green boxed - and spiny axonal outputs - hashed scribbled green boxes. Cells are classified as either \textbf{Intrinsic Neurons}:neurons whose inputs and outputs are located within CX neuropils; \textbf{Local Neurons}: cells whose inputs and outputs located within one neuropil; \textbf{Input Neurons}: Neurons that have  dendrites (receive synaptic input) located within the CX but output outside of it; and \textbf{Output Neurons}: Cells that receive inputs outside of the CX but output onto CX neuropils. The figure is adapted from \citep{wolff2018neuroarchitecture}}
                 \label{CXclasses}
             \end{figure}
         %Table with Neuropils connecting with each other
@@ -169,7 +169,7 @@
             MBONs &  & * & * & & \\
             \bottomrule
         \end{tabular}
-        \caption[Monosynaptic connectivity between CX neuropils]{\textbf{Monosynaptic connectivity between CX neuropils.} Asterisks indicate direct synaptic connections, with row neuropils synapsing onto column neuropils. The table summarizes the non-empty intersection sets for annotations in CATMAID such as FB.d with NO.b (i.e., neurons with dendrites in the fan-shaped body and axons in the noduli).}
+        \caption[Monosynaptic connectivity between CX neuropils]{\textbf{Monosynaptic connectivity between CX neuropils.} Asterisks indicate direct synaptic connections, with row neuropils synapsing onto column neuropils. The table summarizes the non-empty intersection sets for annotations in the first instar larval brain connectome (as accessed via CATMAID) such as FB.d with NO.b (i.e., neurons with dendrites in the fan-shaped body and axons in the noduli).}
         \label{inputsoutputs}
         \end{table}
         %Table with CX Core Neurons
@@ -228,7 +228,7 @@
     \begin{figure}[H]
         \centering
         \includegraphics[width=12cm]{Figs/CX/cxdiagram.pdf}
-        \caption[The Central Complex Neuropils in Adult and Larva]{\textbf{The Central Complex Neuropils in Adult and Larva}. Dotted-line arrows represent unidirectional connections, filled-line arrows indicate bidirectional connections. In panel \textbf{A.} I show the adult \textit{\textit{Drosophila}} CX. Bidirectional connectivity is seen between PB-FB, PB-EB, FB-LAL and FB-NO, with unidirectional connections from NO-PB, PB-LAL, LAL-NO and NO-EB; Panel \textbf{B.} displays the larval \textit{Drosophila} CX. Bidirectional connections are  PB-FB, FB-EB, FB-LAL, FB-NO and EB-LAL; unidirectional connections are seen from NO-LAL, PB-NO and EB-NO.The volumes of the adult neuropils were adapted from \citep{franconville2018building}.
+        \caption[The Central Complex Neuropils in Adult and Larva]{\textbf{The Central Complex Neuropils in Adult and Larva}. Dotted-line arrows represent unidirectional connections, filled-line arrows indicate bidirectional connections. In panel \textbf{A.} I show the adult \textit{\textit{Drosophila}} CX. Bidirectional connectivity is seen between PB-FB, PB-EB, FB-LAL and FB-NO, with unidirectional connections from NO-PB, PB-LAL, LAL-NO and NO-EB; figure is adapted from \citep{wolff2018neuroarchitecture}. Panel \textbf{B.} displays the larval \textit{Drosophila} CX. Bidirectional connections are  PB-FB, FB-EB, FB-LAL, FB-NO and EB-LAL; unidirectional connections are seen from NO-LAL, PB-NO and EB-NO.The volumes of the adult neuropils were adapted from \citep{franconville2018building}.
         The volumes of the larval neuropils were drawn via CATMAID using the .b and .d parts of the neurons contributing to each.}
         \label{cxdiagram}
     \end{figure}
@@ -454,10 +454,10 @@
             \end{figure}
 
             \textbf{\textit{Additional EB.d Neurons}}
-            There are seven more pairs of EB.d (neurons that contribute presynaptic sites to the EB) that didn't fall under ring or wedge neuron categories. Two of these are MB Dopaminergic neurons (DAN-d1 and DAN-g1), another 3 are LAL neurons(I refer to these as EB to LAL neurons) - these can be LAL.d LAL.b or LAL.d.b - and the last 2 are MB second order output neurons (see Appendix for more)%TODO ADD APPENDIX 
+            There are seven more pairs of EB.d (neurons that contribute dendrites to the EB) that didn't fall under ring or wedge neuron categories. Two of these are MB Dopaminergic neurons (DAN-d1 and DAN-g1), another 3 are LAL neurons(I refer to these as EB to LAL neurons) - these can be LAL.d LAL.b or LAL.d.b - and the last 2 are MB second order output neurons (see Appendix for more)%TODO ADD APPENDIX 
 
 
-        \subsubsection{EB Ring Neurons and EB Wedge Neurons connectivity}
+        \subsubsection{Synaptic connectivity between EB Ring and Wedge neurons}
             In the adult, a key feature of nearly all ring neuron types(ER1-6)is their dense interconnectivity. Since ER neurons send output processes within the CX \citep{hulse2021connectome}, I deduced majority of them are axo-axonic. Interestingly, this is the exact pattern I observe in the larval ring neurons (RN1/2, RN3), with all these 3 neurons being reciprocally connected axo-axonically (Table \ref{EBmatrix}). 
 
             The larval EB wedge neurons (W1–W8) form a densely recurrent network, reminiscent of adult wedge EPG neurons. Every wedge pair is connected reciprocally, with the predominant motif being axo-dendritic synapses; axo-axonic contacts are also present but weaker and fewer in number. 
@@ -468,6 +468,7 @@
 
     \subsection{Fan-Shaped Body}
         In the larva, I found a number of putative FB horizontal/tangential cells originating in lineages known to contribute neurons to the adult FB. Characteristically, most present a bilateral axon closely wrapping around the midline, and an ipsilateral dendrite positioned within the superior dorsal protocerebrum (dorsal anterior neuropil) where they integrate numerous inputs from MBON axons, a pattern specific to the adult CX. Among the various neurons with dendrites within this very medial neuropil, I find neurons from lineages known to contribute to the adult FB and whose axons project to the putative larval NO, EB, PB and LAL.
+
         \subsubsection{Larval FB Tangential cells}
         I found a diverse and large collection of larval FB tangential cell types.
         All types contribute synapses rather specifically to the FB and are hence labelled as FB.b, a defining feature across them all.
@@ -484,14 +485,17 @@
 
         The DM1-DM4 lineages that contribute to the adult CX also generate a number of FB tangential neurons in the larva (larval lineages DPMm1, DPMpm1, DPMpm2, and CM4-vm, respectively). Targeting the FB, there are several major subtypes. 
         
-        First, 6 pairs of neurons (hs-FB.1) with a bilaterally symmetric axon that tightly lines the medial surface in a horseshoe shape, and with a smallish dendrite dorsal and slightly lateral to the FB, within the medial side of the superior protocerebrum (Fig \ref{fig:HSFBneurons}A). Second, 2 pairs of neurons (hs-FB.2) also with bilaterally symmetric axons but that target the more posterior-lateral FB and beyond into the larval PB, with also ipsilateral dendrites that extend anteriorly and ventrally along the neuraxis (Fig \ref{fig:HSFBneurons}B).
-        Third, a pair of neurons (hs-FB.3) with bilateral axons placed towards the most posterior end of the FB and perhaps beyond, into the lateral side, and with small ipsilateral dendrites (Fig \ref{fig:HSFBneurons}C).
-        The axons of all 6 pairs of hs-FB.1 neurons define the ventral layer of the FB, and the axons of the hs-FB.2 the dorsal one, which is shorter and more anterior. The hs-FB.3 axons project in between the other two types but also cover the posterior-dorsal area that hs-FB.2 doesn't (Fig. \ref{fig:HSFBneurons}D).  
-        The larval BAla34 lineage generates sensory PNs, of which two pairs (hs-FB.4) present the typical bilateral axon and their dendrites collect inputs from the ventral posterior brain where ascending PNs from the somatosensory system (mostly mechanosensory) project their axons. One of the pairs is also NO.d (collects inputs from NO.b neurons) (Fig \ref{fig:HSFBneurons}E).
-        The larval BAmd2 lineage contributes two pairs of neurons (hs-FB.5) with a bilateral axon and dendrites that cover a region medial but lateral to the FB, and also far more ventral (Fig \ref{fig:HSFBneurons}F).
-        The larval DALl1 lineage contributes two pairs of neurons (hs-FB.6) with a bilateral axon and dendrites integrating inputs from the intermediate and lateral areas to the FB, primarily from neurons postsynaptic to ascending mechanoreceptive neurons like A00c \citep{ohyama2015multilevel}. A number of neurons presynaptic to hs-FB.6 are also labelled as FFNs and MB2INs, meaning they converge onto MB DANs, MBINs and OANs \citep{eschbach2020recurrent} (Fig \ref{fig:HSFBneurons}G).
-        The larval CPa lineage contributes a pair of neurons (hs-FB.7) with a bilateral axon and dendrites that cover the most posterior end of the FB, or right outside, plus sparsely a space lateral to the FB, collecting inputs from polysynaptic pathways originating in somatosensory mechanoreceptive neurons  (Fig \ref{fig:HSFBneurons}H).
-        Finally, the DPLal1-3 lineage contributes a pair of small neurons (ip-FB.1) with an ipsilateral-only axon targeting the most posterior lateral side of the larval FB, and with dendrites more lateral that integrate inputs from a variety of neurons, some of which are NO.d.
+        \begin{enumerate}
+            \item First, 6 pairs of neurons (hs-FB.1) with a bilaterally symmetric axon that tightly lines the medial surface in a horseshoe shape, and with a smallish dendrite dorsal and slightly lateral to the FB, within the medial side of the superior protocerebrum (Fig \ref{fig:HSFBneurons}A). 
+            \item Second, 2 pairs of neurons (hs-FB.2) also with bilaterally symmetric axons but that target the more posterior-lateral FB and beyond into the larval PB, with also ipsilateral dendrites that extend anteriorly and ventrally along the neuraxis (Fig \ref{fig:HSFBneurons}B).
+            \item Third, a pair of neurons (hs-FB.3) with bilateral axons placed towards the most posterior end of the FB and perhaps beyond, into the lateral side, and with small ipsilateral dendrites (Fig \ref{fig:HSFBneurons}C).
+            \item The axons of all 6 pairs of hs-FB.1 neurons define the ventral layer of the FB, and the axons of the hs-FB.2 the dorsal one, which is shorter and more anterior. The hs-FB.3 axons project in between the other two types but also cover the posterior-dorsal area that hs-FB.2 doesn't (Fig. \ref{fig:HSFBneurons}D).  
+            \item The larval BAla34 lineage generates sensory PNs, of which two pairs (hs-FB.4) present the typical bilateral axon and their dendrites collect inputs from the ventral posterior brain where ascending PNs from the somatosensory system (mostly mechanosensory) project their axons. One of the pairs is also NO.d (collects inputs from NO.b neurons) (Fig \ref{fig:HSFBneurons}E).
+            \item The larval BAmd2 lineage contributes two pairs of neurons (hs-FB.5) with a bilateral axon and dendrites that cover a region medial but lateral to the FB, and also far more ventral (Fig \ref{fig:HSFBneurons}F).
+            \item The larval DALl1 lineage contributes two pairs of neurons (hs-FB.6) with a bilateral axon and dendrites integrating inputs from the intermediate and lateral areas to the FB, primarily from neurons postsynaptic to ascending mechanoreceptive neurons like A00c \citep{ohyama2015multilevel}. A number of neurons presynaptic to hs-FB.6 are also labelled as FFNs and MB2INs, meaning they converge onto MB DANs, MBINs and OANs \citep{eschbach2020recurrent} (Fig \ref{fig:HSFBneurons}G).
+            \item The larval CPa lineage contributes a pair of neurons (hs-FB.7) with a bilateral axon and dendrites that cover the most posterior end of the FB, or right outside, plus sparsely a space lateral to the FB, collecting inputs from polysynaptic pathways originating in somatosensory mechanoreceptive neurons  (Fig \ref{fig:HSFBneurons}H).
+            \item Finally, the DPLal1-3 lineage contributes a pair of small neurons (ip-FB.1) with an ipsilateral-only axon targeting the most posterior lateral side of the larval FB, and with dendrites more lateral that integrate inputs from a variety of neurons, some of which are NO.d.
+        \end{enumerate}
 
         \subsubsection{Larval FB Columnar Neurons}
             % Types:
@@ -507,7 +511,7 @@
 
             % TODO Note the loop between FB and NO, with NO.d-FB.b and FB.d-NO.b neurons.
 
-            By definition, all larval FB columnar neurons present dendrites in the FB (are FB.d), and are postsynaptic to FB.b neurons. I founda total of 9 types of FB.d neurons, all presented in Figure \ref{FBColumnar}. 
+            By definition, all larval FB columnar neurons present dendrites in the FB (are FB.d), and are postsynaptic to FB.b neurons. I found a total of 9 types of FB.d neurons, all presented in Figure \ref{FBColumnar}. 
 
             \begin{figure}
                 \centering
@@ -516,29 +520,30 @@
                 \label{FBColumnar}
             \end{figure}
 
+            \begin{enumerate}
+                \item In addition to generating FB tangential neurons, the DM1-DM4 lineages also contribute 5 pairs of FB columnar neurons. These neurons (FB.d1) are characterized by ipsilateral-only dendrites largely circumscribed to the FB (except for the Bushy neuron from the DPMpm1/DM3 lineage), and projecting their ipsilateral-only clutchy axons solely the NO (so they are FB.d-NO.b). Therefore, FB.d.1 neurons are specialized in relaying information from the FB to the NO hemilaterally. Among FB.d.1, there are 3 MB related neuron, namely CN-34, MB2ON-201 and MB2ON-204  \citep{eschbach2021circuits}. One of the FB.d.1 was uncategorised so I named it FB-NO1, and the last one is known a descending neuron known as DPMpm1 bushy descending. 
+                Importantly, 2 of the 5 FB.d1 pairs also send their dendrites to the PB, making them PB.d neurons as well, therefore they are PB.d-FB.d-NO.b and also core cx neurons. This is the closest version to the adult PFN, however the adult analogue would be PB.d-FBb.b-NO.b. %TODO refer figure with cx neurons analogues. 
 
-            In addition to generating FB tangential neurons, the DM1-DM4 lineages also contribute 5 pairs of FB columnar neurons. These neurons (FB.d1) are characterized by ipsilateral-only dendrites largely circumscribed to the FB (except for the Bushy neuron from the DPMpm1/DM3 lineage), and projecting their ipsilateral-only clutchy axons solely the NO (so they are FB.d-NO.b). Therefore, FB.d.1 neurons are specialized in relaying information from the FB to the NO hemilaterally. Among FB.d.1, there are 3 MB related neuron, namely CN-34, MB2ON-201 and MB2ON-204  \citep{eschbach2021circuits}. One of the FB.d.1 was uncategorised so I named it FB-NO1, and the last one is known a descending neuron known as DPMpm1 bushy descending. 
-            Importantly, 2 of the 5 FB.d1 pairs also send their dendrites to the PB, making them PB.d neurons as well, therefore they are PB.d-FB.d-NO.b and also core cx neurons. This is the closest version to the adult PFN, however the adult analogue would be PB.d-FBb.b-NO.b. %TODO refer figure with cx neurons analogues. 
+                \item The DM4 lineage (larval CM4-vm lineage) further contributes 1 pair of neurons (FB.d4) with ipsilateral dendrites in the posterior FB and beyond into an area adjacent to the LAL medially, and a contralateral axon that descends into the VNC, dropping presynaptic sites from the SEZ to the most posterior abdominal segments. Within the brain, FB.d.4 synapses onto some NO.d neurons (e.g., MB2ON-200) and also onto CN-28 \citep{eschbach2021circuits}..
 
-            The DM4 lineage (larval CM4-vm lineage) further contributes 1 pair of neurons (FB.d4) with ipsilateral dendrites in the posterior FB and beyond into an area adjacent to the LAL medially, and a contralateral axon that descends into the VNC, dropping presynaptic sites from the SEZ to the most posterior abdominal segments. Within the brain, FB.d.4 synapses onto some NO.d neurons (e.g., MB2ON-200) and also onto CN-28 \citep{eschbach2021circuits}..
+                \item The MB neuroblasts contribute 3 pairs of early-born, non-Kenyon cell neurons (the 'ni' for "non-intrinsic"), named FB.d2, with ipsilateral dendrites in the FB and a contralateral axon targeting exclusively the LAL.
+                Then there are a collection of single pairs of neurons, each contributed by a different neuroblast, with dendrites in the FB and their axons targeting widely divergent neuropils, across the brain and also into the SEZ and VNC.
 
-            The MB neuroblasts contribute 3 pairs of early-born, non-Kenyon cell neurons (the 'ni' for "non-intrinsic"), named FB.d2, with ipsilateral dendrites in the FB and a contralateral axon targeting exclusively the LAL.
+                \item The larval BLAv12 lineage contributes 1 pair of neurons (FB.d3) with ipsilateral dendrites in the FB and also more medially, and ipsilateral axons targeting exclusively the LAL.
 
-            Then there are a collection of single pairs of neurons, each contributed by a different neuroblast, with dendrites in the FB and their axons targeting widely divergent neuropils, across the brain and also into the SEZ and VNC.
+                \item The larval DALcm12-v lineage (adult CREa1) contributes 1 pair of neurons (FB.d5) with ipsilateral dendrites in the FB and in the area adjacent but medial and ventral to the LAL, projecting their axons ipsilaterally from the NO to the medio-ventral brain and dorsal SEZ. The axons synapse onto a large number of NO.d neurons.
 
-            The larval BLAv12 lineage contributes 1 pair of neurons (FB.d3) with ipsilateral dendrites in the FB and also more medially, and ipsilateral axons targeting exclusively the LAL.
+                \item The BAmv12-dor larval lineage contributes 1 pair of neurons (FB.d6) with compact ipsilateral dendrites within the FB, and a compact short ipsilateral axon immediately dorsal on the PB. The FB.d6 hence serve as a direct relay from the FB to the PB, synapsing onto half a dozen PB.d neuron types.
 
-            The larval DALcm12-v lineage (adult CREa1) contributes 1 pair of neurons (FB.d5) with ipsilateral dendrites in the FB and in the area adjacent but medial and ventral to the LAL, projecting their axons ipsilaterally from the NO to the medio-ventral brain and dorsal SEZ. The axons synapse onto a large number of NO.d neurons.
+                \item The BAla12 larval lineage contributes 1 pair of neurons (FB.d7; also known as FFN-6, \citep{eschbach2021circuits}) with compact ipsilateral dendrites in the FB, and an ipsilateral axon that targets the superior anterior protocerebrum where it synapses profusely onto the dendrites of DANs and OANs of the MB (DAN-i1, DAN-j1, DAN-c1, OAN-g1). Hence, FB.d7 serves as a relay between the FB and the MB input neurons, conveying teaching signals for associative memories.
 
-            The BAmv12-dor larval lineage contributes 1 pair of neurons (FB.d6) with compact ipsilateral dendrites within the FB, and a compact short ipsilateral axon immediately dorsal on the PB. The FB.d6 hence serve as a direct relay from the FB to the PB, synapsing onto half a dozen PB.d neuron types.
+                \item The BLAl larval lineage contributes 1 pair of neurons (FB.d8) with ipsilateral dendrites within the FB but also extensively lateral to the FB, and with peculiarly curving axons that follow the neuraxis, closely apposed to the dendrites of some hs-FB subtypes (hs-FB.1, hs-FB.2, hs-FB.3) and synapsing onto them.
 
-            The BAla12 larval lineage contributes 1 pair of neurons (FB.d7; also known as FFN-6, \citep{eschbach2021circuits}) with compact ipsilateral dendrites in the FB, and an ipsilateral axon that targets the superior anterior protocerebrum where it synapses profusely onto the dendrites of DANs and OANs of the MB (DAN-i1, DAN-j1, DAN-c1, OAN-g1). Hence, FB.d7 serves as a relay between the FB and the MB input neurons, conveying teaching signals for associative memories.
+                \item The DPMl2 larval lineage contributes 1 pair of neurons (FB.d.9, also known as FB-LAL1) with ipsilateral dendrites on the posterior  hemilateral FB (with inputs from hs-FB.2, hs-FB.5, hs-FB.6) and also reaching into the PB (with inputs only from ADC1), and a contralateral axon targeting the LAL where they synapse onto LAL LNs, EB.d neurons, and multiple descending neurons (DNs) that project to the SEZ and VNC.
 
-            The BLAl larval lineage contributes 1 pair of neurons (FB.d8) with ipsilateral dendrites within the FB but also extensively lateral to the FB, and with peculiarly curving axons that follow the neuraxis, closely apposed to the dendrites of some hs-FB subtypes (hs-FB.1, hs-FB.2, hs-FB.3) and synapsing onto them.
-
-            The DPMl2 larval lineage contributes 1 pair of neurons (FB.d.9, also known as FB-LAL1) with ipsilateral dendrites on the posterior  hemilateral FB (with inputs from hs-FB.2, hs-FB.5, hs-FB.6) and also reaching into the PB (with inputs only from ADC1), and a contralateral axon targeting the LAL where they synapse onto LAL LNs, EB.d neurons, and multiple descending neurons (DNs) that project to the SEZ and VNC.
-
-            Finally, 3 of the 4 pairs of HF-PB neurons (the ones with a doubly crossing axon) are all FB.d, namely, they have dendrites within the FB and receive numerous synapses from FB.d neurons, in particular subtypes hs-FB.2, hs-FB.5 and hs-FB.6 (with further but weaker inputs from other subtypes). This indicates that the PB horizontal fibres not only integrate inputs from multiple sensory systems and gated by MB outputs, but are also modulated by the FB.
+                \item Finally, 3 of the 4 pairs of HF-PB neurons (the ones with a doubly crossing axon) are all FB.d, namely, they have dendrites within the FB and receive numerous synapses from FB.d neurons, in particular subtypes hs-FB.2, hs-FB.5 and hs-FB.6 (with further but weaker inputs from other subtypes). This indicates that the PB horizontal fibres not only integrate inputs from multiple sensory systems and gated by MB outputs, but are also modulated by the FB.
+            
+            \end{enumerate}
 
         \subsubsection{Conectivity between FB Tangential and FB Columnar}
            In the adult, FB tangential neurons(FBt) arborize extensively across specific horizontal layers of the FB, conveying layer-specific synaptic inputs primarily sourced from accessory structures such as the CRE, SMP/SIP/SLP, and LAL, and have dense recurrence to the FB columnar FBc cells. Since in the larva there is a significantly numerically reduced FB, with no obvious layering and only one accessory structure structure (LAL), I couldn't draw straightforward analogies between the two networks, however I was curious if any general recurrence at all is present in the larval FB.  
@@ -623,7 +628,7 @@
 
 \section{Mushroom Body and the larval CX}
     \label{CXMB}
-    In the adult \textbf{Drosophila}, the Mushroom Body is known to output onto the Central Complex neuropils through the MB Output Neurons (MBONs). At this stage, adult MBONs primarily target the Fan-shaped Body - tangential neurons from the middle layers (4-6) - and the Noduli - via a direct glutamatergic connection from MBON-30 to LCNOp(LAL–NO) neurons which then target the PFN (PB-FB-NO) neurons \citep{hulse2021connectome}.Here, I examine the synaptic relationships between mushroom body input (DANs, MBINs, OANs) and output (MBONs) neurons and the larval central complex neuropils. 
+    In the adult \textbf{Drosophila}, the Mushroom Body is known to output onto the Central Complex neuropils through the MB Output Neurons (MBONs) \citep{li2020connectome}. At this stage, adult MBONs primarily target the Fan-shaped Body - tangential neurons from the middle layers (4-6) - and the Noduli - via a direct glutamatergic connection from MBON-30 to LCNOp(LAL–NO) neurons which then target the PFN (PB-FB-NO) neurons \citep{hulse2021connectome}.Here, I examine the synaptic relationships between mushroom body input (DANs, MBINs, OANs) and output (MBONs) neurons and the larval central complex neuropils. 
         
     \begin{figure}
         \centering
@@ -632,13 +637,13 @@
         \label{MBtoCX}
     \end{figure}
     
-    \subsection{A loop between FB and the 'c' compartment of the MB}
+    \subsection{A "a reciprocal synaptic connection between FB and the 'c' compartment of the MB}
     
     I found that MBON-c1 synapses onto one FB.b neuron, MB2ON-125.
-    Interestingly, DAN-c1 integrates inputs from an FB.d neuron, FFN-6, which in turn integrates inputs from a few neurons that are directly postsynaptic to MB2ON-125, defining a loop between the MB 'c' compartment and the FB.
+    Interestingly, DAN-c1 integrates inputs from an FB.d neuron, FFN-6, which in turn integrates inputs from a few neurons that are directly postsynaptic to MB2ON-125, defining a circuit loop between the MB 'c' compartment and the FB.
     No other MBON supplies direct or two-hop inputs onto the FB.
 
-    \subsection{Reciprocal connectivity between EB RNs and the 'g' compartment of the MB}
+    \subsection{Reciprocal connectivity between EB ring neurons and the 'g' compartment of the MB}
 
     Four MBONs (a2, b3, g1 and g2) are EB.b (i.e., deliver synapses to the EB; Fig. \ref{MBtoCX}). Interestingly, some of these MBONs are monosynaptically interrelated, namely MBON-g1 and -g2 (which promote approach) are GABAergic neurons that synapse onto MBON-a2 (which promote avoidance) \citep{eschbach2021circuits}.
     Furthermore, MBON-g1 and -g2 synapse axo-axonically onto an EB ring neuron, RN1/2 (also known as FBN-20; \citep{eschbach2021circuits}), a core GABAergic neuron of the EB, which in addition to synapsing axo-axonically reciprocally onto EB wedge neurons also synapses onto an EB.d neuron, DAN-g1.
@@ -648,7 +653,7 @@
     This disinhibition could be understood as a learning-based gating mechanism over EB wedge neurons, with features of input space expressed in the Kenyon cell population code, by coincident activity with DAN-g1, modulating the activity of the EB wedge neurons that the ring neurons also synapse onto.
     Taken together, this implies that, if the larval EB is functionally similar to that of the adult EB, there is a component of learning built-in into the internal representation of the direction of movement.
     
-    \subsection{A loop between the NO and the MB vertical lobe via LAL}
+    \subsection{Reciprocal connections between the NO and the MB vertical lobe via LAL}
     MBON-p1 is a multi-compartment MBON of the MB vertical lobe that is an NO.b, (i.e., it delivers output synapses to the NO).
     At the NO, MBON-p1 synapses onto several NO.d neurons, FBN-24, FBN-25, and FBN-27, which are MB feedback neurons \citep{eschbach2020recurrent} that all project to the LAL and synapse strongly onto MBIN-l1, a MB input neuron targeting multiple compartments of the vertical lobe.
     This circuit configuration defines a strong tight loop between the MB vertical lobe and the NO via the LAL.  Note that the dendrites of MBIN-l1 are entirely contained within the LAL compartment.
@@ -697,15 +702,18 @@
 
     \subsection{VLNs inputs to the CX}
     Similar patterns of connectivity are found from VLNs (neurons mostly receiving input from RH6-PRs). 
-    Several PB neurons -  HF-PB2 (which is also an FB.d neuron), MBONs (MBON-63, MBON-94, MBON-204 which is also an NO.b and FB.d1 neuron) and CNs (CN-35, CN-54) - collect input from one VLN, named 5thLN. A VPN(PVL09) is downstream of this VLN and facilitates transmission sensory input.  Other interneurons include CN-15 and MB2ON-199 (Fig. \ref{VLNs} A).
+    Several PB neurons -  all of HF\_PB neurons, as well as a PB.b FB.b (SLR), and two PB.b neurons (CN-35, ADC\_1) collect visual input from three VLNs via MBONs (MBON-63 , MBON-75) and SPB2 neurons (Fig. \ref{VLNs} A).
+    %A VPN(PVL09) is downstream of this VLN and facilitates transmission sensory input.  Other interneurons include CN-15 and MB2ON-199 (Fig. \ref{VLNs} A).
 
-    The EB displays similar circuit patterns, with 5thLN being the only one sending sensory inputs to several EB.b neurons, interestingly, to none of the ring or wedge neurons, but to several MBONs (MBON-a2, MBON-b3, MBON-g1, MBON-g2) known to receive dopaminergic input from DANs with analogous names \citep{eschbach2020recurrent}, as well as to two DANs themselves (DAN-d1 and DAN-g1). In addition CN-36 is also an EB.b that collects visual input (Fig. \ref{VLNs} B).
+    The EB displays similar circuit patterns, with the same three VLNs sending output to its neurons. Interestingly, all of these connections are relayed via a single EB.b (sVUM). A wedge neuron (W4) is immediately downstream of this sVUM, as well as ring neuron RN1/2a. Several other MB related neurons EB.b neurons also collect visual input, namely MB2IN-58, MB2IN-140, and MB2IN-80 (Fig. \ref{VLNs} B).
+    
+    The larval FB collects visual input from all four VLNs (GlulOLP, ChalOLP, Tiny LN, VPLN). These neurons synapse onto two VPNs (nc1 and nc2) and therefore synapse onto those FB partners too. The other two interneurons relaying visual input to the FB are MB2ON-63(PB.b) and MB2ON-175. 
+    Two types FB columnar neurons collect visual input -  FB.d.1 and FB.d.9 - and so does the SLR neuron (FB.b PB.b; Fig. \ref{VLNs} C).
 
-    The larval FB collects visual input from 3 VLNs: LN1, LN4 and 5th LN.The information os sent via three MB-related neurons (MB2IN-209 MB2IN-162 MB2ON-175), one convergence neuron (CN150 and a lateral horn neuron LH-17, towards two FB tangential horseshoe neurons (hs-FB.1 hs-FB.2; (Fig. \ref{VLNs} C). and an FB.d1 neurons (MB2ON-204) which is also PB.d and NO.b.
-
-    Finally, the NO receives inputs from LN1, LN4 and 5th LN, mediated by KC LON, MB2ON-199 and CN-15 towards several neurons that send their clutchy axons to the NO:  MB2ON-204 (which is also a PB.d and a FB.d1), CN-61, CN-6 and CN-37 (which is also an LAL.b). 
-
-    Interestingly, all neuropils seem to collect visual input from at least one VLN, reliably from the 5thLN, suggesting the larval CX must be implicated in processing of green light. 
+    %MB2ON-175 had a behaviour screen
+    Finally, the NO receives inputs from all four VLNs via CN-12, PDM1, KC LON (an MB kenyon cell) and 2 VPNs (nc1 and nc2). The NO neurons collecting this input are two FB.d.1s (FB.d NO.b),  MB2ON-241 (PB.d NO.b), two intrinsic NO neurons (CN-6 and MBON-p1) and CN-39, which is a NO.b LAL.b neuron (Fig. \ref{VLNs} D).
+    
+    Interestingly, all neuropils seem to collect visual input from at least three VLNs, suggesting that the larval CX must be implicated in the processing of green light.
 
 
     \begin{figure}[H]
